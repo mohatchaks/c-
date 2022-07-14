@@ -140,6 +140,7 @@ namespace Micromind.ClientUI.Configurations
 
 		private void InitializeComponent()
 		{
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.editUserName = new Micromind.UISupport.MMTextBox();
             this.editPassword = new Micromind.UISupport.MMTextBox();
             this.lblPassword = new Micromind.UISupport.MMLabel();
@@ -158,7 +159,6 @@ namespace Micromind.ClientUI.Configurations
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // editUserName
@@ -170,9 +170,9 @@ namespace Micromind.ClientUI.Configurations
             this.editUserName.IsComboTextBox = false;
             this.editUserName.IsModified = false;
             this.editUserName.IsRequired = true;
-            this.editUserName.Location = new System.Drawing.Point(354, 16);
+            this.editUserName.Location = new System.Drawing.Point(425, 18);
             this.editUserName.Name = "editUserName";
-            this.editUserName.Size = new System.Drawing.Size(169, 20);
+            this.editUserName.Size = new System.Drawing.Size(203, 22);
             this.editUserName.TabIndex = 1;
             this.editUserName.TextChanged += new System.EventHandler(this.editUserName_TextChanged);
             this.editUserName.Validated += new System.EventHandler(this.editUserName_Validated);
@@ -186,9 +186,9 @@ namespace Micromind.ClientUI.Configurations
             this.editPassword.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.editPassword.IsComboTextBox = false;
             this.editPassword.IsModified = false;
-            this.editPassword.Location = new System.Drawing.Point(354, 39);
+            this.editPassword.Location = new System.Drawing.Point(425, 45);
             this.editPassword.Name = "editPassword";
-            this.editPassword.Size = new System.Drawing.Size(169, 20);
+            this.editPassword.Size = new System.Drawing.Size(203, 22);
             this.editPassword.TabIndex = 3;
             // 
             // lblPassword
@@ -199,11 +199,11 @@ namespace Micromind.ClientUI.Configurations
             this.lblPassword.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lblPassword.IsFieldHeader = false;
             this.lblPassword.IsRequired = false;
-            this.lblPassword.Location = new System.Drawing.Point(-76, 42);
+            this.lblPassword.Location = new System.Drawing.Point(-91, 48);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.PenWidth = 1F;
             this.lblPassword.ShowBorder = false;
-            this.lblPassword.Size = new System.Drawing.Size(56, 13);
+            this.lblPassword.Size = new System.Drawing.Size(73, 17);
             this.lblPassword.TabIndex = 8;
             this.lblPassword.Text = "Password:";
             // 
@@ -215,11 +215,11 @@ namespace Micromind.ClientUI.Configurations
             this.lblUserName.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lblUserName.IsFieldHeader = false;
             this.lblUserName.IsRequired = false;
-            this.lblUserName.Location = new System.Drawing.Point(-76, 26);
+            this.lblUserName.Location = new System.Drawing.Point(-91, 30);
             this.lblUserName.Name = "lblUserName";
             this.lblUserName.PenWidth = 1F;
             this.lblUserName.ShowBorder = false;
-            this.lblUserName.Size = new System.Drawing.Size(46, 13);
+            this.lblUserName.Size = new System.Drawing.Size(59, 17);
             this.lblUserName.TabIndex = 5;
             this.lblUserName.Text = "User ID:";
             // 
@@ -231,11 +231,11 @@ namespace Micromind.ClientUI.Configurations
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label1.IsFieldHeader = false;
             this.label1.IsRequired = false;
-            this.label1.Location = new System.Drawing.Point(292, 41);
+            this.label1.Location = new System.Drawing.Point(350, 47);
             this.label1.Name = "label1";
             this.label1.PenWidth = 1F;
             this.label1.ShowBorder = false;
-            this.label1.Size = new System.Drawing.Size(56, 13);
+            this.label1.Size = new System.Drawing.Size(73, 17);
             this.label1.TabIndex = 2;
             this.label1.Text = "&Password:";
             // 
@@ -247,20 +247,20 @@ namespace Micromind.ClientUI.Configurations
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label2.IsFieldHeader = false;
             this.label2.IsRequired = false;
-            this.label2.Location = new System.Drawing.Point(292, 20);
+            this.label2.Location = new System.Drawing.Point(350, 23);
             this.label2.Name = "label2";
             this.label2.PenWidth = 1F;
             this.label2.ShowBorder = false;
-            this.label2.Size = new System.Drawing.Size(46, 13);
+            this.label2.Size = new System.Drawing.Size(59, 17);
             this.label2.TabIndex = 0;
             this.label2.Text = "&User ID:";
             // 
             // checkBoxPassword
             // 
             this.checkBoxPassword.AutoSize = true;
-            this.checkBoxPassword.Location = new System.Drawing.Point(354, 83);
+            this.checkBoxPassword.Location = new System.Drawing.Point(425, 96);
             this.checkBoxPassword.Name = "checkBoxPassword";
-            this.checkBoxPassword.Size = new System.Drawing.Size(126, 17);
+            this.checkBoxPassword.Size = new System.Drawing.Size(164, 21);
             this.checkBoxPassword.TabIndex = 5;
             this.checkBoxPassword.Text = "Remember Password";
             this.checkBoxPassword.UseVisualStyleBackColor = true;
@@ -271,9 +271,9 @@ namespace Micromind.ClientUI.Configurations
             this.checkBoxUserID.AutoSize = true;
             this.checkBoxUserID.Checked = true;
             this.checkBoxUserID.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxUserID.Location = new System.Drawing.Point(354, 65);
+            this.checkBoxUserID.Location = new System.Drawing.Point(425, 75);
             this.checkBoxUserID.Name = "checkBoxUserID";
-            this.checkBoxUserID.Size = new System.Drawing.Size(116, 17);
+            this.checkBoxUserID.Size = new System.Drawing.Size(150, 21);
             this.checkBoxUserID.TabIndex = 4;
             this.checkBoxUserID.Text = "Remember User ID";
             this.checkBoxUserID.UseVisualStyleBackColor = true;
@@ -286,9 +286,9 @@ namespace Micromind.ClientUI.Configurations
             this.buttonOK.BtnShape = Micromind.UISupport.BtnShape.Rectangle;
             this.buttonOK.BtnStyle = Micromind.UISupport.XPStyle.Default;
             this.buttonOK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonOK.Location = new System.Drawing.Point(363, 259);
+            this.buttonOK.Location = new System.Drawing.Point(515, 303);
             this.buttonOK.Name = "buttonOK";
-            this.buttonOK.Size = new System.Drawing.Size(77, 24);
+            this.buttonOK.Size = new System.Drawing.Size(92, 28);
             this.buttonOK.TabIndex = 1;
             this.buttonOK.Text = "&OK";
             this.buttonOK.UseVisualStyleBackColor = false;
@@ -303,9 +303,9 @@ namespace Micromind.ClientUI.Configurations
             this.buttonCancel.BtnStyle = Micromind.UISupport.XPStyle.Default;
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.buttonCancel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonCancel.Location = new System.Drawing.Point(446, 259);
+            this.buttonCancel.Location = new System.Drawing.Point(614, 303);
             this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(77, 24);
+            this.buttonCancel.Size = new System.Drawing.Size(93, 28);
             this.buttonCancel.TabIndex = 2;
             this.buttonCancel.Text = "&Cancel";
             this.buttonCancel.UseVisualStyleBackColor = false;
@@ -319,9 +319,9 @@ namespace Micromind.ClientUI.Configurations
             this.line1.DrawWidth = 1;
             this.line1.IsVertical = false;
             this.line1.LineBackColor = System.Drawing.Color.LightSteelBlue;
-            this.line1.Location = new System.Drawing.Point(-9, 252);
+            this.line1.Location = new System.Drawing.Point(-11, 295);
             this.line1.Name = "line1";
-            this.line1.Size = new System.Drawing.Size(559, 1);
+            this.line1.Size = new System.Drawing.Size(750, 1);
             this.line1.TabIndex = 9;
             this.line1.TabStop = false;
             // 
@@ -336,7 +336,7 @@ namespace Micromind.ClientUI.Configurations
             this.editServerName.IsRequired = true;
             this.editServerName.Location = new System.Drawing.Point(128, 39);
             this.editServerName.Name = "editServerName";
-            this.editServerName.Size = new System.Drawing.Size(304, 20);
+            this.editServerName.Size = new System.Drawing.Size(304, 22);
             this.editServerName.TabIndex = 1;
             this.editServerName.TextChanged += new System.EventHandler(this.editUserName_TextChanged);
             // 
@@ -348,9 +348,9 @@ namespace Micromind.ClientUI.Configurations
             this.xpButton1.BtnShape = Micromind.UISupport.BtnShape.Rectangle;
             this.xpButton1.BtnStyle = Micromind.UISupport.XPStyle.Default;
             this.xpButton1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.xpButton1.Location = new System.Drawing.Point(12, 259);
+            this.xpButton1.Location = new System.Drawing.Point(14, 303);
             this.xpButton1.Name = "xpButton1";
-            this.xpButton1.Size = new System.Drawing.Size(133, 24);
+            this.xpButton1.Size = new System.Drawing.Size(160, 28);
             this.xpButton1.TabIndex = 3;
             this.xpButton1.Text = "Connection Settings...";
             this.xpButton1.UseVisualStyleBackColor = false;
@@ -366,22 +366,20 @@ namespace Micromind.ClientUI.Configurations
             this.panel1.Controls.Add(this.checkBoxUserID);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 126);
+            this.panel1.Location = new System.Drawing.Point(0, 145);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(535, 126);
+            this.panel1.Size = new System.Drawing.Size(721, 146);
             this.panel1.TabIndex = 0;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.BackgroundImage = global::Micromind.ClientUI.Properties.Resources.headerbg2;
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.label3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(535, 126);
+            this.panel2.Size = new System.Drawing.Size(721, 145);
             this.panel2.TabIndex = 13;
             // 
             // label4
@@ -390,11 +388,12 @@ namespace Micromind.ClientUI.Configurations
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(6, 60);
+            this.label4.Location = new System.Drawing.Point(162, 378);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(282, 24);
+            this.label4.Size = new System.Drawing.Size(353, 29);
             this.label4.TabIndex = 136;
             this.label4.Text = "Business Managment System";
+            this.label4.Visible = false;
             // 
             // label3
             // 
@@ -402,20 +401,23 @@ namespace Micromind.ClientUI.Configurations
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(6, 24);
+            this.label3.Location = new System.Drawing.Point(162, 337);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(283, 31);
+            this.label3.Size = new System.Drawing.Size(347, 39);
             this.label3.TabIndex = 135;
             this.label3.Text = "Starasoft © StarERP";
+            this.label3.Visible = false;
             // 
             // LoginForm
             // 
             this.AcceptButton = this.buttonOK;
-            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
+            this.AutoScaleBaseSize = new System.Drawing.Size(6, 15);
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.CancelButton = this.buttonCancel;
-            this.ClientSize = new System.Drawing.Size(535, 288);
+            this.ClientSize = new System.Drawing.Size(721, 336);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.xpButton1);
             this.Controls.Add(this.line1);
             this.Controls.Add(this.buttonOK);
@@ -434,8 +436,6 @@ namespace Micromind.ClientUI.Configurations
             this.Load += new System.EventHandler(this.DatabaseLoginForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
