@@ -158,6 +158,7 @@ namespace Micromind.ClientUI.Configurations
             Infragistics.Win.Appearance appearance1 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance2 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance3 = new Infragistics.Win.Appearance();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DatabaseLoginForm));
             this.lblPassword = new Micromind.UISupport.MMLabel();
             this.lblUserName = new Micromind.UISupport.MMLabel();
             this.buttonOK = new Micromind.UISupport.XPButton();
@@ -185,7 +186,6 @@ namespace Micromind.ClientUI.Configurations
             this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.contextMenuOptions.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblPassword
@@ -196,11 +196,11 @@ namespace Micromind.ClientUI.Configurations
             this.lblPassword.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lblPassword.IsFieldHeader = false;
             this.lblPassword.IsRequired = false;
-            this.lblPassword.Location = new System.Drawing.Point(-76, 42);
+            this.lblPassword.Location = new System.Drawing.Point(-91, 48);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.PenWidth = 1F;
             this.lblPassword.ShowBorder = false;
-            this.lblPassword.Size = new System.Drawing.Size(56, 13);
+            this.lblPassword.Size = new System.Drawing.Size(73, 17);
             this.lblPassword.TabIndex = 8;
             this.lblPassword.Text = "Password:";
             // 
@@ -212,11 +212,11 @@ namespace Micromind.ClientUI.Configurations
             this.lblUserName.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lblUserName.IsFieldHeader = false;
             this.lblUserName.IsRequired = false;
-            this.lblUserName.Location = new System.Drawing.Point(-76, 26);
+            this.lblUserName.Location = new System.Drawing.Point(-91, 30);
             this.lblUserName.Name = "lblUserName";
             this.lblUserName.PenWidth = 1F;
             this.lblUserName.ShowBorder = false;
-            this.lblUserName.Size = new System.Drawing.Size(46, 13);
+            this.lblUserName.Size = new System.Drawing.Size(59, 17);
             this.lblUserName.TabIndex = 5;
             this.lblUserName.Text = "User ID:";
             // 
@@ -228,9 +228,9 @@ namespace Micromind.ClientUI.Configurations
             this.buttonOK.BtnShape = Micromind.UISupport.BtnShape.Rectangle;
             this.buttonOK.BtnStyle = Micromind.UISupport.XPStyle.Default;
             this.buttonOK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonOK.Location = new System.Drawing.Point(357, 259);
+            this.buttonOK.Location = new System.Drawing.Point(433, 301);
             this.buttonOK.Name = "buttonOK";
-            this.buttonOK.Size = new System.Drawing.Size(80, 25);
+            this.buttonOK.Size = new System.Drawing.Size(96, 29);
             this.buttonOK.TabIndex = 2;
             this.buttonOK.Text = "&OK";
             this.buttonOK.UseVisualStyleBackColor = false;
@@ -245,9 +245,9 @@ namespace Micromind.ClientUI.Configurations
             this.buttonCancel.BtnStyle = Micromind.UISupport.XPStyle.Default;
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.buttonCancel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonCancel.Location = new System.Drawing.Point(445, 259);
+            this.buttonCancel.Location = new System.Drawing.Point(539, 301);
             this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(80, 25);
+            this.buttonCancel.Size = new System.Drawing.Size(96, 29);
             this.buttonCancel.TabIndex = 3;
             this.buttonCancel.Text = "&Cancel";
             this.buttonCancel.UseVisualStyleBackColor = false;
@@ -261,9 +261,9 @@ namespace Micromind.ClientUI.Configurations
             this.line1.DrawWidth = 1;
             this.line1.IsVertical = false;
             this.line1.LineBackColor = System.Drawing.Color.LightSteelBlue;
-            this.line1.Location = new System.Drawing.Point(-2, 252);
+            this.line1.Location = new System.Drawing.Point(-2, 293);
             this.line1.Name = "line1";
-            this.line1.Size = new System.Drawing.Size(554, 1);
+            this.line1.Size = new System.Drawing.Size(669, 1);
             this.line1.TabIndex = 9;
             this.line1.TabStop = false;
             // 
@@ -277,9 +277,9 @@ namespace Micromind.ClientUI.Configurations
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.radioButtonSample);
             this.panel1.Controls.Add(this.radioButtonCompany);
-            this.panel1.Location = new System.Drawing.Point(-2, 126);
+            this.panel1.Location = new System.Drawing.Point(-2, 145);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(534, 126);
+            this.panel1.Size = new System.Drawing.Size(640, 146);
             this.panel1.TabIndex = 0;
             // 
             // buttonSelectDatabase
@@ -290,9 +290,9 @@ namespace Micromind.ClientUI.Configurations
             this.buttonSelectDatabase.BtnStyle = Micromind.UISupport.XPStyle.Default;
             this.buttonSelectDatabase.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonSelectDatabase.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonSelectDatabase.Location = new System.Drawing.Point(482, 42);
+            this.buttonSelectDatabase.Location = new System.Drawing.Point(578, 48);
             this.buttonSelectDatabase.Name = "buttonSelectDatabase";
-            this.buttonSelectDatabase.Size = new System.Drawing.Size(25, 20);
+            this.buttonSelectDatabase.Size = new System.Drawing.Size(30, 24);
             this.buttonSelectDatabase.TabIndex = 3;
             this.buttonSelectDatabase.Text = "...";
             this.buttonSelectDatabase.UseVisualStyleBackColor = false;
@@ -304,9 +304,9 @@ namespace Micromind.ClientUI.Configurations
             appearance1.TextVAlignAsString = "Middle";
             this.textBoxDatabaseName.Appearance = appearance1;
             this.textBoxDatabaseName.BorderStyleOuter = Infragistics.Win.UIElementBorderStyle.Solid;
-            this.textBoxDatabaseName.Location = new System.Drawing.Point(319, 42);
+            this.textBoxDatabaseName.Location = new System.Drawing.Point(383, 48);
             this.textBoxDatabaseName.Name = "textBoxDatabaseName";
-            this.textBoxDatabaseName.Size = new System.Drawing.Size(162, 20);
+            this.textBoxDatabaseName.Size = new System.Drawing.Size(194, 24);
             this.textBoxDatabaseName.TabIndex = 2;
             // 
             // editCompanyName
@@ -315,9 +315,9 @@ namespace Micromind.ClientUI.Configurations
             appearance2.TextVAlignAsString = "Middle";
             this.editCompanyName.Appearance = appearance2;
             this.editCompanyName.BorderStyleOuter = Infragistics.Win.UIElementBorderStyle.Solid;
-            this.editCompanyName.Location = new System.Drawing.Point(319, 64);
+            this.editCompanyName.Location = new System.Drawing.Point(383, 74);
             this.editCompanyName.Name = "editCompanyName";
-            this.editCompanyName.Size = new System.Drawing.Size(162, 20);
+            this.editCompanyName.Size = new System.Drawing.Size(194, 23);
             this.editCompanyName.TabIndex = 3;
             // 
             // editUserName
@@ -326,27 +326,27 @@ namespace Micromind.ClientUI.Configurations
             appearance3.TextVAlignAsString = "Middle";
             this.editUserName.Appearance = appearance3;
             this.editUserName.BorderStyleOuter = Infragistics.Win.UIElementBorderStyle.Solid;
-            this.editUserName.Location = new System.Drawing.Point(319, 20);
+            this.editUserName.Location = new System.Drawing.Point(383, 23);
             this.editUserName.Name = "editUserName";
-            this.editUserName.Size = new System.Drawing.Size(162, 20);
+            this.editUserName.Size = new System.Drawing.Size(194, 23);
             this.editUserName.TabIndex = 0;
             this.editUserName.Text = "SA";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(258, 20);
+            this.label1.Location = new System.Drawing.Point(310, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
+            this.label1.Size = new System.Drawing.Size(59, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "User ID:";
             // 
             // radioButtonSample
             // 
             this.radioButtonSample.AutoSize = true;
-            this.radioButtonSample.Location = new System.Drawing.Point(241, 88);
+            this.radioButtonSample.Location = new System.Drawing.Point(289, 102);
             this.radioButtonSample.Name = "radioButtonSample";
-            this.radioButtonSample.Size = new System.Drawing.Size(107, 17);
+            this.radioButtonSample.Size = new System.Drawing.Size(139, 21);
             this.radioButtonSample.TabIndex = 4;
             this.radioButtonSample.Text = "Sample Company";
             this.radioButtonSample.UseVisualStyleBackColor = true;
@@ -355,9 +355,9 @@ namespace Micromind.ClientUI.Configurations
             // 
             this.radioButtonCompany.AutoSize = true;
             this.radioButtonCompany.Checked = true;
-            this.radioButtonCompany.Location = new System.Drawing.Point(241, 43);
+            this.radioButtonCompany.Location = new System.Drawing.Point(289, 50);
             this.radioButtonCompany.Name = "radioButtonCompany";
-            this.radioButtonCompany.Size = new System.Drawing.Size(72, 17);
+            this.radioButtonCompany.Size = new System.Drawing.Size(92, 21);
             this.radioButtonCompany.TabIndex = 1;
             this.radioButtonCompany.TabStop = true;
             this.radioButtonCompany.Text = "Company:";
@@ -369,6 +369,7 @@ namespace Micromind.ClientUI.Configurations
             // 
             // contextMenuOptions
             // 
+            this.contextMenuOptions.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuOptions.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.changeUserToolStripMenuItem,
             this.toolStripSeparator1,
@@ -377,45 +378,45 @@ namespace Micromind.ClientUI.Configurations
             this.attachDatabaseToolStripMenuItem,
             this.upgradeDatabaseToolStripMenuItem});
             this.contextMenuOptions.Name = "contextMenuStrip1";
-            this.contextMenuOptions.Size = new System.Drawing.Size(180, 120);
+            this.contextMenuOptions.Size = new System.Drawing.Size(213, 130);
             // 
             // changeUserToolStripMenuItem
             // 
             this.changeUserToolStripMenuItem.Name = "changeUserToolStripMenuItem";
-            this.changeUserToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.changeUserToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
             this.changeUserToolStripMenuItem.Text = "Change User";
             this.changeUserToolStripMenuItem.Click += new System.EventHandler(this.changeUserToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(176, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(209, 6);
             // 
             // newDatabaseToolStripMenuItem
             // 
             this.newDatabaseToolStripMenuItem.Name = "newDatabaseToolStripMenuItem";
-            this.newDatabaseToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.newDatabaseToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
             this.newDatabaseToolStripMenuItem.Text = "New Database...";
             this.newDatabaseToolStripMenuItem.Click += new System.EventHandler(this.newDatabaseToolStripMenuItem_Click);
             // 
             // restoreDatabaseToolStripMenuItem
             // 
             this.restoreDatabaseToolStripMenuItem.Name = "restoreDatabaseToolStripMenuItem";
-            this.restoreDatabaseToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.restoreDatabaseToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
             this.restoreDatabaseToolStripMenuItem.Text = "Restore Database...";
             this.restoreDatabaseToolStripMenuItem.Click += new System.EventHandler(this.restoreDatabaseToolStripMenuItem_Click);
             // 
             // attachDatabaseToolStripMenuItem
             // 
             this.attachDatabaseToolStripMenuItem.Name = "attachDatabaseToolStripMenuItem";
-            this.attachDatabaseToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.attachDatabaseToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
             this.attachDatabaseToolStripMenuItem.Text = "Attach Database...";
             this.attachDatabaseToolStripMenuItem.Click += new System.EventHandler(this.attachDatabaseToolStripMenuItem_Click);
             // 
             // upgradeDatabaseToolStripMenuItem
             // 
             this.upgradeDatabaseToolStripMenuItem.Name = "upgradeDatabaseToolStripMenuItem";
-            this.upgradeDatabaseToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.upgradeDatabaseToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
             this.upgradeDatabaseToolStripMenuItem.Text = "Upgrade Database...";
             this.upgradeDatabaseToolStripMenuItem.Click += new System.EventHandler(this.upgradeDatabaseToolStripMenuItem_Click);
             // 
@@ -424,9 +425,9 @@ namespace Micromind.ClientUI.Configurations
             this.buttonOptions.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buttonOptions.Image = global::Micromind.ClientUI.Properties.Resources.dropdown21;
             this.buttonOptions.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.buttonOptions.Location = new System.Drawing.Point(10, 259);
+            this.buttonOptions.Location = new System.Drawing.Point(12, 299);
             this.buttonOptions.Name = "buttonOptions";
-            this.buttonOptions.Size = new System.Drawing.Size(99, 26);
+            this.buttonOptions.Size = new System.Drawing.Size(119, 30);
             this.buttonOptions.TabIndex = 1;
             this.buttonOptions.Text = "Options";
             this.buttonOptions.UseVisualStyleBackColor = true;
@@ -435,13 +436,11 @@ namespace Micromind.ClientUI.Configurations
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.BackgroundImage = global::Micromind.ClientUI.Properties.Resources.headerbg2;
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.label3);
             this.panel2.Location = new System.Drawing.Point(-2, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(534, 130);
+            this.panel2.Size = new System.Drawing.Size(640, 150);
             this.panel2.TabIndex = 11;
             // 
             // label4
@@ -450,11 +449,12 @@ namespace Micromind.ClientUI.Configurations
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(6, 63);
+            this.label4.Location = new System.Drawing.Point(102, 374);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(282, 24);
+            this.label4.Size = new System.Drawing.Size(353, 29);
             this.label4.TabIndex = 136;
             this.label4.Text = "Business Managment System";
+            this.label4.Visible = false;
             // 
             // label3
             // 
@@ -462,19 +462,22 @@ namespace Micromind.ClientUI.Configurations
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(6, 27);
+            this.label3.Location = new System.Drawing.Point(102, 332);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(283, 31);
+            this.label3.Size = new System.Drawing.Size(347, 39);
             this.label3.TabIndex = 135;
             this.label3.Text = "Starasoft © StarERP";
+            this.label3.Visible = false;
             // 
             // DatabaseLoginForm
             // 
             this.AcceptButton = this.buttonOK;
-            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
+            this.AutoScaleBaseSize = new System.Drawing.Size(6, 15);
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.CancelButton = this.buttonCancel;
-            this.ClientSize = new System.Drawing.Size(531, 289);
+            this.ClientSize = new System.Drawing.Size(642, 335);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.buttonOptions);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -495,8 +498,6 @@ namespace Micromind.ClientUI.Configurations
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.contextMenuOptions.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
