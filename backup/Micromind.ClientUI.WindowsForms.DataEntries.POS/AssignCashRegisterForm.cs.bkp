@@ -1,0 +1,235 @@
+using DevExpress.XtraEditors;
+using Infragistics.Win;
+using Infragistics.Win.UltraWinDataSource;
+using Infragistics.Win.UltraWinGrid;
+using Micromind.ClientLibraries;
+using Micromind.DataControls;
+using System;
+using System.ComponentModel;
+using System.Drawing;
+using System.Windows.Forms;
+
+namespace Micromind.ClientUI.WindowsForms.DataEntries.POS
+{
+	public class AssignCashRegisterForm : XtraForm
+	{
+		private IContainer components;
+
+		private UltraDataSource ultraDataSource1;
+
+		private SimpleButton buttonSave;
+
+		private SimpleButton buttonCancel;
+
+		private Label labelVoucherNumber;
+
+		private POSCashRegisterComboBox posCashRegisterComboBox1;
+
+		public AssignCashRegisterForm()
+		{
+			InitializeComponent();
+		}
+
+		private void XtraForm1_Load(object sender, EventArgs e)
+		{
+		}
+
+		private void buttonSave_Click(object sender, EventArgs e)
+		{
+			if (posCashRegisterComboBox1.SelectedID == "")
+			{
+				ErrorHelper.InformationMessage("Please select a Cash Register.");
+				base.DialogResult = DialogResult.None;
+			}
+			else
+			{
+				try
+				{
+					if (!Factory.POSCashRegisterSystem.IsCashRegisterFree(posCashRegisterComboBox1.SelectedID) && ErrorHelper.QuestionMessageYesNo("This Cash Register is already assigned to another POS machine. Are you sure you want to assign it to this machine?") == DialogResult.No)
+					{
+						return;
+					}
+					if (!Factory.POSCashRegisterSystem.AssignCashRegister(posCashRegisterComboBox1.SelectedID, Environment.MachineName))
+					{
+						ErrorHelper.ErrorMessage("Cannot assign the Cash Register. Please try again.");
+						return;
+					}
+				}
+				catch (Exception e2)
+				{
+					ErrorHelper.ProcessError(e2);
+				}
+				base.DialogResult = DialogResult.OK;
+				Close();
+			}
+		}
+
+		private void buttonCancel_Click(object sender, EventArgs e)
+		{
+			base.DialogResult = DialogResult.Cancel;
+			Close();
+		}
+
+		protected override void Dispose(bool disposing)
+		{
+			if (disposing && components != null)
+			{
+				components.Dispose();
+			}
+			base.Dispose(disposing);
+		}
+
+		private void InitializeComponent()
+		{
+			components = new System.ComponentModel.Container();
+			Infragistics.Win.UltraWinDataSource.UltraDataColumn ultraDataColumn = new Infragistics.Win.UltraWinDataSource.UltraDataColumn("Column 0");
+			Infragistics.Win.UltraWinDataSource.UltraDataColumn ultraDataColumn2 = new Infragistics.Win.UltraWinDataSource.UltraDataColumn("Column 1");
+			Infragistics.Win.Appearance appearance = new Infragistics.Win.Appearance();
+			Infragistics.Win.Appearance appearance2 = new Infragistics.Win.Appearance();
+			Infragistics.Win.Appearance appearance3 = new Infragistics.Win.Appearance();
+			Infragistics.Win.Appearance appearance4 = new Infragistics.Win.Appearance();
+			Infragistics.Win.Appearance appearance5 = new Infragistics.Win.Appearance();
+			Infragistics.Win.Appearance appearance6 = new Infragistics.Win.Appearance();
+			Infragistics.Win.Appearance appearance7 = new Infragistics.Win.Appearance();
+			Infragistics.Win.Appearance appearance8 = new Infragistics.Win.Appearance();
+			Infragistics.Win.Appearance appearance9 = new Infragistics.Win.Appearance();
+			Infragistics.Win.Appearance appearance10 = new Infragistics.Win.Appearance();
+			Infragistics.Win.Appearance appearance11 = new Infragistics.Win.Appearance();
+			Infragistics.Win.Appearance appearance12 = new Infragistics.Win.Appearance();
+			ultraDataSource1 = new Infragistics.Win.UltraWinDataSource.UltraDataSource(components);
+			buttonSave = new DevExpress.XtraEditors.SimpleButton();
+			buttonCancel = new DevExpress.XtraEditors.SimpleButton();
+			labelVoucherNumber = new System.Windows.Forms.Label();
+			posCashRegisterComboBox1 = new Micromind.DataControls.POSCashRegisterComboBox();
+			((System.ComponentModel.ISupportInitialize)ultraDataSource1).BeginInit();
+			((System.ComponentModel.ISupportInitialize)posCashRegisterComboBox1).BeginInit();
+			SuspendLayout();
+			ultraDataSource1.Band.Columns.AddRange(new object[2]
+			{
+				ultraDataColumn,
+				ultraDataColumn2
+			});
+			buttonSave.Appearance.Font = new System.Drawing.Font("Tahoma", 14f);
+			buttonSave.Appearance.Options.UseFont = true;
+			buttonSave.Location = new System.Drawing.Point(174, 193);
+			buttonSave.Name = "buttonSave";
+			buttonSave.Size = new System.Drawing.Size(102, 40);
+			buttonSave.TabIndex = 1;
+			buttonSave.Text = "Save";
+			buttonSave.Click += new System.EventHandler(buttonSave_Click);
+			buttonCancel.Appearance.Font = new System.Drawing.Font("Tahoma", 14f);
+			buttonCancel.Appearance.Options.UseFont = true;
+			buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+			buttonCancel.Location = new System.Drawing.Point(282, 193);
+			buttonCancel.Name = "buttonCancel";
+			buttonCancel.Size = new System.Drawing.Size(97, 40);
+			buttonCancel.TabIndex = 2;
+			buttonCancel.Text = "Cancel";
+			buttonCancel.Click += new System.EventHandler(buttonCancel_Click);
+			labelVoucherNumber.Anchor = (System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left);
+			labelVoucherNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+			labelVoucherNumber.ForeColor = System.Drawing.Color.FromArgb(16, 37, 127);
+			labelVoucherNumber.Location = new System.Drawing.Point(12, 9);
+			labelVoucherNumber.Name = "labelVoucherNumber";
+			labelVoucherNumber.Size = new System.Drawing.Size(367, 57);
+			labelVoucherNumber.TabIndex = 31;
+			labelVoucherNumber.Text = "There is no Cash Register assigned for this POS system. Please assign a Cash Register:";
+			posCashRegisterComboBox1.AlwaysInEditMode = true;
+			posCashRegisterComboBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+			posCashRegisterComboBox1.CustomReportFieldName = "";
+			posCashRegisterComboBox1.CustomReportKey = "";
+			posCashRegisterComboBox1.CustomReportValueType = 1;
+			posCashRegisterComboBox1.DescriptionTextBox = null;
+			appearance.BackColor = System.Drawing.SystemColors.Window;
+			appearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+			posCashRegisterComboBox1.DisplayLayout.Appearance = appearance;
+			posCashRegisterComboBox1.DisplayLayout.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
+			posCashRegisterComboBox1.DisplayLayout.CaptionVisible = Infragistics.Win.DefaultableBoolean.False;
+			appearance2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+			appearance2.BackColor2 = System.Drawing.SystemColors.ControlDark;
+			appearance2.BackGradientStyle = Infragistics.Win.GradientStyle.Vertical;
+			appearance2.BorderColor = System.Drawing.SystemColors.Window;
+			posCashRegisterComboBox1.DisplayLayout.GroupByBox.Appearance = appearance2;
+			appearance3.ForeColor = System.Drawing.SystemColors.GrayText;
+			posCashRegisterComboBox1.DisplayLayout.GroupByBox.BandLabelAppearance = appearance3;
+			posCashRegisterComboBox1.DisplayLayout.GroupByBox.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
+			appearance4.BackColor = System.Drawing.SystemColors.ControlLightLight;
+			appearance4.BackColor2 = System.Drawing.SystemColors.Control;
+			appearance4.BackGradientStyle = Infragistics.Win.GradientStyle.Horizontal;
+			appearance4.ForeColor = System.Drawing.SystemColors.GrayText;
+			posCashRegisterComboBox1.DisplayLayout.GroupByBox.PromptAppearance = appearance4;
+			posCashRegisterComboBox1.DisplayLayout.MaxColScrollRegions = 1;
+			posCashRegisterComboBox1.DisplayLayout.MaxRowScrollRegions = 1;
+			appearance5.BackColor = System.Drawing.SystemColors.Window;
+			appearance5.ForeColor = System.Drawing.SystemColors.ControlText;
+			posCashRegisterComboBox1.DisplayLayout.Override.ActiveCellAppearance = appearance5;
+			appearance6.BackColor = System.Drawing.SystemColors.Highlight;
+			appearance6.ForeColor = System.Drawing.SystemColors.HighlightText;
+			posCashRegisterComboBox1.DisplayLayout.Override.ActiveRowAppearance = appearance6;
+			posCashRegisterComboBox1.DisplayLayout.Override.BorderStyleCell = Infragistics.Win.UIElementBorderStyle.Dotted;
+			posCashRegisterComboBox1.DisplayLayout.Override.BorderStyleRow = Infragistics.Win.UIElementBorderStyle.Dotted;
+			appearance7.BackColor = System.Drawing.SystemColors.Window;
+			posCashRegisterComboBox1.DisplayLayout.Override.CardAreaAppearance = appearance7;
+			appearance8.BorderColor = System.Drawing.Color.Silver;
+			appearance8.TextTrimming = Infragistics.Win.TextTrimming.EllipsisCharacter;
+			posCashRegisterComboBox1.DisplayLayout.Override.CellAppearance = appearance8;
+			posCashRegisterComboBox1.DisplayLayout.Override.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.EditAndSelectText;
+			posCashRegisterComboBox1.DisplayLayout.Override.CellPadding = 0;
+			appearance9.BackColor = System.Drawing.SystemColors.Control;
+			appearance9.BackColor2 = System.Drawing.SystemColors.ControlDark;
+			appearance9.BackGradientAlignment = Infragistics.Win.GradientAlignment.Element;
+			appearance9.BackGradientStyle = Infragistics.Win.GradientStyle.Horizontal;
+			appearance9.BorderColor = System.Drawing.SystemColors.Window;
+			posCashRegisterComboBox1.DisplayLayout.Override.GroupByRowAppearance = appearance9;
+			appearance10.TextHAlignAsString = "Left";
+			posCashRegisterComboBox1.DisplayLayout.Override.HeaderAppearance = appearance10;
+			posCashRegisterComboBox1.DisplayLayout.Override.HeaderClickAction = Infragistics.Win.UltraWinGrid.HeaderClickAction.SortMulti;
+			posCashRegisterComboBox1.DisplayLayout.Override.HeaderStyle = Infragistics.Win.HeaderStyle.WindowsXPCommand;
+			appearance11.BackColor = System.Drawing.SystemColors.Window;
+			appearance11.BorderColor = System.Drawing.Color.Silver;
+			posCashRegisterComboBox1.DisplayLayout.Override.RowAppearance = appearance11;
+			posCashRegisterComboBox1.DisplayLayout.Override.RowSelectors = Infragistics.Win.DefaultableBoolean.False;
+			appearance12.BackColor = System.Drawing.SystemColors.ControlLight;
+			posCashRegisterComboBox1.DisplayLayout.Override.TemplateAddRowAppearance = appearance12;
+			posCashRegisterComboBox1.DisplayLayout.ScrollBounds = Infragistics.Win.UltraWinGrid.ScrollBounds.ScrollToFill;
+			posCashRegisterComboBox1.DisplayLayout.ScrollStyle = Infragistics.Win.UltraWinGrid.ScrollStyle.Immediate;
+			posCashRegisterComboBox1.DisplayLayout.ViewStyleBand = Infragistics.Win.UltraWinGrid.ViewStyleBand.OutlookGroupBy;
+			posCashRegisterComboBox1.DropDownSearchMethod = Infragistics.Win.UltraWinGrid.DropDownSearchMethod.Linear;
+			posCashRegisterComboBox1.DropDownStyle = Infragistics.Win.UltraWinGrid.UltraComboStyle.DropDownList;
+			posCashRegisterComboBox1.Editable = true;
+			posCashRegisterComboBox1.FilterString = "";
+			posCashRegisterComboBox1.Font = new System.Drawing.Font("Tahoma", 14f);
+			posCashRegisterComboBox1.HasAllAccount = false;
+			posCashRegisterComboBox1.HasCustom = false;
+			posCashRegisterComboBox1.IsDataLoaded = false;
+			posCashRegisterComboBox1.Location = new System.Drawing.Point(16, 69);
+			posCashRegisterComboBox1.MaxDropDownItems = 12;
+			posCashRegisterComboBox1.Name = "posCashRegisterComboBox1";
+			posCashRegisterComboBox1.ShowInactiveItems = false;
+			posCashRegisterComboBox1.ShowQuickAdd = true;
+			posCashRegisterComboBox1.Size = new System.Drawing.Size(277, 31);
+			posCashRegisterComboBox1.TabIndex = 0;
+			posCashRegisterComboBox1.UseFlatMode = Infragistics.Win.DefaultableBoolean.True;
+			base.AcceptButton = buttonSave;
+			base.AutoScaleDimensions = new System.Drawing.SizeF(6f, 13f);
+			base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			base.CancelButton = buttonCancel;
+			base.ClientSize = new System.Drawing.Size(391, 244);
+			base.Controls.Add(posCashRegisterComboBox1);
+			base.Controls.Add(labelVoucherNumber);
+			base.Controls.Add(buttonCancel);
+			base.Controls.Add(buttonSave);
+			base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+			base.MaximizeBox = false;
+			base.MinimizeBox = false;
+			base.Name = "AssignCashRegisterForm";
+			base.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+			Text = "Assign Cash Register";
+			base.Load += new System.EventHandler(XtraForm1_Load);
+			((System.ComponentModel.ISupportInitialize)ultraDataSource1).EndInit();
+			((System.ComponentModel.ISupportInitialize)posCashRegisterComboBox1).EndInit();
+			ResumeLayout(false);
+			PerformLayout();
+		}
+	}
+}

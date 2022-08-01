@@ -1,0 +1,34 @@
+C:\Users\Administrator\Desktop\Axolon ERP KEY\bin\Debug\WindowsFormsApp4.exe.config
+C:\Users\Administrator\Desktop\Axolon ERP KEY\bin\Debug\WindowsFormsApp4.exe
+C:\Users\Administrator\Desktop\Axolon ERP KEY\bin\Debug\WindowsFormsApp4.pdb
+C:\Users\Administrator\Desktop\Axolon ERP KEY\obj\Debug\StarERP Keygen.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Axolon ERP KEY\obj\Debug\WindowsFormsApp4.Form1.resources
+C:\Users\Administrator\Desktop\Axolon ERP KEY\obj\Debug\WindowsFormsApp4.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Axolon ERP KEY\obj\Debug\StarERP Keygen.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Axolon ERP KEY\obj\Debug\StarERP Keygen.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Axolon ERP KEY\obj\Debug\WindowsFormsApp4.exe
+C:\Users\Administrator\Desktop\Axolon ERP KEY\obj\Debug\WindowsFormsApp4.pdb
+C:\Users\Administrator\Desktop\Axolon\Key Gen\ERP KEY\obj\Debug\StarERP Keygen.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Axolon\Key Gen\ERP KEY\obj\Debug\WindowsFormsApp4.Form1.resources
+C:\Users\Administrator\Desktop\Axolon\Key Gen\ERP KEY\obj\Debug\WindowsFormsApp4.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Axolon\Key Gen\ERP KEY\obj\Debug\StarERP Keygen.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Axolon\Key Gen\ERP KEY\bin\Debug\KeyGen.exe.config
+C:\Users\Administrator\Desktop\Axolon\Key Gen\ERP KEY\bin\Debug\KeyGen.exe
+C:\Users\Administrator\Desktop\Axolon\Key Gen\ERP KEY\bin\Debug\KeyGen.pdb
+C:\Users\Administrator\Desktop\Axolon\Key Gen\ERP KEY\obj\Debug\KeyGen.exe
+C:\Users\Administrator\Desktop\Axolon\Key Gen\ERP KEY\obj\Debug\KeyGen.pdb
+D:\Documents\Downloads\Axolon_new\Axolon_new\Key Gen\ERP KEY\obj\Debug\StarERP Keygen.csproj.AssemblyReference.cache
+D:\Documents\Downloads\Axolon_new\Axolon_new\Key Gen\ERP KEY\obj\Debug\StarERP Keygen.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Downloads\Axolon_new\Axolon_new\Key Gen\ERP KEY\obj\Debug\KeyGen.exe
+D:\Documents\Downloads\Axolon_new\Axolon_new\Key Gen\ERP KEY\obj\Debug\KeyGen.pdb
+D:\Axolon_new1\Key Gen\ERP KEY\bin\Debug\KeyGen.exe.config
+D:\Axolon_new1\Key Gen\ERP KEY\bin\Debug\KeyGen.exe
+D:\Axolon_new1\Key Gen\ERP KEY\bin\Debug\KeyGen.pdb
+D:\Axolon_new1\Key Gen\ERP KEY\obj\Debug\StarERP Keygen.csproj.AssemblyReference.cache
+D:\Axolon_new1\Key Gen\ERP KEY\obj\Debug\StarERP Keygen.csproj.SuggestedBindingRedirects.cache
+D:\Axolon_new1\Key Gen\ERP KEY\obj\Debug\WindowsFormsApp4.Form1.resources
+D:\Axolon_new1\Key Gen\ERP KEY\obj\Debug\WindowsFormsApp4.Properties.Resources.resources
+D:\Axolon_new1\Key Gen\ERP KEY\obj\Debug\StarERP Keygen.csproj.GenerateResource.cache
+D:\Axolon_new1\Key Gen\ERP KEY\obj\Debug\StarERP Keygen.csproj.CoreCompileInputs.cache
+D:\Axolon_new1\Key Gen\ERP KEY\obj\Debug\KeyGen.exe
+D:\Axolon_new1\Key Gen\ERP KEY\obj\Debug\KeyGen.pdb

@@ -1,0 +1,658 @@
+/// <XRTypeInfo>
+///   <AssemblyFullName>DevExpress.XtraReports.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</AssemblyFullName>
+///   <AssemblyLocation>C:\Windows\assembly\GAC_MSIL\DevExpress.XtraReports.v12.1\12.1.5.0__b88d1754d700e49a\DevExpress.XtraReports.v12.1.dll</AssemblyLocation>
+///   <TypeName>DevExpress.XtraReports.UI.XtraReport</TypeName>
+///   <Localization />
+/// </XRTypeInfo>
+namespace XtraReportSerialization {
+    
+    public class customerBalanceDetailsRP1 : DevExpress.XtraReports.UI.XtraReport {
+        private DevExpress.XtraReports.UI.DetailBand Detail;
+        private DevExpress.XtraReports.UI.XRPivotGrid pivotGridNI;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField fieldT;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField fieldMonth2;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField fieldBalance2;
+        private DevExpress.XtraReports.UI.XRPivotGrid pivotGridGP;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField pivotGridField1;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField pivotGridField2;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField pivotGridField3;
+        private DevExpress.XtraReports.UI.XRPivotGrid pivotGridIncome;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField pivotGridField4;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField pivotGridField5;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField pivotGridField6;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField pivotGridField7;
+        private DevExpress.XtraReports.UI.XRPivotGrid pivotGridExpenses;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField fieldMonth;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField fieldAccountID;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField fieldAccountName;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField fieldBalance;
+        private DevExpress.XtraReports.UI.XRPivotGrid pivotGridCOGS;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField pivotGridField8;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField pivotGridField9;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField pivotGridField10;
+        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField pivotGridField11;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel1;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel3;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel13;
+        private DevExpress.XtraReports.UI.ReportHeaderBand ReportHeader;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel24;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel17;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel12;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel14;
+        private DevExpress.XtraReports.UI.XRPageInfo xrPageInfo2;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel2;
+        private DevExpress.XtraReports.UI.GroupFooterBand GroupFooter2;
+        private DevExpress.XtraReports.UI.PageFooterBand PageFooter;
+        private DevExpress.XtraReports.UI.XRPageInfo xrPageInfo1;
+        private DevExpress.XtraReports.UI.TopMarginBand topMarginBand1;
+        private DevExpress.XtraReports.UI.BottomMarginBand bottomMarginBand1;
+        private System.Resources.ResourceManager _resources;
+        public customerBalanceDetailsRP1() {
+            this.InitializeComponent();
+        }
+        private System.Resources.ResourceManager resources {
+            get {
+                if (_resources == null) {
+                    string resourceString = "zsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29ybGliLCBWZXJza" +
+                        "W9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4O" +
+                        "SNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAACAAAAAAAAAFBBRFBBRFBIXnLBN" +
+                        "eNbHjEAAAAAAAAAIAEAACwkAHQAaABpAHMALgBEAGEAdABhAFMAbwB1AHIAYwBlAFMAYwBoAGUAbQBhA" +
+                        "AAAAAAmJAB0AGgAaQBzAC4AUwBjAHIAaQBwAHQAcwBTAG8AdQByAGMAZQA0DAAAAbEYPD94bWwgdmVyc" +
+                        "2lvbj0iMS4wIj8+DQo8eHM6c2NoZW1hIGlkPSJOZXdEYXRhU2V0IiB4bWxucz0iIiB4bWxuczp4cz0ia" +
+                        "HR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOm1zZGF0YT0idXJuOnNjaGVtYXMtb" +
+                        "Wljcm9zb2Z0LWNvbTp4bWwtbXNkYXRhIj4NCiAgPHhzOmVsZW1lbnQgbmFtZT0iTmV3RGF0YVNldCIgb" +
+                        "XNkYXRhOklzRGF0YVNldD0idHJ1ZSIgbXNkYXRhOlVzZUN1cnJlbnRMb2NhbGU9InRydWUiIG1zZGF0Y" +
+                        "TpFbmZvcmNlQ29uc3RyYWludHM9IkZhbHNlIj4NCiAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICA8e" +
+                        "HM6Y2hvaWNlIG1pbk9jY3Vycz0iMCIgbWF4T2NjdXJzPSJ1bmJvdW5kZWQiPg0KICAgICAgICA8eHM6Z" +
+                        "WxlbWVudCBuYW1lPSJJbmNvbWUiPg0KICAgICAgICAgIDx4czpjb21wbGV4VHlwZT4NCiAgICAgICAgI" +
+                        "CAgIDx4czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iQWNjb3VudElEI" +
+                        "iB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkFjY291b" +
+                        "nROYW1lIiB0eXBlPSJ4czpzdHJpbmciIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzO" +
+                        "mVsZW1lbnQgbmFtZT0iVHlwZUlEIiB0eXBlPSJ4czppbnQiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgI" +
+                        "CAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iQmFsYW5jZSIgdHlwZT0ieHM6ZGVjaW1hbCIgbWluT2Njd" +
+                        "XJzPSIwIiAvPg0KICAgICAgICAgICAgPC94czpzZXF1ZW5jZT4NCiAgICAgICAgICA8L3hzOmNvbXBsZ" +
+                        "XhUeXBlPg0KICAgICAgICA8L3hzOmVsZW1lbnQ+DQogICAgICAgIDx4czplbGVtZW50IG5hbWU9IkNPR" +
+                        "1MiPg0KICAgICAgICAgIDx4czpjb21wbGV4VHlwZT4NCiAgICAgICAgICAgIDx4czpzZXF1ZW5jZT4NC" +
+                        "iAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iQWNjb3VudElEIiB0eXBlPSJ4czpzdHJpbmciI" +
+                        "C8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkFjY291bnROYW1lIiB0eXBlPSJ4czpzd" +
+                        "HJpbmciIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVHlwZ" +
+                        "UlEIiB0eXBlPSJ4czppbnQiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lb" +
+                        "nQgbmFtZT0iQmFsYW5jZSIgdHlwZT0ieHM6ZGVjaW1hbCIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgI" +
+                        "CAgICAgPC94czpzZXF1ZW5jZT4NCiAgICAgICAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICAgICAgICA8L" +
+                        "3hzOmVsZW1lbnQ+DQogICAgICAgIDx4czplbGVtZW50IG5hbWU9IkV4cGVuc2UiPg0KICAgICAgICAgI" +
+                        "Dx4czpjb21wbGV4VHlwZT4NCiAgICAgICAgICAgIDx4czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgP" +
+                        "HhzOmVsZW1lbnQgbmFtZT0iQWNjb3VudElEIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgI" +
+                        "CAgIDx4czplbGVtZW50IG5hbWU9IkFjY291bnROYW1lIiB0eXBlPSJ4czpzdHJpbmciIG1pbk9jY3Vyc" +
+                        "z0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVHlwZUlEIiB0eXBlPSJ4czppb" +
+                        "nQiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iQmFsYW5jZ" +
+                        "SIgdHlwZT0ieHM6ZGVjaW1hbCIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgPC94czpzZXF1Z" +
+                        "W5jZT4NCiAgICAgICAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICAgICAgICA8L3hzOmVsZW1lbnQ+DQogI" +
+                        "CAgICAgIDx4czplbGVtZW50IG5hbWU9IlN1bW1hcnkiPg0KICAgICAgICAgIDx4czpjb21wbGV4VHlwZ" +
+                        "T4NCiAgICAgICAgICAgIDx4czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZ" +
+                        "T0iR3Jvc3NQcm9maXQiIHR5cGU9InhzOmRlY2ltYWwiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgI" +
+                        "CAgICAgPHhzOmVsZW1lbnQgbmFtZT0iTmV0SW5jb21lIiB0eXBlPSJ4czpkZWNpbWFsIiBtaW5PY2N1c" +
+                        "nM9IjAiIC8+DQogICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxle" +
+                        "FR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUmVwb" +
+                        "3J0SW5mbyI+DQogICAgICAgICAgPHhzOmNvbXBsZXhUeXBlPg0KICAgICAgICAgICAgPHhzOnNlcXVlb" +
+                        "mNlPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJDb21wYW55TmFtZSIgdHlwZT0ieHM6c" +
+                        "3RyaW5nIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlVzZ" +
+                        "XJJRCIgdHlwZT0ieHM6c3RyaW5nIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgIDx4czplb" +
+                        "GVtZW50IG5hbWU9IlJlcG9ydEZpbHRlciIgdHlwZT0ieHM6c3RyaW5nIiBtaW5PY2N1cnM9IjAiIC8+D" +
+                        "QogICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogI" +
+                        "CAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgIDwveHM6Y2hvaWNlPg0KICAgIDwveHM6Y29tcGxleFR5c" +
+                        "GU+DQogICAgPHhzOnVuaXF1ZSBuYW1lPSJDb25zdHJhaW50MSIgbXNkYXRhOlByaW1hcnlLZXk9InRyd" +
+                        "WUiPg0KICAgICAgPHhzOnNlbGVjdG9yIHhwYXRoPSIuLy9JbmNvbWUiIC8+DQogICAgICA8eHM6Zmllb" +
+                        "GQgeHBhdGg9IkFjY291bnRJRCIgLz4NCiAgICA8L3hzOnVuaXF1ZT4NCiAgICA8eHM6dW5pcXVlIG5hb" +
+                        "WU9IkNPR1NfQ29uc3RyYWludDEiIG1zZGF0YTpDb25zdHJhaW50TmFtZT0iQ29uc3RyYWludDEiIG1zZ" +
+                        "GF0YTpQcmltYXJ5S2V5PSJ0cnVlIj4NCiAgICAgIDx4czpzZWxlY3RvciB4cGF0aD0iLi8vQ09HUyIgL" +
+                        "z4NCiAgICAgIDx4czpmaWVsZCB4cGF0aD0iQWNjb3VudElEIiAvPg0KICAgIDwveHM6dW5pcXVlPg0KI" +
+                        "CAgIDx4czp1bmlxdWUgbmFtZT0iRXhwZW5zZV9Db25zdHJhaW50MSIgbXNkYXRhOkNvbnN0cmFpbnROY" +
+                        "W1lPSJDb25zdHJhaW50MSIgbXNkYXRhOlByaW1hcnlLZXk9InRydWUiPg0KICAgICAgPHhzOnNlbGVjd" +
+                        "G9yIHhwYXRoPSIuLy9FeHBlbnNlIiAvPg0KICAgICAgPHhzOmZpZWxkIHhwYXRoPSJBY2NvdW50SUQiI" +
+                        "C8+DQogICAgPC94czp1bmlxdWU+DQogIDwveHM6ZWxlbWVudD4NCjwveHM6c2NoZW1hPgH3Cw0KcHJpd" +
+                        "mF0ZSB2b2lkIHBpdm90R3JpZEluY29tZV9GaWVsZFZhbHVlRGlzcGxheVRleHQob2JqZWN0IHNlbmRlc" +
+                        "iwgRGV2RXhwcmVzcy5YdHJhUGl2b3RHcmlkLlBpdm90RmllbGREaXNwbGF5VGV4dEV2ZW50QXJncyBlK" +
+                        "SB7DQoNCglpZiAoZS5WYWx1ZVR5cGUgPT0gRGV2RXhwcmVzcy5YdHJhUGl2b3RHcmlkLlBpdm90R3JpZ" +
+                        "FZhbHVlVHlwZS5HcmFuZFRvdGFsKQ0KICAgICAgICAgIAllLkRpc3BsYXlUZXh0ID0gIlRvdGFsIEluY" +
+                        "29tZSI7IA0KfQ0KDQpwcml2YXRlIHZvaWQgcGl2b3RHcmlkQ09HU19GaWVsZFZhbHVlRGlzcGxheVRle" +
+                        "HQob2JqZWN0IHNlbmRlciwgRGV2RXhwcmVzcy5YdHJhUGl2b3RHcmlkLlBpdm90RmllbGREaXNwbGF5V" +
+                        "GV4dEV2ZW50QXJncyBlKSB7DQoNCglpZiAoZS5WYWx1ZVR5cGUgPT0gRGV2RXhwcmVzcy5YdHJhUGl2b" +
+                        "3RHcmlkLlBpdm90R3JpZFZhbHVlVHlwZS5HcmFuZFRvdGFsKQ0KICAgICAgICAgIAllLkRpc3BsYXlUZ" +
+                        "Xh0ID0gIlRvdGFsIENPR1MiOyANCg0KfQ0KDQpwcml2YXRlIHZvaWQgcGl2b3RHcmlkRXhwZW5zZXNfR" +
+                        "mllbGRWYWx1ZURpc3BsYXlUZXh0KG9iamVjdCBzZW5kZXIsIERldkV4cHJlc3MuWHRyYVBpdm90R3JpZ" +
+                        "C5QaXZvdEZpZWxkRGlzcGxheVRleHRFdmVudEFyZ3MgZSkgew0KCWlmIChlLlZhbHVlVHlwZSA9PSBEZ" +
+                        "XZFeHByZXNzLlh0cmFQaXZvdEdyaWQuUGl2b3RHcmlkVmFsdWVUeXBlLkdyYW5kVG90YWwpDQogICAgI" +
+                        "CAgICAgCWUuRGlzcGxheVRleHQgPSAiVG90YWwgRXhwZW5zZXMiOyANCg0KfQ0KDQpwcml2YXRlIHZva" +
+                        "WQgcGl2b3RHcmlkQ09HU19DdXN0b21TdW1tYXJ5KG9iamVjdCBzZW5kZXIsIERldkV4cHJlc3MuWHRyY" +
+                        "VBpdm90R3JpZC5QaXZvdEdyaWRDdXN0b21TdW1tYXJ5RXZlbnRBcmdzIGUpIHsNCg0KCQ0KDQp9DQoNC" +
+                        "g0KcHJpdmF0ZSB2b2lkIHBpdm90R3JpZENPR1NfQ3VzdG9tQ2VsbERpc3BsYXlUZXh0KG9iamVjdCBzZ" +
+                        "W5kZXIsIERldkV4cHJlc3MuWHRyYVBpdm90R3JpZC5QaXZvdENlbGxEaXNwbGF5VGV4dEV2ZW50QXJnc" +
+                        "yBlKSB7DQoNCn0NCg0KcHJpdmF0ZSB2b2lkIHBpdm90R3JpZEdQX0ZpZWxkVmFsdWVEaXNwbGF5VGV4d" +
+                        "ChvYmplY3Qgc2VuZGVyLCBEZXZFeHByZXNzLlh0cmFQaXZvdEdyaWQuUGl2b3RGaWVsZERpc3BsYXlUZ" +
+                        "Xh0RXZlbnRBcmdzIGUpIHsNCglpZiAoZS5WYWx1ZVR5cGUgPT0gRGV2RXhwcmVzcy5YdHJhUGl2b3RHc" +
+                        "mlkLlBpdm90R3JpZFZhbHVlVHlwZS5HcmFuZFRvdGFsKQ0KICAgICAgICAgIAllLkRpc3BsYXlUZXh0I" +
+                        "D0gIlRvdGFsIjsgDQoNCn0NCg0KcHJpdmF0ZSB2b2lkIHBpdm90R3JpZE5JX0ZpZWxkVmFsdWVEaXNwb" +
+                        "GF5VGV4dChvYmplY3Qgc2VuZGVyLCBEZXZFeHByZXNzLlh0cmFQaXZvdEdyaWQuUGl2b3RGaWVsZERpc" +
+                        "3BsYXlUZXh0RXZlbnRBcmdzIGUpIHsNCglpZiAoZS5WYWx1ZVR5cGUgPT0gRGV2RXhwcmVzcy5YdHJhU" +
+                        "Gl2b3RHcmlkLlBpdm90R3JpZFZhbHVlVHlwZS5HcmFuZFRvdGFsKQ0KICAgICAgICAgIAllLkRpc3BsY" +
+                        "XlUZXh0ID0gIlRvdGFsIjsNCn0NCg==";
+                    this._resources = new DevExpress.XtraReports.Serialization.XRResourceManager(resourceString);
+                }
+                return this._resources;
+            }
+        }
+        private void InitializeComponent() {
+            this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.ReportHeader = new DevExpress.XtraReports.UI.ReportHeaderBand();
+            this.GroupFooter2 = new DevExpress.XtraReports.UI.GroupFooterBand();
+            this.PageFooter = new DevExpress.XtraReports.UI.PageFooterBand();
+            this.topMarginBand1 = new DevExpress.XtraReports.UI.TopMarginBand();
+            this.bottomMarginBand1 = new DevExpress.XtraReports.UI.BottomMarginBand();
+            this.pivotGridNI = new DevExpress.XtraReports.UI.XRPivotGrid();
+            this.pivotGridGP = new DevExpress.XtraReports.UI.XRPivotGrid();
+            this.pivotGridIncome = new DevExpress.XtraReports.UI.XRPivotGrid();
+            this.pivotGridExpenses = new DevExpress.XtraReports.UI.XRPivotGrid();
+            this.pivotGridCOGS = new DevExpress.XtraReports.UI.XRPivotGrid();
+            this.xrLabel1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel3 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel13 = new DevExpress.XtraReports.UI.XRLabel();
+            this.fieldT = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.fieldMonth2 = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.fieldBalance2 = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.pivotGridField1 = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.pivotGridField2 = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.pivotGridField3 = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.pivotGridField4 = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.pivotGridField5 = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.pivotGridField6 = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.pivotGridField7 = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.fieldMonth = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.fieldAccountID = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.fieldAccountName = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.fieldBalance = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.pivotGridField8 = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.pivotGridField9 = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.pivotGridField10 = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.pivotGridField11 = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
+            this.xrLabel24 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel17 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel12 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel14 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrPageInfo2 = new DevExpress.XtraReports.UI.XRPageInfo();
+            this.xrLabel2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrPageInfo1 = new DevExpress.XtraReports.UI.XRPageInfo();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            // 
+            // Detail
+            // 
+            this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.pivotGridNI,
+                        this.pivotGridGP,
+                        this.pivotGridIncome,
+                        this.pivotGridExpenses,
+                        this.pivotGridCOGS,
+                        this.xrLabel1,
+                        this.xrLabel3,
+                        this.xrLabel13});
+            this.Detail.HeightF = 464.0417F;
+            this.Detail.Name = "Detail";
+            this.Detail.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            this.Detail.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // ReportHeader
+            // 
+            this.ReportHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.xrLabel24,
+                        this.xrLabel17,
+                        this.xrLabel12,
+                        this.xrLabel14,
+                        this.xrPageInfo2,
+                        this.xrLabel2});
+            this.ReportHeader.HeightF = 80F;
+            this.ReportHeader.Name = "ReportHeader";
+            // 
+            // GroupFooter2
+            // 
+            this.GroupFooter2.HeightF = 33F;
+            this.GroupFooter2.Name = "GroupFooter2";
+            // 
+            // PageFooter
+            // 
+            this.PageFooter.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.xrPageInfo1});
+            this.PageFooter.HeightF = 23F;
+            this.PageFooter.Name = "PageFooter";
+            // 
+            // topMarginBand1
+            // 
+            this.topMarginBand1.HeightF = 20F;
+            this.topMarginBand1.Name = "topMarginBand1";
+            // 
+            // bottomMarginBand1
+            // 
+            this.bottomMarginBand1.HeightF = 20F;
+            this.bottomMarginBand1.Name = "bottomMarginBand1";
+            // 
+            // pivotGridNI
+            // 
+            this.pivotGridNI.DataMember = "NetIncome";
+            this.pivotGridNI.Fields.AddRange(new DevExpress.XtraPivotGrid.PivotGridField[] {
+                        this.fieldT,
+                        this.fieldMonth2,
+                        this.fieldBalance2});
+            this.pivotGridNI.LocationFloat = new DevExpress.Utils.PointFloat(119.8338F, 396.875F);
+            this.pivotGridNI.Name = "pivotGridNI";
+            this.pivotGridNI.OptionsChartDataSource.UpdateDelay = 300;
+            this.pivotGridNI.OptionsView.ShowColumnGrandTotalHeader = false;
+            this.pivotGridNI.OptionsView.ShowColumnHeaders = false;
+            this.pivotGridNI.OptionsView.ShowColumnTotals = false;
+            this.pivotGridNI.OptionsView.ShowDataHeaders = false;
+            this.pivotGridNI.OptionsView.ShowRowGrandTotalHeader = false;
+            this.pivotGridNI.OptionsView.ShowRowGrandTotals = false;
+            this.pivotGridNI.OptionsView.ShowRowHeaders = false;
+            this.pivotGridNI.OptionsView.ShowRowTotals = false;
+            this.pivotGridNI.Scripts.OnFieldValueDisplayText = "pivotGridNI_FieldValueDisplayText";
+            this.pivotGridNI.SizeF = new System.Drawing.SizeF(653.8331F, 50F);
+            // 
+            // pivotGridGP
+            // 
+            this.pivotGridGP.DataMember = "GrossProfit";
+            this.pivotGridGP.Fields.AddRange(new DevExpress.XtraPivotGrid.PivotGridField[] {
+                        this.pivotGridField1,
+                        this.pivotGridField2,
+                        this.pivotGridField3});
+            this.pivotGridGP.LocationFloat = new DevExpress.Utils.PointFloat(121.1668F, 222.0001F);
+            this.pivotGridGP.Name = "pivotGridGP";
+            this.pivotGridGP.OptionsChartDataSource.UpdateDelay = 300;
+            this.pivotGridGP.OptionsPrint.PrintColumnHeaders = DevExpress.Utils.DefaultBoolean.False;
+            this.pivotGridGP.OptionsPrint.PrintDataHeaders = DevExpress.Utils.DefaultBoolean.False;
+            this.pivotGridGP.OptionsPrint.PrintRowHeaders = DevExpress.Utils.DefaultBoolean.False;
+            this.pivotGridGP.OptionsView.ShowColumnGrandTotalHeader = false;
+            this.pivotGridGP.OptionsView.ShowColumnHeaders = false;
+            this.pivotGridGP.OptionsView.ShowColumnTotals = false;
+            this.pivotGridGP.OptionsView.ShowDataHeaders = false;
+            this.pivotGridGP.OptionsView.ShowFilterHeaders = false;
+            this.pivotGridGP.OptionsView.ShowRowGrandTotalHeader = false;
+            this.pivotGridGP.OptionsView.ShowRowGrandTotals = false;
+            this.pivotGridGP.OptionsView.ShowRowHeaders = false;
+            this.pivotGridGP.OptionsView.ShowRowTotals = false;
+            this.pivotGridGP.Scripts.OnFieldValueDisplayText = "pivotGridGP_FieldValueDisplayText";
+            this.pivotGridGP.SizeF = new System.Drawing.SizeF(653.8331F, 50F);
+            // 
+            // pivotGridIncome
+            // 
+            this.pivotGridIncome.DataMember = "Income";
+            this.pivotGridIncome.Fields.AddRange(new DevExpress.XtraPivotGrid.PivotGridField[] {
+                        this.pivotGridField4,
+                        this.pivotGridField5,
+                        this.pivotGridField6,
+                        this.pivotGridField7});
+            this.pivotGridIncome.LocationFloat = new DevExpress.Utils.PointFloat(16.66678F, 28.00001F);
+            this.pivotGridIncome.Name = "pivotGridIncome";
+            this.pivotGridIncome.OptionsChartDataSource.UpdateDelay = 300;
+            this.pivotGridIncome.OptionsView.ShowColumnHeaders = false;
+            this.pivotGridIncome.OptionsView.ShowDataHeaders = false;
+            this.pivotGridIncome.Scripts.OnFieldValueDisplayText = "pivotGridIncome_FieldValueDisplayText";
+            this.pivotGridIncome.SizeF = new System.Drawing.SizeF(757.0001F, 68.83339F);
+            // 
+            // pivotGridExpenses
+            // 
+            this.pivotGridExpenses.DataMember = "Expense";
+            this.pivotGridExpenses.Fields.AddRange(new DevExpress.XtraPivotGrid.PivotGridField[] {
+                        this.fieldMonth,
+                        this.fieldAccountID,
+                        this.fieldAccountName,
+                        this.fieldBalance});
+            this.pivotGridExpenses.LocationFloat = new DevExpress.Utils.PointFloat(16.66678F, 307.7083F);
+            this.pivotGridExpenses.Name = "pivotGridExpenses";
+            this.pivotGridExpenses.OptionsChartDataSource.UpdateDelay = 300;
+            this.pivotGridExpenses.OptionsView.ShowColumnHeaders = false;
+            this.pivotGridExpenses.OptionsView.ShowDataHeaders = false;
+            this.pivotGridExpenses.Scripts.OnFieldValueDisplayText = "pivotGridExpenses_FieldValueDisplayText";
+            this.pivotGridExpenses.SizeF = new System.Drawing.SizeF(757.0001F, 68.83339F);
+            // 
+            // pivotGridCOGS
+            // 
+            this.pivotGridCOGS.DataMember = "COGS";
+            this.pivotGridCOGS.Fields.AddRange(new DevExpress.XtraPivotGrid.PivotGridField[] {
+                        this.pivotGridField8,
+                        this.pivotGridField9,
+                        this.pivotGridField10,
+                        this.pivotGridField11});
+            this.pivotGridCOGS.LocationFloat = new DevExpress.Utils.PointFloat(16.99999F, 134.4167F);
+            this.pivotGridCOGS.Name = "pivotGridCOGS";
+            this.pivotGridCOGS.OptionsChartDataSource.UpdateDelay = 300;
+            this.pivotGridCOGS.OptionsData.DataFieldUnboundExpressionMode = DevExpress.XtraPivotGrid.DataFieldUnboundExpressionMode.UseSummaryValues;
+            this.pivotGridCOGS.OptionsView.ShowColumnHeaders = false;
+            this.pivotGridCOGS.OptionsView.ShowDataHeaders = false;
+            this.pivotGridCOGS.Scripts.OnCustomCellDisplayText = "pivotGridCOGS_CustomCellDisplayText";
+            this.pivotGridCOGS.Scripts.OnCustomSummary = "pivotGridCOGS_CustomSummary";
+            this.pivotGridCOGS.Scripts.OnFieldValueDisplayText = "pivotGridCOGS_FieldValueDisplayText";
+            this.pivotGridCOGS.SizeF = new System.Drawing.SizeF(757.0001F, 68.83339F);
+            // 
+            // xrLabel1
+            // 
+            this.xrLabel1.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrLabel1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(16.99999F, 10F);
+            this.xrLabel1.Name = "xrLabel1";
+            this.xrLabel1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel1.SizeF = new System.Drawing.SizeF(250F, 18F);
+            this.xrLabel1.StylePriority.UseBorders = false;
+            this.xrLabel1.StylePriority.UseFont = false;
+            this.xrLabel1.StylePriority.UseTextAlignment = false;
+            this.xrLabel1.Text = "Income :";
+            this.xrLabel1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrLabel3
+            // 
+            this.xrLabel3.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrLabel3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel3.LocationFloat = new DevExpress.Utils.PointFloat(17.0001F, 116.4167F);
+            this.xrLabel3.Name = "xrLabel3";
+            this.xrLabel3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel3.SizeF = new System.Drawing.SizeF(225F, 18F);
+            this.xrLabel3.StylePriority.UseBorders = false;
+            this.xrLabel3.StylePriority.UseFont = false;
+            this.xrLabel3.StylePriority.UseTextAlignment = false;
+            this.xrLabel3.Text = "Cost of Goods Sold :";
+            this.xrLabel3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrLabel13
+            // 
+            this.xrLabel13.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrLabel13.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel13.LocationFloat = new DevExpress.Utils.PointFloat(16.66678F, 289.7084F);
+            this.xrLabel13.Name = "xrLabel13";
+            this.xrLabel13.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel13.SizeF = new System.Drawing.SizeF(225F, 18F);
+            this.xrLabel13.StylePriority.UseBorders = false;
+            this.xrLabel13.StylePriority.UseFont = false;
+            this.xrLabel13.StylePriority.UseTextAlignment = false;
+            this.xrLabel13.Text = "Expenses:";
+            this.xrLabel13.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // fieldT
+            // 
+            this.fieldT.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
+            this.fieldT.AreaIndex = 0;
+            this.fieldT.Caption = "T";
+            this.fieldT.FieldName = "T";
+            this.fieldT.Name = "fieldT";
+            this.fieldT.Width = 250;
+            // 
+            // fieldMonth2
+            // 
+            this.fieldMonth2.Area = DevExpress.XtraPivotGrid.PivotArea.ColumnArea;
+            this.fieldMonth2.AreaIndex = 0;
+            this.fieldMonth2.Caption = "Month";
+            this.fieldMonth2.FieldName = "Month";
+            this.fieldMonth2.Name = "fieldMonth2";
+            this.fieldMonth2.Width = 85;
+            // 
+            // fieldBalance2
+            // 
+            this.fieldBalance2.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
+            this.fieldBalance2.AreaIndex = 0;
+            this.fieldBalance2.Caption = "Balance";
+            this.fieldBalance2.CellFormat.FormatString = "N2";
+            this.fieldBalance2.CellFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.fieldBalance2.FieldName = "Balance";
+            this.fieldBalance2.Name = "fieldBalance2";
+            // 
+            // pivotGridField1
+            // 
+            this.pivotGridField1.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
+            this.pivotGridField1.AreaIndex = 0;
+            this.pivotGridField1.Caption = "T";
+            this.pivotGridField1.FieldName = "T";
+            this.pivotGridField1.Name = "pivotGridField1";
+            this.pivotGridField1.Width = 250;
+            // 
+            // pivotGridField2
+            // 
+            this.pivotGridField2.Area = DevExpress.XtraPivotGrid.PivotArea.ColumnArea;
+            this.pivotGridField2.AreaIndex = 0;
+            this.pivotGridField2.Caption = "Month";
+            this.pivotGridField2.FieldName = "Month";
+            this.pivotGridField2.Name = "pivotGridField2";
+            this.pivotGridField2.Width = 85;
+            // 
+            // pivotGridField3
+            // 
+            this.pivotGridField3.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
+            this.pivotGridField3.AreaIndex = 0;
+            this.pivotGridField3.Caption = "Balance";
+            this.pivotGridField3.CellFormat.FormatString = "N2";
+            this.pivotGridField3.CellFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.pivotGridField3.FieldName = "Balance";
+            this.pivotGridField3.Name = "pivotGridField3";
+            // 
+            // pivotGridField4
+            // 
+            this.pivotGridField4.Area = DevExpress.XtraPivotGrid.PivotArea.ColumnArea;
+            this.pivotGridField4.AreaIndex = 0;
+            this.pivotGridField4.Caption = "Month";
+            this.pivotGridField4.FieldName = "Month";
+            this.pivotGridField4.Name = "pivotGridField4";
+            this.pivotGridField4.SortMode = DevExpress.XtraPivotGrid.PivotSortMode.Custom;
+            this.pivotGridField4.Width = 85;
+            // 
+            // pivotGridField5
+            // 
+            this.pivotGridField5.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
+            this.pivotGridField5.AreaIndex = 0;
+            this.pivotGridField5.Caption = "Account ID";
+            this.pivotGridField5.FieldName = "AccountID";
+            this.pivotGridField5.Name = "pivotGridField5";
+            // 
+            // pivotGridField6
+            // 
+            this.pivotGridField6.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
+            this.pivotGridField6.AreaIndex = 1;
+            this.pivotGridField6.Caption = "Account Name";
+            this.pivotGridField6.FieldName = "AccountName";
+            this.pivotGridField6.Name = "pivotGridField6";
+            this.pivotGridField6.Width = 250;
+            // 
+            // pivotGridField7
+            // 
+            this.pivotGridField7.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
+            this.pivotGridField7.AreaIndex = 0;
+            this.pivotGridField7.Caption = "Balance";
+            this.pivotGridField7.CellFormat.FormatString = "N2";
+            this.pivotGridField7.CellFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.pivotGridField7.FieldName = "Balance";
+            this.pivotGridField7.Name = "pivotGridField7";
+            this.pivotGridField7.Width = 85;
+            // 
+            // fieldMonth
+            // 
+            this.fieldMonth.Area = DevExpress.XtraPivotGrid.PivotArea.ColumnArea;
+            this.fieldMonth.AreaIndex = 0;
+            this.fieldMonth.Caption = "Month";
+            this.fieldMonth.FieldName = "Month";
+            this.fieldMonth.Name = "fieldMonth";
+            this.fieldMonth.Width = 85;
+            // 
+            // fieldAccountID
+            // 
+            this.fieldAccountID.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
+            this.fieldAccountID.AreaIndex = 0;
+            this.fieldAccountID.Caption = "Account ID";
+            this.fieldAccountID.FieldName = "AccountID";
+            this.fieldAccountID.Name = "fieldAccountID";
+            // 
+            // fieldAccountName
+            // 
+            this.fieldAccountName.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
+            this.fieldAccountName.AreaIndex = 1;
+            this.fieldAccountName.Caption = "Account Name";
+            this.fieldAccountName.FieldName = "AccountName";
+            this.fieldAccountName.Name = "fieldAccountName";
+            this.fieldAccountName.Width = 250;
+            // 
+            // fieldBalance
+            // 
+            this.fieldBalance.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
+            this.fieldBalance.AreaIndex = 0;
+            this.fieldBalance.Caption = "Balance";
+            this.fieldBalance.CellFormat.FormatString = "N2";
+            this.fieldBalance.CellFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.fieldBalance.FieldName = "Balance";
+            this.fieldBalance.Name = "fieldBalance";
+            this.fieldBalance.Width = 85;
+            // 
+            // pivotGridField8
+            // 
+            this.pivotGridField8.Area = DevExpress.XtraPivotGrid.PivotArea.ColumnArea;
+            this.pivotGridField8.AreaIndex = 0;
+            this.pivotGridField8.Caption = "Month";
+            this.pivotGridField8.FieldName = "Month";
+            this.pivotGridField8.Name = "pivotGridField8";
+            this.pivotGridField8.Width = 85;
+            // 
+            // pivotGridField9
+            // 
+            this.pivotGridField9.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
+            this.pivotGridField9.AreaIndex = 0;
+            this.pivotGridField9.Caption = "Account ID";
+            this.pivotGridField9.FieldName = "AccountID";
+            this.pivotGridField9.Name = "pivotGridField9";
+            // 
+            // pivotGridField10
+            // 
+            this.pivotGridField10.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
+            this.pivotGridField10.AreaIndex = 1;
+            this.pivotGridField10.Caption = "Account Name";
+            this.pivotGridField10.FieldName = "AccountName";
+            this.pivotGridField10.Name = "pivotGridField10";
+            this.pivotGridField10.Width = 250;
+            // 
+            // pivotGridField11
+            // 
+            this.pivotGridField11.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
+            this.pivotGridField11.AreaIndex = 0;
+            this.pivotGridField11.Caption = "Balance";
+            this.pivotGridField11.CellFormat.FormatString = "N2";
+            this.pivotGridField11.CellFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.pivotGridField11.FieldName = "Balance";
+            this.pivotGridField11.Name = "pivotGridField11";
+            this.pivotGridField11.Width = 85;
+            // 
+            // xrLabel24
+            // 
+            this.xrLabel24.CanGrow = false;
+            this.xrLabel24.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.xrLabel24.LocationFloat = new DevExpress.Utils.PointFloat(0F, 46F);
+            this.xrLabel24.Name = "xrLabel24";
+            this.xrLabel24.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel24.ProcessNullValues = DevExpress.XtraReports.UI.ValueSuppressType.Suppress;
+            this.xrLabel24.SizeF = new System.Drawing.SizeF(125F, 17F);
+            this.xrLabel24.StylePriority.UseFont = false;
+            this.xrLabel24.StylePriority.UseTextAlignment = false;
+            this.xrLabel24.Text = "User ID: [ReportInfo.UserID]";
+            this.xrLabel24.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.xrLabel24.WordWrap = false;
+            // 
+            // xrLabel17
+            // 
+            this.xrLabel17.CanGrow = false;
+            this.xrLabel17.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.xrLabel17.LocationFloat = new DevExpress.Utils.PointFloat(332.0417F, 46F);
+            this.xrLabel17.Name = "xrLabel17";
+            this.xrLabel17.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel17.ProcessNullValues = DevExpress.XtraReports.UI.ValueSuppressType.Suppress;
+            this.xrLabel17.SizeF = new System.Drawing.SizeF(467F, 17F);
+            this.xrLabel17.StylePriority.UseFont = false;
+            this.xrLabel17.StylePriority.UseTextAlignment = false;
+            this.xrLabel17.Text = "[ReportInfo.ReportFilter]";
+            this.xrLabel17.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrLabel17.WordWrap = false;
+            // 
+            // xrLabel12
+            // 
+            this.xrLabel12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel12.LocationFloat = new DevExpress.Utils.PointFloat(9.999998F, 7.000001F);
+            this.xrLabel12.Name = "xrLabel12";
+            this.xrLabel12.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel12.SizeF = new System.Drawing.SizeF(1109F, 21F);
+            this.xrLabel12.StylePriority.UseFont = false;
+            this.xrLabel12.StylePriority.UseTextAlignment = false;
+            this.xrLabel12.Text = "[ReportInfo.CompanyName]";
+            this.xrLabel12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // xrLabel14
+            // 
+            this.xrLabel14.CanGrow = false;
+            this.xrLabel14.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.xrLabel14.LocationFloat = new DevExpress.Utils.PointFloat(0F, 63F);
+            this.xrLabel14.Name = "xrLabel14";
+            this.xrLabel14.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel14.ProcessNullValues = DevExpress.XtraReports.UI.ValueSuppressType.Suppress;
+            this.xrLabel14.SizeF = new System.Drawing.SizeF(92F, 17F);
+            this.xrLabel14.StylePriority.UseFont = false;
+            this.xrLabel14.StylePriority.UseTextAlignment = false;
+            this.xrLabel14.Text = "Generated On:";
+            this.xrLabel14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.xrLabel14.WordWrap = false;
+            // 
+            // xrPageInfo2
+            // 
+            this.xrPageInfo2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.xrPageInfo2.Format = "{0:dd/MM/yyyy HH:mm}";
+            this.xrPageInfo2.LocationFloat = new DevExpress.Utils.PointFloat(92F, 63F);
+            this.xrPageInfo2.Name = "xrPageInfo2";
+            this.xrPageInfo2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrPageInfo2.PageInfo = DevExpress.XtraPrinting.PageInfo.DateTime;
+            this.xrPageInfo2.SizeF = new System.Drawing.SizeF(133F, 17F);
+            this.xrPageInfo2.StylePriority.UseFont = false;
+            this.xrPageInfo2.StylePriority.UseTextAlignment = false;
+            this.xrPageInfo2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrLabel2
+            // 
+            this.xrLabel2.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(332.0417F, 28.00001F);
+            this.xrLabel2.Name = "xrLabel2";
+            this.xrLabel2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel2.SizeF = new System.Drawing.SizeF(467F, 18F);
+            this.xrLabel2.StylePriority.UseFont = false;
+            this.xrLabel2.StylePriority.UseTextAlignment = false;
+            this.xrLabel2.Text = "Profit and Loss Monthwise";
+            this.xrLabel2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // xrPageInfo1
+            // 
+            this.xrPageInfo1.Format = "Page {0} of {1}";
+            this.xrPageInfo1.LocationFloat = new DevExpress.Utils.PointFloat(642F, 0F);
+            this.xrPageInfo1.Name = "xrPageInfo1";
+            this.xrPageInfo1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrPageInfo1.SizeF = new System.Drawing.SizeF(132F, 17F);
+            this.xrPageInfo1.StylePriority.UseTextAlignment = false;
+            this.xrPageInfo1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // customerBalanceDetailsRP1
+            // 
+            this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail,
+                        this.ReportHeader,
+                        this.GroupFooter2,
+                        this.PageFooter,
+                        this.topMarginBand1,
+                        this.bottomMarginBand1});
+            this.DataMember = "ReportInfo";
+            this.DataSourceSchema = resources.GetString("$this.DataSourceSchema");
+            this.DisplayName = "Profit and Loss Monthwise";
+            this.Landscape = true;
+            this.Margins = new System.Drawing.Printing.Margins(20, 20, 20, 20);
+            this.Name = "customerBalanceDetailsRP1";
+            this.PageHeight = 827;
+            this.PageWidth = 1169;
+            this.PaperKind = System.Drawing.Printing.PaperKind.A4;
+            this.ScriptsSource = resources.GetString("$this.ScriptsSource");
+            this.Version = "12.1";
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
+        }
+    }
+}

@@ -1,0 +1,2919 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language>
+  <Name>Spanish</Name>
+
+<MN341291750>Buscar:</MN341291750>
+<MN451774829>Subir</MN451774829>
+<MN1997886453>Mover hacia abajo</MN1997886453>
+<MN21834082>Insertar fila</MN21834082>
+<MP1021186554>Eliminar fila</MP1021186554>
+<MP1032435895>Borrar cuadrícula</MP1032435895>
+<MP512524868>&amp;Cancelar</MP512524868>
+<MN1241866339>&amp;Aceptar</MN1241866339>
+<MP1020226130>Ref. Propia:</MP1020226130>
+<MN1735998655>Especificación:</MN1735998655>
+<MP407680241>Nombre de pieza:</MP407680241>
+<MN849227135>Parte No:</MN849227135>
+<MN1295782299>Costo última compra:</MN1295782299>
+<MP803058349>Origen:</MP803058349>
+<MP1759036006>UBICACIÓN MULTIPLE</MP1759036006>
+<MN2117283422>MODELOS APLICADOS</MN2117283422>
+<MN1200778770>SUSTITUTOS DE PIEZAS</MN1200778770>
+<MN2112065702>Motor No:</MN2112065702>
+<MP795871803>Modelo:</MP795871803>
+<MP293165520>Chase No:</MP293165520>
+<MP151044855>Familia de piezas:</MP151044855>
+<MP1089416261>Código OEM:</MP1089416261>
+<MP1658448654>Tipo de partes:</MP1658448654>
+<MN1154438740>Precio por unidad:</MN1154438740>
+<MN534283150>Precio mínimo por unidad:</MN534283150>
+<MP876671844>Cantidad a mano:</MP876671844>
+<MN1199771290>Cantidad del paquete:</MN1199771290>
+<MP1947076696>Unidad:</MP1947076696>
+<MP988742784>Tipo de stock:</MP988742784>
+<MP902590029>Re Nivel de orden:</MP902590029>
+<MN1453682767>Re Cantidad de pedido:</MN1453682767>
+<MP997368583>Detalles del paquete:</MP997368583>
+<MP612729129>Sup.Ref.No:</MP612729129>
+<MN1051517193>Marca del vehículo:</MN1051517193>
+<MP660578823>Tipo de vehículo:</MP660578823>
+<MN1038893393>Tipo de marca:</MN1038893393>
+<MP112167009>Ubicación:</MP112167009>
+<MN344316897>Marca del producto:</MN344316897>
+<MN378460915>Seleccionar las piezas del artículo-producto</MN378460915>
+<MP2142253567>&amp;Ocurre una vez en:</MP2142253567>
+<MP399474132>Fecha limite:</MP399474132>
+<MN2099637138>Inicio &amp;fecha:</MN2099637138>
+<MP1248428324>Mes(es)</MP1248428324>
+<MN330084520>Domingo</MN330084520>
+<MP745330816>Sábado</MP745330816>
+<MN1078786596>Viernes</MN1078786596>
+<MP228118695>Jueves</MP228118695>
+<MP2015320538>Miércoles</MP2015320538>
+<MN1602768110>Martes</MN1602768110>
+<MN358003058>Lunes</MN358003058>
+<MP1115077856>Día(s)</MP1115077856>
+<MP1092856031>C&amp;ada</MP1092856031>
+<MP2100640966>Mensual</MP2100640966>
+<MP1132756756>Semanal</MP1132756756>
+<MP411240070>Diario</MP411240070>
+<MP263994245>Horario &amp;nombre:</MP263994245>
+<MP2083541120>Programar copia de seguridad de la base de datos</MP2083541120>
+<MP839939657>Actualizar</MP839939657>
+<MP1310378498>&amp;Imprimir</MP1310378498>
+<MN1049236163>Exportar</MN1049236163>
+<MP1672884573>Microsoft Excel</MP1672884573>
+<MP571973307>Permitir agrupar</MP571973307>
+<MP1139276030>Ajustar a la pantalla</MP1139276030>
+<MN2135188678>Ajustar al texto</MN2135188678>
+<MN84183773>toolStripButton2</MN84183773>
+<MN1658161885>toolStripButton1</MN1658161885>
+<MP1017897873>Columnas</MP1017897873>
+<MP795847694>Borrar todos los filtros</MP795847694>
+<MP1727472188>Combinar celdas</MP1727472188>
+<MP1340581907>Restablecer diseño</MP1340581907>
+<MP2013962000>&amp;Guardar</MP2013962000>
+<MP1640716283>&amp;Cerrar</MP1640716283>
+<MP445573564>Nuevo grupo...</MP445573564>
+<MP387232477>Nuevo informe...</MP387232477>
+<MP1250152008>Editar...</MP1250152008>
+<MP432759908>Eliminar</MP432759908>
+<MP1974547623>Sin vista previa disponible en la pantalla (haga doble clic si es necesario)</MP1974547623>
+<MN307697327>Informe externo</MN307697327>
+<MN1524338308>&amp;Restablecer</MN1524338308>
+<MP1408623168>&amp;Visualizar</MP1408623168>
+<MP1250634740>Informe personalizado</MP1250634740>
+<MP1592910864>Cambiar fuente ...</MP1592910864>
+<MN331366037>Título:</MN331366037>
+<MP199924107>Cambiar el título del gráfico</MP199924107>
+<MP166978273>&amp;Enviar por email después de guardar</MP166978273>
+<MN2004806653>Imprimir&amp;después de guardar</MN2004806653>
+<MN336263738>&amp; Ver después de guardar</MN336263738>
+<MP1768589180>&amp; Separador:</MP1768589180>
+<MP1222308166>&amp; Buscar ...</MP1222308166>
+<MP470284856>&amp; Archivo:</MP470284856>
+<MP2046913467>Seleccione un archivo</MP2046913467>
+<MN1920739956>Primero</MN1920739956>
+<MN1215742907>Anterior</MN1215742907>
+<MN307131420>Siguiente</MN307131420>
+<MN353923441>Último</MN353923441>
+<MP2091960301>Abrir lista</MP2091960301>
+<MP835817774>Buscar</MP835817774>
+<MN1087836503>Importar</MN1087836503>
+<MN2006534577>&amp;General</MN2006534577>
+<MN1935433964>&amp;Datos</MN1935433964>
+<MP955192372>Desglosar</MP955192372>
+<MN1852965943>Usuarios...</MN1852965943>
+<MP2036207048>Nombre de categoría:</MP2036207048>
+<MP955490703>Nombre del informe:</MP955490703>
+<MP1585969819>&amp;Adjuntar</MP1585969819>
+<MN1277681959>Utilizar como detalles de desglose</MN1277681959>
+<MN1720010061>etiqueta15</MN1720010061>
+<MN1160689112>Editar</MN1160689112>
+<MN1029223211>Agregar</MN1029223211>
+<MP682177581>Parámetros:</MP682177581>
+<MN601376211>Relaciones de datos:</MN601376211>
+<MN1804948623>Tablas:</MN1804948623>
+<MP555811669>Acción de desglose:</MP555811669>
+<MP273931758>Abrir como vista previa de impresión</MP273931758>
+<MN62919527>Voucher No campo:</MN62919527>
+<MN515212165>Campo Sys Doc:</MN515212165>
+<MP1177927356>Tipo de tarjeta:</MP1177927356>
+<MN374570864>Campo del código de la tarjeta:</MN374570864>
+<MN1658442181>Lista inteligente de detalles:</MN1658442181>
+<MN1929120683>Asignar columnas a los parámetros:</MN1929120683>
+<MN1511150610>@Parm4</MN1511150610>
+<MP1916073582>@Parm3:</MP1916073582>
+<MN1511019538>@Parm2</MN1511019538>
+<MP1916204654>@Parm1:</MP1916204654>
+<MP1700136910>Nue&amp;vo...</MP1700136910>
+<MN1473091423>Informe inteligente</MN1473091423>
+<MN1211711592>Padre:</MN1211711592>
+<MN1131161225>Nombre:</MN1131161225>
+<MP574738047>Categoría de lista inteligente</MP574738047>
+<MP446646148>Favorito</MP446646148>
+<MN389234318>Abrir</MN389234318>
+<MN490463775>Nuevo...</MN490463775>
+<MP98589032>Copiar al portapapeles</MP98589032>
+<MN1061027815>Ajustar columnas a la pantalla</MN1061027815>
+<MP88311889>Auto ajustar tamaño de columnas</MP88311889>
+<MN57098969>Selector de columna ...</MN57098969>
+<MN1880398257>Por favor espere...</MN1880398257>
+<MP1593426357>De:</MP1593426357>
+<MN410543132>A:</MN410543132>
+<MP78692162>Fecha:</MP78692162>
+<MN1120632696>Lista inteligente</MN1120632696>
+<MP1340422297>&amp;Validar consulta</MP1340422297>
+<MP734298207>Consulta:</MP734298207>
+<MP19788716>Nombre de tabla:</MP19788716>
+<MP710159159>Agregar tabla</MP710159159>
+<MN903602892>ColumnaPadre</MN903602892>
+<MP533865164>ColumnaHijo</MP533865164>
+<MN1998694399>Tabla hijo</MN1998694399>
+<MP788936213>Tabla padre</MP788936213>
+<MP712291386>Nombre de la relación:</MP712291386>
+<MN1238172729>Agregar relación</MN1238172729>
+<MN1560906573>Tipo de datos:</MN1560906573>
+<MN1234833030>Nombre del parámetro:</MN1234833030>
+<MP2043632408>Agregar parámetro</MP2043632408>
+<MP1025799709>Diseño de formato</MP1025799709>
+<MN1817191902>Guardar esquema</MN1817191902>
+<MN117682233>Controles</MN117682233>
+<MP416399926>Ruta de acceso:</MP416399926>
+<MN1671579754>...</MN1671579754>
+<MP2118481036>Imprimir plantilla:</MP2118481036>
+<MP352800359>Menú:</MP352800359>
+<MN2104551230>Nombre del informe:</MN2104551230>
+<MN1754457916>Código de informe:</MN1754457916>
+<MP1445597398>Eli&amp;minar</MP1445597398>
+<MP363768074>Diseñador de informes personalizados</MP363768074>
+<MP459585279>Mostrar iniciativas inactivas</MP459585279>
+<MP246254431>Individual:</MP246254431>
+<MP1216041019>Rango:</MP1216041019>
+<MN187763490>Todas las fuentes</MN187763490>
+<MP1739151416>Informe Leads by Source</MP1739151416>
+<MP269101033>Mostrar inactivo</MP269101033>
+<MN839385432>Asignado a:</MN839385432>
+<MN726146151>Rango de iniciativa:</MN726146151>
+<MP1961586926>Todas las iniciativas</MP1961586926>
+<MP1547377957>Informe de próximos eventos</MP1547377957>
+<MP1230122365>Informe de perfil de iniciativas</MP1230122365>
+<MN338273135>Informe de próximas oportunidades</MN338273135>
+<MN1025604463>Todos los compradores</MN1025604463>
+<MP1221744888>Múltiples proveedores</MP1221744888>
+<MP2040543025>Grupo de proveedores:</MP2040543025>
+<MP674659893>Clase de proveedor:</MP674659893>
+<MP734862816>Todos los proveedores</MP734862816>
+<MP143116029>Marca del artículo:</MP143116029>
+<MP1439504585>Categoría del artículo:</MP1439504585>
+<MP651048968>Clase de artículo:</MP651048968>
+<MP477732805>Todos los elementos</MP477732805>
+<MP840744847>Detalle</MP840744847>
+<MN1230298680>Resumen</MN1230298680>
+<MN1805629908>Informe de lista de empaque de compras</MN1805629908>
+<MN2024982427>Todas las ubicaciones</MN2024982427>
+<MP292035659>Informe de factura de compra</MP292035659>
+<MP1697175561>Informe GRN de compras</MP1697175561>
+<MN1695199541>Informe de compra en efectivo</MN1695199541>
+<MN1168730751>Local</MN1168730751>
+<MN1813268155>Todos los trabajos</MN1813268155>
+<MP795741738>Informe de orden de compra</MP795741738>
+<MN2124209682>Informe de presupuesto de compra</MN2124209682>
+<MN679468866>Número de documento:</MN679468866>
+<MP1412880496>ID del documento:</MP1412880496>
+<MN801447765>Ventas por informe GRN</MN801447765>
+<MP148096207>Todas las categorías</MP148096207>
+<MN10240691>Nº de contenedor:</MN10240691>
+<MP1649888792>Informe de consignación</MP1649888792>
+<MN85304912>Envío en espera de liquidación</MN85304912>
+<MN124803823>Clientes múltiples:</MN124803823>
+<MN711214358>Grupo de cliente:</MN711214358>
+<MN2138931878>Clase de cliente:</MN2138931878>
+<MN1355060091>Todos los clientes</MN1355060091>
+<MN1803985347>A partir de:</MN1803985347>
+<MP2094184967>Consignación en espera de liquidación</MP2094184967>
+<MN1903481967>Liquidación</MN1903481967>
+<MP1389322321>Fecha de liquidación</MP1389322321>
+<MN1384929283>Todo</MN1384929283>
+<MN1169387161>Resuelto</MN1169387161>
+<MN519053173>Sin resolver</MN519053173>
+<MP1479489011>Rentabilidad de consignación - Resumen</MP1479489011>
+<MN635478716>Mostrar detalles</MN635478716>
+<MN606124472>Moneda extranjera: oculto</MN606124472>
+<MN997278332>Divisa base</MN997278332>
+<MP378266143>Resumen vendedor pendiente</MP378266143>
+<MP1407962315>Facturas pendientes del vendedor</MP1407962315>
+<MP1292866078>Informe GRN pendiente</MP1292866078>
+<MN1586925346>Consignación pendiente en el informe</MN1586925346>
+<MN385611519>Divisa del informe:</MN385611519>
+<MP1254607470>Moneda extranjera</MP1254607470>
+<MP24144473>Mostrar proveedores de saldo cero</MP24144473>
+<MN1808179110>Declaración de proveedor</MN1808179110>
+<MN1006290664>Asignar automáticamente los pagos no asignados</MN1006290664>
+<MP208585168>Detalle de antigüedad</MP208585168>
+<MN1033782036>Resumen de antigüedad</MN1033782036>
+<MN1402825002>Resumen de antigüedad de cuentas por pagar</MN1402825002>
+<MP1895484079>Informe de actividad del proveedor</MP1895484079>
+<MN789999931>Mostrar vendedores inactivos</MN789999931>
+<MP1867391863>Informe de lista de contactos del proveedor</MP1867391863>
+<MP527959056>Informe del perfil del proveedor</MP527959056>
+<MP1712298300>Libro mayor de proveedores</MP1712298300>
+<MN366367295>Resumen del saldo del proveedor</MN366367295>
+<MN837830687>Aceptar</MN837830687>
+<MP2001818369>Intervalo:</MP2001818369>
+<MN2004690882>Intervalo</MN2004690882>
+<MN1169440370>Grupo:</MN1169440370>
+<MP1723132200>Ingrese el nombre y muestre el texto para el informe:</MP1723132200>
+<MP795478351>Código:</MP795478351>
+<MN847587922>Guardar como</MN847587922>
+<MN970471119>Grupo de gráficos</MN970471119>
+<MP1294595266>Nombre de campo</MP1294595266>
+<MN1047343070>Título</MN1047343070>
+<MP1184612720>Área</MP1184612720>
+<MN196412337>Recuperar campos</MN196412337>
+<MP1862560894>Validar consulta</MP1862560894>
+<MN1829579620>Actualizar datos</MN1829579620>
+<MN1604714522>Informe de pivote</MN1604714522>
+<MN844318846>..</MN844318846>
+<MP510314515>Caso No:</MP510314515>
+<MN1351684000>Archivo No:</MN1351684000>
+<MP1670539693>Todos los abogados</MP1670539693>
+<MP817601054>Plantiff:</MP817601054>
+<MN2142119938>Demandado:</MN2142119938>
+<MP1814765442>Todos los clientes del caso</MP1814765442>
+<MN2019951727>Informe del historial de casos</MN2019951727>
+<MN2110293196>Informe de seguimiento de jurisprudencia</MN2110293196>
+<MP147278398>Estado legal:</MP147278398>
+<MN2121364840>Casos pendientes</MN2121364840>
+<MN737060334>Informe de factura del proyecto</MN737060334>
+<MP1632232009>Departamento:</MP1632232009>
+<MP196790872>Todos los empleados</MP196790872>
+<MN1251381890>Informe de seguimiento de llamadas de servicio</MN1251381890>
+<MN383523638>Unidad de propiedad:</MN383523638>
+<MP434990408>Propiedad:</MP434990408>
+<MN729786871>Todas las propiedades</MN729786871>
+<MN191965447>Informe de disponibilidad de propiedad</MN191965447>
+<MN899107902>Inquilino:</MN899107902>
+<MN905002219>Informe de registro de propiedad</MN905002219>
+<MP1177614652>Exportar informe PickList</MP1177614652>
+<MN742637951>Análisis de ventas diarias</MN742637951>
+<MN873098922>Número de comprobante:</MN873098922>
+<MN780089672>SysDocID:</MN780089672>
+<MN324347357>Informe de factura múltiple</MN324347357>
+<MN706803979>Todos los vendedores</MN706803979>
+<MN251274377>Ventas por cliente, informe de categoría de artículo</MN251274377>
+<MP109910515>Más</MP109910515>
+<MP1381437261>Comisión%:</MP1381437261>
+<MP70349583>Todas las marcas</MP70349583>
+<MN2087148118>Informe de la comisión del vendedor</MN2087148118>
+<MN1482458607>Ventas por marca de artículo</MN1482458607>
+<MP782532449>Artículos</MP782532449>
+<MP1343413661>Rentabilidad de ventas</MP1343413661>
+<MN811436454>Informe de vendedor</MN811436454>
+<MP1639019263>Todas las clases</MP1639019263>
+<MN2141108855>Ventas por clase de artículo y categoría</MN2141108855>
+<MN388282720>Informe de nota de entrega pendiente</MN388282720>
+<MP2037376553>Ventas por artículo, cliente, vendedor, informe de ubicación</MP2037376553>
+<MP1712329214>Todos los grupos</MP1712329214>
+<MP1067729331>Informe de ventas por grupo de clientes</MP1067729331>
+<MP1383465117>Informe de Ventas por categoría de producto</MP1383465117>
+<MN29038732>Informe de ventas por ubicación</MN29038732>
+<MP2025065194>Informe a</MP2025065194>
+<MP1902510965>Informe de ventas por vendedor</MP1902510965>
+<MP1367326902>Informe de ventas por artículo</MP1367326902>
+<MN2061275799>Informe de ventas por cliente</MN2061275799>
+<MP125516484>Todos los vehículos</MP125516484>
+<MN17166328>Todos los elementos de servicio</MN17166328>
+<MP1796429274>Informe de entrada de mantenimiento del vehículo</MP1796429274>
+<MN1689235587>Informe de flujo de solicitud de material</MN1689235587>
+<MP1703581599>Informe de solicitud de material</MP1703581599>
+<MP551848287>Empleado</MP551848287>
+<MP2103272358>Trabajo</MP2103272358>
+<MP548038516>Visualización</MP548038516>
+<MP1798314164>Proyecto Man Power</MP1798314164>
+<MP2099965766>Tipo:</MP2099965766>
+<MN1039946167>Proyecto pendiente de facturación</MN1039946167>
+<MP1688787034>Proyecto:</MP1688787034>
+<MP89495922>Resumen del proyecto</MP89495922>
+<MN1174229735>A partir de la fecha</MN1174229735>
+<MN386357191>Informe de variación de material</MN386357191>
+<MP670838863>Número de referencia:</MP670838863>
+<MN50236095>Comparación de ofertas de compra</MN50236095>
+<MP1644562253>Presupuesto del proyecto Vs real</MP1644562253>
+<MP730981600>Informe de estado del proyecto</MP730981600>
+<MP18439741>A partir de:</MP18439741>
+<MP1339253030>Fecha actual</MP1339253030>
+<MN1743846768>Informe de ventas mensuales</MN1743846768>
+<MN1871253922>Mostrar inventario de stock cero</MN1871253922>
+<MP1483968431>Mostrar productos inactivos</MP1483968431>
+<MN822830275>Informe de lista de elementos</MN822830275>
+<MP1796172704>Programador de mantenimiento de vehículos</MP1796172704>
+<MP944300336>Mostrar cantidad cero</MP944300336>
+<MP1168082792>Informe de envejecimiento de inventario W3PL</MP1168082792>
+<MN542152873>Informe de ubicación de lista de stock W3PL</MN542152873>
+<MN30230866>Mostrar elementos inactivos</MN30230866>
+<MN1090249310>Mostrar artículo con transacción</MN1090249310>
+<MN535785788>Transacciones de inventario W3PL</MN535785788>
+<MP158975060>Fecha de caducidad</MP158975060>
+<MP1786422626>Fecha de producción</MP1786422626>
+<MN1807714988>Transacciones de inventario (Lote)</MN1807714988>
+<MN1405040016>Informe de hoja de costos de compra</MN1405040016>
+<MP649926743>Análisis de compraventa</MP649926743>
+<MN1323736566>Ajuste de inventario</MN1323736566>
+<MN352408991>Informe de ubicación de la lista de elementos del artículo</MN352408991>
+<MP2070143164>Todas las categorías de costo</MP2070143164>
+<MP996371481>Transacciones de inventario de proyecto</MP996371481>
+<MN1886163785>Mostrar imagen del producto</MN1886163785>
+<MN353226561>Informe matriz de lista de elementos</MN353226561>
+<MN213224882>Informe de antigüedad del inventario</MN213224882>
+<MP1525485423>Informe de ensamblaje</MP1525485423>
+<MP1953746000>Informe de asignación de gastos de compra</MP1953746000>
+<MN1613397228>Transacciones de transferencia de inventario</MN1613397228>
+<MN1087706414>Catalogar por:</MN1087706414>
+<MP238115262>Mostrar elementos con cantidad cero</MP238115262>
+<MP405941366>Catálogo de productos</MP405941366>
+<MP1550092060>Clase</MP1550092060>
+<MN601283333>Categoría</MN601283333>
+<MP2007423404>Artículo</MP2007423404>
+<MN378219866>Ubicación</MN378219866>
+<MP132459618>Precio único:</MP132459618>
+<MP51825572>Todos los precios</MP51825572>
+<MN1413890030>Informe de lista de precios de artículos</MN1413890030>
+<MN1951489656>Excluir transferencia de inventario</MN1951489656>
+<MP1440377177>Transacciones de inventario</MP1440377177>
+<MN1015441275>Informe de seguimiento de contenedores</MN1015441275>
+<MN1696482592>Puerto de destino:</MN1696482592>
+<MN1701573021>Puerto de origen:</MN1701573021>
+<MN1511143430>Informe de costo de flete</MN1511143430>
+<MP2049722105>Mostrar empleados inactivos</MP2049722105>
+<MN161384019>Entrenador:</MN161384019>
+<MP1324337603>Todos los caballos</MP1324337603>
+<MN1161627336>Informe del perfil del empleado</MN1161627336>
+<MN58110594>Múltiples empleados</MN58110594>
+<MP40784303>Cuenta:</MP40784303>
+<MN785560178>Banco:</MN785560178>
+<MN731618955>Posición:</MN731618955>
+<MN726684975>Grado:</MN726684975>
+<MP1056435861>Patrocinador:</MP1056435861>
+<MN1192455083>División:</MN1192455083>
+<MN1803985355>En:</MN1803985355>
+<MP733545163>Liquidación final del empleado</MP733545163>
+<MN371163228>Informe de préstamo de empleado</MN371163228>
+<MP1469497239>Período:</MP1469497239>
+<MP1626394201>Informe de salario del empleado</MP1626394201>
+<MP1386464970>Licencia:</MP1386464970>
+<MN1550705195>Días calendario</MN1550705195>
+<MN1084014146>En cuenta</MN1084014146>
+<MN1782067651>Informe anual de licencia del empleado</MN1782067651>
+<MP781535812>No aprobado</MP781535812>
+<MN1637250597>Aprobado</MN1637250597>
+<MN1375357315>Todos los tipos de licencia</MN1375357315>
+<MN548134317>Informe de estado de licencia del empleado</MN548134317>
+<MN1513453515>Informe de historial de empleados</MN1513453515>
+<MN1283563571>Informe de graduación del empleado</MN1283563571>
+<MN1936149155>Informe de sobretiempo del empleado</MN1936149155>
+<MP842214341>Informe de licencia del empleado</MP842214341>
+<MP1751094837>Informe de actividad del empleado</MP1751094837>
+<MP1916362536>Mostrar empleados inactivos y finalizados</MP1916362536>
+<MN1194672216>Informe de lista de empleados</MN1194672216>
+<MP122717203>Informe de salario del empleado</MP122717203>
+<MP1809943327>Mostrar empleados de saldo cero</MP1809943327>
+<MN1143762254>Informe del libro mayor del empleado</MN1143762254>
+<MP572331766>Resumen del saldo del empleado</MP572331766>
+<MP2097249112>Categoría Eqp:</MP2097249112>
+<MN202882543>Tipo Eqp:</MN202882543>
+<MN960289363>Todos los equipos</MN960289363>
+<MP1445212489>Mostrar equipos inactivos</MP1445212489>
+<MN955223082>Informe de lista de equipos</MN955223082>
+<MP235962809>Informe de flujo de solicitud</MP235962809>
+<MP381935601>Transacciones de inventario de órdenes de trabajo</MP381935601>
+<MN1433780110>Informe de orden de trabajo</MN1433780110>
+<MN1983152692>Informe de movilización</MN1983152692>
+<MN1500725607>Informe de transferencia de equipo</MN1500725607>
+<MN1689275885>Informe de solicitud</MN1689275885>
+<MP1586652223>Color:</MP1586652223>
+<MN1556421873>Configuración de la serie de gráficos</MN1556421873>
+<MP226152153>Patrón de leyenda:</MP226152153>
+<MN351042933>Posición de la etiqueta:</MN351042933>
+<MN149630739>Mostrar etiqueta</MN149630739>
+<MN1506417325>Tipo de gráfico</MN1506417325>
+<MN1620335499>Acciones</MN1620335499>
+<MN881721161>Duplicado</MN881721161>
+<MN1596347572>Gráfico</MN1596347572>
+<MP1619056972>Número</MP1619056972>
+<MN1869728883>Calibre</MN1869728883>
+<MN1825200790>Cargar imagen</MN1825200790>
+<MP13687727>Eliminar</MP13687727>
+<MP450334142>Descripción:</MP450334142>
+<MN803731105>Nombre para mostrar:</MN803731105>
+<MN341993999>segundos</MN341993999>
+<MP1032063386>Actualización automática de dispositivo cada</MP1032063386>
+<MN1797102960>Opción de filtro:</MN1797102960>
+<MN1285278840>Tipo de dispositivo:</MN1285278840>
+<MP472986480>Nombre del dispositivo:</MP472986480>
+<MP1792095102>Código del dispositivo:</MP1792095102>
+<MN1286471685>Color de inicio:</MN1286471685>
+<MP1158725177>Paleta de colores:</MP1158725177>
+<MP398580070>Mostrar otros</MP398580070>
+<MP1525777498>Mostrar los N primeros elementos</MP1525777498>
+<MN284612085>Patrón de texto de eje Y:</MN284612085>
+<MP1178710371>Título del eje Y:</MP1178710371>
+<MP1245753699>Título del Eje X:</MP1245753699>
+<MN125239658>Mostrar eje Y</MN125239658>
+<MP575246944>Girado</MP575246944>
+<MN1321372591>Ingrese los detalles de la serie de gráficos:</MN1321372591>
+<MN450888493>Columna de argumento:</MN450888493>
+<MN719313586>Mostrar leyenda</MN719313586>
+<MP455764720>Use un color diferente para cada artículo</MP455764720>
+<MN1274614744>Formato del texto del indicador:</MN1274614744>
+<MN787105469>Formato del valor:</MN787105469>
+<MP1082920979>Color del texto:</MP1082920979>
+<MP1129862722>Columna de valores:</MP1129862722>
+<MN1916388896>Columna del valor del texto del indicador:</MN1916388896>
+<MP507170594>Columna del valor del indicador:</MP507170594>
+<MP1457559749>Mostrar texto del indicador</MP1457559749>
+<MN2141158447>Mostrar indicador</MN2141158447>
+<MN1555241235>Usar el primer rango como indicador de valor</MN1555241235>
+<MP583446708>Mostrar aguja</MP583446708>
+<MN2088465323>Mostrar texto de indicador</MN2088465323>
+<MP540355311>Ingrese los rangos de indicadores:</MP540355311>
+<MP1469902061>Diseñador de gadgets personalizados</MP1469902061>
+<MP1016688978>Tipo de documento:</MP1016688978>
+<MN47151439>Nombre del documento:</MN47151439>
+<MP2015124508>Abrir lista de consulta</MP2015124508>
+<MP459003000>Informe de movimiento de artículo en consigna</MP459003000>
+<MP1645732914>Rentabilidad de consigna - Detalle</MP1645732914>
+<MN502793494>Mostrar clientes de saldo cero</MN502793494>
+<MP344214956>Resumen de clientes pendientes</MP344214956>
+<MN1180683274>Análisis de crédito del cliente</MN1180683274>
+<MN1862521312>Por activo</MN1862521312>
+<MN1062126033>Ubicación del activo:</MN1062126033>
+<MP415326795>Grupo de activos:</MP415326795>
+<MP1712125648>Clase de activo:</MP1712125648>
+<MN1848360872>Todos los activos</MN1848360872>
+<MN679039746>Transferencia de activos fijos</MN679039746>
+<MN245890399>Depreciación del activo fijo</MN245890399>
+<MN1239774148>Venta de activos fijos</MN1239774148>
+<MN1877973169>Empresa:</MN1877973169>
+<MN1079957053>País:</MN1079957053>
+<MP328390237>División:</MP328390237>
+<MN2086338338>Lista de activos fijos</MN2086338338>
+<MP1308665636>Compra de activos fijos</MP1308665636>
+<MN1397118121>Transacción de activos fijos</MN1397118121>
+<MP481677572>Cantidad:</MP481677572>
+<MP583378500>Cantidad exacta</MP583378500>
+<MN96523230>Incluir cantidad del artículo</MN96523230>
+<MP2105996253>estado:</MP2105996253>
+<MN663711734>Informe código de barra</MN663711734>
+<MP1861237556>Artículo Informe GRN de movimiento</MP1861237556>
+<MN1870259661>Informe de pedido de subcontrato del proyecto</MN1870259661>
+<MP306618038>Compra por artículo sin compromiso, vendedor, comprador, informe de ubicación</MP306618038>
+<MP187701103>Informe entrada de costo de compra por proveedor</MP187701103>
+<MN863456347>Registro de compras</MN863456347>
+<MP1516696925>Pedidos abiertos</MP1516696925>
+<MN1331426346>Proveedor:</MN1331426346>
+<MP1515547966>Proyecto:</MP1515547966>
+<MP2068873236>Detalle del pedido de compra</MP2068873236>
+<MP1997778335>Informe de nota de entrega</MP1997778335>
+<MP120094820>Cliente:</MP120094820>
+<MP1329777691>Detalle del pedido de cliente</MP1329777691>
+<MN750011148>Informe de ventas reservadas</MN750011148>
+<MP507945034>Informe de pedido de cliente</MP507945034>
+<MP1747550392>Informe de factura proforma</MP1747550392>
+<MN1891976637>Informe de factura de ventas</MN1891976637>
+<MP1494230174>Informe de recibo de ventas</MP1494230174>
+<MN978006815>Informe de presupuesto de ventas</MN978006815>
+<MP705734398>Informe de consulta de ventas</MP705734398>
+<MP436973282>Facturas pendientes del cliente</MP436973282>
+<MP1663973696>Informe de envíos abiertos</MP1663973696>
+<MN241427447>Resumen de antigüedad de cuentas por cobrar</MN241427447>
+<MP831438391>Informe de actividad del cliente</MP831438391>
+<MN1830470054>Mostrar clientes inactivos</MN1830470054>
+<MP1302406428>Informe de perfil de cliente</MP1302406428>
+<MN922357846>Informe de la lista de contactos del cliente</MN922357846>
+<MP736335796>Informe de lista de clientes</MP736335796>
+<MN622710478>Informe del libro mayor de clientes</MN622710478>
+<MP151796501>Todos los países</MP151796501>
+<MP152117070>Resumen de saldo del cliente</MP152117070>
+<MP331169613>Informe de compra por proveedor</MP331169613>
+<MP650224704>informe de compra por grupo de proveedores</MP650224704>
+<MN2016940808>Informe de compra por artículo</MN2016940808>
+<MN131053649>Informe de compra por ubicación</MN131053649>
+<MN17609158>Informe de compra por categoría de artículo</MN17609158>
+<MN513270057>Informe de compra por comprador</MN513270057>
+<MN299478104>Recibo</MN299478104>
+<MN2117791840>Informe de consigna de camiones</MN2117791840>
+<MN2134119488>Informe de lista de proveedores</MN2134119488>
+<MN1151421954>Mostrar cuentas detalladas</MN1151421954>
+<MN1270281788>Nivel de detalle:</MN1270281788>
+<MN1766439634>Informe del balance</MN1766439634>
+<MN2013984968>Informe de flujo de efectivo</MN2013984968>
+<MP1570553982>Centro de costos:</MP1570553982>
+<MN75031605>Grupo de cuenta:</MN75031605>
+<MN1124777311>Todas las cuentas</MN1124777311>
+<MP576118555>Transacciones de cuenta</MP576118555>
+<MP175392652>Todo el análisis</MP175392652>
+<MN1305745087>Informe de análisis de cuenta</MN1305745087>
+<MN1395108046>Conciliaciones bancarias</MN1395108046>
+<MP672802743>Banco no conciliado</MP672802743>
+<MP1559239392>Libro mayor de cuentas</MP1559239392>
+<MN682690285>Banco de libros</MN682690285>
+<MN1366075927>Informe del centro de costos</MN1366075927>
+<MN1888952384>Pivote de informe de análisis de cuenta</MN1888952384>
+<MN2059545300>Fecha de verificación:</MN2059545300>
+<MN985795682>Fecha depositada:</MN985795682>
+<MP1062375922>Informe de madurez de cheque</MP1062375922>
+<MP1469452134>Período 2:</MP1469452134>
+<MN1251537050>Periodo 1:</MN1251537050>
+<MP1070455528>Comparación del informe de ganancias y pérdidas</MP1070455528>
+<MP399229167>Incluir maduro</MP399229167>
+<MP121536590>Cliente:</MP121536590>
+<MN1076682045>Cheques de descuento</MN1076682045>
+<MP1005098311>Informe mensual de ganancias y pérdidas</MP1005098311>
+<MP803283390>Ubicación</MP803283390>
+<MN226206388>Informe diario de efectivo</MN226206388>
+<MN827190299>Enviado al banco</MN827190299>
+<MP1152747386>Descuentos</MP1152747386>
+<MP1800783108>Fecha de recepción</MP1800783108>
+<MP408326450>Banco</MP408326450>
+<MN380561516>Fecha cheque</MN380561516>
+<MN23447104>Cliente</MN23447104>
+<MN1832400973>Fecha de recepción:</MN1832400973>
+<MN966486041>Cancelado</MN966486041>
+<MP1477537972>Rebotado</MP1477537972>
+<MP1098749004>Incluir:</MP1098749004>
+<MP866033155>Todos los bancos</MP866033155>
+<MN412654412>Autorizado</MN412654412>
+<MN950804692>Informe PDC Recibido</MN950804692>
+<MN250637633>Fecha de emisión:</MN250637633>
+<MN1378567391>Fecha de emisión:</MN1378567391>
+<MN361869387>Vendedor</MN361869387>
+<MN408487939>Informe emitido por PDC</MN408487939>
+<MN1964606961>Transacciones de cuenta de proyecto</MN1964606961>
+<MP87534377>Detalles de impuestos</MP87534377>
+<MN1136395906>Registro:</MN1136395906>
+<MP794829857>Registro diario de efectivo</MP794829857>
+<MP1233496482>Nivel:</MP1233496482>
+<MP704738808>Informe de pérdidas y ganancias</MP704738808>
+<MN1951592489>Mostrar consolidado</MN1951592489>
+<MN1801927161>Mostrar con encabezado de cuenta</MN1801927161>
+<MN2135088600>Mostrar transacciones anuladas</MN2135088600>
+<MP2083039250>Mostrar moneda extranjera</MP2083039250>
+<MP566169243>Informe de balance de prueba</MP566169243>
+<MP468733039>Informe del libro mayor</MP468733039>
+<MP2093294852>Mostrar los detalles originales de la moneda en las transacciones en moneda extranjera</MP2093294852>
+<MN1788813332>Informe de diario</MN1788813332>
+<MP87133500>Página de inicio</MP87133500>
+<MN2134093349>botón2</MN2134093349>
+<MP1757589420>botón1</MP1757589420>
+<MP1089289029>Esta pantalla proporciona opciones para probar la aplicación antes del lanzamiento.</MP1089289029>
+<MN513528411>Genere la lista de formularios que faltan en la lista de permisos para formularios. Estos formularios se deben agregar a FormHelper- &gt; GetSecurityFormsList ()</MN513528411>
+<MN426704118>Formularios faltantes de seguridad general</MN426704118>
+<MP1002566150>Prueba funcional Axolon</MP1002566150>
+<MN1233157049>Asignar documento no reconocido al último documento reconocido</MN1233157049>
+<MP1477903154>Buscar códigos de barras</MP1477903154>
+<MP950749550>Detectar inversión de imagen</MP950749550>
+<MN172409098>Detecta y arregla la inclinación de la imagen</MN172409098>
+<MP974245271>Detecta y corrige la rotación de la imagen 90/180/270 grados</MP974245271>
+<MP1719433290>Aplicar filtro de ruido para la imagen</MP1719433290>
+<MN427425975>Detecta y elimina líneas</MN427425975>
+<MP1759065943>Calidad del texto (0..100; -1 - automático):</MP1759065943>
+<MN386109664>Modo gris</MN386109664>
+<MP367691554>Umbral de binarización (0..254; 255 - automático):</MP367691554>
+<MN2037178061>Modo rápido (menos preciso)</MN2037178061>
+<MN1769350395>Combina zonas horizontalmente</MN1769350395>
+<MP1886562841>Binarize dos veces</MP1886562841>
+<MN1743985216>Usar un diccionario</MN1743985216>
+<MP1032574713>Corregir caracteres combinados (letras y dígitos en la misma palabra)</MP1032574713>
+<MP1606612662>Separador de DocID:</MP1606612662>
+<MP1841787775>Nombre de campo del número de documento:</MP1841787775>
+<MN295378034>Configuraciones de OCR</MN295378034>
+<MN842352752>0</MN842352752>
+<MP463706398>No leído:</MP463706398>
+<MN770527793>Leer:</MN770527793>
+<MN1956713999>Conteo de archivos:</MN1956713999>
+<MP492328973>&amp; Limpiar</MP492328973>
+<MP1012189523>Documento(s) seleccionado(s):</MP1012189523>
+<MP800291465>Proceso</MP800291465>
+<MP1216068600>Mostrar char rects</MP1216068600>
+<MP2116119483>Seleccione un archivo</MP2116119483>
+<MN1529974021>Seleccione una carpeta</MN1529974021>
+<MN786927938>Eliminar archivos después de guardar</MN786927938>
+<MN1040004318>Mostrar líneas de imagen</MN1040004318>
+<MN1859589015>Guardar</MN1859589015>
+<MN1408392002>Mostrar imagen binarizada</MN1408392002>
+<MN1934733261>Cambiar nombre</MN1934733261>
+<MP1162728705>Agregar principal</MP1162728705>
+<MP643641560>Agregar niño</MP643641560>
+<MN458561908>Adjunto de documentos automatizados</MN458561908>
+<MN799365114>Ayuda</MN799365114>
+<MN76810310>PDF que representa DPI:</MN76810310>
+<MP310618634>Caracteres deshabilitados:</MP310618634>
+<MN353023566>Caracteres habilitados:</MN353023566>
+<MP879558538>Detectar inversión de zonas</MP879558538>
+<MP1985564044>Cancelar</MP1985564044>
+<MP928089396>NOTA: Algunas opciones no se aplicarán inmediatamente, vuelva a cargar la imagen para aplicar todos los cambios.</MP928089396>
+<MP357033616>Consulte las secciones de documentación "Configuración" y "Sugerencias de rendimiento" para obtener más opciones.</MP357033616>
+<MP1270537841>Puede mejorar el rendimiento y la precisión de OCR al cambiar la configuración predeterminada.</MP1270537841>
+<MP2079091912>Opciones de OCR</MP2079091912>
+<MN1972733280>Progreso</MN1972733280>
+<MN231740724>Establecer por defecto</MN231740724>
+<MP14613688>Fuente del documento:</MP14613688>
+<MN2085522462>Seleccione el dispositivo:</MN2085522462>
+<MP2028874114>Sin interfaz de usuario del escáner</MP2028874114>
+<MP1578888978>Escanear</MP1578888978>
+<MN353065186>Escaneando</MN353065186>
+<MP779429223>Iniciar prueba</MP779429223>
+<MN103827023>Formulario de prueba de precisión de datos</MN103827023>
+<MN370664186>etiqueta1</MN370664186>
+<MN682432404>Categorizado</MN682432404>
+<MP1690624711>Alfabético</MP1690624711>
+<MN1880783126>Propiedades de páginas</MN1880783126>
+<MN1556460257>Prueba2</MN1556460257>
+<MN1201535524>Detener</MN1201535524>
+<MN1483140488>Progreso:</MN1483140488>
+<MP951102123>Registro:</MP951102123>
+<MP45401622>Inventario</MP45401622>
+<MP1949218738>Actualizar el costo promedio...</MP1949218738>
+<MP1628511163>Actualizar número de lote de origen (Product_Lot Table)</MP1628511163>
+<MN1025598839>Actualizar el costo del lote del producto</MN1025598839>
+<MP235928661>Actualizar costo de venta del lote de producto</MP235928661>
+<MN2081245696>Combinar detalles de diario para actualizaciones de COGS</MN2081245696>
+<MN587592450>Combinar detalles de diario para COGS - Combinación completa</MN587592450>
+<MN1959060216>Eliminar lote de producto no asignado que ya se ha asignado</MN1959060216>
+<MP1571256362>Mantenimiento Axolon</MP1571256362>
+<MN1044640990>| | Pausa</MN1044640990>
+<MP140044415>Artículos de:</MP140044415>
+<MP2136770184>Asignar</MP2136770184>
+<MN1993910506>Asignar elementos a lotes</MN1993910506>
+<MP2002990088>Contar:</MP2002990088>
+<MP2146053213>Decidir por sistema</MP2146053213>
+<MP1590299467>Actualizar</MP1590299467>
+<MP1975805316>Fecha de inicio:</MP1975805316>
+<MP141280398>Actualizar COGS</MP141280398>
+<MP988956343>Se ha producido un error en la aplicación. Por favor envíe el error para que lo revisemos. El mensaje de error es:</MP988956343>
+<MP1963570646>&amp;Copiar</MP1963570646>
+<MP1421873705>R&amp;esumen</MP1421873705>
+<MP937054406>&amp;No enviar</MP937054406>
+<MP95344243>Error</MP95344243>
+<MN431308533>&amp;Si</MN431308533>
+<MN1786247831>&amp;No</MN1786247831>
+<MN189631195>mensaje de etiqueta</MN189631195>
+<MP903390037>En el futuro, no muestre esta advertencia</MP903390037>
+<MN887080040>Caja de diálogo</MN887080040>
+<MP881373035>Sobrescribir las plantillas existentes</MP881373035>
+<MP645697667>Seleccione cómo le gustaría cargar las plantillas de impresión.</MP645697667>
+<MN2034368971>Directorio de plantillas</MN2034368971>
+<MN769917518>Múltiples plantillas</MN769917518>
+<MN1190173691>Plantilla única</MN1190173691>
+<MP114479984>&amp; Nombre de la plantilla:</MP114479984>
+<MP452223972>Archivo:</MP452223972>
+<MP876328411>&amp;Cargar</MP876328411>
+<MP698991818>Cargar plantillas de impresión</MP698991818>
+<MN1486155295>F.V: 1.0.1006</MN1486155295>
+<MN1969520287>Versión del producto: 3.0.1006</MN1969520287>
+<MN1374117241>Advertencia: este programa de computadora está protegido por la ley de derechos de autor y tratados internacionales. La reproducción o distribución no autorizada de este programa, o cualquier parte del mismo, puede dar lugar a graves sanciones civiles y penales, y será procesado en la mayor medida posible por la ley.</MN1374117241>
+<MP1985888757>Copyright Micromind Solutions L.L.C.</MP1985888757>
+<MN1616568297>Depurar</MN1616568297>
+<MN1853051618>Versión de evaluación</MN1853051618>
+<MN1748287044>Acuerdo de licencia...</MN1748287044>
+<MN929428839>Información del sistema...</MN929428839>
+<MP833901617>Acerca de Micromind Axolon</MP833901617>
+<MN2044700765>Tablero</MN2044700765>
+<MP1632961466>Personalizar tablero</MP1632961466>
+<MP1101620847>Ayuda &amp; &amp; Centro de Apoyo</MP1101620847>
+<MP1000760204>pestaña1</MP1000760204>
+<MN1337891956>pestaña2</MN1337891956>
+<MP618423180>pestaña3</MP618423180>
+<MN1720228980>pestaña4</MN1720228980>
+<MP236086156>pestaña5</MP236086156>
+<MN2102566004>pestaña6</MN2102566004>
+<MN146250868>pestaña7</MN146250868>
+<MN1631689741>Haga clic en el botón 'Evaluar' para continuar evaluando el producto.</MN1631689741>
+<MP1853240213>Evaluar</MP1853240213>
+<MN1923786509>Clave de producto:</MN1923786509>
+<MN1072299569>Activar mas tarde</MN1072299569>
+<MN726979142>Obtenga su código de activación por teléfono o correo electrónico.</MN726979142>
+<MN648304184>Activar por teléfono/correo electrónico</MN648304184>
+<MN2140268899>Usar la conexión a internet para activar producto. (Recomendado)</MN2140268899>
+<MN1274143651>Activar en línea</MN1274143651>
+<MN265478781>Seleccione si desea activar en línea o activar por teléfono/correo electrónico:</MN265478781>
+<MN1072585099>Para seguir usando el producto debe activar el producto.</MN1072585099>
+<MN1573274227>Activar por teléfono o correo electrónico</MN1573274227>
+<MP424922680>Cambiar la clave de producto</MP424922680>
+<MP1797342875>Activar</MP1797342875>
+<MP389156834>Clave del sistema:</MP389156834>
+<MN1571041126>Ingrese el código de activación que le enviamos por teléfono o correo electrónico y haga clic en el botón 'Activar'.</MN1571041126>
+<MN1245115061>Código de activación:</MN1245115061>
+<MP371781534>Activar por teléfono</MP371781534>
+<MP1153744799>Ciudad:</MP1153744799>
+<MP1141128905>Teléfono:</MP1141128905>
+<MN798250094>Email:</MN798250094>
+<MP549091810>Apellido:</MP549091810>
+<MN187743094>Nombre:</MN187743094>
+<MP910166598>Nombre de empresa:</MP910166598>
+<MP1276902167>Por favor complete su información de contacto:</MP1276902167>
+<MP1278720752>Activar ahora</MP1278720752>
+<MN1503227600>Hecho</MN1503227600>
+<MN1776878407>Gracias por activar el producto. Puede cerrar el formulario y continuar usando el producto.</MN1776878407>
+<MP533539977>Activación finalizada con éxito.</MP533539977>
+<MN519002490>Al registrar la copia de evaluación, recibirá actualizaciones e información del producto. Registre su copia de evaluación ahora.</MN519002490>
+<MN1033651627>No registrar</MN1033651627>
+<MP993227930>Registro de la versión de evaluación</MP993227930>
+<MN208309328>Registrar ahora</MN208309328>
+<MP198946193>Gracias por registrar el producto. Puede cerrar el formulario y continuar evaluando el producto.</MP198946193>
+<MN1745739708>La registración terminó con éxito.</MN1745739708>
+<MP1547136984>Registrarse y activar</MP1547136984>
+<MN1162720031>Deshacer</MN1162720031>
+<MN842352765>-</MN842352765>
+<MN1740700893>Cortar</MN1740700893>
+<MP4862135>Copiar</MP4862135>
+<MN1547809460>Pegar</MN1547809460>
+<MP1324960703>Seleccionar todo</MP1324960703>
+<MP567323537>Párrafo</MP567323537>
+<MN45009392>Izquierda</MN45009392>
+<MN1598141044>Centrar</MN1598141044>
+<MP742877631>Derecha</MP742877631>
+<MP1983177592>Viñetas</MP1983177592>
+<MP1586259007>Color</MP1586259007>
+<MN734308343>&amp; Azul</MN734308343>
+<MN1034040837>&amp; Verde</MN1034040837>
+<MP134871618>&amp; Rosa</MP134871618>
+<MP143934566>&amp; Amarillo</MP143934566>
+<MP500139406>&amp; Blanco</MP500139406>
+<MN354763165>Fecha y hora</MN354763165>
+<MN164460736>Fuente del texto...</MN164460736>
+<MN209467796>Color de texto...</MN209467796>
+<MN146867618>Abrir…</MN146867618>
+<MN23503075>Guardar como...</MN23503075>
+<MN1459236661>Imprimir…</MN1459236661>
+<MP1582854057>0/0/0000 12:00:00 a.m.</MP1582854057>
+<MP1272709928>Nota</MP1272709928>
+<MP534766563>&amp;Eliminar</MP534766563>
+<MN1289484092>Nota de pantalla</MN1289484092>
+<MP1233741360>Splash</MP1233741360>
+<MP1547699581>Ingrese su nombre</MP1547699581>
+<MP822913698>Banderas</MP822913698>
+<MP286781507>Modificado después de:</MP286781507>
+<MP178197419>Ruta de plantilla de impresión:</MP178197419>
+<MN670530175>Plantillas de informes - Actualización</MN670530175>
+<MN1212460831>Nombre del archivo:</MN1212460831>
+<MN489864071>Buscar palabras clave:</MN489864071>
+<MN294481759>Editar archivo</MN294481759>
+<MN1249009987>Múltiples archivos</MN1249009987>
+<MN1848028217>Archivo único</MN1848028217>
+<MN1772095754>Seleccione Archivo:</MN1772095754>
+<MN677362684>Seleccione varios archivos o arrástrelos y suéltelos en la lista.</MN677362684>
+<MP1616340576>Subir</MP1616340576>
+<MP358059523>Agregar archivo</MP358059523>
+<MN828050016>Ingrese un nombre para el borrador que desea guardar. Puede abrir el borrador seleccionando este nombre más tarde.</MN828050016>
+<MP10366482>ABRIR</MP10366482>
+<MN348792873>Documentos seleccionados:</MN348792873>
+<MN651528920>ANULADO</MN651528920>
+<MN711804953>Referencia 2:</MN711804953>
+<MP873057060>Vehículo:</MP873057060>
+<MN1471237550>Conductor:</MN1471237550>
+<MN1272316978>Método:</MN1272316978>
+<MP1949861464>Enviar a dirección:</MP1949861464>
+<MN1269688144>Dirección de facturación:</MN1269688144>
+<MP881900768>Identificación del cliente:</MP881900768>
+<MN308520426>Referencia1:</MN308520426>
+<MN1876314661>&amp; Nulo</MN1876314661>
+<MN150731812>Primer registro</MN150731812>
+<MN185187847>Registro anterior</MN185187847>
+<MN1215263483>Siguiente registro</MN1215263483>
+<MN1069723490>Último registro</MN1069723490>
+<MN1087989437>Adjuntar archivo</MN1087989437>
+<MN740207857>Previsualizar</MN740207857>
+<MP1057369234>Verifique el saldo del cliente</MP1057369234>
+<MN1280723166>Resumen de distribución de historial</MN1280723166>
+<MN368300821>Información del documento</MN368300821>
+<MP83017732>Nota:</MP83017732>
+<MN1548864512>Nota de entrega de alquiler 3PL</MN1548864512>
+<MP164213561>&amp; Artículos</MP164213561>
+<MP1371441489>&amp;Gastos</MP1371441489>
+<MP848085348>Total:</MP848085348>
+<MP1850660966>Gastos:</MP1850660966>
+<MN1895895189>Subtotal</MN1895895189>
+<MP436590716>Término:</MP436590716>
+<MP984207680>Referencia:</MP984207680>
+<MN1197521601>Moneda:</MN1197521601>
+<MN2146566526>Resumen de distribución</MN2146566526>
+<MP1824584563>Factura de alquiler 3PL</MP1824584563>
+<MP1235072852>Documentos resueltos:</MP1235072852>
+<MP979939702>Transportador:</MP979939702>
+<MN303168149>Cliente DOC#:</MN303168149>
+<MN1908895492>3PL Alquiler GRN</MN1908895492>
+<MP1837345005>Vista previa de impresión</MP1837345005>
+<MN859198115>Centro de vendedores</MN859198115>
+<MP1084448670>Centro de informes</MP1084448670>
+<MN1751156471>Centro de recursos humanos</MN1751156471>
+<MP1335307311>Centro de inventario</MP1335307311>
+<MN496654393>Centro de cuentas</MN496654393>
+<MN1621629302>Centro de Atención al Cliente</MN1621629302>
+<MP1459269984>Autogenerar UPC</MP1459269984>
+<MN814830640>Generar automáticamente código de producto</MN814830640>
+<MN1569624082>Examinar archivo de Excel:</MN1569624082>
+<MN1338529716>Importar tabla de cuentas</MN1338529716>
+<MN1856789657>Importar empleados</MN1856789657>
+<MP1574781177>Importar proveedores</MP1574781177>
+<MN1652009176>Importar productos</MN1652009176>
+<MP393525568>Importar clientes</MP393525568>
+<MP873147424>Importar datos del producto</MP873147424>
+<MP1883751849>Datos de importacion</MP1883751849>
+<MP22599936>Puerto:</MP22599936>
+<MN1553644107>Guardar contraseña</MN1553644107>
+<MN796476843>Contraseña:</MN796476843>
+<MN95366348>Identificación de usuario:</MN95366348>
+<MP845465844>Dirección del servidor de correo electrónico:</MP845465844>
+<MN842920493>Configuración del servidor de correo electrónico</MN842920493>
+<MP1163598706>Directorio:</MP1163598706>
+<MN823265708>Host o dirección IP:</MN823265708>
+<MN700163621>Conéctese al servidor FTP ...</MN700163621>
+<MN19002660>Dirección URL:</MN19002660>
+<MP1363524886>Conéctese al servidor HTTP ...</MP1363524886>
+<MN1898770281>días antes de la fecha de caducidad.</MN1898770281>
+<MN1134684695>días antes de la fecha de vencimiento.</MN1134684695>
+<MP1681086870>días después de la fecha de vencimiento.</MP1681086870>
+<MP1815497111>Recordarme</MP1815497111>
+<MN1467473195>Pasaporte</MN1467473195>
+<MN691106155>Visa</MN691106155>
+<MP865888646>Licencia de conducir</MP865888646>
+<MP412369609>Expiración de documentos de empleados</MP412369609>
+<MP2050950708>Empleados a pagar</MP2050950708>
+<MP20873101>Inventario para reordenar</MP20873101>
+<MN665365769>Cheques pagados</MN665365769>
+<MP602149837>Cheques recibidos</MP602149837>
+<MN587246484>Recibos vencidos</MN587246484>
+<MP1717433472>Facturas vencidas</MP1717433472>
+<MP1329816143>Configuraciones de Recordatorio</MP1329816143>
+<MN939753493>&amp;Renumeración</MN939753493>
+<MP1369612302>&amp;Reclutamiento</MP1369612302>
+<MP1851741125>Proceso de Visa</MP1851741125>
+<MP1562313875>&amp; Médico/Emiratos</MP1562313875>
+<MN1778627272>&amp;WP/RP</MN1778627272>
+<MP1037083994>&amp;Definido por el usuario</MP1037083994>
+<MN1557299025>Contenedor</MN1557299025>
+<MP874574443>Estado:</MP874574443>
+<MP428792400>Designación:</MP428792400>
+<MP1567555373>Segundo nombre:</MP1567555373>
+<MP83410974>Nota:</MP83410974>
+<MP1336662998>Pasaporte no:</MP1336662998>
+<MP1463963729>Grupo sanguíneo:</MP1463963729>
+<MP1711363593>Religión:</MP1711363593>
+<MN1603126251>Estado civil:</MN1603126251>
+<MN910975819>Dirección de PP:</MN910975819>
+<MP2001325177>Nombre del cónyuge:</MP2001325177>
+<MP505222272>Nombre de la madre:</MP505222272>
+<MP902816380>Nombre del padre:</MP902816380>
+<MP181455264>Fecha de vencimiento de PP:</MP181455264>
+<MN1784344975>Lugar de publicación del PP:</MN1784344975>
+<MN1423329579>Fecha de publicación de PP:</MN1423329579>
+<MP694573235>Lugar de nacimiento:</MP694573235>
+<MN212221584>Edad:</MN212221584>
+<MP1493137925>Fecha de nacimiento:</MP1493137925>
+<MP1141656139>Sexo:</MP1141656139>
+<MP1685018122>Código de aplicación VS:</MP1685018122>
+<MN289663581>Nacionalidad:</MN289663581>
+<MP204912252>Nombre:</MP204912252>
+<MN459901257>Categoría:</MN459901257>
+<MN1624461595>Años</MN1624461595>
+<MN1779682423>Experiencia - extranjero:</MN1779682423>
+<MP1601466489>Idioma :</MP1601466489>
+<MN570314440>Experiencia - Local:</MN570314440>
+<MP17360026>Calificación:</MP17360026>
+<MP838428226>Designación actual:</MP838428226>
+<MP1234289719>Comentarios especiales:</MP1234289719>
+<MP2025342708>A través del agente:</MP2025342708>
+<MP2088878848>Seleccionado en (lugar):</MP2088878848>
+<MN155587774>Seleccionado en (fecha):</MN155587774>
+<MN2003857298>Estado de selección:</MN2003857298>
+<MP560969343>Campos de configuración</MP560969343>
+<MN1921019715>Nombre del patrocinador :</MN1921019715>
+<MP211707888>&amp; Elementos de nómina </MP211707888>
+<MP600619558>Salario total:</MP600619558>
+<MN1049245752>Marca empleado</MN1049245752>
+<MP1252136358>Numero de empleado:</MP1252136358>
+<MP2073834901>Llegada el:</MP2073834901>
+<MP435200973>ID recogido en:</MP435200973>
+<MN1251041742>Validez de ID:</MN1251041742>
+<MN263053146>Asistido por ID:</MN263053146>
+<MP830511520>Número de ID :</MP830511520>
+<MP1436784394>Aplicación escrita en:</MP1436784394>
+<MN417377386>Tarjeta de salud No:</MN417377386>
+<MP684793590>Resultado médico:</MP684793590>
+<MN1111481174>Médico recogido en:</MN1111481174>
+<MN2078744031>Asistencia médica en:</MN2078744031>
+<MN758926177>Registro médico en:</MN758926177>
+<MP155824047>Nota Médica/Emiratos:</MP155824047>
+<MP2086543392>Tipo de proceso:</MP2086543392>
+<MN1709844688>Fecha de vencimiento RP:</MN1709844688>
+<MN313594155>Fecha de publicación de RP:</MN313594155>
+<MN2061799840>Lugar de publicación de RP:</MN2061799840>
+<MN984494839>Pasaporte recogido en:</MN984494839>
+<MN793093082>Enviado a Zajil en:</MN793093082>
+<MN1783368769>Apl. aprobada en:</MN1783368769>
+<MP1702108087>Apl. publicada en:</MP1702108087>
+<MP1499136823>MB Ref No - AGT /WP:</MP1499136823>
+<MP2095356265>Tipo de AGT:</MP2095356265>
+<MN1047334968>Número de ID:</MN1047334968>
+<MN1709692283>Fecha de vencimiento del WP:</MN1709692283>
+<MN296417036>Fecha de publicación de WP:</MN296417036>
+<MN2061662077>Lugar de publicación de WP:</MN2061662077>
+<MN1451861485>AGT /WP Enviado en:</MN1451861485>
+<MN1862181172>WP No:</MN1862181172>
+<MN456846563>Formulario AGT /WP escrito en:</MN456846563>
+<MP2071734749>Copia de visa enviada al agente en:</MP2071734749>
+<MP1914862525>Fecha de emisión de Visa:</MP1914862525>
+<MP1144458051>UID No:</MP1144458051>
+<MN139243833>Visa No:</MN139243833>
+<MN1602717744>Fecha de vencimiento de Visa:</MN1602717744>
+<MP2129629344>Lugar de emisión de Visa:</MP2129629344>
+<MP1532376733>Visa publicada en:</MP1532376733>
+<MN1684944995>Visa aprobada en:</MN1684944995>
+<MP1256761965>Visa aplicada a través de:</MP1256761965>
+<MN1614767903>Designación de Visa:</MN1614767903>
+<MN769150791>Tipo B/G:</MN769150791>
+<MN279266674>Temp WP No:</MN279266674>
+<MP2095866957>Aprobación válida hasta</MP2095866957>
+<MN1047814050>B/G pagado en:</MN1047814050>
+<MP1360463536>Cargo de aprobación pagado en:</MP1360463536>
+<MN1186558428>Fecha de aprobación MOL:</MN1186558428>
+<MN1280174038>MB Ref. No - Visa:</MN1280174038>
+<MN821167270>Fecha de registro de apl.:</MN821167270>
+<MN1645713661>Comentario:</MN1645713661>
+<MN1075334777>Código postal:</MN1075334777>
+<MP2084940433>Móvil:</MP2084940433>
+<MN2040034340>Fax:</MN2040034340>
+<MN400943644>Teléfono 2:</MN400943644>
+<MP2340883>Teléfono 1:</MP2340883>
+<MN1967542995>Estado:</MN1967542995>
+<MP1789300939>Dirección:</MP1789300939>
+<MP2032984761>ID de dirección:</MP2032984761>
+<MP1083320296>CANCELADO</MP1083320296>
+<MP2094768192>Más impresión</MP2094768192>
+<MN298140318>Detalle de cita</MN298140318>
+<MN40040464>&amp;llegada</MN40040464>
+<MN1831048951>Tipo de Apl.:</MN1831048951>
+<MN589410212>Fecha del sistema :</MN589410212>
+<MP647978632>Estado ECR:</MP647978632>
+<MP1478716656>Apellido:</MP1478716656>
+<MP2039377002>Nota general :</MP2039377002>
+<MP420220854>Nombre de pila :</MP420220854>
+<MN772224724>Fecha de llegada esperada:</MN772224724>
+<MN405713919>Estado de aprobación:</MN405713919>
+<MN85150866>Comentarios IMG:</MN85150866>
+<MP1133828327>Observaciones MOL:</MP1133828327>
+<MN1808916738>Número de registro de A/O:</MN1808916738>
+<MN1629981112>Fecha de escritura A/O:</MN1629981112>
+<MN1636573675>Detalle del candidato</MN1636573675>
+<MP609309399>Fecha de estado:</MP609309399>
+<MN544637573>Observaciones:</MN544637573>
+<MN190733351>Cita planeada:</MN190733351>
+<MN1500231764>Asignado a :</MN1500231764>
+<MP449965545>Detalles:</MP449965545>
+<MP462337383>Tipo de servicio :</MP462337383>
+<MN871066273>Fecha de reporte:</MN871066273>
+<MN865623862>Número de Req:</MN865623862>
+<MP432237886>Propiedad:</MP432237886>
+<MP297951341>Archivos adjuntos</MP297951341>
+<MP1152369802>Fotos</MP1152369802>
+<MP1493394573>Detalles de solicitud de servicio</MP1493394573>
+<MP1228557250>Inactivo</MP1228557250>
+<MN554248349>Cuenta que se puede recibir:</MN554248349>
+<MN1439464803>Nombre de la clase:</MN1439464803>
+<MP466324293>Código de clase:</MP466324293>
+<MN806530253>Clase de inquilino</MN806530253>
+<MP1446706522>&amp;detalles</MP1446706522>
+<MP1577815844>Control de crédito</MP1577815844>
+<MN856392780>Con&amp;tactos</MN856392780>
+<MP1209710042>&amp;Nota</MP1209710042>
+<MN1748914412>Categorías...</MN1748914412>
+<MP22183472>Zona:</MP22183472>
+<MN1454780995>Nivel de precios:</MN1454780995>
+<MP1598849536>Clase de inquilino:</MP1598849536>
+<MP13028712>Cliente principal:</MP13028712>
+<MP1622776837>Sitio web:</MP1622776837>
+<MP582540500>Más direcciones ...</MP582540500>
+<MN1572335184>Formato de impresión de dirección:</MN1572335184>
+<MN2080770984>Nombre de contacto:</MN2080770984>
+<MN327374842>Sostener</MN327374842>
+<MN1708806950>Nombre corto:</MN1708806950>
+<MP1661694545>Código de cliente:</MP1661694545>
+<MP126084850>Nombre extranjero:</MP126084850>
+<MN266017725>Nombre del cliente:</MN266017725>
+<MP974553429>Fuente:</MP974553429>
+<MN491940161>Factura por peso del artículo</MN491940161>
+<MN842352773>%</MN842352773>
+<MN1906476942>Porcentaje de la comisión:</MN1906476942>
+<MP819542638>Permitir ventas en consignación</MP819542638>
+<MP276924521>Cliente desde:</MP276924521>
+<MN914968773>Fecha establecida:</MN914968773>
+<MP687855386>Dirección extracto:</MP687855386>
+<MN1393823384>Método de envío:</MN1393823384>
+<MN353154416>Vendedor:</MN353154416>
+<MP127834275>Nombre del banco:</MP127834275>
+<MN304952480>Sucursal bancaria:</MN304952480>
+<MN1233063733>Número de cuenta bancaria:</MN1233063733>
+<MP661096666>Contactos relacionados con este cliente:</MP661096666>
+<MN1273677093>Abrir contacto</MN1273677093>
+<MP599509480>Nuevo contacto</MP599509480>
+<MP502946529>Borrar contacto</MP502946529>
+<MP378330712>Observaciones:</MP378330712>
+<MN1981529294>Numero de seguro:</MN1981529294>
+<MN365398660>Monto Aprobado:</MN365398660>
+<MP1351387964>Monto requerido:</MP1351387964>
+<MN1363992506>Fecha de aplicacion:</MN1363992506>
+<MP1349220777>Estado del seguro:</MP1349220777>
+<MN643836911>Calificación crediticia:</MN643836911>
+<MN651945237>Plazo de pago:</MN651945237>
+<MN559271098>Método de pago:</MN559271098>
+<MP506008660>Aceptar el pago del cheque</MP506008660>
+<MN1241761279>Sublímite de padre</MN1241761279>
+<MP1414772097>Aceptar el pago con cheque posterior a la fecha</MP1414772097>
+<MP493095883>Sin crédito</MP493095883>
+<MP372183071>Ilimitado</MP372183071>
+<MP1348681647>Cantidad de:</MP1348681647>
+<MN515723602>Usuario de la colección:</MN515723602>
+<MP322283369>Revisado por:</MP322283369>
+<MP1660495984>Fecha de revisión de crédito:</MP1660495984>
+<MN1935716492>Inquilino</MN1935716492>
+<MN203996183>Equilibrar:</MN203996183>
+<MP15030058>0</MP15030058>
+<MN745409101>Detalles del acuerdo</MN745409101>
+<MN756372339>Carga..</MN756372339>
+<MN1118597496>Efectivo</MN1118597496>
+<MN1229357639>Cheque</MN1229357639>
+<MN1215045036>Publicación de ingreso de renta</MN1215045036>
+<MP715584778>Reembolso</MP715584778>
+<MN233130136>Cargos de cancelación</MN233130136>
+<MN1019836088>Detalles del pago</MN1019836088>
+<MN579302528>Inquilino:</MN579302528>
+<MP139333867>Calcular Cargos ...</MP139333867>
+<MP127966696>Último día de estadía:</MP127966696>
+<MP1660622846>Fecha de finalización del contrato:</MP1660622846>
+<MN909594614>Fecha de inicio del contrato:</MN909594614>
+<MN598560492>Ref. Doc. No:</MN598560492>
+<MP2025724747>Días totales:</MP2025724747>
+<MN2137857062>Cancelación de alquiler</MN2137857062>
+<MN435240597>Matrícula</MN435240597>
+<MP1987909194>No: de cuotas:</MP1987909194>
+<MN229101408>Renovación de alquiler</MN229101408>
+<MP78692848>Tarifa:</MP78692848>
+<MP313677913>Tipo de ingreso:</MP313677913>
+<MN1252566943>Nombre de ingreso:</MN1252566943>
+<MN903391133>Código de ingreso:</MN903391133>
+<MN227977117>Código de ingreso</MN227977117>
+<MN1592359337>Nombre de la entidad:</MN1592359337>
+<MN1509521835>Código de la entidad:</MN1509521835>
+<MP1891238272>Seleccionar categorías</MP1891238272>
+<MN1652785117>Nombre de la categoría:</MN1652785117>
+<MN1326487207>Código de categoría:</MN1326487207>
+<MP1540500751>Detalles de la categoría de propiedad</MP1540500751>
+<MN645742699>Nombre del agente:</MN645742699>
+<MN577686101>Código de agente:</MN577686101>
+<MN1487221951>Agente de propiedad</MN1487221951>
+<MN773599745>Clase de propiedad</MN773599745>
+<MN1012038847>Tipo de unidad:</MN1012038847>
+<MP783366230>Tipo de vista:</MP783366230>
+<MN604650599>No de estacionamiento:</MN604650599>
+<MN1400356453>No de dormitorios:</MN1400356453>
+<MN666217852>Total de habitaciones:</MN666217852>
+<MN2079186304>No de baños:</MN2079186304>
+<MN1715735707>Disponible desde:</MN1715735707>
+<MP2105997245>Estado:</MP2105997245>
+<MN1469401561>Codigo de unidad:</MN1469401561>
+<MN1439731255>Nombre de la unidad:</MN1439731255>
+<MN384178998>Unidad de propiedad</MN384178998>
+<MN309051088>&amp;unidades</MN309051088>
+<MN2120200095>Instalaciones</MN2120200095>
+<MN264879852>Identificación de activos fijos:</MN264879852>
+<MN162113204>Ingreso renta prepagada A/C:</MN162113204>
+<MN560405257>Ingreso de renta A/C:</MN560405257>
+<MP133345537>Reg No:</MP133345537>
+<MN1255151512>Nombre del dueño:</MN1255151512>
+<MN1635992699>Construido por:</MN1635992699>
+<MN1730492895>Área de construcción</MN1730492895>
+<MN455882898>Año de construcción:</MN455882898>
+<MN1952351952>Área terrestre</MN1952351952>
+<MN1044844567>Dirección 1:</MN1044844567>
+<MN1044844570>Dirección 2:</MN1044844570>
+<MN1617807621>Tipo de oferta:</MN1617807621>
+<MN1053160495>Clase de propiedad:</MN1053160495>
+<MP1207398432>Código de propiedad:</MP1207398432>
+<MN791378198>Nombre de la propiedad:</MN791378198>
+<MP1045027812>Unidades disponibles en esta propiedad:</MP1045027812>
+<MP930631855>Instalaciones disponibles en esta propiedad:</MP930631855>
+<MN101394342>Propiedad</MN101394342>
+<MP2144543804>Fecha de finalización del contrato:</MP2144543804>
+<MP1988564564>No: de cuotas:</MP1988564564>
+<MN1219154164>Regestración de alquiler</MN1219154164>
+<MN1929068494>Acción</MN1929068494>
+<MN1164532733>Actividades</MN1164532733>
+<MP1452473146>Seguimiento</MP1452473146>
+<MP966822238>Gastos</MP966822238>
+<MN1171933795>Archivo No:</MN1171933795>
+<MP802862785>Tipo de caso:</MP802862785>
+<MN316413703>Entidad Judicial:</MN316413703>
+<MN638421616>Abogado:</MN638421616>
+<MP36087567>Ref. de origen:</MP36087567>
+<MN61567041>Ref. padre:</MN61567041>
+<MP1778837721>Código de análisis:</MP1778837721>
+<MP662857613>Comentarios...</MP662857613>
+<MP1854771219>Crear a partir de una acción existente</MP1854771219>
+<MP402777221>Accion legal</MP402777221>
+<MN1440397669>Actividad</MN1440397669>
+<MN1113859291>Hora:</MN1113859291>
+<MP149088010>Cambiar Estado</MP149088010>
+<MN1126366769>Nombre de la actividad:</MN1126366769>
+<MN845260170>Actividad por:</MN845260170>
+<MP16184498>Contacto:</MP16184498>
+<MP1994037184>Nombre de la acción:</MP1994037184>
+<MN1704181322>Crear a partir de acciones legales</MN1704181322>
+<MN148342386>Detalles de la actividad legal</MN148342386>
+<MP1544903594>Partes del caso</MP1544903594>
+<MP738532916>Abogado</MP738532916>
+<MP157352377>Detalles del contenedor</MP157352377>
+<MN14809355>Devuelto</MN14809355>
+<MP696786305>Regresando</MP696786305>
+<MP1204699481>Descargado</MP1204699481>
+<MP1022408983>Entregado</MP1022408983>
+<MP1468909607>ShpRemoval</MP1468909607>
+<MP1898556338>aduana</MP1898556338>
+<MP1425883891>DORlse</MP1425883891>
+<MP1227804117>Llegado</MP1227804117>
+<MP753796976>DocRcvd</MP753796976>
+<MN590071942>Enviado</MN590071942>
+<MN557014039>etiqueta27</MN557014039>
+<MP1009069902>etiqueta26</MP1009069902>
+<MN1719813453>etiqueta25</MN1719813453>
+<MN153729512>etiqueta24</MN153729512>
+<MP1768584789>etiqueta23</MP1768584789>
+<MN960298566>etiqueta22</MN960298566>
+<MP605785375>etiqueta21</MP605785375>
+<MN2123097980>etiqueta20</MN2123097980>
+<MP961819127>etiqueta19</MP961819127>
+<MN1767064228>etiqueta18</MN1767064228>
+<MN2123294588>etiqueta10</MN2123294588>
+<MN1754210424>Descargado</MN1754210424>
+<MN294283238>Envío entregado</MN294283238>
+<MP1314317434>Eliminación de envío</MP1314317434>
+<MN1637651041>Comprobación aduanera</MN1637651041>
+<MN600933967>Lanzamiento de DO</MN600933967>
+<MP1823076124>Documento Original Recibido</MP1823076124>
+<MN728187751>Días:</MN728187751>
+<MP324093416>Camión NO:</MP324093416>
+<MP1143801876>Certificado de origen</MP1143801876>
+<MP1260744804>Certificado de salud</MP1260744804>
+<MP322096698>Lista de empaque</MP322096698>
+<MP231082007>Factura</MP231082007>
+<MN837896226>BL</MN837896226>
+<MN1597804179>&amp;Siguiente</MN1597804179>
+<MN177763391>Vendedor:</MN177763391>
+<MN1372045039>Método de envío</MN1372045039>
+<MP335567776>ETA:</MP335567776>
+<MN67716747>ATD:</MN67716747>
+<MN1251815432>Tamaño de contenedor:</MN1251815432>
+<MN1821494744>Expedidor:</MN1821494744>
+<MP130604804>Agente limpiador:</MP130604804>
+<MN800692615>Valor:</MN800692615>
+<MN328217924>BOL No:</MN328217924>
+<MN1974617392>Puerto Dest.:</MN1974617392>
+<MP761836420>Peso:</MP761836420>
+<MN1006557594>Seguimiento de contenedores</MN1006557594>
+<MP556466>Limpiar</MP556466>
+<MP61343999>Imprimir</MP61343999>
+<MN439889284>Número:</MN439889284>
+<MP1187062204>Enviar</MP1187062204>
+<MN570606712>Guardar como borrador</MN570606712>
+<MP1545725294>Cargar borrador</MP1545725294>
+<MN1734644772>Cargar desde la transacción..</MN1734644772>
+<MN1374587177>Impresión código de barras</MN1374587177>
+<MP1585518435>Cuenta por cobrar:</MP1585518435>
+<MP1685733864>Cuenta a pagar:</MP1685733864>
+<MP145465181>Cuentas de acreedor</MP145465181>
+<MP1256075813>Válida desde:</MP1256075813>
+<MP1857146759>Cargar borrador...</MP1857146759>
+<MN1931277508>Pendiente</MN1931277508>
+<MN694209999>Imprimir lista...</MN694209999>
+<MP399625171>Reserva de material</MP399625171>
+<MN650679655>Cantidad construida:</MN650679655>
+<MN1543484668>Costo:</MN1543484668>
+<MN1967990678>Producto:</MN1967990678>
+<MP609215404>Desmantelamiento de inventario</MP609215404>
+<MP85180329>Entrar</MP85180329>
+<MP782532392>Ítem:</MP782532392>
+<MP18929853>Parte:</MP18929853>
+<MP1677451235>Voucher No:</MP1677451235>
+<MN259601926>&amp;Borrador</MN259601926>
+<MN426716017>Crear desde factura de venta...</MN426716017>
+<MP1132076073>Crear desde pedido de cliente...</MP1132076073>
+<MN1807776003>Crear a partir de cotización de ventas...</MN1807776003>
+<MN335724343>Transacción del artículo</MN335724343>
+<MP1276463385>Inactivo</MP1276463385>
+<MN16452246>Nombre del modelo:</MN16452246>
+<MP1555289774>Código modelo:</MP1555289774>
+<MN1544649969>Modelo del producto</MN1544649969>
+<MP2001006742>Marca:</MP2001006742>
+<MP1621050990>Tipo de nombre:</MP1621050990>
+<MN1587161988>Tipo de código:</MN1587161988>
+<MN1684731068>Detalle de tipo de producto</MN1684731068>
+<MP13348151>Nombre de marca:</MP13348151>
+<MN1914101975>Código de marca:</MN1914101975>
+<MN78238470>Detalle producto de marca</MN78238470>
+<MN758538917>Fecha de compra:</MN758538917>
+<MN864560914>Importar desde Excel</MN864560914>
+<MP797082847>Agrupar por artículo</MP797082847>
+<MN2048209097>Entrada física de stock</MN2048209097>
+<MP455949997>Grupo de impuestos:</MP455949997>
+<MP902220816>Artículos de servicio</MP902220816>
+<MN1107082256>Gastos totales:</MN1107082256>
+<MP1155106637>Descuento:</MP1155106637>
+<MN2040034322>Impuesto:</MN2040034322>
+<MP1313918659>Total + Exp: (AED)</MP1313918659>
+<MP2039504869>Odómetro actual:</MP2039504869>
+<MN1462251254>Proveedor de servicio:</MN1462251254>
+<MP1417338722>Servicio programado</MP1417338722>
+<MN1725669650>baLinkLabel1</MN1725669650>
+<MP1417058321>Programar el próximo servicio</MP1417058321>
+<MP1864477847>Crear desde el programador...</MP1864477847>
+<MN1042486281>Tiempo tomado:</MN1042486281>
+<MP537901318>Cantidad:</MP537901318>
+<MP135429224>Odómetro anterior:</MP135429224>
+<MP401626538>Entrada de mantenimiento del vehículo</MP401626538>
+<MP902220887>Artículo de servicio:</MP902220887>
+<MN1516807341>Transacción de entrada completada</MN1516807341>
+<MP1514064915>BL1</MP1514064915>
+<MP1302106252>Actualizar servicio</MP1302106252>
+<MN1241899793>Tiempo de espera esperado:</MN1241899793>
+<MP1251296191>Monto esperado:</MP1251296191>
+<MP461401977>Odómetro:</MP461401977>
+<MN1543091426>Costo :</MN1543091426>
+<MN1480310253>Stock en mano:</MN1480310253>
+<MP1829597014>País :</MP1829597014>
+<MP1447730842>Fabricante:</MP1447730842>
+<MN842533443>Marca:</MN842533443>
+<MN456100175>Categoría:</MN456100175>
+<MP1950877774>Unidad:</MP1950877774>
+<MN842352692>t</MN842352692>
+<MN893494383>Datos del producto</MN893494383>
+<MN2123017509>Cuenta COGS:</MN2123017509>
+<MN66098351>Cuenta de activos:</MN66098351>
+<MP1594013632>Cuenta de ingresos:</MP1594013632>
+<MP293247504>Cuentas de inventario</MP293247504>
+<MP206680975>Opción de impuestos:</MP206680975>
+<MP1512364212>Cuenta por pagar:</MP1512364212>
+<MP464827757>Tipo de servicio:</MP464827757>
+<MP465698937>Dias</MP465698937>
+<MN173044080>KMs</MN173044080>
+<MP1937119520>Repetir cada:</MP1937119520>
+<MP1561627131>Recordatorio antes:</MP1561627131>
+<MP2116568374>Artículo de servicio</MP2116568374>
+<MN1419657160>Proveedor principal:</MN1419657160>
+<MP2067969843>Nombre formal:</MP2067969843>
+<MN1198890969>Código de proveedor:</MN1198890969>
+<MN1180016607>Nombre del vendedor:</MN1180016607>
+<MN45988158>Número de identificación tributaria:</MN45988158>
+<MP746946546>Fecha de vencimiento del contrato:</MP746946546>
+<MN1984717938>Fecha de vencimiento de la licencia:</MN1984717938>
+<MN1145818122>Permitir aceptar productos en consignación</MN1145818122>
+<MP150256799>Comprador:</MP150256799>
+<MP777606909>Contactos relacionados con este vendedor:</MP777606909>
+<MP598029711>Detalle del proveedor de servicios</MP598029711>
+<MN1303078405>Días para recordar antes de la expiración:</MN1303078405>
+<MN1351703860>Recordar en la fecha de caducidad</MN1351703860>
+<MN600801542>Código de tipo de documento:</MN600801542>
+<MN2141330536>Tipo de documento del vehículo</MN2141330536>
+<MN1858086212>Nombre del vehículo:</MN1858086212>
+<MN635256976>Código de Vehículo:</MN635256976>
+<MN1195208158>Documentos del vehículo</MN1195208158>
+<MP1117395725>Porcentaje</MP1117395725>
+<MN1604329144>Cantidad :</MN1604329144>
+<MN335920838>Ingrese categoría de artículos:</MN335920838>
+<MP518461728>Lim&amp;iar</MP518461728>
+<MN305384609>Nombre del paquete:</MN305384609>
+<MP2062943169>Código del paquete:</MP2062943169>
+<MN1322686119>Código de categoría</MN1322686119>
+<MN1461350978>Descripción</MN1461350978>
+<MP346502656>Cantidad</MP346502656>
+<MN1765479004>Detalles del paquete</MN1765479004>
+<MP193756437>Detalles de la compra</MP193756437>
+<MN1231344090>Por comprador</MN1231344090>
+<MN575810817>Por artículo</MN575810817>
+<MN1584020510>Por categoria</MN1584020510>
+<MP713948443>Por vendedor</MP713948443>
+<MN1344823913>Gráfico de precios</MN1344823913>
+<MN1426918522>Detalles de PO</MN1426918522>
+<MP1200779933>Detalles de GRN</MP1200779933>
+<MN1951057350>Precio promedio</MN1951057350>
+<MN2089681564>Cantidad total</MN2089681564>
+<MP307789827>Cantidad total</MP307789827>
+<MP1264220640>Margen%</MP1264220640>
+<MP2027472012>Rentabilidad</MP2027472012>
+<MN1462323048>Costo promedio</MN1462323048>
+<MP1124191241>Mostrar volumen</MP1124191241>
+<MP46608728>Mostrar costo</MP46608728>
+<MN1207431094>Use el carácter '%' para seleccionar la gama de productos</MN1207431094>
+<MN1753101962>Ajustar columnas</MN1753101962>
+<MN922651264>Cambiar el tamaño de las columnas</MN922651264>
+<MN4039264>Mostrar información de costos y ganancias</MN4039264>
+<MP2122472136>Estadísticas de compra de inventario</MP2122472136>
+<MN1286921584>Detalles de ventas</MN1286921584>
+<MP81947110>Por vendedor</MP81947110>
+<MN1230188470>Por cliente</MN1230188470>
+<MN1940189761>* Use el carácter '%' para seleccionar el rango de elementos</MN1940189761>
+<MN523933754>Estadísticas de ventas de inventario</MN523933754>
+<MN811482585>Cerrar</MN811482585>
+<MP1630044635>Cantidad del balance:</MP1630044635>
+<MN1675152736>Cantidad lote:</MN1675152736>
+<MN550628719>Voucher:</MN550628719>
+<MN706504981>Numero de lote:</MN706504981>
+<MP2070172731>Información del lote</MP2070172731>
+<MN405868981>Nombre de la competencia:</MN405868981>
+<MN1190334907>Código de la competencia:</MN1190334907>
+<MN1344136495>Detalles de la competencia:</MN1344136495>
+<MN1903865981>Los ingresos esperados:</MN1903865981>
+<MN749411532>Costo real:</MN749411532>
+<MN1438025626>Num enviado:</MN1438025626>
+<MN2100727955>Costo Presupuestado:</MN2100727955>
+<MN1100868927>Respuesta esperada (%):</MN1100868927>
+<MP291342200>Nombre de campaña:</MP291342200>
+<MP261934038>Código de campaña:</MP261934038>
+<MP1547400940>Detalles de campaña</MP1547400940>
+<MP30821488>&amp;Agregar</MP30821488>
+<MN1387319111>Tipo de evento:</MN1387319111>
+<MP576040852>Nombre de evento:</MP576040852>
+<MP644097464>Código de evento:</MP644097464>
+<MP178370255>Detalles de evento</MP178370255>
+<MN1884054987>Campaña:</MN1884054987>
+<MN389933442>Dueño de oportunidad:</MN389933442>
+<MP606555776>Relacionado con:</MP606555776>
+<MP717487693>Fecha de vencimiento:</MP717487693>
+<MP1735693138>Fecha de cierre:</MP1735693138>
+<MP1354138814>Probabilidad (%):</MP1354138814>
+<MP842706221>Escenario:</MP842706221>
+<MN1913550092>Nombre de oportunidad:</MN1913550092>
+<MP1184539584>Código de oportunidad:</MP1184539584>
+<MN1845139051>Detalles de oportunidad</MN1845139051>
+<MP1767065605>Ingrese clientes secundarios:</MP1767065605>
+<MP1722242192>Código de cliente secundario</MP1722242192>
+<MP62725275>Nombre</MP62725275>
+<MN517215212>Saldo actual</MN517215212>
+<MP1396832053>Nombre del cliente principal:</MP1396832053>
+<MN1658003557>Código de cliente principal:</MN1658003557>
+<MN159423544>Detalle de cuenta nacional</MN159423544>
+<MN1652611574>Nombre de la ciudad:</MN1652611574>
+<MP305532736>Código de ciudad:</MP305532736>
+<MN1964113117>Ciudad</MN1964113117>
+<MN1681227421>Atributo 3:</MN1681227421>
+<MP1047655934>Atributo 2:</MP1047655934>
+<MP1450940461>Atributo 1:</MP1450940461>
+<MP1197904479>Agregar elemento a la matriz</MP1197904479>
+<MN1864688118>Código del objeto:</MN1864688118>
+<MP2110906660>Lotes disponibles:</MP2110906660>
+<MN1730729453>Detalle del lote del producto</MN1730729453>
+<MP1894699160>Reempaquetado inventario</MP1894699160>
+<MP825684267>Inventario Ninguna Venta</MP825684267>
+<MN1131974224>Asignación automática</MN1131974224>
+<MP1623490801>Mostrar lotes disponibles que aún no se venden</MP1623490801>
+<MP1841272994>Selección de lote</MP1841272994>
+<MP87550469>Cuenta OP.Bal:</MP87550469>
+<MN1840688636>Número de lote:</MN1840688636>
+<MP2086918036>Fecha de lote:</MP2086918036>
+<MN1032088561>Entrada de saldo de apertura de inventario</MN1032088561>
+<MP1929760488>Excluir transferencia</MP1929760488>
+<MP20731467>Mostrar información de costos</MP20731467>
+<MP238913078>Libro mayor de inventario</MP238913078>
+<MN1990751945>BOM:</MN1990751945>
+<MP1843886369>Fecha requerida:</MP1843886369>
+<MN1736234067>Cantidad requerida:</MN1736234067>
+<MN1514031592>Costo unitario:</MN1514031592>
+<MN1254575581>Montaje:</MN1254575581>
+<MP783224898>Coste total:</MP783224898>
+<MN1236157997>Orden de trabajo</MN1236157997>
+<MP1606987054>Propiedad de:</MP1606987054>
+<MP1747671371>Área de trabajo:</MP1747671371>
+<MN506304212>ID de división:</MN506304212>
+<MP1895068768>ID de ubicación:</MP1895068768>
+<MP9026543>Seguro del vendedor:</MP9026543>
+<MN1480761200>Fecha de vencimiento del seguro:</MN1480761200>
+<MN1635234955>Póliza de seguro no:</MN1635234955>
+<MN1301818633>Peso del vehículo:</MN1301818633>
+<MN1424493655>Capacidad de peso:</MN1424493655>
+<MP1078659904>Número de seguimiento:</MP1078659904>
+<MP1615287223>Fecha de vencimiento de registro:</MP1615287223>
+<MN1175945897>Combustible:</MN1175945897>
+<MN1624461652>Año:</MN1624461652>
+<MP1403664155>Chasis No:</MP1403664155>
+<MP2133457964>Número de registro:</MP2133457964>
+<MP1470641479>Más...</MP1470641479>
+<MN961749066>Documentos</MN961749066>
+<MN1430788943>Mostrar imagen</MN1430788943>
+<MP2020068132>Vehículo</MP2020068132>
+<MP907177695>Cantidad de unidades:</MP907177695>
+<MN1430187615>Categoría de costo:</MN1430187615>
+<MP191587238>Trabajo:</MP191587238>
+<MN1934567786>Fecha trabajo comp.</MN1934567786>
+<MN715094340>Cargar desde la orden de trabajo</MN715094340>
+<MN1573163173>Construir ensamblaje</MN1573163173>
+<MN1662526739>Ingresar la lista de materiales:</MN1662526739>
+<MN1861935606>Código del artículo</MN1861935606>
+<MN1939111272>Tipo de artículo</MN1939111272>
+<MN353792376>Costo</MN353792376>
+<MP1951533223>IDUnidad</MP1951533223>
+<MN1839987398>Nombre BOM:</MN1839987398>
+<MP1214848848>Código BOM:</MP1214848848>
+<MP1282135656>Detalle BOM</MP1282135656>
+<MN46560894>Mantener los componentes</MN46560894>
+<MN145632744>Eliminar los componentes</MN145632744>
+<MP1465848802>Quiere:</MP1465848802>
+<MP2097422521>Eliminar componentes de Matrix</MP2097422521>
+<MN599170842>Precio mínimo:</MN599170842>
+<MP1524180887>Precio al por mayor:</MP1524180887>
+<MN1581350449>Precio estándar:</MN1581350449>
+<MN1196221753>Precio al por menor:</MN1196221753>
+<MN9670012>Elemento de la matriz:</MN9670012>
+<MP356466820>Cantidad de matriz</MP356466820>
+<MP1969293699>Crear productos seleccionados</MP1969293699>
+<MN1198784125>Crear todas las alternativas disponibles</MN1198784125>
+<MN472015586>Crear componentes de matriz</MN472015586>
+<MP1872886137>&amp;Matriz</MP1872886137>
+<MN1210549061>Excluir del catálogo de productos</MN1210549061>
+<MP1173025472>Precio mínimo:</MP1173025472>
+<MP2019013975>Proveedor preferido:</MP2019013975>
+<MP420326205>Marca:</MP420326205>
+<MP1446026912>Fabricante:</MP1446026912>
+<MP1776232270>Principal UOM:</MP1776232270>
+<MN1466688850>Método de cálculo de costos:</MN1466688850>
+<MN755528502>Descripción del Artículo:</MN755528502>
+<MN223832482>Cantidad por unidad:</MN223832482>
+<MP2067836511>Agregar elemento existente...</MP2067836511>
+<MN837421043>Dimensión 1:</MN837421043>
+<MN1240705570>Dimensión 2:</MN1240705570>
+<MP325378371>Dimensión 3:</MP325378371>
+<MP982379948>Modelo:</MP982379948>
+<MP258060598>Crear componentes</MP258060598>
+<MP1647750430>Remover el artículo</MP1647750430>
+<MN434001858>Cantidad en mano</MN434001858>
+<MN804044004>Detalle de elemento de matriz</MN804044004>
+<MN619039472>Lista de precios:</MN619039472>
+<MN1263547555>Ver cantidad disponible</MN1263547555>
+<MP1780503564>Sobrescribir precio unitario:</MP1780503564>
+<MN7861095>Cantidad en mano:</MN7861095>
+<MP1233216981>Mostrar todos los atributos</MP1233216981>
+<MP1199884030>Detalle de la matriz</MP1199884030>
+<MN1694296725>Nombre de la plantilla:</MN1694296725>
+<MP653428573>Código de plantilla:</MP653428573>
+<MN1392693138>Plantilla de matriz</MN1392693138>
+<MP1124561521>.repx</MP1124561521>
+<MP722604290>Imprimir nombre de la plantilla:</MP722604290>
+<MP1983190262>Plantilla de informe de llegada</MP1983190262>
+<MP1028771002>Cambiando a:</MP1028771002>
+<MP831761398>Estado actual:</MP831761398>
+<MN534856546>Cambio de estado del contenedor</MN534856546>
+<MN1990751932>UOM:</MN1990751932>
+<MP431777312>Seleccionar</MP431777312>
+<MP2007415725>Lista de precios</MP2007415725>
+<MP320699652>Cantidad disponible</MP320699652>
+<MP1109005944>Transferido de:</MP1109005944>
+<MP1173070805>Transferir a:</MP1173070805>
+<MN1829887438>No. de vehículo:</MN1829887438>
+<MP332348630>Transferencia directa de inventario</MP332348630>
+<MP527998172>En mano con respecto a ubicación...</MP527998172>
+<MP2115944751>Cantidad de matriz...</MP2115944751>
+<MP1433283128>Libro mayor de inventario...</MP1433283128>
+<MN652684465>Estadísticas de ventas...</MN652684465>
+<MP838024615>Estadísticas de compras...</MP838024615>
+<MP1131346380>Lotes disponibles...</MP1131346380>
+<MP1865033705>Mostrar inactivo</MP1865033705>
+<MN1908114985>Modo de edición</MN1908114985>
+<MP704417321>Mostrar elementos con saldo cero</MP704417321>
+<MP1135535772>Ubicación única</MP1135535772>
+<MP2121588940>&amp;Abrir</MP2121588940>
+<MP1957681563>Lista de artículos</MP1957681563>
+<MP197773263>Número del documento:</MP197773263>
+<MN1899470947>Fecha de rechazo:</MN1899470947>
+<MP1029046879>Fecha de transferencia:</MP1029046879>
+<MN1683828322>Rechazar transferencia de inventario</MN1683828322>
+<MN176463858>Recibir todo</MN176463858>
+<MP765478167>Número de transferencia:</MP765478167>
+<MP1054777088>Fecha de recepción:</MP1054777088>
+<MN1490798384>Recibir transferencia de inventario</MN1490798384>
+<MN167323752>Factor:</MN167323752>
+<MN1583133456>Unidad de stock:</MN1583133456>
+<MP850757067>Disponibilidad de stock:</MP850757067>
+<MN870936988>Disponibilidad de stock</MN870936988>
+<MN1201085314>Emitir transferencia de inventario</MN1201085314>
+<MN1628787098>Tipo de ajuste:</MN1628787098>
+<MN1189619474>Importar desde Excel</MN1189619474>
+<MN802780374>Cargar elementos...</MN802780374>
+<MP381952860>Tipo de artículo:</MP381952860>
+<MN1072727099>Clase de artículo</MN1072727099>
+<MP18274503>Partes</MP18274503>
+<MP209391897>Unidades de medida</MP209391897>
+<MN706011959>Configuraciones</MN706011959>
+<MN340612077>Arábico</MN340612077>
+<MP1617233717>Alias:</MP1617233717>
+<MP882677047>Retener venta</MP882677047>
+<MN1614124569>Alquiler de 3PL:</MN1614124569>
+<MN1892218764>Estantería - Contenedor:</MN1892218764>
+<MN139257326>Atributo:</MN139257326>
+<MN1423035519>Tamaño:</MN1423035519>
+<MN270614875>Estilo:</MN270614875>
+<MP460101810>Rastrear números de serie</MP460101810>
+<MN918650636>Seguimiento de lote</MN918650636>
+<MP891529278>Cantidad en mano:</MP891529278>
+<MN976794242>Ref. del vendedor:</MN976794242>
+<MN1762540969>Reordenar nivel:</MN1762540969>
+<MP969032706>Standard Cost:</MP969032706>
+<MN1092864621>Last Cost:</MN1092864621>
+<MN1245375312>Avg Cost:</MN1245375312>
+<MP18284377>Quantity Per Unit:</MP18284377>
+<MP1498629350>UPC:</MP1498629350>
+<MN867491104>P.type 3:</MN867491104>
+<MP1471161056>P.type 2:</MP1471161056>
+<MN1249828128>P.type 1:</MN1249828128>
+<MN624231572>Standard:</MN624231572>
+<MP1720664589>Material:</MP1720664589>
+<MN1627354915>Finish:</MN1627354915>
+<MP1517309878>Expense Code:</MP1517309878>
+<MN298781664>&amp;Accounts...</MN298781664>
+<MN1856044726>Warranty Days:</MN1856044726>
+<MN320678716>Unit of measurements table:</MN320678716>
+<MN1160295880>Unit</MN1160295880>
+<MN587788803>Factor Type</MN587788803>
+<MN829975572>Factor</MN829975572>
+<MP414385978>Vehicle Make</MP414385978>
+<MP2076151094>Vehicle Type</MP2076151094>
+<MN1533354408>Remarks</MN1533354408>
+<MN1336419487>UnitPrice</MN1336419487>
+<MN1051447098>Type</MN1051447098>
+<MN1669475971>Family:</MN1669475971>
+<MP252767974>Retail Price</MP252767974>
+<MP1570784918>Standard Price</MP1570784918>
+<MP1613440919>Wholesale Price</MP1613440919>
+<MP1170272960>Minimum Price</MP1170272960>
+<MP947754821>SubString:</MP947754821>
+<MP1085282865>31029005 -</MP1085282865>
+<MP1025700008>Item Details - 31029005</MP1025700008>
+<MP1878576281>Brand Name:</MP1878576281>
+<MN1911292137>Brand Code:</MN1911292137>
+<MN106921600>Product Brand Detail</MN106921600>
+<MP19917749>Item Amount:</MP19917749>
+<MP672655670>Fill Details</MP672655670>
+<MP1370642182>Credit To:</MP1370642182>
+<MN1905858418>Fixed Asset Bulk Acquisition</MN1905858418>
+<MP678740911>Fixed Asset Acquisition</MP678740911>
+<MP1632192892>Accumulated Dep A/C:</MP1632192892>
+<MP1813725302>Depreciation Method:</MP1813725302>
+<MN583228196>P/L on Sale A/C:</MN583228196>
+<MN1045982819>Depreciation A/C:</MN1045982819>
+<MP110886156>Asset A/C:</MP110886156>
+<MN1449724885>Fixed Asset Class</MN1449724885>
+<MN663069843>Group Name:</MN663069843>
+<MP14901317>Group Code:</MP14901317>
+<MN274103884>Fixed Asset Group</MN274103884>
+<MN29351944>Company:</MN29351944>
+<MP1594573081>Depreciation Acc:</MP1594573081>
+<MN1189120130>Location Name:</MN1189120130>
+<MN1901139600>Location Code:</MN1901139600>
+<MP854262587>Fixed Asset Location</MP854262587>
+<MP200464454>Employee:</MP200464454>
+<MN1194867427>Opening Accum Dep:</MN1194867427>
+<MN1035965148>Purchase Info</MN1035965148>
+<MN410309459>Depreciation Info</MN410309459>
+<MN387731504>Additional Info</MN387731504>
+<MP2037204505>Supplier Name:</MP2037204505>
+<MP1412636751>Invoice Number:</MP1412636751>
+<MP2002361668>Purchase Price:</MP2002361668>
+<MN1593880939>Months</MN1593880939>
+<MP496806957>Depreciation Percent:</MP496806957>
+<MP1966980257>Depreciation Start:</MP1966980257>
+<MP1948638845>Asset Life:</MP1948638845>
+<MP383279752>Salvage Value:</MP383279752>
+<MP883353612>Model Number:</MP883353612>
+<MN1826536512>Barcode Number:</MN1826536512>
+<MN351467576>Serial Number:</MN351467576>
+<MP1142264271>Accumulated Dep:</MP1142264271>
+<MN570105141>Book Value:</MN570105141>
+<MN765986368>Aquesition Cost:</MN765986368>
+<MN1730405358>Asset Name:</MN1730405358>
+<MP123661646>Asset Code:</MP123661646>
+<MP1662551273>Fixed Asset Detail</MP1662551273>
+<MP1673350028>Asset:</MP1673350028>
+<MP432140041>Load</MP432140041>
+<MN1721859242>Type ID:</MN1721859242>
+<MN1656609513>Equipement Type</MN1656609513>
+<MP135311707>Schedule</MP135311707>
+<MN1405465059>Scheduled List:</MN1405465059>
+<MP314420847>Provider:</MP314420847>
+<MN817025851>Parent EqpID:</MN817025851>
+<MN1971727492>Ownership:</MN1971727492>
+<MN1681320339>Exp.Date:</MN1681320339>
+<MN277904972>Fixed Asset Group:</MN277904972>
+<MN1567275755>Mileage</MN1567275755>
+<MP70041745>Meter</MP70041745>
+<MP1652112>Hours</MP1652112>
+<MP1282017397>Eng. NO:</MP1282017397>
+<MN1948604087>Plate NO:</MN1948604087>
+<MN319873073>Power:</MN319873073>
+<MP331217870>Serial NO:</MP331217870>
+<MN1299643496>Notification E-Mail:</MN1299643496>
+<MN1839069176>Main.In Charge:</MN1839069176>
+<MN1744528393>Tracking ID:</MN1744528393>
+<MN1233055239>Capacity:</MN1233055239>
+<MP2121265366>Colour:</MP2121265366>
+<MN60258616>Equipment ID:</MN60258616>
+<MN736587892>Registration NO:</MN736587892>
+<MP1715913041>Equipment Detail</MP1715913041>
+<MP1488668931>Equipment:</MP1488668931>
+<MP1766764733>Current
+Meter Reading:</MP1766764733>
+<MN551553543>Incharge:</MN551553543>
+<MN984224458>Create From Mobilization</MN984224458>
+<MP1059885803>Equipment Transfer</MP1059885803>
+<MN1598928171>&amp;Resources</MN1598928171>
+<MN615440207>Manpower</MN615440207>
+<MP802845220>&amp;Other Expenses</MP802845220>
+<MP1192803517>Create From Maintenance Schedule</MP1192803517>
+<MP1236788453>Create from Repair Request</MP1236788453>
+<MN1422641415>Work Order Type:</MN1422641415>
+<MP348969319>&amp;Equipment</MP348969319>
+<MP161141836>Planned From:</MP161141836>
+<MP1376108179>Req.NO:</MP1376108179>
+<MP1295879858>Mobilization</MP1295879858>
+<MN2087486458>Category ID:</MN2087486458>
+<MN544168245>Equipement Category</MN544168245>
+<MP244452801>RequisitionType:</MP244452801>
+<MN1245457328>Required till:</MN1245457328>
+<MP1273362892>Required On:</MP1273362892>
+<MN1747484306>Requisition Detail</MN1747484306>
+<MN4299227>Requisition Type</MN4299227>
+<MN681968564>Salesperson Group Details</MN681968564>
+<MN25937998>Insurance ID:</MN25937998>
+<MP486965523>Valid To:</MP486965523>
+<MN1349441152>Effective Date:</MN1349441152>
+<MN1130234524>Rating:</MN1130234524>
+<MN1478726911>Application Number:</MN1478726911>
+<MN570692888>Insurance Details</MN570692888>
+<MP304521905>Sales Statistics</MP304521905>
+<MN170652583>Add Activity...</MN170652583>
+<MN1967233397>Employee Activity History</MN1967233397>
+<MP625737835>Employee Leave Process</MP625737835>
+<MN1603549470>Group By Employee</MN1603549470>
+<MN1997819354>Employee Opening Leave Balance Entry</MN1997819354>
+<MP1029723367>Employee List</MP1029723367>
+<MP723318970>&amp;Holidays</MP723318970>
+<MP1224615289>&amp;OffDays</MP1224615289>
+<MP1878630710>To :</MP1878630710>
+<MP1596178879>From :</MP1596178879>
+<MN1285125661>Off day :</MN1285125661>
+<MP1483348604>Calendar Name :</MP1483348604>
+<MN931877927>Calendar Code:</MN931877927>
+<MN889078401>Holiday Calendar</MN889078401>
+<MP1272578850>Date</MP1272578850>
+<MP1329543343>base on</MP1329543343>
+<MP531495342>Employee Name:</MP531495342>
+<MP1872856737>Leave availability based on:</MP1872856737>
+<MP2011752097>Leave Availability</MP2011752097>
+<MP1651754513>IsMedical</MP1651754513>
+<MP1712989422>Provider Name:</MP1712989422>
+<MN1006481613>Provider ID:</MN1006481613>
+<MN611752043>Insurance Provider</MN611752043>
+<MN1081120686>ReleaseType:</MN1081120686>
+<MN339336612>ReleaseType ID:</MN339336612>
+<MN1446679375>Release Type Detail</MN1446679375>
+<MP1581644413>Select Salary Sheet...</MP1581644413>
+<MP1564927875>Sheet Name:</MP1564927875>
+<MN1623806286>Year :</MN1623806286>
+<MN1590145387>Month:</MN1590145387>
+<MN1520049816>Salary Slip Bulk Mail</MN1520049816>
+<MP1361310512>Reason :</MP1361310512>
+<MN132412397>Release Date :</MN132412397>
+<MN2142137004>Receiver Name:</MN2142137004>
+<MN87994461>Return Note:</MN87994461>
+<MP1877406642>PP Return Date:</MP1877406642>
+<MP1476116883>Return Back</MP1476116883>
+<MN1673591305>Issued By:</MN1673591305>
+<MP1864443980>Approved By:</MP1864443980>
+<MP885275322>Employee is already terminated</MP885275322>
+<MP481191502>Transaction ID:</MP481191502>
+<MN605825829>Remark:</MN605825829>
+<MN495841621>App. Date:</MN495841621>
+<MP992275373>Employee Passport Control</MP992275373>
+<MP389852287>Loan :</MP389852287>
+<MN1589208731>Setl. Amount:</MN1589208731>
+<MP1843389880>Installments:</MP1843389880>
+<MN2086332967>Deduction Start:</MN2086332967>
+<MN1637803219>Loan Amount:</MN1637803219>
+<MP1174248777>Installments Amount:</MP1174248777>
+<MN443285788>Loan Type:</MN443285788>
+<MN2095456547>Employee Loan Settlement</MN2095456547>
+<MN2039273367>Project Salary Expense Allocation</MN2039273367>
+<MP262986310>HorseSexName:</MP262986310>
+<MN1892335483>HorseSex ID:</MN1892335483>
+<MP1187943917>Horse Sex</MP1187943917>
+<MN2031196657>HorseTypeName:</MN2031196657>
+<MN1690751454>HorseType ID:</MN1690751454>
+<MP23684536>Horse Type</MP23684536>
+<MN177764084>Gender:</MN177764084>
+<MP1924449776>Horse Type:</MP1924449776>
+<MP1961862310>Sire Of Dam:</MP1961862310>
+<MN157752407>CareTaker:</MN157752407>
+<MN355625071>Breeder:</MN355625071>
+<MP1180797783>OwnerShip Changed Date:</MP1180797783>
+<MP1274420942>Current OwnerShip:</MP1274420942>
+<MP1253053537>Previous OwnerShip:</MP1253053537>
+<MN568058731>Dam:</MN568058731>
+<MN704734843>Horse Code:</MN704734843>
+<MN512655529>Birth Date:</MN512655529>
+<MN1066805159>Sire:</MN1066805159>
+<MN739738199>Breed:</MN739738199>
+<MN339055589>Microchip Number:</MN339055589>
+<MN983619714>Register Number:</MN983619714>
+<MN486438227>Horse Name:</MN486438227>
+<MP930449363>Sold At:</MP930449363>
+<MN1819253806>Transferred To:</MN1819253806>
+<MN419768559>Received From:</MN419768559>
+<MN787344390>Exported To:</MN787344390>
+<MN1506559386>Imported From:</MN1506559386>
+<MP1231788961>Sex Changed From:</MP1231788961>
+<MN744659507>Past Performance:</MN744659507>
+<MP558318634>OwnerShip
+Transferred On:</MP558318634>
+<MP1886758195>Dead On:</MP1886758195>
+<MP1403724158>Sex Changed Date:</MP1403724158>
+<MN611474894>Sold Date:</MN611474894>
+<MP1604915005>Transferred Date:</MP1604915005>
+<MP1745261908>Received Date:</MP1745261908>
+<MN368324977>Imported Date:</MN368324977>
+<MN1376549166>Revalidated until:</MN1376549166>
+<MN758342857>Passport Expiry Date:</MN758342857>
+<MN2119754144>Passport Issue Date:</MN2119754144>
+<MP418777164>Skills</MP418777164>
+<MN1493591243>Horse Details</MN1493591243>
+<MP254403461>Finalized</MP254403461>
+<MN408773665>ID:</MN408773665>
+<MP4995117>Legal Action Status</MP4995117>
+<MN332132550>Customer Category Details</MN332132550>
+<MN1968461864>Employee Opening Balance Entry</MN1968461864>
+<MN175075709>xls</MN175075709>
+<MP1062000046>Save As:</MP1062000046>
+<MN1288527175>SIF</MN1288527175>
+<MN1051373580>Seperator:</MN1051373580>
+<MP2103141292>Tab</MP2103141292>
+<MP402512109>Comma</MP402512109>
+<MP741241337>Sponser :</MP741241337>
+<MN784904792>Bank :</MN784904792>
+<MN1298859804>Salary Sheet</MN1298859804>
+<MP1287665020>&amp;Create</MP1287665020>
+<MP1391614869>Create Employee SIF</MP1391614869>
+<MP213752031>Deductions :</MP213752031>
+<MP1921709910>one month</MP1921709910>
+<MP2005722214>This month salary</MP2005722214>
+<MP699730783>Eligible Days:</MP699730783>
+<MN1902316865>Salary:</MN1902316865>
+<MP1605269907>Net Total :</MP1605269907>
+<MP1979546963>Ticket Amount :</MP1979546963>
+<MN1399925437>Pay Cheque</MN1399925437>
+<MN132656719>Pay Cash</MN132656719>
+<MP739782255>Leave Appl. No:</MP739782255>
+<MN541088434>Leave Payment No:</MN541088434>
+<MN376980414>Leave Salary Payment Entry</MN376980414>
+<MP262430405>Leave Encashing:</MP262430405>
+<MP1209600213>Leave Eligible:</MP1209600213>
+<MP317634810>Date As On:</MP317634810>
+<MN91702860>Leave Encash No:</MN91702860>
+<MN782435687>Leave Encashment Entry</MN782435687>
+<MP236998427>Project Code:</MP236998427>
+<MN1757690580>Work Location</MN1757690580>
+<MN953150147>Created By:</MN953150147>
+<MN302622908>Created Date:</MN302622908>
+<MN15357081>Approved Date:</MN15357081>
+<MN2044884517>Approve</MN2044884517>
+<MP1818370041>Deduction:</MP1818370041>
+<MP1100427206>Deduction Percent</MP1100427206>
+<MP995773911>No of Payment:</MP995773911>
+<MP605831889>No of Month:</MP605831889>
+<MN1449410828>Mulitperiod</MN1449410828>
+<MP1558842240>Load Deduction Amount</MP1558842240>
+<MN136913484>Salary Deduction</MN136913484>
+<MN1506457341>Work In Progress:</MN1506457341>
+<MN959147318>Cost of Project:</MN959147318>
+<MN1767820897>Project Income:</MN1767820897>
+<MN1729394679>Exchange Gain/Loss:</MN1729394679>
+<MP2020499586>A/P Account</MP2020499586>
+<MP177092220>A/R Account:</MP177092220>
+<MP1542316072>Discount Received:</MP1542316072>
+<MN926388727>Discount Given:</MN926388727>
+<MP294811495>Sales Tax:</MP294811495>
+<MP4969408>COGS:</MP4969408>
+<MP435578416>Sales:</MP435578416>
+<MP1436334549>Inventory Asset:</MP1436334549>
+<MN1486725525>Location Accounts</MN1486725525>
+<MP1893333731>Fixed Amount Per Hour:</MP1893333731>
+<MP81323609>Variable Factor of :</MP81323609>
+<MN1444375099>x Salary</MN1444375099>
+<MN681355298>Overtime Code:</MN681355298>
+<MN2026793613>Overtime</MN2026793613>
+<MN1543646178>End of Service Calculation Rules:</MN1543646178>
+<MN832743945>EOS System:</MN832743945>
+<MN263773831>EOS Code:</MN263773831>
+<MP1813732922>End of Service Benefits Rules</MP1813732922>
+<MN1411522723>Other Charges:</MN1411522723>
+<MN1490218712>Cheque Total:</MN1490218712>
+<MN874925747>Chequebook:</MN874925747>
+<MP1666104290>Chq No:</MP1666104290>
+<MN2130710615>Chq Date:</MN2130710615>
+<MP912527316>Salary Total:</MP912527316>
+<MN1419078440>Cheque Salary Payment</MN1419078440>
+<MP389459097>Loan:</MP389459097>
+<MN393256297>Installment:</MN393256297>
+<MN1326238936>Payment Amount:</MN1326238936>
+<MP339418260>Employee Loan Payment</MP339418260>
+<MN759537859>Inventory Transfer Type</MN759537859>
+<MN1631391451>&amp;Project</MN1631391451>
+<MP114094185>&amp;Manufacturing</MP114094185>
+<MN998725316>Consignment</MN998725316>
+<MN128349202>Tax</MN128349202>
+<MP1742824574>Prepayment Payable:</MP1742824574>
+<MN541228816>Purchase PrePayment:</MN541228816>
+<MP1151134653>Round Off:</MP1151134653>
+<MN48626217>Allocation Discount:</MN48626217>
+<MN309605995>Inventory On Delivery:</MN309605995>
+<MP298087823>Employee Account:</MP298087823>
+<MN1901852868>Advance:</MN1901852868>
+<MN170714308>Retention:</MN170714308>
+<MN637115003>Timsheet Contra:</MN637115003>
+<MP1004923884>Timesheet Contra:</MP1004923884>
+<MN1442236049>Sales Income:</MN1442236049>
+<MN1137491233>Difference in Sales:</MN1137491233>
+<MN2046835893>Commission Income:</MN2046835893>
+<MP344777203>Consignment In:</MP344777203>
+<MP722124893>Copy From Location:</MP722124893>
+<MP2030659578>Comp. Desc:</MP2030659578>
+<MP1103669112>Total Hours:</MP1103669112>
+<MN1948943548>Act. End Date:</MN1948943548>
+<MN1244835158>Act. Start Date:</MN1244835158>
+<MN360223333>Percentage Completed:</MN360223333>
+<MP400011995>Fee Percent:</MP400011995>
+<MN212090517>Fee:</MN212090517>
+<MP539121548>Task Code:</MP539121548>
+<MN693705386>Project Task</MN693705386>
+<MN1256749846>Project Fee</MN1256749846>
+<MN454017674>Parent Cost Category:</MN454017674>
+<MN833784671>Cost Category Code:</MN833784671>
+<MN1433988703>Cost Category</MN1433988703>
+<MN134756265>Expense Type:</MN134756265>
+<MN426631268>Expense Name:</MN426631268>
+<MN1831325988>Expense Code</MN1831325988>
+<MN1147184092>Petty Cash Account:</MN1147184092>
+<MN1358546509>Expense Accounts...</MN1358546509>
+<MP580978558>Expense DocID:</MP580978558>
+<MN964741057>Document ID:</MN964741057>
+<MN291099562>Discount Account:</MN291099562>
+<MN397269737>Default Customer:</MN397269737>
+<MN835143718>Payment Methods...</MN835143718>
+<MP2086700290>POS Store:</MP2086700290>
+<MP604302855>Cash Register Name:</MP604302855>
+<MN75648611>Cash Register Code:</MN75648611>
+<MP921570129>POS Cash Register</MP921570129>
+<MP1982483204>Cash:</MP1982483204>
+<MP1254545001>Card:</MP1254545001>
+<MN1422808348>Store Name:</MN1422808348>
+<MP326283214>Store Code:</MP326283214>
+<MP2090501378>POS Store</MP2090501378>
+<MN885504806>AMC</MN885504806>
+<MP1131279434>Service under :</MP1131279434>
+<MN182651935>Job Type Code:</MN182651935>
+<MP437404622>Job Type</MP437404622>
+<MP562994595>Cash Account:</MP562994595>
+<MN1846462502>C. Card Received Account:</MN1846462502>
+<MN1774094672>PDC Issued Account:</MN1774094672>
+<MN638721697>PDC Received Account:</MN638721697>
+<MN249014098>Register Name:</MN249014098>
+<MP1040840756>Register Code:</MP1040840756>
+<MN292201929>Register</MN292201929>
+<MN901944439>Reason Code:</MN901944439>
+<MN1888712494>Bounced Cheque Reason</MN1888712494>
+<MP344194034>Company Document Type</MP344194034>
+<MN934977873>Issue Place:</MN934977873>
+<MN630205773>Document Type:</MN630205773>
+<MN1166556076>Expiry Date:</MN1166556076>
+<MN35668647>Issue Date:</MN35668647>
+<MP1146296878>Company Documents</MP1146296878>
+<MN636389552>Nationality:</MN636389552>
+<MN683544405>Date of Birth:</MN683544405>
+<MN761852399>Applicant Name:</MN761852399>
+<MP1528005024>Departure Date:</MP1528005024>
+<MN1954233769>Arrival Date:</MN1954233769>
+<MN843937621>Validity Date:</MN843937621>
+<MN362053492>Visa Number:</MN362053492>
+<MP1371351856>Passport Number:</MP1371351856>
+<MN2099739739>Visa Details</MN2099739739>
+<MP236902899>Legal Type:</MP236902899>
+<MP1357677468>Registeration No:</MP1357677468>
+<MP1646646791>Partners:</MP1646646791>
+<MP1554215417>Sponsors:</MP1554215417>
+<MP1277581495>Renew Date:</MP1277581495>
+<MP1355978864>Trade License No:</MP1355978864>
+<MP1850845067>Trade License Details</MP1850845067>
+<MP51540513>Landlord:</MP51540513>
+<MP1818114091>Contract Number:</MP1818114091>
+<MN1311027854>Contract Amount:</MN1311027854>
+<MN843608265>Tenancy Contracts</MN843608265>
+<MN738087356>Customer Group Details</MN738087356>
+<MP459820240>Loan Type Name:</MP459820240>
+<MP593276724>Loan Type Code:</MP593276724>
+<MP1453173393>Emploee LoanType</MP1453173393>
+<MP1096087557>Is on Payroll</MP1096087557>
+<MP1692199081>Holiday Calendar:</MP1692199081>
+<MP79479808>EOS Rule:</MP79479808>
+<MP1948333211>Default</MP1948333211>
+<MP1341612183>+ Leave</MP1341612183>
+<MN1573686764>+ OT</MN1573686764>
+<MN1006062919>Employee Class</MN1006062919>
+<MP271254039>Include in Salary Deduction</MP271254039>
+<MN1578618907>Is Fixed</MN1578618907>
+<MP1604357649>Include in Overtime calculation</MP1604357649>
+<MP757506770>Include in End of Service benefit calculation</MP757506770>
+<MP2015741054>Include in unpaid leave salary deductions</MP2015741054>
+<MN1105345319>Include in leave salary calculation</MN1105345319>
+<MP796271250>Payment Code:</MP796271250>
+<MP2015271070>Payment Items</MP2015271070>
+<MP2046607222>Benefit Code:</MP2046607222>
+<MN682101612>Benefit</MN682101612>
+<MN1274656487>Activity Nature</MN1274656487>
+<MP274246061>Activity Type Name:</MP274246061>
+<MN663417837>Activity Type Code:</MN663417837>
+<MN1686596778>Employee Activity Type</MN1686596778>
+<MN391127820>Action Type Name:</MN391127820>
+<MN1622607998>Action Type Code:</MN1622607998>
+<MN1483128470>Disciplinary Action Type</MN1483128470>
+<MN1454206754>Driver Name:</MN1454206754>
+<MN236810024>Driver Code:</MN236810024>
+<MP1598162594>Driver</MP1598162594>
+<MP2137734668>Employee Code:</MP2137734668>
+<MP1114027782>Employee Leaves</MP1114027782>
+<MN1071069780>Fixed Amount:</MN1071069780>
+<MP2087048577>Destination Name:</MP2087048577>
+<MP898821907>Destination Code:</MP898821907>
+<MN1511365721>Destination</MN1511365721>
+<MN1057653828>Last Revised Date:</MN1057653828>
+<MN501422001>Review Date:</MN501422001>
+<MN1822430581>Overtime:</MN1822430581>
+<MN1035999093>End of Service Rule:</MN1035999093>
+<MP551003123>Bank A/C Number:</MP551003123>
+<MP1203246385>&amp;Deductions</MP1203246385>
+<MN1795411374>Other &amp;Benefits</MN1795411374>
+<MN1991581780>&amp;Tickets</MN1991581780>
+<MP1564682643>Ticket Period:</MP1564682643>
+<MN1136981712>Number of Tickets:</MN1136981712>
+<MN2072222809>Destination:</MN2072222809>
+<MP180924424>Employee Salary Detail</MP180924424>
+<MP611738641>Activate Holiday Calendar</MP611738641>
+<MP1416231284>Service greater than</MP1416231284>
+<MP1996910333>Deduction Proportion:</MP1996910333>
+<MP316666684>Is Annual</MP316666684>
+<MP2062361242>Leave is cumulative and can be carried forward</MP2062361242>
+<MP1729593749>Maximum leave days per year:</MP1729593749>
+<MN580356666>Is paid leave</MN580356666>
+<MP2002340616>Leave Type Code:</MP2002340616>
+<MP96631306>Allow to pay through leave settlement</MP96631306>
+<MN416256049>Allow to Encash Leave</MN416256049>
+<MN381824269>Allowed Days</MN381824269>
+<MP1530421276>and less than</MP1530421276>
+<MN1907161719>Leave Type</MN1907161719>
+<MN276120918>Employee Skills</MN276120918>
+<MP1664554718>Employee Documents</MP1664554718>
+<MN926328676>Relation:</MN926328676>
+<MP30262130>National ID:</MP30262130>
+<MP485978738>Dependent Name:</MP485978738>
+<MN754662256>Phone:</MN754662256>
+<MP1350580583>Employee Dependent Detail</MP1350580583>
+<MN1630065900>Employee Address Detail</MN1630065900>
+<MP2007491997>Employee Group</MP2007491997>
+<MP1261732791>&amp;Address</MP1261732791>
+<MN459862904>Manager:</MN459862904>
+<MP354855751>Class:</MP354855751>
+<MN621691811>Birth Place:</MN621691811>
+<MP781088998>Service Period:</MP781088998>
+<MP853923961>On Vacation</MP853923961>
+<MN311011819>Joining Date:</MN311011819>
+<MP306758032>Nick Name:</MP306758032>
+<MP1671522279>Middle Name:</MP1671522279>
+<MN1950463423>Insurance Category:</MN1950463423>
+<MN577987167>Insurance Provider:</MN577987167>
+<MP926230722>Family Members:</MP926230722>
+<MN1760137051>Valid Until:</MN1760137051>
+<MN476464250>Qualification:</MN476464250>
+<MP2116527324>Appraisal Points:</MP2116527324>
+<MN68044415>UID:</MN68044415>
+<MP850336069>IBAN#:</MP850336069>
+<MP1166424332>Labour ID:</MP1166424332>
+<MP560314925>Spouse:</MP560314925>
+<MP1997279286>Confirmation:</MP1997279286>
+<MN1073839577>Probation:</MN1073839577>
+<MP118148336>Day Off:</MP118148336>
+<MP443864088>Dependents</MP443864088>
+<MN464253360>Salary Details</MN464253360>
+<MN809052070>Project</MN809052070>
+<MN1783444708>Employee Detail</MN1783444708>
+<MN311490590>Employee Document Type</MN311490590>
+<MN993598849>Skill Name:</MN993598849>
+<MP2063224509>Skill Code:</MP2063224509>
+<MP424216652>Skill</MP424216652>
+<MN1732318995>Degree Name:</MN1732318995>
+<MN1586042645>Degree Code:</MN1586042645>
+<MP1870423836>Degree</MP1870423836>
+<MN896989733>Department Name:</MN896989733>
+<MN1846606383>Department Code:</MN1846606383>
+<MP1806464918>Department</MP1806464918>
+<MP2025720554>Report To:</MP2025720554>
+<MN1322083382>Job Description</MN1322083382>
+<MN1086536799>KPI Index</MN1086536799>
+<MN1059670253>Performance Card</MN1059670253>
+<MN1748787537>Appraisal Period</MN1748787537>
+<MP1825872842>Job Description:</MP1825872842>
+<MN1924284278>Position Name:</MN1924284278>
+<MP418853500>Position Code:</MP418853500>
+<MN270250345>Print Job Description</MN270250345>
+<MN40514990>Position</MN40514990>
+<MN496701691>Division Name:</MN496701691>
+<MN103140509>Division Code:</MN103140509>
+<MN1084339470>Division</MN1084339470>
+<MP825616647>Religion Name:</MP825616647>
+<MN389372759>Religion Code:</MN389372759>
+<MN1745700686>Religion</MN1745700686>
+<MP1229360974>Nationality Name:</MP1229360974>
+<MN1886030094>Nationality Code:</MN1886030094>
+<MN1197246640>Nationality</MN1197246640>
+<MN327496720>MOL Id:</MN327496720>
+<MN1923772249>Sponsor Name:</MN1923772249>
+<MN744196513>Sponsor Code:</MN744196513>
+<MN1441403243>Sponsor</MN1441403243>
+<MN1696940411>Grade Name:</MN1696940411>
+<MP1485959411>Grade Code:</MP1485959411>
+<MN729437487>Grade</MN729437487>
+<MN1388527471>Cash Salary Payment</MN1388527471>
+<MP673881924>Installment Amount:</MP673881924>
+<MN706408356>Loan Date:</MN706408356>
+<MP1985193204>Employee Loan Entry</MP1985193204>
+<MP1745245668>Create WPS</MP1745245668>
+<MN67928309>Bank Transfer Salary Payment</MN67928309>
+<MP1903160067>Select...</MP1903160067>
+<MN472785975>Select the salary sheet you want to post</MN472785975>
+<MP798764798>Sheet Date:</MP798764798>
+<MN1275569754>Sheet ID:</MN1275569754>
+<MN716327477>&amp;Post</MN716327477>
+<MN999395681>Actual Days:</MN999395681>
+<MN842352676>D</MN842352676>
+<MP1820127599>Leave Type :</MP1820127599>
+<MP562162176>Available Leave :</MP562162176>
+<MN1778174438>Ref:</MN1778174438>
+<MP1942616194>Reason:</MP1942616194>
+<MN996296762>As Original</MN996296762>
+<MP2040226119>Create New Leave</MP2040226119>
+<MP2001914775>Extend Leave End date</MP2001914775>
+<MP817134975>Resume Date is not as Per Approved leave Date, Please choose an action:</MP817134975>
+<MN1150824445>Diff Days:</MN1150824445>
+<MP1414137075>Days on
+Resume:</MP1414137075>
+<MP1879337463>Request Days:</MP1879337463>
+<MN1106986749>Resume Date:</MN1106986749>
+<MP1906486338>Leave:</MP1906486338>
+<MP504848316>Employee Duty Resumption Entry</MP504848316>
+<MN542531026>&amp;Reject</MN542531026>
+<MP1459934540>&amp;Approve</MP1459934540>
+<MP1239251720>Select a leave request:</MP1239251720>
+<MP539326120>Employee Leave Approval Entry</MP539326120>
+<MP327871788>Travelling Date:</MP327871788>
+<MP1883835162>Resumed On:</MP1883835162>
+<MP2034402374>Rejected</MP2034402374>
+<MP1748031142>Employee Leave Request Entry</MP1748031142>
+<MP14834935>Activity Type:</MP14834935>
+<MN956807728>Requested By:</MN956807728>
+<MP1103233487>Activity Date:</MP1103233487>
+<MP1969002355>Employee General Activity Entry</MP1969002355>
+<MN2039014283>Employee is terminated</MN2039014283>
+<MN1547349094>Rehire Date:</MN1547349094>
+<MP1862623034>Employee Rehire Entry</MP1862623034>
+<MP96311232>Action Date:</MP96311232>
+<MN2048413705>Employee Disciplinary Action Entry</MN2048413705>
+<MP1291451510>To Position:</MP1291451510>
+<MP1801995023>To Grade:</MP1801995023>
+<MN639114490>From Position:</MN639114490>
+<MP1452604592>From Grade:</MP1452604592>
+<MN1215940103>Promotion Date:</MN1215940103>
+<MP1513782201>Employee Promotion Entry</MP1513782201>
+<MP972800160>Termination Date:</MP972800160>
+<MN294628324>Employee Termination Entry</MN294628324>
+<MP885521440>To Division:</MP885521440>
+<MN721615282>To Location:</MN721615282>
+<MN2106135025>From Department:</MN2106135025>
+<MP1938375348>From Division:</MP1938375348>
+<MN1020009970>From Location:</MN1020009970>
+<MP51985932>To Department:</MP51985932>
+<MP1559925306>Employee Transfer</MP1559925306>
+<MP87973049>Calculate</MP87973049>
+<MN1383769817>Sheet Number:</MN1383769817>
+<MP1764490262>Create from Over Time</MP1764490262>
+<MN1587979570>Print with Details</MN1587979570>
+<MN1784195603>Create SIF</MN1784195603>
+<MN631515807>C&amp;alculate</MN631515807>
+<MP1185797335>Select Employee</MP1185797335>
+<MN498216240>Non-Sale Issue</MN498216240>
+<MP754495078>Adjustment Type</MP754495078>
+<MP265204977>Port Name:</MP265204977>
+<MN1332383597>Port Code:</MN1332383597>
+<MP1212291584>Port</MP1212291584>
+<MN827848556>Location Currency:</MN827848556>
+<MN118402641>Accounts</MN118402641>
+<MN462440941>This is a POS Store</MN462440941>
+<MP328375563>We keep inventory in this location</MP328375563>
+<MP1673171181>VendorGroup Name:</MP1673171181>
+<MN1442220643>VendorGroup Code:</MN1442220643>
+<MN391274205>VendorGroup</MN391274205>
+<MP881634879>Please select the new Step :</MP881634879>
+<MP1120239578>Step:</MP1120239578>
+<MP428770811>Change Step</MP428770811>
+<MN272548026>Please select the new Assignee :</MN272548026>
+<MN1481532962>Assignee:</MN1481532962>
+<MN1432453898>Change Assignee</MN1432453898>
+<MP1196900556>Vendor ID:</MP1196900556>
+<MN1048409300>Change Order Status...</MN1048409300>
+<MP1700121055>Create from Purchase Quotation</MP1700121055>
+<MP1350336282>Create from MR</MP1350336282>
+<MP1047074475>Purchase Order- SubContract</MP1047074475>
+<MN455023962>Create from Purchase Order...</MN455023962>
+<MP1765280693>Create from Goods Received Note...</MP1765280693>
+<MP773632385>Purchase Invoice-SubContract</MP773632385>
+<MP388444059>Conclusion:</MP388444059>
+<MP256021156>Packing Condition:</MP256021156>
+<MN919342806>Weight Less %:</MN919342806>
+<MP2001206041>Issue 2:</MP2001206041>
+<MN1890476728>Issue 1:</MN1890476728>
+<MN1487192201>Issue 4:</MN1487192201>
+<MN727677314>Issue 3:</MN727677314>
+<MP738983373>GRN:</MP738983373>
+<MN738505449>Task:</MN738505449>
+<MN1897996782>Inspector:</MN1897996782>
+<MP1055360598>Packing Type:</MP1055360598>
+<MN1313429505>Vessel Name:</MN1313429505>
+<MN1084370915>Pallets Count:</MN1084370915>
+<MN1405539266>Container Temp:</MN1405539266>
+<MP1404433630>Ref 2:</MP1404433630>
+<MN1344585206>Inspection Date:</MN1344585206>
+<MP1410275686>Print with Photo</MP1410275686>
+<MN1611025612>Duplicate Row</MN1611025612>
+<MP1167912445>Arrival Report</MP1167912445>
+<MP125087752>Commodity</MP125087752>
+<MN163971416>Assigned To</MN163971416>
+<MN1447960599>VoucherID :</MN1447960599>
+<MP958009681>GRN SysDocID</MP958009681>
+<MN1224969853>Receive Date</MN1224969853>
+<MN1466594578>Supplier</MN1466594578>
+<MN1749219409>Description :</MN1749219409>
+<MN1038851254>ContainerNo:</MN1038851254>
+<MN435021285>QC Task</MN435021285>
+<MP254853508>Claim Details:</MP254853508>
+<MN20733573>Arrival Report:</MN20733573>
+<MN1037642657>Credit Note No:</MN1037642657>
+<MN840920017>Received Amount:</MN840920017>
+<MP990073886>Total Claim Amount:</MP990073886>
+<MN856204930>Surevey Date:</MN856204930>
+<MP1869399963>Surveyer 1:</MP1869399963>
+<MP1869203355>Surveyer 2:</MP1869203355>
+<MP1061259650>Surevey Type:</MP1061259650>
+<MN1376204437>Claim Date:</MN1376204437>
+<MN251282031>Quality Claim</MN251282031>
+<MP1153801137>Select Item</MP1153801137>
+<MP294591162>Load From PO</MP294591162>
+<MN513859478>Shipping Company:</MN513859478>
+<MP539888393>Dest.Port:</MP539888393>
+<MN326120772>BOL NO:</MN326120772>
+<MP85527714>Import Bill Of Lading</MP85527714>
+<MP85530609>Price inclusive of tax</MP85530609>
+<MN876323989>Purchase Invoice(Non Inventory)</MN876323989>
+<MN1169892638>Actual Req. Date:</MN1169892638>
+<MN503246702>Purchase Order(Non Inventory)</MN503246702>
+<MP448659962>Create From Purchase Order</MP448659962>
+<MN532961799>Purchase Cost Entry</MN532961799>
+<MP869291762>&amp;Calculate Price</MP869291762>
+<MP253541783>&amp;Load Items</MP253541783>
+<MP1848596263>Transfer to Purchase Order</MP1848596263>
+<MP731191818>Create from Material Requisition</MP731191818>
+<MP1542106902>Product Price Bulk Update</MP1542106902>
+<MN310189874>&amp;Apply</MN310189874>
+<MN2031532213>Apply Prepayments</MN2031532213>
+<MP1069140597>Vendor Currency</MP1069140597>
+<MN1108840607>Post Dated Cheques</MN1108840607>
+<MN62913272>Open Consignments</MN62913272>
+<MN1868700711>Uninvoiced GRNs</MN1868700711>
+<MP1577483184>Total Balance:</MP1577483184>
+<MP1122978727>Include vendors with zero balance</MP1122978727>
+<MP1793558555>Vendor Aging List</MP1793558555>
+<MP677900991>Return from GRN</MP677900991>
+<MP1712802871>GRN Return</MP1712802871>
+<MN1453475144>Profit:</MN1453475144>
+<MP2018319825>Commission:</MP2018319825>
+<MN1261252597>Settlement Diff:</MN1261252597>
+<MN1333419963>Settlement:</MN1333419963>
+<MP1737683141>Billed:</MP1737683141>
+<MN323311300>Consignment:</MN323311300>
+<MN831668652>Consignment In Closing</MN831668652>
+<MN856230078>Settlements</MN856230078>
+<MN1880685503>Arrival Port:</MN1880685503>
+<MP1731755493>Vendor DOC#:</MP1731755493>
+<MN499334699>Receive Consignment In</MN499334699>
+<MN392625703>Consignment In Return</MN392625703>
+<MP1377982577>Load Sales...</MP1377982577>
+<MP1780538552>Billables...</MP1780538552>
+<MP501131736>Settlement #:</MP501131736>
+<MN1730967730>Consignment In Settlement</MN1730967730>
+<MP809563420>Select Billing Items</MP809563420>
+<MN1732021124>Group By Vendor</MN1732021124>
+<MN602402904>Vendor Opening Balance Entry</MN602402904>
+<MN1111475222>Please select the new status for this purchase order:</MN1111475222>
+<MN623674142>Proforma Invoice</MN623674142>
+<MP445663383>Create from Packing List...</MP445663383>
+<MP1043265878>Import Goods Received Note</MP1043265878>
+<MN1165456620>Vendor List</MN1165456620>
+<MN1092082163>Cash Register:</MN1092082163>
+<MN182146563>Create From Goods Received Note</MN182146563>
+<MP1862086644>Create from Sales Order</MP1862086644>
+<MN874890327>Cash Purchase</MN874890327>
+<MN2010324729>Total+Exp (AED: )</MN2010324729>
+<MN95950904>Apply Prepayments...</MN95950904>
+<MP1634705017>Load Cost</MP1634705017>
+<MN1504319003>Import Purchase Invoice</MN1504319003>
+<MP245747012>Prepayments:</MP245747012>
+<MP933638101>Delivery Address:</MP933638101>
+<MP1739896353>Bill To:</MP1739896353>
+<MP183139036>Port of Destination:</MP183139036>
+<MP846866365>Port of Loading:</MP846866365>
+<MN82147249>Incoterm:</MN82147249>
+<MN67716751>ETD:</MN67716751>
+<MP897073031>Create from Proforma Invoice...</MP897073031>
+<MP1133255721>Create from Sales Order..</MP1133255721>
+<MN972091800>Import Purchase Order</MN972091800>
+<MN1891654924>Processed Documents:</MN1891654924>
+<MN678487558>Issue to Project</MN678487558>
+<MN718126869>Create from Transaction List..</MN718126869>
+<MN970057225>Goods Received Note</MN970057225>
+<MP589541487>Select Purchase Orders...</MP589541487>
+<MP1307819426>Purchase Packing List</MP1307819426>
+<MP467971732>&amp;Recalculate</MP467971732>
+<MN1040505306>Purchase Quote</MN1040505306>
+<MP1073970555>Remarks2:</MP1073970555>
+<MN1647018629>Remarks1:</MN1647018629>
+<MP187233754>Purchase Order</MP187233754>
+<MP1813855566>Create from GRN.(testing).</MP1813855566>
+<MN1188749272>Allocate Prepayments...</MN1188749272>
+<MP1935957095>Purchase Invoice</MP1935957095>
+<MP712581496>Create from Cash Purchase...</MP712581496>
+<MN2030897527>Purchase Return - Cash</MN2030897527>
+<MP1167569003>Return from Purchase Invoice</MP1167569003>
+<MN108606532>Purchase Return - Credit Memo</MN108606532>
+<MN1328129324>Vendor Class</MN1328129324>
+<MN1843835943>Vendor Address Detail</MN1843835943>
+<MP900139341>Allow open account payment</MP900139341>
+<MP786480123>VAT Registration NO:</MP786480123>
+<MP872960405>Swift Code:</MP872960405>
+<MN1320898532>Vendor Detail</MN1320898532>
+<MP517577706>Task Name:</MP517577706>
+<MN1058998510>Task Type:</MN1058998510>
+<MN44882868>Linked Doc:</MN44882868>
+<MP1822739198>Task Transaction</MP1822739198>
+<MN1384929283> Todos </MN1384929283>
+<MN519053173> Sin resolver </MN519053173>
+<MP1479489011> Rentable Out Ritability - Summary </MP1479489011>
+<MN635478716> ShowDetail </MN635478716>
+<MN606124472> Moneda extranjera - Oculta </MN606124472>
+<MN997278332> Moneda base </MN997278332>
+<MP378266143> Resumen excepcional del proveedor </MP378266143>
+<MP1407962315> Facturas pendientes de proveedor </MP1407962315>
+<MP1292866078> Informe de GRN pendiente </MP1292866078>
+<MN1586925346> Consignación pendiente en el informe </MN1586925346>
+<MN385611519> Moneda del informe: </MN385611519>
+<MP1254607470> Moneda extranjera </MP1254607470>
+<MP24144473> Mostrar proveedores de saldo cero </MP24144473>
+<MN1808179110> Declaración del proveedor </MN1808179110>
+<MN1006290664> Asignación automática de pagos no asignados </MN1006290664>
+<MP208585168> Detalle de envejecimiento </MP208585168>
+<MN1033782036> Resumen de envejecimiento </MN1033782036>
+<MN1402825002> Resumen de antigüedad de las cuentas por pagar </MN1402825002>
+<MP1895484079> Informe de actividad del proveedor </MP1895484079>
+<MN789999931> Mostrar proveedores inactivos </MN789999931>
+<MN926117856>&amp;Sistema</MN926117856>
+<MN458340249>S&amp;alida</MN458340249>
+<MP1270658531>&amp;Herramientas</MP1270658531>
+<MN1177243299>&amp;Cuentas &amp;&amp; y banca</MN1177243299>
+<MP356733180>&amp;Clientes</MP356733180>
+<MN491025563>&amp;Vendedores</MN491025563>
+<MP1510438855> Familia de piezas: </MP1510438855>
+<MP1521166707> Resumen del saldo del cliente </MP1521166707>
+<MN1653161946> O Ingrese su clave de producto que se le entregó al momento de la compra: </MN1653161946>
+<MP1616145472> Cuentas &amp; Banca </MP1616145472>
+<MP120094747> Clientes </MP120094747>
+<MP749765188> Proveedores </MP749765188>
+<MN146786185> HR &amp; Admin </MN146786185>
+<MP226589724> Activo fijo </MP226589724>
+<MN248674673> Informes </MN248674673>
+<MN78214858> CRM </MN78214858>
+<MP304485911> Fabricación </MP304485911>
+<MP1880990372> Control de calidad </MP1880990372>
+<MN1598096581> POS </MN1598096581>
+<MN1166229159> Configuración </MN1166229159>
+<MN1354242385> Accesos directos </MN1354242385>
+<MP162871335> Iniciar sesión ... </MP162871335>
+<MP68919015> Cerrar sesión ... </MP68919015>
+<MN1064691811> Cambiar contraseña ... </MN1064691811>
+<MP281231062> y nueva compañía ... </MP281231062>
+<MN1733243931> &amp;Open Company ... </MN1733243931>
+<MN531513357> &amp; Cerrar compañía </MN531513357>
+<MP303153088> Datos y servicios </MP303153088>
+<MP346200413> &amp;Copia de seguridad de la base de datos ... </MP346200413>
+<MN239996653> &amp;Restaurar base de datos ... </MN239996653>
+<MN2083004956> &amp;Adjuntar base de datos ... </MN2083004956>
+<MP685135097> &amp; Separar base de datos ... </MP685135097>
+<MP828495820> Actualizar base de datos ... </MP828495820>
+<MN2103929289> Conexión de base de datos y configuración ... </MN2103929289>
+<MN868343797> Importar datos desde Excel ... </MN868343797>
+<MN1391161683> Utilidades del sistema </MN1391161683>
+<MP164790136> Actualizar facturas de ventas Fechas de entrega ... </MP164790136>
+<MP113332080> Cambiar estado de verificación ... </MP113332080>
+<MN1904358596> Actualizar inventario de costos ... </MN1904358596>
+<MN498704757> Asignar elementos no asignados a lotes ... </MN498704757>
+<MP493025693> Usuario &amp; &amp; Derechos de acceso </MP493025693>
+<MP740065253> Usuarios </MP740065253>
+<MN331683878> Grupos de usuarios </MN331683878>
+<MN1999146888> Configuración &amp; &amp; Configuraciones </MN1999146888>
+<MN1586208891> Información de la compañía </MN1586208891>
+<MP294532664> Preferencias de la compañía ... </MP294532664>
+<MP112166938> Ubicaciones </MP112166938>
+<MP780912602> Recordatorios de configuración ... </MP780912602>
+<MP213145493> Configuración de campos definidos por el usuario ... </MP213145493>
+<MN609568580> Registrar módulo ... </MN609568580>
+<MP501712269> Documentos del sistema </MP501712269>
+<MP1532754643> Informes personalizados ... </MP1532754643>
+<MN1772377> Gadgets personalizados ... </MN1772377>
+<MN70773889> Flujo de trabajo &amp; &amp; Aprobación </MN70773889>
+<MN36698859> Configuración de aprobación de documentos </MN36698859>
+<MN938543059> Configuración de verificación de documentos </MN938543059>
+<MP552906079> Listas de verificación </MP552906079>
+<MN615897082> Categorías de marca ... </MN615897082>
+<MN1321301519> Configuración de correo electrónico ... </MN1321301519>
+<MP734745687> Configurar el agente del programador ... </MP734745687>
+<MP165188720> Defina años fiscales </MP165188720>
+<MP400339781> Lista de años fiscales </MP400339781>
+<MN1280913208> Ingreso de saldo de apertura </MN1280913208>
+<MN1992806855> Saldo inicial de clientes </MN1992806855>
+<MN935367600> Saldo inicial del proveedor </MN935367600>
+<MN1418566683> Saldo inicial del empleado </MN1418566683>
+<MP1615538450> Saldo inicial del inventario </MP1615538450>
+<MP1975048236> Saldo de la licencia de apertura del empleado </MP1975048236>
+<MP744315693> Entrada de apertura del recibo de verificación </MP744315693>
+<MN760560090> Entrada de apertura de pago de cheques </MN760560090>
+<MP509642409> Periodo de bloqueo ... </MP509642409>
+<MN1013630097> Cierre de fin de año ... </MN1013630097>
+<MP929151728> Registro de actividad </MP929151728>
+<MP1163333503> Usuarios activos ... </MP1163333503>
+<MP1398725562> Recordatorios </MP1398725562>
+<MN1713670840> Centro de tareas </MN1713670840>
+<MP93084851> Calculadora </MP93084851>
+<MP1711793669> Personalizar paneles ... </MP1711793669>
+<MN2131966064> Exploración de documentos </MN2131966064>
+<MP543754097> Opciones de escaneo </MP543754097>
+<MN2136581195> Escanear documentos </MN2136581195>
+<MN517015802> Preferencias de usuario </MN517015802>
+<MP1598976074> Idiomas </MP1598976074>
+<MN794798841> Inglés </MN794798841>
+<MP1223182906> Skin </MP1223182906>
+<MN293177409> Azul </MN293177409>
+<MN1672384006> Caramelo </MN1672384006>
+<MP1587587886> Negro </MP1587587886>
+<MP1175545382> Plata </MP1175545382>
+<MN1073867583> Blue Twin </MN1073867583>
+<MN847909122> Gris </MN847909122>
+<MP1707443560> Ocultar barra de herramientas </MP1707443560>
+<MP1254544946> Tarjetas </MP1254544946>
+<MN1106226769> Cuenta </MN1106226769>
+<MN78767157> Grupos de cuentas </MN78767157>
+<MP1009696894> Centro de costos </MP1009696894>
+<MN1661908946> Análisis </MN1661908946>
+<MP31577557> Grupos de análisis </MP31577557>
+<MP960590112> Configuración de análisis de cuenta </MP960590112>
+<MN968352035> Facilidad bancaria </MN968352035>
+<MN526398182> Grupo de Facilidad Bancaria </MN526398182>
+<MN1347355289> Moneda </MN1347355289>
+<MP1100814192> Tipo de cambio </MP1100814192>
+<MP1638783435> Método de pago </MP1638783435>
+<MP943906460> Plazo de pago </MP943906460>
+<MP295867445> Chequera </MP295867445>
+<MN600933314> Tipo de garantía </MN600933314>
+<MP455294637> Grupo fiscal </MP455294637>
+<MP2073687496> Listas de tarjetas </MP2073687496>
+<MN77521973> Grupo de cuentas </MN77521973>
+<MN2048685320> Grupo de análisis </MN2048685320>
+<MN1858202022> Motivo de verificación devuelto </MN1858202022>
+<MN1225858625> Listas de transacciones </MN1225858625>
+<MP1903032607> Diario general </MP1903032607>
+<MN87113919> Gastos en efectivo / cheques </MN87113919>
+<MN1310879529> Nota de débito </MN1310879529>
+<MP977941326> Nota de crédito </MP977941326>
+<MP1032844361> Recibo de efectivo / cheque </MP1032844361>
+<MN1224939683> Pago en efectivo / cheque </MN1224939683>
+<MP370262325> Transferencia de fondos </MP370262325>
+<MP227350369> Diario </MP227350369>
+<MP472719197> Cheque emitido </MP472719197>
+<MP149885901> Cheque recibido </MP149885901>
+<MN563845861> Comprobación de seguridad </MN563845861>
+<MP1879234539> Revisar lista de recibos </MP1879234539>
+<MN125449462> Lista de pagos de cheques </MN125449462>
+<MP89721370> Consulta </MP89721370>
+<MP803920827> Saldo de prueba </MP803920827>
+<MN175697764> Entrada de diario </MN175697764>
+<MP971965818> Diario de pie </MP971965818>
+<MP1288666950> Entrada de diario permanente </MP1288666950>
+<MP1936536738> Revista permanente del proceso ... </MP1936536738>
+<MN464107044> Entrada de recibo de efectivo / tarjeta </MN464107044>
+<MP972892501> Recibo de efectivo - Cuentas múltiples </MP972892501>
+<MP1144210259> Revisar recibos </MP1144210259>
+<MP709148964> Entrada del recibo de cheques </MP709148964>
+<MN2119740416> Entrada múltiple de comprobaciones de recibo </MN2119740416>
+<MP129416182> Enviar cheques al banco </MP129416182>
+<MP252887440> Comprobar entrada de vencimiento </MP252887440>
+<MP1720571006> Entrada de cheques de descuento </MP1720571006>
+<MP1175148926> Entrada de cheques rebotada </MP1175148926>
+<MN1188603448> Cancelar cheque recibido </MN1188603448>
+<MP1144899479> Recibo de transferencia bancaria </MP1144899479>
+<MP1016877657> Recibo de LPO </MP1016877657>
+<MN1159682390> Solicitud de pago </MN1159682390>
+<MP168164650> Entrada de pago en efectivo </MP168164650>
+<MP927138797> Comprobar pagos </MP927138797>
+<MN1186888021> Entrada de pago de cheques </MN1186888021>
+<MN1145739365> Nuevos / Editar talonarios de cheques </MN1145739365>
+<MN103730389> Registrar cheques de chequera </MN103730389>
+<MP2035946720> Cheque en blanco nulo </MP2035946720>
+<MN12990680> Liquidación de cheques emitida </MN12990680>
+<MN1332130688> Rebote de cheques emitido </MN1332130688>
+<MP896011472> Cancelación de cheques emitidos </MP896011472>
+<MP3170625> Revisión de seguridad del problema </MP3170625>
+<MN2094323033> Imprimir cheque </MN2094323033>
+<MN335800725> Pago mediante transferencia bancaria </MN335800725>
+<MN1841944505> Recibo de confianza (TR) </MN1841944505>
+<MP870457824> Solicitud de TR </MP870457824>
+<MN1293661774> Entrada TR </MN1293661774>
+<MP1274239560> TR Payment </MP1274239560>
+<MP357390130> Reconciliación bancaria </MP357390130>
+<MP624418790> Gestionar garantías </MP624418790>
+<MN764079338> Entrada de préstamo </MN764079338>
+<MN1099634986> Clase de cliente </MN1099634986>
+<MN325740246> Categoría de cliente </MN325740246>
+<MP566927864> Direcciones de clientes </MP566927864>
+<MN945176466> Actividad del cliente </MN945176466>
+<MP2030127760> Vendedor </MP2030127760>
+<MP239334578> Contactos </MP239334578>
+<MN533895207> Categoría de contactos </MN533895207>
+<MP717171139> País </MP717171139>
+<MN2069237400> Método de envío </MN2069237400>
+<MN1293386329> Motivo de devolución de ventas </MN1293386329>
+<MN1587248811> Fuente de plomo </MN1587248811>
+<MN311306742> Cuenta nacional </MN311306742>
+<MN655564747> Relación cliente / proveedor </MN655564747>
+<MN409194989> Grupo de vendedores </MN409194989>
+<MP453955602> Grupo de clientes </MP453955602>
+<MN1220419137> Lista de transacciones </MN1220419137>
+<MN2026862242> Consulta de ventas </MN2026862242>
+<MN1733117535> Cotización de venta </MN1733117535>
+<MP2123327471> Pedido de venta </MP2123327471>
+<MP732931793> Nota de entrega </MP732931793>
+<MP738324866> Devolución de entrega </MP738324866>
+<MP1674143849> Factura de venta </MP1674143849>
+<MP186000838> Recibo de venta </MP186000838>
+<MN1766447156> Declaración de ventas </MN1766447156>
+<MN496968118> Asignación de pago </MN496968118>
+<MN602751263> Historial de ventas </MN602751263>
+<MP1070740998> Pedido de venta de exportación </MP1070740998>
+<MP1806280603> Exportar lista de selección </MP1806280603>
+<MN2038021039> Nota de entrega de exportación </MN2038021039>
+<MN778714772> Exportar factura de ventas </MN778714772>
+<MN693504036> Estadísticas de ventas </MN693504036>
+<MN410522538> Recordatorio de SMS </MN410522538>
+<MN1766896060> Gestión de crédito </MN1766896060>
+<MP222578919> Lista de antigüedad del cliente </MP222578919>
+<MP1760988831> Cupón de límite de crédito </MP1760988831>
+<MP121021405> Revisión del límite de crédito </MP121021405>
+<MN995766917> Actualizar seguro de crédito </MN995766917>
+<MN795023719> Libro mayor de clientes </MN795023719>
+<MN1532355957> Reclamo de seguro del cliente </MN1532355957>
+<MN1682055847> Declaración de ventas - Nota de crédito </MN1682055847>
+<MN1182693644> Declaración de ventas - Efectivo </MN1182693644>
+<MP2106578489> Pedido de exportación / factura proforma </MP2106578489>
+<MP270413091> Salida pendiente </MP270413091>
+<MN2126187954> Tienda de consignación </MN2126187954>
+<MP182325238> Emitir consignación hacia fuera </MP182325238>
+<MP251951209> Liquidación de salida en consignación </MP251951209>
+<MN1803082911> Retorno de salida en consignación </MN1803082911>
+<MP180095488> Asignar pagos </MP180095488>
+<MN466187973> Declaración del cliente </MN466187973>
+<MP489273175> Lista de precios del cliente </MP489273175>
+<MN2132027516> Alquiler de ropa </MN2132027516>
+<MN775252697> Paquete </MN775252697>
+<MP1848645644> Devolución de alquiler de prendas de vestir </MP1848645644>
+<MP431746825> Cable </MP431746825>
+<MN1709574856> Estado del cable </MN1709574856>
+<MN1913517500> Categoría principal </MN1913517500>
+<MP1462304328> Razones de la actividad </MP1462304328>
+<MN1864508996> Tipos de evento </MN1864508996>
+<MP1055661326> Industria </MP1055661326>
+<MP1771024816> Competidor </MP1771024816>
+<MP455380631> Tarea </MP455380631>
+<MN1329990564> Pasos de la tarea </MN1329990564>
+<MN1055459566> Tipo de tarea </MN1055459566>
+<MN749198456> Lista de tarjetas </MN749198456>
+<MN1560445450> Evento </MN1560445450>
+<MN1088646945> Oportunidad </MN1088646945>
+<MN1322954018> Campaña </MN1322954018>
+<MP764572287> P &amp; OS </MP764572287>
+<MP1544471543> Tienda </MP1544471543>
+<MN1088346611> Cajas registradoras </MN1088346611>
+<MN1444833989> Cambiar registro de punto de venta </MN1444833989>
+<MN296719263> Cliente POS </MN296719263>
+<MP50337380> Grupo de proveedores </MP50337380>
+<MP1530188097> Categoría de proveedor </MP1530188097>
+<MN1083601589> Direcciones de proveedores </MN1083601589>
+<MP151698591> Comprador </MP151698591>
+<MN1517899402> Transportador </MN1517899402>
+<MP241962552> Incoterm </MP241962552>
+<MP1133905044> Tamaño del contenedor </MP1133905044>
+<MP804092201> Tipo de contenedor </MP804092201>
+<MN1513940976> Empresa de transporte </MN1513940976>
+<MP154815238> Factura / Recibo de compra </MP154815238>
+<MN557357473> Declaración de Compra </MN557357473>
+<MN1528839451> Importar mercancías recibidas nota (GRN) </MN1528839451>
+<MP218656391> Importar lista de embalaje </MP218656391>
+<MP594752391> Lista de prepago no asignado </MP594752391>
+<MP12974483> Estadísticas de compras </MP12974483>
+<MP958050419> Mercancía recibe una nota </MP958050419>
+<MN1243784586> Importar factura proforma </MN1243784586>
+<MP737778679> Orden de compra (sin inventario) </MP737778679>
+<MP1826904940> Factura de compra (sin inventario) </MP1826904940>
+<MN1462282664> Reclamo de compra </MN1462282664>
+<MN431898213> En consignación </MN431898213>
+<MP1525975739> Recibir consignación </MP1525975739>
+<MP616795141> Devolución de mercancías en consignación </MP616795141>
+<MN862029612> Liquidación de consignación </MN862029612>
+<MP719288178> Cerrar consignación </MP719288178>
+<MP519119740> Cargos de flete </MP519119740>
+<MP637494482> Compre Factura de Prepago </MP637494482>
+<MN1899700718> Inspector </MN1899700718>
+<MP1087426979> Topógrafo </MP1087426979>
+<MN1794201943> &amp; Inventario </MN1794201943>
+<MP1949155704> Elemento </MP1949155704>
+<MN570527100> Artículo de matriz </MN570527100>
+<MN1260031176> Categoría de producto </MN1260031176>
+<MN342875105> Marca del producto </MN342875105>
+<MP1255211512> Fabricante de producto </MP1255211512>
+<MN373306455> Estilo del producto </MN373306455>
+<MN2003188846> Especificación del producto </MN2003188846>
+<MN1342044009> Dimensión de la matriz </MN1342044009>
+<MN221933262> Bandeja </MN221933262>
+<MP1167841353> Rack </MP1167841353>
+<MN860701874> Unidad de medida </MN860701874>
+<MP1078643035> Tipo de ajuste de inventario </MP1078643035>
+<MP306461178> Tipo de documento del vehículo </MP306461178>
+<MN635256612> Modelo de vehículo </MN635256612>
+<MN114768094> Proveedor de servicios </MN114768094>
+<MN723688620> Tipo de fabricación de piezas </MN723688620>
+<MN252802346> Tipo de piezas </MN252802346>
+<MN1721378023> Familia de piezas </MN1721378023>
+<MN1933715543> Caballo </MN1933715543>
+<MP808455144> Rider </MP808455144>
+<MP2123806901> Tipo de propiedad </MP2123806901>
+<MN1471600795> Categoría de caballos </MN1471600795>
+<MN2013210694> Material </MN2013210694>
+<MN383300399> Finalizar </MN383300399>
+<MN715359852> Estándar </MN715359852>
+<MP368572535> Marca del producto </MP368572535>
+<MP1838975285> Tipo de producto </MP1838975285>
+<MP105393956> Categoría </MP105393956>
+<MP417573693> Marca </MP417573693>
+<MP1997869575> Manufactorer </MP1997869575>
+<MN273105243> Estilo </MN273105243>
+<MP735739999> Consulta </MP735739999>
+<MN391003102> Herramientas </MN391003102>
+<MN2089785607> Actualización masiva de precios </MN2089785607>
+<MN80040642> Ninguno Problema de venta </MN80040642>
+<MN971448812> Requerimiento de material </MN971448812>
+<MP1061636114> Almacenaje 3PL </MP1061636114>
+<MN130216147> Recibir inventario </MN130216147>
+<MP774237850> Emisión de inventario </MP774237850>
+<MN1965494995> Factura de alquiler </MN1965494995>
+<MN1176216841> Programador de mantenimiento </MN1176216841>
+<MP128542854> Entrada de mantenimiento </MP128542854>
+<MN812553380> Mileage Track </MN812553380>
+<MP479130299> Pronóstico de ventas </MP479130299>
+<MN585468631> Trabajo / Proyecto </MN585468631>
+<MP1486178563> Equipo </MP1486178563>
+<MN292255623> Lista de materiales (BOM) </MN292255623>
+<MN669849130> Activo del cliente </MN669849130>
+<MP1883544248> Actividad de servicio </MP1883544248>
+<MP1934312983> Entrada de la hoja de tiempo </MP1934312983>
+<MP120749365> Entrada de gastos del proyecto </MP120749365>
+<MN1717843032> Emisión de inventario </MN1717843032>
+<MN2064768231> Devolución de inventario </MN2064768231>
+<MP368987532> Facturación del proyecto </MP368987532>
+<MP357709438> Cierre del proyecto </MP357709438>
+<MP204851354> Entrada de mantenimiento de servicio </MP204851354>
+<MN153512707> Estimación </MN153512707>
+<MN2115253993> Seguimiento de llamadas de servicio </MN2115253993>
+<MP1353426239> Subcontrato </MP1353426239>
+<MN744532489> Orden de subcontratación </MN744532489>
+<MN1190519045> Factura de subcontratación </MN1190519045>
+<MP1374071153> &amp; HR &amp; &amp; Admin </MP1374071153>
+<MN632833247> Tarjetas HR </MN632833247>
+<MN205624423> Habilidad del empleado </MN205624423>
+<MP1659246302> Documento del empleado </MP1659246302>
+<MP585940940> Tipo de actividad general del empleado </MP585940940>
+<MP725657909> Tipo de dirección del empleado </MP725657909>
+<MP1796501262> Calificación del empleado </MP1796501262>
+<MP1716366191> Tipo de versión de pasaporte </MP1716366191>
+<MP1476395210> Categoría de seguro médico </MP1476395210>
+<MN702779819> Proveedor de seguro médico </MN702779819>
+<MN2030559990> Tarjetas de nómina </MN2030559990>
+<MN599407179> Artículo de nómina </MN599407179>
+<MN1787816632> Artículo de deducción </MN1787816632>
+<MN1338009132> Artículo de beneficio </MN1338009132>
+<MP1867731606> Beneficio de finalización del servicio </MP1867731606>
+<MP2058501128> Revise los detalles del salario </MP2058501128>
+<MN952298237> Detalle de la licencia del empleado </MN952298237>
+<MP157915797> Tarjetas de administración </MP157915797>
+<MN1771312565> Licencias comerciales </MN1771312565>
+<MP1175688085> Tarjetas de reclutamiento </MP1175688085>
+<MP2143291852> Idioma </MP2143291852>
+<MN478954618> Calificación </MN478954618>
+<MP521795459> Cancelación </MP521795459>
+<MP1383255478> Reclutamiento </MP1383255478>
+<MN1150672704> Cita </MN1150672704>
+<MN2138401861> Candidato </MN2138401861>
+<MN1037807805> General </MN1037807805>
+<MP1584296621> Llegada </MP1584296621>
+<MP1995303518> WR / RP </MP1995303518>
+<MP222065111> Medical / Emirates </MP222065111>
+<MN1617010689> Control de pasaportes </MN1617010689>
+<MN1530508330> Listas </MN1530508330>
+<MN269207808> Documento de la empresa </MN269207808>
+<MP1962083786> Contrato de arrendamiento </MP1962083786>
+<MN1767970229> Licencia comercial </MN1767970229>
+<MN1164458454> Transacciones de recursos humanos </MN1164458454>
+<MN816808537> Actividad general </MN816808537>
+<MP1885184272> Transferir empleado </MP1885184272>
+<MN1585749448> Terminar empleado </MN1585749448>
+<MP1918661282> Cancelar empleado </MP1918661282>
+<MP176615004> Promover empleado </MP176615004>
+<MP1971393185> Acción disciplinaria </MP1971393185>
+<MP1942139537> Empleado de Reclutamiento </MP1942139537>
+<MN442316753> Evaluación del empleado </MN442316753>
+<MN1056610528> Tarjeta de rendimiento del empleado </MN1056610528>
+<MN117065773> Procesamiento de permisos para empleados </MN117065773>
+<MN1675215345> Solicitud de licencia </MN1675215345>
+<MP401643674> Dejar aprobación </MP401643674>
+<MN1430887747> Reanudación del servicio </MN1430887747>
+<MP1739343190> Deja el cobro </MP1739343190>
+<MN1333175115> Dejar pago </MN1333175115>
+<MN1723840308> Transacciones de nómina </MN1723840308>
+<MP2120672086> Entrada de horas extras </MP2120672086>
+<MP1193551385> Adición de salario </MP1193551385>
+<MN1887328947> Pago de salario - Efectivo </MN1887328947>
+<MN1006999616> Pago de salario - Cheque </MN1006999616>
+<MN990927538> Pago de salario - Banco </MN990927538>
+<MP676204240> Fin de la liquidación del servicio </MP676204240>
+<MP1050476116> Correo de recibo de pago del empleado </MP1050476116>
+<MN2146449890> Préstamos para empleados &amp; &amp; Avances </MN2146449890>
+<MN1793863084> Tipo de préstamo del empleado </MN1793863084>
+<MP1143891949> Legal </MP1143891949>
+<MN1818201845> Estado del caso </MN1818201845>
+<MP805615297> Tipo de caso </MP805615297>
+<MN346814491> Cliente de caso </MN346814491>
+<MN1307739917> Estado de acción </MN1307739917>
+<MN383858278> Actividad legal </MN383858278>
+<MP2112649776> Lista de materiales (BOM) </MP2112649776>
+<MN1322880388> &amp; Enterprise Asset </MN1322880388>
+<MN1327497074> Categoría de equipo </MN1327497074>
+<MN226898423> Tipo de equipo </MN226898423>
+<MP712340759> Requisición </MP712340759>
+<MP1833752858> Orden de trabajo del equipo </MP1833752858>
+<MN870287302> Problema de inventario de órdenes de trabajo </MN870287302>
+<MN288005298> Devolución de inventario de órdenes de trabajo </MN288005298>
+<MP1823089782> Unidad virtual </MP1823089782>
+<MP1619348985> Propietario </MP1619348985>
+<MN1011383487> Tipo de unidad </MN1011383487>
+<MP351316807> Clase </MP351316807>
+<MN1597211022> Agente </MN1597211022>
+<MN1199128197> Ver </MN1199128197>
+<MP1702244608> Tipo de servicio </MP1702244608>
+<MN298721617> Tipo de documento de propiedad </MN298721617>
+<MP1876628363> Tipo de documento del arrendatario </MP1876628363>
+<MN1604044032> Registro de alquiler </MN1604044032>
+<MP19670884> Contabilización de ingresos de alquiler </MP19670884>
+<MN1423641961> Solicitud de servicio </MN1423641961>
+<MN1109501622> Asignación de servicio </MN1109501622>
+<MP1331592779> &amp; Activos fijos </MP1331592779>
+<MP89453411> Compañía de activos fijos </MP89453411>
+<MP1711307804> Activos fijos </MP1711307804>
+<MN281640524> Grupos de activos fijos </MN281640524>
+<MN1487163036> Ubicaciones de activos fijos </MN1487163036>
+<MP1578960782> Listas de transacciones </MP1578960782>
+<MN1809478285> Lista de adquisición de activos fijos </MN1809478285>
+<MN1275883054> Lista de transferencia de activos fijos </MN1275883054>
+<MP1942431587> Lista de venta de activos fijos </MP1942431587>
+<MP767551983> Fijación de activos fijos </MP767551983>
+<MN109970572> Fijación masiva de activos fijos </MN109970572>
+<MP1312137780> &amp; informes </MP1312137780>
+<MP1397172416> Contabilidad &amp; &amp; Finanzas </MP1397172416>
+<MN1941850603> Libro mayor </MN1941850603>
+<MP442670290> Hoja de balance </MP442670290>
+<MN1906452883> Ganancias y pérdidas </MN1906452883>
+<MP1769179430> Comparación de pérdidas y ganancias </MP1769179430>
+<MP1372055867> Estado de flujo de efectivo </MP1372055867>
+<MN1197855272> Beneficio y pérdida Monthwise </MN1197855272>
+<MP604826464> Consolidación de pérdidas y ganancias </MP604826464>
+<MP1755482572> Plan de cuentas </MP1755482572>
+<MP1297607173> Transacciones de análisis de cuenta </MP1297607173>
+<MN620084362> Pivote de análisis de cuenta </MN620084362>
+<MN885963541> PDC </MN885963541>
+<MP1406423716> PDC emitido </MP1406423716>
+<MN258669084> PDC recibido </MN258669084>
+<MN1064344632> Cheques con descuento </MN1064344632>
+<MP802295852> Revise la lista de vencimientos </MP802295852>
+<MN2060931360> Clientes &amp; &amp; Deudores </MN2060931360>
+<MN447885810> Resumen de envejecimiento del cliente &amp; &amp; Detalle </MN447885810>
+<MP2008975626> Lista de clientes </MP2008975626>
+<MP61859689> Lista de contactos del cliente </MP61859689>
+<MP1857770409> Perfil del cliente </MP1857770409>
+<MP916383691> Vencimiento del cliente </MP916383691>
+<MP643091684> Lista superior de clientes </MP643091684>
+<MP468666336> Proveedores &amp; &amp; Cuentas por pagar </MP468666336>
+<MN2040076634> Resumen de antigüedad del proveedor &amp; &amp; Detalle </MN2040076634>
+<MN668688322> Lista de contactos del proveedor </MN668688322>
+<MP316214260> Perfil del proveedor </MP316214260>
+<MP376350525> Actividad del proveedor </MP376350525>
+<MN284053151> Carga Freight </MN284053151>
+<MP434923056> Ventas </MP434923056>
+<MN43087026> Ventas por cliente </MN43087026>
+<MP2030235799> Ventas por artículo </MP2030235799>
+<MN1987133002> Ventas por vendedor </MN1987133002>
+<MN1824819351> Ventas por ubicación </MN1824819351>
+<MP190605625> Ventas por grupo de clientes </MP190605625>
+<MN1936853031> Ventas por categoría de artículo </MN1936853031>
+<MP562418993> Ventas por artículo de la marca </MP562418993>
+<MN1965948266> Ventas por artículo, cliente, vendedor </MN1965948266>
+<MP341268880> Ventas por GRN </MP341268880>
+<MN1717981185> Resumen de ventas por GRN </MN1717981185>
+<MP1126696604> Comparación de ventas </MP1126696604>
+<MP238658468> Comisión de vendedores </MP238658468>
+<MN554670106> Ventas por cliente, vendedor </MN554670106>
+<MN2125079243> Ventas mensuales </MN2125079243>
+<MN286023667> DN pendiente </MN286023667>
+<MP340871597> Exportar lista de selección </MP340871597>
+<MP866718347> Transacciones </MP866718347>
+<MP215710745> Oferta de venta </MP215710745>
+<MP1096561401> Ventas reservadas </MP1096561401>
+<MN1984492855> Factura múltiple </MN1984492855>
+<MP369604125> Compra </MP369604125>
+<MP1414266756> Compra por proveedor </MP1414266756>
+<MP740352356> Compra por grupo de proveedores </MP740352356>
+<MN1157083154> Compra por artículo </MN1157083154>
+<MP1434658824> Compra por el Comprador </MP1434658824>
+<MP1012763072> Compra por ubicación </MP1012763072>
+<MP1896754609> Compra por categoría de artículo </MP1896754609>
+<MN1870832776> Compra por artículo, proveedor, comprador </MN1870832776>
+<MP1887779547> Órdenes de compra abiertas </MP1887779547>
+<MP106393545> Órdenes de compra abiertas (sin inventario) </MP106393545>
+<MP290942768> Envíos abiertos </MP290942768>
+<MP1322607005> Comparación de cotizaciones </MP1322607005>
+<MN1075711411> GRN pendiente </MN1075711411>
+<MP2036431489> Asignación de gastos de compra </MP2036431489>
+<MP1791280240> Movimiento de inventario por GRN </MP1791280240>
+<MP787504487> Compra por artículo, proveedor, comprador (no inventario) </MP787504487>
+<MP1932873577> Informe de costos de compra </MP1932873577>
+<MP504085952> Lista de conocimiento de embarque </MP504085952>
+<MN505334682> Compra GRN </MN505334682>
+<MP359335323> Libro mayor de inventario Lotwise </MP359335323>
+<MP753903163> Valoración de inventario </MP753903163>
+<MP259835600> Matrix Inventory Valuation </MP259835600>
+<MN379845305> Resumen del envejecimiento del inventario </MN379845305>
+<MN1827737308> Lista de precios de artículos </MN1827737308>
+<MN1418054119> Pivote de lista de artículos </MN1418054119>
+<MP397445664> Catálogo de artículos </MP397445664>
+<MP1488000075> 3PL </MP1488000075>
+<MN491145218> Libro mayor de elementos 3PL </MN491145218>
+<MP854331174> Acciones en stock 3PL </MP854331174>
+<MP186403336> Envejecimiento de stock 3PL </MP186403336>
+<MN415428845> Resumen de caballos </MN415428845>
+<MP978600346> Código de barras </MP978600346>
+<MP977276955> Perfil de plomo </MP977276955>
+<MP1695178090> Lead By Source </MP1695178090>
+<MN1535920375> Próximos eventos </MN1535920375>
+<MN756851238> Próximas oportunidades </MN756851238>
+<MN989263965> Lista de consignaciones abierta </MN989263965>
+<MP1704187500> Informe de consignación </MP1704187500>
+<MP1489468550> Consign In Movement </MP1489468550>
+<MP1656360854> Envío de camiones </MP1656360854>
+<MP1839481155> Consign In Inwaiting Settlement </MP1839481155>
+<MN722649928> Detalle de la rentabilidad de la consignación </MN722649928>
+<MN1987410349> Consign Out-Awaiting Settlement </MN1987410349>
+<MN1177660149> Resumen de rentabilidad de Consign Out </MN1177660149>
+<MP1425861115> Empleado &amp; &amp; Nómina </MP1425861115>
+<MN50386032> Libro mayor de empleados </MN50386032>
+<MP2014930200> Transacciones de nómina de empleados </MP2014930200>
+<MN419126662> Perfil del empleado </MN419126662>
+<MN1790746817> Historial de empleados </MN1790746817>
+<MN2021147379> Actividad del empleado </MN2021147379>
+<MP2099563561> Permiso de empleado </MP2099563561>
+<MP585344962> Estado de licencia de empleado </MP585344962>
+<MP640805559> Licencia anual debida del empleado </MP640805559>
+<MP1595574953> Horario de trabajo del empleado </MP1595574953>
+<MP1436650443> Elegibilidad para graduarse del empleado </MP1436650443>
+<MP214717105> Salario del empleado </MP214717105>
+<MN644499613> Recibo salarial del empleado </MN644499613>
+<MP573914627> Préstamo para empleados </MP573914627>
+<MN1670279632> Liquidación final del empleado </MN1670279632>
+<MN1897849049> Estado de actividad legal </MN1897849049>
+<MP795251933> Historial de casos </MP795251933>
+<MN587668763> Case Lawyer Track </MN587668763>
+<MP1847973978> Proyectos </MP1847973978>
+<MN1857346612> Presupuesto vs real </MN1857346612>
+<MN482677103> Estado del proyecto </MN482677103>
+<MP2065444621> Variación del material del proyecto </MP2065444621>
+<MN841263819> Subcontrato PO del proyecto </MN841263819>
+<MN841657035> Project SubContract PI </MN841657035>
+<MN980099564> Solicitud de material </MN980099564>
+<MP41798818> Flujo de solicitud de material </MP41798818>
+<MP526442010> Ventas de activos fijos </MP526442010>
+<MP1864873134> Activo de la empresa </MP1864873134>
+<MN281927020> Orden de trabajo del equipo </MN281927020>
+<MN1818416850> Lista de equipos </MN1818416850>
+<MP1360350710> Transacción de inventario de orden de trabajo </MP1360350710>
+<MN1337731865> Registro </MN1337731865>
+<MN1037806949> Renovación </MN1037806949>
+<MN428164787> Disponibilidad </MN428164787>
+<MN307004483> Transacciones de la cuenta de la propiedad </MN307004483>
+<MP411748614> Disponibilidad de unidades de propiedad </MP411748614>
+<MP1430125812> Historial de unidades de propiedad </MP1430125812>
+<MP1243360244> Informes personalizados </MP1243360244>
+<MN603744903> Pivote &amp; &amp; Centro de gráficos </MN603744903>
+<MP1055228370> &amp; Ventana </MP1055228370>
+<MN150180511> Tile &amp; Horizontally </MN150180511>
+<MN1545791930> Tile &amp; verticalmente </MN1545791930>
+<MP231923052> &amp; Cascade </MP231923052>
+<MN1403131024> &amp; Organizar iconos </MN1403131024>
+<MN1351123137> H &amp; elp </MN1351123137>
+<MN586638775> &amp; Ayuda &amp; &amp; Soporte </MN586638775>
+<MP1506048026> Registrar &amp; &amp; Activar ... </MP1506048026>
+<MP50471928> Actualizar producto ... </MP50471928>
+<MP1505826066> Verificar actualizaciones ... </MP1505826066>
+<MP1901061414> Actualizar plantillas de impresión </MP1901061414>
+<MP1187107993> &amp; Acerca de Axolon ... </MP1187107993>
+<MN675546082> Herramienta de mantenimiento Axolon </MN675546082>
+<MN1291245545> Asistente de seguimiento de contenedores </MN1291245545>
+<MP590239636> Formulario de prueba </MP590239636>
+<MP1568128168> matriz </MP1568128168>
+<MP547368030> Traducir </MP547368030>
+<MN279014024> Documento </MN279014024>
+<MP1239202878> pago con cheque </MP1239202878>
+<MN32274799> OCR </MN32274799>
+<MN1452111825> Personalizar Dash </MN1452111825>
+<MP464197563> Presupuesto </MP464197563>
+<MP425270479> Seguimiento de kilometraje del vehículo </MP425270479>
+<MN1495006057> Sales Man Target </MN1495006057>
+<MN1520941600> Micromind Axolon </MN1520941600>
+<MN833560427> y contraseña: </MN833560427>
+<MP1731958060> Recordar contraseña </MP1731958060>
+<MN725294419> Recordar ID de usuario </MN725294419>
+<MN531827496> &amp;ID de usuario: </MN531827496>
+<MN313836191> Configuración de conexión ... </MN313836191>
+<MP928770176> Inicio de sesión en la base de datos </MP928770176>
+</Language>

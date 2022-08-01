@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "450768a3-b647-4c6c-a267-724ba4368906": {
+      "ProjectGuid": "450768a3-b647-4c6c-a267-724ba4368906",
+      "DisplayName": "StarERP",
+      "ColorIndex": 0
+    },
+    "c51621c0-5ea9-48be-b1d9-711194dfd8b2": {
+      "ProjectGuid": "c51621c0-5ea9-48be-b1d9-711194dfd8b2",
+      "DisplayName": "mclntlib",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
