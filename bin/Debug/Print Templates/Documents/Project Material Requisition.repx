@@ -1,0 +1,1746 @@
+/// <XRTypeInfo>
+///   <AssemblyFullName>DevExpress.XtraReports.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</AssemblyFullName>
+///   <AssemblyLocation>C:\Shakkeeb\AxolonERP\DevExpress.XtraReports.v12.1.dll</AssemblyLocation>
+///   <TypeName>DevExpress.XtraReports.UI.XtraReport</TypeName>
+///   <Localization />
+/// </XRTypeInfo>
+namespace XtraReportSerialization {
+    
+    public class ProjectInventoryIssueReport : DevExpress.XtraReports.UI.XtraReport {
+        private DevExpress.XtraReports.UI.DetailBand Detail;
+        private DevExpress.XtraReports.UI.PageFooterBand PageFooter;
+        private DevExpress.XtraReports.UI.XRPictureBox pictureBox2;
+        private DevExpress.XtraReports.UI.PageHeaderBand PageHeader;
+        private DevExpress.XtraReports.UI.XRLabel label25;
+        private DevExpress.XtraReports.UI.XRLabel label24;
+        private DevExpress.XtraReports.UI.XRLabel label23;
+        private DevExpress.XtraReports.UI.XRLabel label22;
+        private DevExpress.XtraReports.UI.XRLabel label20;
+        private DevExpress.XtraReports.UI.XRLabel label19;
+        private DevExpress.XtraReports.UI.XRLabel label15;
+        private DevExpress.XtraReports.UI.XRLabel label13;
+        private DevExpress.XtraReports.UI.XRLabel label12;
+        private DevExpress.XtraReports.UI.XRLabel label10;
+        private DevExpress.XtraReports.UI.XRLabel label9;
+        private DevExpress.XtraReports.UI.XRLabel label8;
+        private DevExpress.XtraReports.UI.XRLabel label5;
+        private DevExpress.XtraReports.UI.XRLabel label1;
+        private DevExpress.XtraReports.UI.XRLabel label37;
+        private DevExpress.XtraReports.UI.XRLabel label21;
+        private DevExpress.XtraReports.UI.XRPictureBox pictureBox1;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel2;
+        private DevExpress.XtraReports.UI.XRLabel label14;
+        private DevExpress.XtraReports.UI.XRLabel label17;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel25;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel26;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel24;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel23;
+        private DevExpress.XtraReports.UI.TopMarginBand topMarginBand1;
+        private DevExpress.XtraReports.UI.BottomMarginBand bottomMarginBand1;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport;
+        private DevExpress.XtraReports.UI.DetailBand Detail1;
+        private DevExpress.XtraReports.UI.XRLabel label26;
+        private DevExpress.XtraReports.UI.XRLabel label11;
+        private DevExpress.XtraReports.UI.XRLabel label7;
+        private DevExpress.XtraReports.UI.XRLabel label6;
+        private DevExpress.XtraReports.UI.XRLabel label4;
+        private DevExpress.XtraReports.UI.XRLabel label3;
+        private DevExpress.XtraReports.UI.XRLabel label2;
+        private DevExpress.XtraReports.UI.GroupFooterBand GroupFooter1;
+        private DevExpress.XtraReports.UI.XRLabel label18;
+        private DevExpress.XtraReports.UI.XRLabel label16;
+        private DevExpress.XtraReports.UI.XRCrossBandLine crossBandLine10;
+        private DevExpress.XtraReports.UI.XRCrossBandBox crossBandBox3;
+        private DevExpress.XtraReports.UI.XRCrossBandLine crossBandLine8;
+        private DevExpress.XtraReports.UI.XRCrossBandLine crossBandLine7;
+        private DevExpress.XtraReports.UI.XRCrossBandLine crossBandLine6;
+        private DevExpress.XtraReports.UI.XRCrossBandLine crossBandLine5;
+        private DevExpress.XtraReports.UI.XRCrossBandLine crossBandLine4;
+        private DevExpress.XtraReports.UI.XRCrossBandLine crossBandLine3;
+        private DevExpress.XtraReports.UI.XRCrossBandLine crossBandLine2;
+        private DevExpress.XtraReports.UI.XRCrossBandLine crossBandLine1;
+        private DevExpress.XtraReports.UI.XRCrossBandBox crossBandBox2;
+        private DevExpress.XtraReports.UI.XRCrossBandBox crossBandBox1;
+        private System.Resources.ResourceManager _resources;
+        public ProjectInventoryIssueReport() {
+            this.InitializeComponent();
+        }
+        private System.Resources.ResourceManager resources {
+            get {
+                if (_resources == null) {
+                    string resourceString = "zsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29ybGliLCBWZXJza" +
+                        "W9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4O" +
+                        "SNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAADAAAAAAAAAFBBRFBBRFAg898HN" +
+                        "eNbHkNv4EoxAAAAAAAAAIIAAACfAQAALCQAdABoAGkAcwAuAEQAYQB0AGEAUwBvAHUAcgBjAGUAUwBjA" +
+                        "GgAZQBtAGEAAAAAAExwAGkAYwB0AHUAcgBlAEIAbwB4ADEALgBJAG0AYQBnAGUAJgBTAHkAcwB0AGUAb" +
+                        "QAuAEQAcgBhAHcAaQBuAGcALgBJAG0AYQBnAGUAkQ4AAExwAGkAYwB0AHUAcgBlAEIAbwB4ADIALgBJA" +
+                        "G0AYQBnAGUAJgBTAHkAcwB0AGUAbQAuAEQAcgBhAHcAaQBuAGcALgBJAG0AYQBnAGUAtlYAAAGOHTw/e" +
+                        "G1sIHZlcnNpb249IjEuMCI/Pg0KPHhzOnNjaGVtYSBpZD0iTmV3RGF0YVNldCIgeG1sbnM9IiIgeG1sb" +
+                        "nM6eHM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hIiB4bWxuczptc2RhdGE9InVybjpzY" +
+                        "2hlbWFzLW1pY3Jvc29mdC1jb206eG1sLW1zZGF0YSI+DQogIDx4czplbGVtZW50IG5hbWU9Ik5ld0Rhd" +
+                        "GFTZXQiIG1zZGF0YTpJc0RhdGFTZXQ9InRydWUiIG1zZGF0YTpVc2VDdXJyZW50TG9jYWxlPSJ0cnVlI" +
+                        "iBtc2RhdGE6RW5mb3JjZUNvbnN0cmFpbnRzPSJGYWxzZSI+DQogICAgPHhzOmNvbXBsZXhUeXBlPg0KI" +
+                        "CAgICAgPHhzOmNob2ljZSBtaW5PY2N1cnM9IjAiIG1heE9jY3Vycz0idW5ib3VuZGVkIj4NCiAgICAgI" +
+                        "CAgPHhzOmVsZW1lbnQgbmFtZT0iSm9iX0ludmVudG9yeV9Jc3N1ZSI+DQogICAgICAgICAgPHhzOmNvb" +
+                        "XBsZXhUeXBlPg0KICAgICAgICAgICAgPHhzOnNlcXVlbmNlPg0KICAgICAgICAgICAgICA8eHM6ZWxlb" +
+                        "WVudCBuYW1lPSJTeXNEb2NJRCIgdHlwZT0ieHM6c3RyaW5nIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgI" +
+                        "CAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlZvdWNoZXJJRCIgdHlwZT0ieHM6c3RyaW5nIiBtaW5PY" +
+                        "2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlRyYW5zYWN0aW9uRGF0Z" +
+                        "SIgdHlwZT0ieHM6ZGF0ZVRpbWUiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZ" +
+                        "W1lbnQgbmFtZT0iUmVmZXJlbmNlIiB0eXBlPSJ4czpzdHJpbmciIG1pbk9jY3Vycz0iMCIgLz4NCiAgI" +
+                        "CAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUmVxdWVzdGVkQnkiIHR5cGU9InhzOnN0cmluZyIgb" +
+                        "WluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJSZXF1aXJlVXBkY" +
+                        "XRlIiB0eXBlPSJ4czpib29sZWFuIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgIDx4czplb" +
+                        "GVtZW50IG5hbWU9IkRlc2NyaXB0aW9uIiB0eXBlPSJ4czpzdHJpbmciIG1pbk9jY3Vycz0iMCIgLz4NC" +
+                        "iAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iRGF0ZUNyZWF0ZWQiIHR5cGU9InhzOmRhdGVUa" +
+                        "W1lIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkRhdGVVc" +
+                        "GRhdGVkIiB0eXBlPSJ4czpkYXRlVGltZSIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8e" +
+                        "HM6ZWxlbWVudCBuYW1lPSJDcmVhdGVkQnkiIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvP" +
+                        "g0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJVcGRhdGVkQnkiIHR5cGU9InhzOnN0cmluZ" +
+                        "yIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgPC94czpzZXF1ZW5jZT4NCiAgICAgICAgICA8L" +
+                        "3hzOmNvbXBsZXhUeXBlPg0KICAgICAgICA8L3hzOmVsZW1lbnQ+DQogICAgICAgIDx4czplbGVtZW50I" +
+                        "G5hbWU9IkpvYl9JbnZlbnRvcnlfSXNzdWVfRGV0YWlsIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5c" +
+                        "GU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hb" +
+                        "WU9IlN5c0RvY0lEIiB0eXBlPSJ4czpzdHJpbmciIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgI" +
+                        "CAgPHhzOmVsZW1lbnQgbmFtZT0iVm91Y2hlcklEIiB0eXBlPSJ4czpzdHJpbmciIG1pbk9jY3Vycz0iM" +
+                        "CIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUHJvZHVjdElEIiB0eXBlPSJ4czpzd" +
+                        "HJpbmciIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iSm9iS" +
+                        "UQiIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlb" +
+                        "WVudCBuYW1lPSJMb2NhdGlvbklEIiB0eXBlPSJ4czpzdHJpbmciIG1pbk9jY3Vycz0iMCIgLz4NCiAgI" +
+                        "CAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iQ29zdENhdGVnb3J5SUQiIHR5cGU9InhzOnN0cmluZ" +
+                        "yIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJEZXNjcmlwd" +
+                        "GlvbiIgdHlwZT0ieHM6c3RyaW5nIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgIDx4czplb" +
+                        "GVtZW50IG5hbWU9IlF1YW50aXR5IiB0eXBlPSJ4czpmbG9hdCIgbWluT2NjdXJzPSIwIiAvPg0KICAgI" +
+                        "CAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJVbml0UXVhbnRpdHkiIHR5cGU9InhzOmZsb2F0IiBta" +
+                        "W5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlVuaXRJRCIgdHlwZ" +
+                        "T0ieHM6c3RyaW5nIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hb" +
+                        "WU9IkZhY3RvciIgdHlwZT0ieHM6ZmxvYXQiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgP" +
+                        "HhzOmVsZW1lbnQgbmFtZT0iRmFjdG9yVHlwZSIgdHlwZT0ieHM6c3RyaW5nIiBtaW5PY2N1cnM9IjAiI" +
+                        "C8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkNvc3QiIHR5cGU9InhzOmRlY2ltYWwiI" +
+                        "G1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUm93SW5kZXgiI" +
+                        "HR5cGU9InhzOmludCIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuY" +
+                        "W1lPSJBbW91bnQiIHR5cGU9InhzOmRvdWJsZSIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgI" +
+                        "CA8eHM6ZWxlbWVudCBuYW1lPSJVbml0QW1vdW50IiB0eXBlPSJ4czpkb3VibGUiIG1pbk9jY3Vycz0iM" +
+                        "CIgLz4NCiAgICAgICAgICAgIDwveHM6c2VxdWVuY2U+DQogICAgICAgICAgPC94czpjb21wbGV4VHlwZ" +
+                        "T4NCiAgICAgICAgPC94czplbGVtZW50Pg0KICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJEb2NJbmZvI" +
+                        "j4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogI" +
+                        "CAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkNvbXBhbnlOYW1lIiB0eXBlPSJ4czpzdHJpbmciI" +
+                        "G1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVXNlcklEIiB0e" +
+                        "XBlPSJ4czpzdHJpbmciIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgb" +
+                        "mFtZT0iTG9nbyIgbXNkYXRhOkRhdGFUeXBlPSJTeXN0ZW0uRHJhd2luZy5JbWFnZSwgU3lzdGVtLkRyY" +
+                        "XdpbmcsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmN" +
+                        "WY3ZjExZDUwYTNhIiB0eXBlPSJ4czphbnlUeXBlIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgI" +
+                        "CA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgIDwveHM6Z" +
+                        "WxlbWVudD4NCiAgICAgIDwveHM6Y2hvaWNlPg0KICAgIDwveHM6Y29tcGxleFR5cGU+DQogIDwveHM6Z" +
+                        "WxlbWVudD4NCiAgPHhzOmFubm90YXRpb24+DQogICAgPHhzOmFwcGluZm8+DQogICAgICA8bXNkYXRhO" +
+                        "lJlbGF0aW9uc2hpcCBuYW1lPSJKb2JJc3N1ZURldGFpbCIgbXNkYXRhOnBhcmVudD0iSm9iX0ludmVud" +
+                        "G9yeV9Jc3N1ZSIgbXNkYXRhOmNoaWxkPSJKb2JfSW52ZW50b3J5X0lzc3VlX0RldGFpbCIgbXNkYXRhO" +
+                        "nBhcmVudGtleT0iU3lzRG9jSUQgVm91Y2hlcklEIiBtc2RhdGE6Y2hpbGRrZXk9IlN5c0RvY0lEIFZvd" +
+                        "WNoZXJJRCIgLz4NCiAgICA8L3hzOmFwcGluZm8+DQogIDwveHM6YW5ub3RhdGlvbj4NCjwveHM6c2NoZ" +
+                        "W1hPiAgSAAA/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFB" +
+                        "wYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMD" +
+                        "AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCADUAdcDASIAA" +
+                        "hEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9A" +
+                        "QIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFR" +
+                        "kdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t" +
+                        "7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAA" +
+                        "AAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRo" +
+                        "bHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0d" +
+                        "XZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4" +
+                        "uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAooooAKKKK" +
+                        "ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK" +
+                        "ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAOY+JXxBsfhZ4I1DXtR8z7Bpcfmz7I+k" +
+                        "dfJEf8AwcE/sx+V/wAjpF/4E2f/AMkV9n6npcGsWM1tcRrJBcx+XIjp/rK/mK/4LX/scx/sd/t6eJ7W0" +
+                        "tYrfw/4yvLjX9LSO38uKLzJPMkjj/65+ZHQB+0f/EQN+zITz42h3f8AX1Z//H6X/iIH/Zn/AOh2h/8AA" +
+                        "mz/APkiv59PgR8GdH+Kmn3H2qe5iuIvM/1cdehN+x34bVc/a7j/AL918TmXHmVYHEfV65+scO+C/EOeY" +
+                        "SGY4CHuTP3J/wCIgn9mb/oeYf8Av/Z//H60vDf/AAXb/Zs8U3/kR/ETR7J/+el3qFlHH/6UV+E3/DF3h" +
+                        "3/n9uf+/dMm/Yv0Dyv3d7c/9+64f+IoZJ/Me9/xLpxh/JA/pi+FX7U3w6+OFjbz+EfG/hfxALn/AFf2D" +
+                        "VLe6J/CNzXoG7d91c/jX8mfin9l7X/CCyX3hnWLiXyv3kf2fzI7mv0W/wCCI3/BcW40DUNL+D/xm1W8u" +
+                        "PtLx22h+KNX1XfIkkkvli2uDPyP9ZH/AMtP+WZ4r6zK89weZU+fCSPzPifgrN+H6/sczp8h+31FQ2sqz" +
+                        "Q7o8be23vU1ewfKhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB" +
+                        "RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAV+TP8AwdR/B" +
+                        "S1174BeBPHX2Z/tHhvULiyknHYXP2b/AOR6/Wavzp/4OepV/wCHYlxHu2tJ4s0v/wBqUAfiL+x1eP8A8" +
+                        "JFqEH/TvJJ/5Ejr6CiTBbbXzz+xyfN8Zah/15yf+jI6+hxE2f8AWV/LfiRhalTOZ+zR/ov9H7NMNS4Uh" +
+                        "Tq1AJUmleRJhjOaPhB8M/GH7Sv7UmifC/wnd6bpt5rEdxLHcXdv9p8ry7b7T/z0j/5519T/APDiP4+eV" +
+                        "/yOPhf/AME8f/yZWOX+HGaYyhHEU9md2deP3DWWY+eAr8/PA+Vg/lhVavlX9pbw4mj/ABUvJIEktre6/" +
+                        "wBIjkj/AOen/LSvrjx38PPEnwW+KOv+BPGsFrb+KPDlx5VwkEn7u5j8uKSOX/tpHJXin7YPhz7Z4I0++" +
+                        "RP3lhcfvJP+un/7uvV4IqV8nzz6nXPA8YqWE4r4L/tjL/se+fuz/wAELf2p9R/ao/4J8+F9Q17UoNS8U" +
+                        "6TPcWWqeXsEkWLiTy/MQdP3eK+0q/nr/wCDan9rh/g1+1nqHw7vrry9P+I0lv5fmSSfu/sdlqUn/wAbr" +
+                        "+hSv6VP8+QooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK" +
+                        "KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAryzLDC7u2FjXL1+IP" +
+                        "/BU3/grj8Ef2gvjVqHw98Y/DXX/ABjpvw/1e8023uLDxBHbW11ceZ5cn7uSzk/596/bbXbP+1NHurX/A" +
+                        "J+IHj/MYr+Tb9vj4L6v8AP20/idoer21xaTHxPqF9ZSzJ5Yu7aS9k8uWpqXUbm1D2bqfvD6Vi8Vfs92f" +
+                        "z2/7M3jSP8A65+KLf8A+VdSf8J38Bv+jbfHv/hT2/8A8q68t8AeItR0/wCAEOoTzySXkdv5kckn/XOtK" +
+                        "fxjff2zcQI8flxaP9tj/wCun7v/AOOV+J4rizHe3qQ9nA/rjK/C/I/qdCaxFanzw59z3L9nv9uD4O/sX" +
+                        "/EqD4ieH/2dfFdprGk+YEu77xFH5UfmR+X/AMs9Pj/56V+/FlftfadFN91ZkDiv5u/2MPhvof7U37eXw" +
+                        "M8L+NLWPUtD8WW9x/aFp5f7qX/R5JI6/pJjs1tbcRxj5I+BX6ZwvjKuJwvNUP558QMpwmX5rOhhLv8Ax" +
+                        "bn4Vf8ABWX/AJSu/EDy/wDoF6f/AOkVtXzV+0FZf2j8J9YT/nlHJJ/5Dkr6Y/4Kxf8AKWDx/wD9gzT8/" +
+                        "X7FbV84fHE4+FmubP8Anzk/9F1+H8Qz9nxbB+Z/ZHA8PaeF84P/AJ9zPn39jPx2/wAK/wBrj4f6+j+X9" +
+                        "g1CSPzPM/56R+X/AO1K/rujl81c1/Gz4bvP7N8T6POn/LLULf8A9GV/Y34fuPtOhWb/AN63Rv0r+kI7I" +
+                        "/gGtuzRoooqiQooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo" +
+                        "oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigCJPu1+JH/B1z4Z0HS/GH" +
+                        "wkvrfS7O38QagmqG8vkj/e3Mcf2LyxJX7bp92vwj/4Ot9f+2ftF/C/Tt/8Ax66fqEn/AH8+xVNXY6MPr" +
+                        "WXyPkTTQ8P7N2nps/1tvb/+i61PJ/4uDcR+X/zL8f8A7bVX1P8Ac/AfR/k/5c7P/wBp1o6afN+KFx/2A" +
+                        "4//AG2r+aXU/e1J/wB+Z/e0abhhaFP/AKdwPS/+CXECR/8ABQf9my5/vSSRf+Q5a/oqY5Sv5y/+Ca+op" +
+                        "pv7WH7PurXE8dtb2GoxiR5JP3df0Dat8bfCOhaVc3134j0e3tbSPzZ5HuUxGnvX7JwbUSwP/bzP5X8XM" +
+                        "O4Z4rfyQPxW/wCCs3/KWH4gf9gyw/8ASK2r5r+NPHwn1v8A69JP/Rdew/tefFfSv2jv21fid460e4jut" +
+                        "NuNYk0mzuEk8z7VHbxx23mR/wDTP93Xh/7RF59k+D2qfP5fmR+X/wCQ5a/F84qQr8W/u/5z+r+FaNTCe" +
+                        "GE/af8APs+UIf8Aj5s3/wCny3/9GV/Y34N/5E7R/wDr0i/9Fiv45LOLzr/T0/6fLf8A9GR1/Y54UHleE" +
+                        "9KT/p0i/wDQBX9NR2P8/K27Neik/j/ClqiQooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii" +
+                        "igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii" +
+                        "igCM8tX8+f/AAdG6l9t/b18L2v/AD4aH/6M8qv6DI+gr+br/g4n8RP4j/4Kfaxbu+5dP0+zixWOI/hM7" +
+                        "Mtjz4qmvM898Ywf8Wl8PpH/AMtP7Pq/pg8n4oXmz/oD/wDyNUfxCCWfgjw+n/T5p8f/AJEqTR/+S03if" +
+                        "9Qf/wCN1/M9H94n6zP9AsVT9m6cP+ncP/SDP8HeB9O+InwP0ax1FPMgltY/9XJWfH+yZ4OSfcYb3P8A1" +
+                        "+SV0nwcLR/CrQsf88yD/wB/K637ZCzf6yP6b68XF59mOGxFSnh5+6fcYPg3h3MMLQxmY0YTqchV0yzh0" +
+                        "PT7eztf3cFvGkaJXmv7XepfY/hrbwf8/V3ivUhLHN/FD/38r5g/ap8bf8JF48/s6CfzNP0z/V+X/wA9J" +
+                        "P8AWV6XAOX4jHZzCrV+wfL+NXEmCynhOeDw1vf9w5z4J+Dp/iF8bvCegQJ/pGqahH5f/bP95X9g9lbfY" +
+                        "7SGP/nmgT+Vfgb/AMG2X7Bkfxl+OeofFjX7CO40nwXPHHpXn/dupLi3vYpD/wCi6/fqv6mP84QooooAK" +
+                        "KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK" +
+                        "KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoPSiigCmv+pr+Y7/gtlrn/CRf8FUfH0f/AD6Xc" +
+                        "dt/5MSV/Ti3y1/K7/wU41Qa9/wVA+K2X3BfGd3agen/ABMbmuXMP92mepka58fR/wAaOy+LVn5vhzQ4f" +
+                        "+oxZ/8AoypNB/5LncJ/1B//AI3UvxT/AHNtoif9Ryzj/wDIlGkc/Hm8/wCwX/8AG6/mPB1H7H5zP9CM4" +
+                        "p/7QqflD/0gg+Fh8r4KaXt/55yf+jJK+Yofid4j8r/kIyf+A8dfUPwU/f8Awn0eP/rp/wCjJK+Qbv8A0" +
+                        "S6uN/8Ayykr7rw7wuHxOLxVOtC5+M+O2Z43B5bl88NU9n7huD4n6/8Ax6rJ/wCA8dU/BPgnWPid4y0/w" +
+                        "/4fsZNS1zXryO2s4I/+Wskknl19V/sf/wDBDv46/tpeAdH8XeHIfC2m+EdeHm299qWoyR8f9c445K/av" +
+                        "/gmr/wSA+HP/BP3wnZXS6Rp2v8AxFli/wCJh4lmH2qUnO/y4PM/1UYOP9XHHn5OOK/Y6OFw+H/hUz+Wc" +
+                        "dnGNxn+81PaHY/8EoP2Mpv2D/2K/Dfge+nhuNahkuLzVJ45PMjllllkkGP+2Zjr6doHSiuk88KKr/bP8" +
+                        "4qTz6AJKKr/AGv/AGKfFNuoAloopksm0UAPoqv59PimzQBLRRRQAUUyWTaKikuvKWgCxRVZb3cKnjbcg" +
+                        "PrQA6iq73flSBakoAkoqPzsVH9rx/8AqoAsUVX+2f5xR9s/zigCxRUQnyKWgCSio3k2pTVuRigCaikU7" +
+                        "hS0AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAZ+qzeTZXEn92" +
+                        "Nz+lfyd/tdal/wlX/BQ74kXW/8A4+viJqH/AKcZa/q28eT/AGTwZrE3/POwnf8AKM/4V/JF4wvZPFX7X" +
+                        "XiC+3/8f/ji8uPM/wC32uHNf9yqHucL0+fNcP8A9fIH0d8VYfOtdB/7D1vVTTf+S7Xn/YM/9qR1d+IPI" +
+                        "0BNn/Mcjqhpokh+P94n/UL/APakdfzLl9/ZWP8AQjPGvrH/AG9D/wBILnwT/ceA9P3/APPS4/8ASmSvk" +
+                        "Hxdvh1nWEf/AJ6SV9cfB+b/AIo23/6ZXFx/6UyV8r/FqF7PxvriP/z8SV954aX/ALWxUD8U+kBTU+H8v" +
+                        "qH9K3/BBX/lFj8Kv+vKT/0bJX2NXxv/AMEFv+UWHwt/685P/Rr19kZxX7YfyMFRy/6mpKKAPwD/AODlT" +
+                        "4seLfAX/BRDTrTQ/E3iTRbf/hD7OTyLDVZLeL/j5uf3nlx1+hf/AAb1eJdV8a/8E4fC99qupalq13LcX" +
+                        "nmXd3ceZJL/AKbc1+an/B0D/wApJtP/AOxK0/8A9Kb2v0j/AODcH/lGR4T/AOvnUP8A05XtAH5Yf8F5P" +
+                        "jH4v8Hf8FW/iTpmk+KvEmmaXAul+TaWerXEEaZ0mzJ/dj35r9JP+DaXxjrXjn9iPVLvW9U1PVrpdYlUP" +
+                        "fXJmZRuPQnlfoa/Lv8A4OGP+Uu/xS/65aT/AOmezr9Ov+DXn/kxbWP+w7J/M0AfpZH9wfT1zVe7Urv28" +
+                        "bULK3904arKfcH0qNP9cf8APYUAfyh/tY/tA/EDTf2qviZb2/jTxVDBB4u1O3igi1WdIPKF3INgUOAAB" +
+                        "wABxX9SvweuGu/hros0jO7NahizuXZs45LEkk+5PNfya/tff8nZfFL/ALGzVP8A0ruK/rN+Df8AySvQ/" +
+                        "wDr3X+dAHUqciigdKZJ9xtvWgDK8Y+JoPBvhrUtXuuLbSrWa9n/ANyNCx/QV/K3+2B+3L43+Pv7TPj7x" +
+                        "fpXjPxNZaXr2tTz6ZFb6xOiRWXmvHCqqJAFAjCgADjFfu3/AMF4f2qtQ/ZZ/YI8QPp6eZfeM5X8NoP+e" +
+                        "cdxbziVvvj7qAN+Nfhj/wAEzf2Fn/b2/aGj8ISTz6bpFrp9ze39zHJ9zyld1XqerD1oA+8f+DY79tHVt" +
+                        "f8AjP44+HXirxFqmsjW9Pg1XRzqN5NdndDIYpogXyBuWcPjP/LOv24t5ldflOfU+tfyafsLfGKb9lD9u" +
+                        "D4c+KdRmmij8L+KLaLV8nkQeesdz/5CzX9WXw78WW3jzwXo+uWZ3WmtWUF/Ax7xyxq6n8mFAHiH/BV2/" +
+                        "utF/wCCc/xmvLO5uLK7t/Dly8M8ErxyRttXkFOa/mIT9pT4iMg3+PPGu5xlsa3cjn6bxj8q/p3/AOCu3" +
+                        "/KND42f9irdfyFfz9f8EVB5v/BTf4Tj0uL/AP8ATddUAeJr+0V8Rcf8j542/wDBzcf/ABypbL9p74maR" +
+                        "P5tr8RfHELjq6a1cIVP18yv673XynPzd68s/bH+Evh742fs2+NdF8TaZZ6pp7aLeuFuI8rbym2kCyL/A" +
+                        "LXzUAfiX/wSH/4Lh+MfgN8XLPwr8WfFuqeJPAmuzCKTUtWvbjULzSSsbbFhPOEZmGRt/wCBnrX68f8AB" +
+                        "S/9ujTf2B/2UdT8bXM1vPrF8Rp/h+Bo38q8v3jkeNDsy3MaSP1/5Z1/LRA0i6hC0UhkYSI8bnqDX7Af8" +
+                        "HMesak37MP7MdrIvmWt9b3VxdP6XCWdki/+OySUAfm58Yv2/PjJ8cvG2qa5rnxE8YGe+uHuFs4dbuYrW" +
+                        "2V3LCOJN42xrnCjHAArkH/aK+I2848deNVGeANcuMD/AMiV+gv/AAbC/DbwN46/aV8Y3viaK3ufEuj2l" +
+                        "q3h2OSPozx3qXB/74Ar99UXKAgKAowMDgUAfyCt+0V8RvKP/Fd+Nv8AwcXB/wDalfr3/wAGrPj7xB490" +
+                        "/44t4g1zWtcltDoflHULyW4NoGXUuVD5GGwO9fsBKdyA1XfZ5g/WgC8n3B9KdTU+4v0FOoAKKKKACiii" +
+                        "gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoPIorP168/snRri6/594negD5L/4K+" +
+                        "f8ABQ3SP2A/2YL6/wBlnq3ijxFnS9H0Y3Yiluun2hx7Rxvn8q/nP+DHw91X4nfEK41jfJbR/bPtsl35f" +
+                        "/LTzPMrQ/bA/bN8f/tu/FW88VeOtYkvf9Ik/s+wj/d22l/6uOTy4/8App5cdbnwg+P2h+A/Adnpslr/A" +
+                        "KRF/rJPtH+tr5PjDEYungPZYCHPOZ+meFWW5Ric6p1M4r+zhT989K1L4fX+o+T53iC5k+y3H2m3/wBGj" +
+                        "/dSUR/Dm7XxD/aqeILn+0PL+z+Z9mj/ANXXPf8ADWugf8+//kxHR/w1poH/ADx/8mI6/Bf7J4jh/wAuz" +
+                        "+1anEnANTSpiP8Ayf8A4J0ejfDS98Pad5Np4guY4vMkk2fZ468X+P3wH1jR9UvNYR5dW0+WPzLify/L8" +
+                        "r/tnXoiftZ+H41wIOP+viOq2rftP+HL/Sri0a1kkjureSP/AI+I697huPEGCxn1j2B8bx1U4FznKHhIY" +
+                        "vkdP4D6e/4JI/8ABemT9kDwb4Y+E/jzR477wPbXnlQa6lx5cmjRSSR5EkaR/vPL/eSV++ukaxb+INNhv" +
+                        "bSaO4s7qNJ4Jo33pKj9MV/HDqXkTXVxsT/R5ZJPLj/6Z1/S1/wQP+M3iD44f8ExfAepeIruS91DTJLjR" +
+                        "Y5pP9YYLOT7NFz/AB/u4+tf0PRu6fMz+Fq6UKtkfbQ6UUUUzE/nj/4OiP8AlJNp/wD2Jen/APpTc1+kf" +
+                        "/BuD/yjI8J/9fOof+nK9r83P+Doj/lJNp//AGJen/8ApTc1+j3/AAbgf8oxfC//AF8ah/6cb2gD8lv+D" +
+                        "hn/AJS4/Fb6aN/6Z7Cv03/4NeT/AMYJ6x/2HZP61+bX/BxPoEuif8FY/HF1Ikm3WLLStQT/AIBp1vF/7" +
+                        "Qr9Bf8Ag1s8cW97+yn4u0OOaH7Xo2pRXFxCv3gJjMAT7/uqAP1PT7g+lRp/rj/nsKEmwg+lRSt5vyj3+" +
+                        "X1yGoA/kV/bB/5Ow+KH/Y26p/6WyV/WT8F/+SW6L/16rX8oP7cOlNon7ZXxVgk2Aw+LtWkw/RG+1Sup/" +
+                        "wC+a/qZ/ZP8a23xD/Z18I61bTRTWuoaekiSJ7tkfzoA9QqGffu4pUmwo7+/rXIfG74q6b8EvhR4l8Y64" +
+                        "32fSPDNhNqNzL6RxoXP/oK0AfhB/wAHLf7UknxX/bKg8F6Tqy3Xh7wXpsMdzAh3xDUUlu/PJH9+JZNh9" +
+                        "xX2t/wbJ/ssTfCj9kDWPH19brHcfE2/SS2WSP8A1dnaPPCuf95vM/Ovwu+NXxW1D43/ABl8VeLNTuDcX" +
+                        "fiLVrvVJZmk3gvPM8pGO3LGtzwh+2T8Wvh/4YstK0T4qfETRdF02NxbWGn+Jb62tIYycMEVZAq4PAAGB" +
+                        "jAoA+lf+DgD9lyP9mf/AIKE67daXppt/DnjCwt9Y0+NItkAnWJYrhM/3vMBk/7bV+tP/Bv3+1lcftO/s" +
+                        "M2Nlersv/h1cJ4ZYGTeZ44rS3aOU/7xEhxX88XxG+M/jL4z3ltP4y8WeJ/Fd1ZAiOTXNWn1GSNe21pM4" +
+                        "/Ovvv8A4Nnv2pJvhN+2xdeA9S1L7P4d8eaVcrFayyDy5L6IxGIjtuMcbj/tpQB+wn/BW9t3/BMz41kd/" +
+                        "Ct2Rx7LX8wfwQ+NHif9nT4maL418H6h/ZPiTRS8tpeeTHceWHEkJ/dyo8Z4eTqK/p3/AOCucmP+CZnxt" +
+                        "5zjwpc8nvwtfz0f8EoPhj4f+Nf/AAUE+G/hrxTpNrr2g6tc3Yu7K6T91ciKznkAP02UAejj/g4F/a5j+" +
+                        "X/hbW7HGf8AhFtFGfys8Vxnxr/4LIftKftD+Dbrw/4q+J97daRdoYp4LTSrOxaZSsi4aS3hjJH7z7ua/" +
+                        "fYf8Eav2YRGAPg14QXgruSJ+M/Q4r88P+Cy3/BB7wx8JfhNqXxK+Dun6rbnQY/O1bRVnjFjZ2cSXFxLc" +
+                        "ICiH5FAXmRu3BoA+WP+CPn/AASa8T/t3fE618RavZXen/DXR7jzLjU23Yup1VtqR/vN33ljzs5/vd6/Z" +
+                        "r/gsB+wMP28v2OLzw7pVqreIvDsn9seHokCYknjgeMWoZnQKJVfb1wMda/Er/gkP/wUp8S/sbftE+G7P" +
+                        "UfEmqr8NLp5ob/SLm8ee1DNBN5TiIcKfNY8iv6Z45FljVkO5GGVYHOR25oA/kW8efBr4j/st+Pri11nR" +
+                        "fEng7W9DuZIjdYmtjvVipMUyFldcg4ZSQRggkHNXP8AhtD4vNz/AMLa+Ja7eMDxPeAD8pB/Kv6sPHn7P" +
+                        "fgD4qtu8UeCfCHiZ1JO/VtFtrtlPt5kZrmG/YM+BpQf8WZ+EvT/AKFDTuf/ACHQB/M18P8A/gpF8dfhn" +
+                        "qcN5pnxW8bs0UqTsb7VnvIsDnaROXHzfSv3D/4Iof8ABWW+/wCCifhvXtC8S2NvYeM/CNtBPLcLMpOqJ" +
+                        "LLMhl2rGFXYQi4Ax+8r5f8A+DlT9hL4Y/Bf4E+EviB4K8O6H4Q1ptdXRrmz0WyhsYruCSG4maVkUAfIY" +
+                        "NnAx+8r5d/4NzfHGo+Gv+CnfhLRbRrhLPxNZ6lb6giPiM+Vp91MmR9UjoA/pDibfEpHcA0+mQf6sU+gA" +
+                        "ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACsnxj/wAilqn/AF6S/wDos" +
+                        "1rVV1LTo9Ts54ZPuXCbHoA/jSj+7J/10kp9f0Tp/wAGz37NADfuPG37z/qLx/8Axul/4hn/ANmr/n38b" +
+                        "f8Ag3j/APjdAbH869EFf0Uf8Qz/AOzV/wA+/jb/AMG8f/xuj/iGf/Zq/wCffxt/4N4//jdFkPmZ/Ov5F" +
+                        "Ff0Uf8AEM/+zV/z7+Nv/BvH/wDG6P8AiGf/AGav+ffxt/4N4/8A43RYOZn86/8Ay1r+jj/g2o/5RT+Gf" +
+                        "+w5rH/pbJVP/iGd/Zp/54+Nv/BwP/jdfV/7IH7JPhH9iT4JWPgHwUuoxaDp9xPcx/b7n7RLvlk8x8v9a" +
+                        "BHrNFFFAH88f/B0T/ykj0//ALErT/8A0ova/SD/AINxR5P/AATD8J/9fGof+nG9r079r/8A4I//AAV/b" +
+                        "h+Kq+NPiBo+sX2vRWEenRvaatLbReVH5mz5I/8Aroa9W/ZS/ZU8H/se/CS18F+BLW9sdA0+SWSCO4uZL" +
+                        "iTMkkkr/wCs/wCmkkn50AfnX/wcR/8ABMDVvj1PH8b/AAkt/qGseHdGi0u/023g3vNGLwBZT/ux3Mhb/" +
+                        "YhFfkf+xp+2/wDEH9hH4jXHiTwDfxWN5dIsd9b3luGguVHRHVGUg+oLr+Ff1j3EC3EPlskcm5dgjdPMS" +
+                        "Rf8MZr5t/aD/wCCQf7P37UOqS6h4n+HekW+pSqFmu9JhWxnlA6bni+Yn3PJoA/J2H/g6h/aEihVf+EO+" +
+                        "D/ygD5tM1DP44vSM/Qke9fen/BDv/gqt8RP+CmWpfExfHWj+DtL/wCEPTTZLBNAtbuJZDOLrcZjNNIM5" +
+                        "t1xj1NbK/8ABtr+y24z/wAIz4l5558QXOf15r3H9if/AIJqfCr/AIJ93niQ/DXTNS01vFQtk1A3Woy3O" +
+                        "8QeaYzh+PvSy/nQB+Ln/BwP+wHffsxftS3XjzSUvtR8J/EOaTVLq5lgBWxvpJZ/MthjjDIgNeZfsW/8F" +
+                        "u/jf+wt8PLLwnoE3hvXPDWnJs0+w160lkisgzyySGEQTRtktLzk5r+lfxv4B0f4j+H59J8QaVpuuabeI" +
+                        "yTWl7aJPDKp9Q/FfIXxA/4N/wD9mH4kaw95P4Fk0nzMExaLftp8S55wEi4wOwFAH5uD/g6l/aGQYbwf8" +
+                        "HNw4ONI1Hr+OoZ/Ova/+Con/BS7xF8Vv+CKXw5vdWsdHtPFH7QH2i1vV04NFb2kdtdq0nlIzOxyscYIL" +
+                        "MR5nU9a+nT/AMG2f7K5P/It+KF/7mO5Fdl8Tv8AgiF8Bfi18PfBHhTW9I8RT6J8OrOay0O2j164QW0cs" +
+                        "xlkZm7kk9aAPxB/4Iu/stN+1t/wUA8G6Z5ojs/CV1B4ouJQuBcQ2d3DJtx23Ftn/Aa/p/SAbFx8oxwK+" +
+                        "bv2MP8Agll8Hf2CfGGpa18PNDvbHUtWtzZTXF3ftdt5JeNyAzcj5o0r6Yj4jH07nNAHz1/wVB+A6/tG/" +
+                        "sGfFLwv5P2m9/sC6vNPi/56XMMTSxD/AIEyGP8A4FX8wPw68Z6z+zb8ctG1+Ngdc8Ea9BfCMv8AJHcWk" +
+                        "wY5/wCBKB/20r+vm9tvtTOpTKNGyPu6OD2r4l+If/Bvx+zd8VfiFrnifWvDWvHVfEd5Lf3Zi1yeNDNK5" +
+                        "kfao4UbmOAOlAHUf8FD/inpPxs/4JAfFLxdociTaVr3gu7vbaRDw6bDtI+oIr8Kv+CKy+X/AMFQfhQD2" +
+                        "ub8f+U+6r+iPR/2HvAOg/sjTfA2Gzv2+H8lhPo8lrJfyNOIJn3lRJ14MleO/AT/AIIbfs//ALMXxi0Xx" +
+                        "34T0LX7HX9Akea1km1qWVAXheFtyd/v0AfZ1eeftR+Hv+Ep/Zu+I2lsuRqnhnU4Puf3rSRP/Zq9AtvMU" +
+                        "ANzgdcdara7psOs6Zc2Vwnm295G8c8f/PSNlKMPyNAH8cGm3AsL+Fk8seRKr/8Aj9f1A/t2ftceJf2QP" +
+                        "+Cd/wDwsvwvbaLfazp+n2UkMOrQyyWzeZEhORC6Njn1rzXU/wDg3L/Zb1TUZrmTwv4iiuJZTKRFrk8aI" +
+                        "7vkFVHCjI4A4HSvpL4sfsaeBfjX+zY3wq8Q2+pXng828cHl/bpFmCR4VB5vXOAOaAPxfX/g6p/aEI/5F" +
+                        "H4L/ho+qkfn9vH8qd/xFV/tCrx/wh/wY5/6g+o//LCv0KT/AINtP2W25PhrxRnuT4juKU/8G2v7LK9PD" +
+                        "Xif/wAKC4oA/EP9u/8A4KT/ABM/4KI+KNMvvHj6VbwaQXaz07TbdobeItnJXczMF9MsxxjJPWvuX/g2B" +
+                        "/ZBvtb+K3iD4taraXNvpPh+1S20WRk2pqU1x9pglw3cJtIz/wBNBX3f4A/4N/v2YfhzrK6hb+CJ9Skhk" +
+                        "DpFq9699AWX1jm+U/yr658EeB9J+H2hW2maDo9houk2fFtZ6dbLbQRdsCJflAHYjj04oA6S34gT5vM+U" +
+                        "fN/e96kpqHKj6etOoAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo" +
+                        "oAKKqz3aWcW93WOP++5qn/wmelf9BXT/wDwJSgDWorLj8Q2clg10t3beRH9+Tz/AN2PxqXT9WtdWG61u" +
+                        "Le4VfveXJ5lAF+iio/PoAkorHbxbpcTbJNS06Nv7j3MYqSw8R2OpSeXb3lncSf3Y7gSUAalFR+fWbL4u" +
+                        "0qKTa+paf8AjcJQBrUVkHxXpYj3/wBpWOz+J/tEfFL/AMJno/8A0FdN/wDAlP8AGgDWorJ/4TPR/wDoK" +
+                        "6b/AOBKf40i+KrF7Rrj+0LP7MrlfNWQFc+hoA16KyF8Z6Rt/wCQpp3/AIEJT4fFOnXUmyLUrGWQ9ES4Q" +
+                        "lqANSiogdyjtx09Ka9wI0LFtir1LdKAJ6KzE8TWElx5S3lmZM4CCcAn8KvK25VPqOxzQBLRWXqPiOx0u" +
+                        "by7i/tbeU/wSzImR+NTWGpQX9v5lrLDOmdu6NtwH496AL1FV7i5js4mklZY0Tq7vwKow+LNOu51jjv7K" +
+                        "R3+6qzjLUAa1FRCbaOlZ83inTbSVo5tSsY2UkMrToCp9CKANWis2x8R6ffTeXb3lrOx7RzB/wBBV6SVY" +
+                        "+rIPrQBJRWXdeKdNtJNkuo2KHOCsk6DafTFFt4g0/UJPLtr6zmZRuZI5UbA9aANSisyx8RWeozGO1vLa" +
+                        "aUDcVWXeQPoKnlu1tbYyO6Rx9d7vgCgC5RWdpWuWurD/RriC6A+8Y5d+Pwq68m1KAJKKyT4o09b77P/A" +
+                        "GhZrcZwYhOm4HuCOua1EbcoPqKAHUVn6tr1no7Bbm6tbctyBLN5eakstRhv4vMglhmi+7ujbdg/XvQBc" +
+                        "orPvNXt9KUC6uYbfPTzH2bvxpX1e2jsvtRnt1t8cytJhfwbvQBfoqjpus2urRbrW5huEx95JM1OZPLXI" +
+                        "IK/3mfpQBPRWTL4u0qKQrJqenxuOqmdAR+dS2Ov2eqTstreW90R1EcoOPyoA0aKhc4A5I3HBycis+HxR" +
+                        "ZTX/wBlS8tWuCxURiX5+Dj7tAGtRTU+73/EU6gAoqnqer2+kruubiC3Q9DI23P40unalDqVuskEkc0bZ" +
+                        "w8b71PODg0AW6KKKACioZpNmTlVA6lmwKz28X6XC22TU9PjkXqpuFBH580Aa1FUbHX7PVCVtbq3uMdfL" +
+                        "lBx+VXE6cHPvnNADqKKKACqOo3qWlq8kzRxRwx+ZJI//LOr1eY/tf6ldaP+yr8Rrq1fy7u38L6hJF/10" +
+                        "+zSUAfhL+2t+198W/8Ags7+3I3wz+GOoakvgkXdxaaDpsU5tLKa3j/1mo3YHJP/AC0/ef6uvTtM/wCDT" +
+                        "/4kT2Ecl98V/BdrceXiSODTriSOOvhn/gnz+1l8RP2PPjlN4s+F/hux8VeJ5dLks5Le70u4vvKt5PK8z" +
+                        "93byRyf8s6+4P8AiIF/bO/6JJ4b/wDCL1X/AOSKAPdvjB+wDrH/AATg/wCCC/x28F6x4j03xHc6heW+r" +
+                        "JdWMEkUY8y9so/L/ef9cx+dVf8Ag0v/AOSK/GD/ALDmn/8ApNLR8Tv2vfid+2j/AMEGPjt4o+KGg6d4b" +
+                        "163u7exjt7TS57KL7P9tsv+WdxJIab/AMGmf/JGfi//ANh2y/8ASeSgD9cpf9TX4u/8HCX/AAVE8WaX8" +
+                        "U7f9n/4XatqGmTRxx/8JNPpr+VdXU8vMenJJ1z5flyHy/8Anp5dftFPX8uf7fXxG1/wp/wV2+IHibTYP" +
+                        "7Q1/QfHn23T7eeP7TFdSW9z+7j8v/lp/q6APp74Z/8ABrh8ZPiB4Yg1jxd468K+G9Yv4/MksZxcX1zF/" +
+                        "wBdJP8AV+Z/38r7L/4JGf8ABE3xN/wTb+P+seMNZ8b6B4jh1TRpNJjt7OzkikizJHJ5n7z/AK518lf8R" +
+                        "Av7Z3/RJPDf/hF6r/8AJFfVn/BIP/gpx8ff22P2gda8OfFPwRpPhnQ9O0N722ntNAvbGSS4EkUf37iST" +
+                        "/npQB8g/wDBbP8A4KT/ABF/aM/bIuPgD8K9Y1G20HQ9VTw7JaaLceVc69qh/dyRySf9M5P3fl1J4J/4N" +
+                        "ZPjB410KHUPE/xG8H6HrFx+8uLQx3GoyRf9tK8R/wCCScyeO/8AguL4RutfTzLi/wDFGsXtwkkn/Lx9i" +
+                        "vZI/wDyJX9KkFAH4x+Gv+DYzx3oPwO8XeEW+J3hWSfxJqOl38dx/Z9x5UP2P7bwe+f9J/Svj3/gpd/wR" +
+                        "a8S/wDBNH4S+H/Fut+NNF8UW+vasNGjt7Gzkjkik8uSTzP3n/XOv6Yq/LL/AIOtv+TL/h3/ANjxF/6RX" +
+                        "NAHw9+wv/wb5+Mf25f2YfCvxO0r4ieG9D0/xS11tsLzT3eSMW9zLb9U/wCuVe2ftr/8E49Y/wCCan/BE" +
+                        "rxp4Q1rxJpviW61n4h6drST2Vm0SorRxQBTu5/5Y96+6/8Ag3t/5RB/Cn/f1r/08X1cd/wc0f8AKMHUP" +
+                        "+xl0z/0NqAPy2/4Jzf8EOPFH/BRn4DXXjrRfHWg+Gbe31SXSGtL6ynlLsiBsjHH/LXtXT/tm/8ABAj4p" +
+                        "/sG/ArV/iZZ+PdB1yy8OhX1GLT0uLK6t4iw/eKf94iuZ/4Jz/8ABcnxb/wTq+BNz4E0XwL4f8SWU+qS6" +
+                        "u11fXs8TIXWJNoxx/yz7Vtftvf8HCvxG/bT/Z81b4dt4P8ADfhTSfEBSO/nsp5J55o0YSBVMv7tRuQZY" +
+                        "0Afd3/Btt+3f4x/ad+EfjLwT451i58QX3w9NrJY6jeSF7g2kyzKqSseWCmMgE8nFfEv7Y/7fHxp/wCCv" +
+                        "v7bA+Ffwp1rUdO8IXupXGm6Fpun3JgivIoxl728df8AWIUieQK/3dny19cf8EmP2HvFH7D3/BMT41eOt" +
+                        "aFoPFXjjwpfalp1rp1yk/k2kFjPJbDzU+QySPIzKF+XaRivmX/g1g0ezuP29/GF1MkFxe2PgW5+znHIL" +
+                        "XtluZfb/wCOUAdl4u/4NfPir4Q+HU3iHw/8XtJ1Tx3DE142npaXUCzyKMhY70yOztjhQ0Snpk1c/wCCG" +
+                        "3/BUj4h+A/2oof2e/i9q2papYX95NpWmtrL777RdRhLKbKSQnLByCgSQ/IVjC1+4DDbGR1x3Pev5uP22" +
+                        "YE8Gf8ABwJq0ujo+6H4j6Tdx7OvnvLZyv8A+RXegDpf+DmeGST/AIKTxR4dnbwtpyIqKW3HdL3PJ+tfX" +
+                        "H/Bqv8AtBNq/wAJviR8K9Ql233hjU49atYW4ZYZx5Mw/wCAywo3/bavmP8A4OH9k3/BXTw60mTH/ZujB" +
+                        "lPVlEzbl/8AHq7D9mnSP+HbP/Bx5qXg+4k+zeH/AB1qU9hZyf8APWDVAlxap/wC4aGD/gFAH2t/wcb/A" +
+                        "LQy/BX/AIJ1atokU3l6l8RNQh0SKJepgx5k4/75jA/7aV+Nn/BHmxk0v/gqP8GFmQrL/bsciIerK1tIQ" +
+                        "34g5r7M/wCC/GsX37a//BUn4U/ATQZ9z6V9k0y4QfcsbnUmWSQv9LRYXb/YZa8w+Hnguw+HP/ByHpGg2" +
+                        "C7bDR/GyWFsvpHFbFE/RRQB9df8HGX/AAU98Qfs1W2j/CL4d65/Y3iTxJZNqOualbyf6VYWJfasat/yy" +
+                        "8zY5b1RB618q/s/f8G1vxq/aP8Ah5Y+MPFXjLQvCtxrttFd29rqv2i81Hy5FDr9pxwjYP3R0NeP/wDBe" +
+                        "LXL2/8A+CuXxMEmLia1m06GzgdXeMKtjaGMEJy24oPlr6Kh/wCDgX9s0wrt+Evh3bgYz4M1QnH1E4H5A" +
+                        "fSgD6X/AOCX/wDwQT8Wf8E/v2ttL+JWsfEDw/4is7Gwu7OW1trCSGbMqiMEMevTrXiP/Bwh/wAFPfG9r" +
+                        "8ev+FC/DjV9R0W10uO3Ov3Om3PlX+oXE2GS2LdURI2Vs/xZr1//AIJc/wDBWj9o79rr9r7S/BfxO8A6T" +
+                        "4f8I3Wn3s1xeWvhe/siskcSug8yaZ1HJ7Cvz0+I99N4w/4OB5l1tQI5vjlBYzCU5VoI9aSJN59PKRNtA" +
+                        "Htvwm/4NgvjV8XfCNpr3jLx54Z8NateoJBYXS3F5cQKRnbJjhHGcMB0INfYX/BKD/ghp4p/4Jy/tKan4" +
+                        "81nxzoPiWzuvD11o6WdlZSxuGkeGTeS/H/LOv0wt4gqcDA7D0pl9xaP/uGgD+fD/g12JP8AwUh1Ld97/" +
+                        "hC9Rzx3+02VfsB/wV9kx/wTF+Nf/Yr3P/stfzs/8E7/AI3/ABm/Z9+Pc2ufA3Q9Q8R+MW0ee0eystBfW" +
+                        "WW3eaNnbyUQkfN5fOa+pf2nf+Civ7dXxO/Z98XaF4/+HHibTPBmradJa6pd3Hw9urCOOBgCcyvHgc96A" +
+                        "Pf/APg0uOYvjd9dK/ldV+n/AO2t+0Tp/wCyX+y546+IWoSRRxeGdLmubdWbZ51yVKwxKf70krIv/Aq/L" +
+                        "/8A4NLsLB8bgOQP7JwR34uvYfyrT/4Oo/2r49F8H+Cvg5p95uutUuD4m1mGNvLItYiY7aNj6NMZX/7ZU" +
+                        "Afj5HrfipfFLfEhvtz3A15Zm1aVMKdRYic/N3fBLk9y9f1X/sU/tH6Z+1t+y94H+ImmSAw+J9LhuJYj9" +
+                        "+1uQAlzE3usoZT7ivyRj/Z++C83/BA+PwH/AMLX+FC/E4r/AMJ2bb/hKrNbo3u0ObTyxIH8z7KqQlCMg" +
+                        "kg16N/waw/tbjXPh34y+DOp3AW+0mUa/omMfv4JfkuV4yPklCN1/wCWtAHl/wDwdljf8d/hJgOrN4dvc" +
+                        "bI8lmM3Sr3/AAbLftsH4b/FLxB8B/Ekk8Fr4jkbVvD6zdIb1IwJ4f8AgaYf/tnVX/g7Hbf+0H8Ivfw9e" +
+                        "H/yZWuJ/wCCuP7KGr/sm6r8Ef2lPh7HNpf9r6Ro/wDaFxBHmOx1eK3idJX/AOu8UZJ/3JR/y0oA+gv+D" +
+                        "tBt3w3+CW3odR1fGP8ActK7D9qL/lVfsf8AsV/Df/p4sK+e/wDgv5+07pf7Y/7D37M3xD0ny1j8SPqkl" +
+                        "zEj82d0IrOOaH/gLhl/CvoX9qRt3/BrDYn18MeGz/5WbCgCL/g1Ok8v9jH4jP8AKEXxqzfP0z9htAzfg" +
+                        "q18O/8ABUb/AIKg/E79uj9ra+8G/DTXtdtfBen6i+heHtL0i4aF9am80wLOwTmaWdmOyPshj/v19d/8G" +
+                        "4F/c6P/AMEx/jleWu37Vaavfzwbeu9NMiI/HBFfEP8AwQF0DTfEX/BQ3S/7WVHNvbwXluT1Fwmo2GzP/" +
+                        "fTUAe5+Af8Ag1p+MXjnw7b6l4p+I3hHRdVmAd7bZc300R6BZJD95sYz75Havt3/AII8/wDBHLxL/wAEy" +
+                        "fiX401vWvGOi+KIPE+mRWUcNhaTQ+S6ylskNx/+uv0It12g9OuTj1PWpaAGg5P4/wCNfzz/ALIv/KzVq" +
+                        "n/ZVPFn89Tr+hn+P8K/nk/ZG/5WadU/7Kp4s/8ARmoUAf0OUUifcH0paAPzH/4Os/8AlHn4P/7KHY/+m" +
+                        "7Uq9Q/4N0P+UTvgP/sIav8A+l9xXmP/AAdZf8o9/Bn/AGUOy/8ATdqVemf8G6b/APGp/wAC/wDYR1f/A" +
+                        "NL7igD7qqCX75zzyDt/LB/MVMpyKim/1m7aSVIxj8R/U0AfgX/wWi/4KLfEz9qz9tS8+Avwz1bULHw74" +
+                        "f1f/hG47PTJXhm1vUlIicyMPvKkjumD8ihNx5zWp4S/4NY/i/4y0CLUvEfxK8G6NrV8DLPabbi+eFyTl" +
+                        "WmHDt6kcZzjivAf+CKVz/wnn/BaH4eXviOPfc32r61d3XmdVufsF3MP/IqrX9Lln91umc5OPegD4M/4I" +
+                        "0f8EifEX/BMLxJ48vNc8XaT4oHjG3soIxZW80ZtvIaY87uOTKa++ISpQEfxc/nzTx0ooAKKKKACsfxh4" +
+                        "cs/GHhzUNJvU32ep2sllOnqko2H+tbFFAH8zfwr8beLf+CEX/BT7UP7a0WTVrPR5LjTriD/AI9v7Z0u4" +
+                        "/1dzH/37jk/7Z+XX6m6H/wc0fs16no1vPdTeOtNuJE/eW8+h+ZLF/37kr67/aR/Yz+GP7XGkw2vxE8Fa" +
+                        "L4pjtf+PeS7tv8ASLX/AK5ypiRK+fp/+Dez9ky5k8xvhncqJP4E8Sap/wDJFAEvxN+Nnhb/AILD/wDBM" +
+                        "z4t2vwp/tC+bUNPuNJtI7+0+zSSahHHHcxx4/791+Uv/BE7/gqn4f8A+CZXi7xx4X+I2g68uk+KLm2+0" +
+                        "XFjbedc6XcW/mR/vI/+2n/kOv3S/ZU/Y2+H37Fnw/uPC/w30WbQNDvLt76W3fULi9JnOOd9xJIf4K4P9" +
+                        "ob/AIJF/s9ftSeL5te8ZfDbSr3Wrt99xfWdzc6dLdf9dTbyR+ZQB5R8OP8Ag4Y/Z0+LPxH8P+EtF1LxZ" +
+                        "JrHifVLfSdP8zQ5I42uLiTy4+a/OL/gvr+zN4m/Y8/4KJ2vxp0OP/iR+MNRs9e0+7Mf7q11S3/1lvJ/3" +
+                        "78z/trX6heB/wDgg7+y/wDDXxtoviTQfh7dWGt+HdQt9U0+5PiTVJDb3FvIJY5ebgjIdAa+n/ij8IPDf" +
+                        "xr8Ez+HfFuiaX4j0O+H+kWN/b/aIpaAPzx+CX/B0D8D/FXgmCfxrp/jLwnr8KA3dnFpovLYyY/5YSRyf" +
+                        "6v/AK6Yr6Q/Yw/4K3/B/wDb5+JWoeFfh7d6/darpdh/aM/2/TDbRiLzPL/m9c1rH/Bv9+yhr91503wrF" +
+                        "tx/q7TXNRto/wAo7iu//ZW/4JafA/8AYh8d3niX4a+E7nw/q+pWX2C4mfWL29MsGQ/l7LiWT+4KAPwy/" +
+                        "wCChnws8Vf8Etv+CsE/jLSrKSPT4/FH/CaeG53j/wBFureS58yS3/7Z/vI5K/Tf4c/8HOv7Pnifwzaz+" +
+                        "ILfxx4b1aZB9osX0r7THG/okkclfbf7QX7K/gH9qzwZ/YHxB8J6V4q02NhLAl5H/wAe0nrHIP3kZ+lfO" +
+                        "dx/wb2fsm3k8kj/AAvkXzP7niTVY/8A24oA9E/Yh/4Ki/C3/goHq/iCy+HN1rV1P4YgiuL77fp/2bAl8" +
+                        "wR/+izXyR/wdbf8mX/Dv/seIv8A0iua+y/2Rv8Agm/8IP2F9W1u++GHhWTw3ceJEjgv2fVL2+82OLzDH" +
+                        "/x8SSbP9ZW1+1h+xF8Ov24PBWm+HfiboMniDSNJvv7RtbePULiyMc/lyR5328kZ/wBXIaAPEf8Ag3u/5" +
+                        "RE/Cn/e1r/08X1cb/wcyf8AKMO+/wCxk0z/ANDavsD9m79nXwp+yn8GtK8C+CdLm0bwxofmLZ2jXT3Pl" +
+                        "edM8z/PKS/+slk6moP2mv2VfA/7Yvwxbwf8QtJfXPDrXcN+bZL2a2zNE25DvhdG6H1oA+DP+DZjwFofi" +
+                        "P8A4J76nc6jo+k31wPFV6vmXVrHK23yIOBmr3/Bwb+wZ8P/ABV+xJ4j+IOk+FdD0fxd4Pube6W/sLNYJ" +
+                        "biKSaKGSGYR8ygpIGHp5Yr7U/ZU/Y4+H/7Fvw4m8H/DjRZtB8PyXU149q97PebpJAAW3zsz/wAA6E/U1" +
+                        "1Hxt+C3h79of4W614L8Xae2qeHfEcBtb6389ohJFnON8bJIOfQ5oA/L3/g18+LOofFP9nf4pfDfXrybV" +
+                        "ND0ieF7S3lmMhtre7SeOSNc84Lx55/56V8P+A7nxl/wQX/4KhLda1petXWi6fNdWTiFSp8R6JOdokjdu" +
+                        "C67YmVRx5kaiv3Y/ZE/4Jt/CD9hPV9avPhl4ZuPD914gjhg1ItrF7eLcLGWKDFxNJ08w12/x0/Zd8A/t" +
+                        "OeFE0f4g+E9D8WadCcxJqVqsnlE90Y8qf8Ad49KAPi7xx/wcs/s56J8Kpda0a98Ta94haAzW/h+LRpI5" +
+                        "vNKYjjaSXZBtzgsUkY9cCvzn/4JR/Arxf8A8FNv+Cp3/C1detZZNF0TxG/jHX71Ezb+cJnnt7KM90aUK" +
+                        "o/2Ukr9ZLf/AIIHfsqwa8b8fCm1aZyGKyaremE4/wCmXmeX+BFfTnwd+Cfhf4B+CIPDvg3w/pXhrRbUl" +
+                        "4rHT7cQw5OMswH3m9T3NAH4T/8ABxOc/wDBW/w3827/AIlGi846/v5q9o/4OgvgjqXgD4rfCP456DmGa" +
+                        "2kOh3dwv3YbmKQXFrI34eaP+2dfof8AtG/8ErPgb+1t8Yrfx5488H3GseKbWOCGC8GrXlqAkJDJ+5jkW" +
+                        "NsEDqhr0H9pz9knwL+2T8MpPCPxG0P/AISDw/LdJfG2N3NbMs6cIRJCyOOPfvQB+PP/AAQg8Oa3+3x/w" +
+                        "VQ+IH7QHii1ZoNEjn1Jlcf6u+vMx28S+yQeeB/1yFclanP/AAc/d/8AkoT9f+uLV+zf7I37Cvw1/Yd8M" +
+                        "ato/wAM/DbeHLHWrtby6V76a+LyqNqkvOzP09z9T1rll/4JVfBGP9qj/hcw8HSf8LE/tH+1zqw1m9/4+" +
+                        "eRu8rzPK7ngigD8t/8Ag56/Yy1bwf8AH/Sfjfo9hcvofiWzg07WbuBMtYX9upSBj7SxbVX/AG4mr6F/Z" +
+                        "Z/4OfPhXq3ww02D4qab4o0XxdY20cV/cafYi9tL9wgDSxbHyu48kEZGa/TXxz4F0r4neFr3Q/EGk2Osa" +
+                        "TqcZiubK8gEkMw77xz+FfKfiX/ggd+yn4x1Rrqb4VQ2bNk+XZaxfWUYz22xTgAewAA9KALf7JX/AAWh+" +
+                        "CX7anxmtPAPgS+8TXHiG8glnjW70gwRBIUEjZYknof/AK9fkj/wXl/Z18S/slf8FJ7n4m6XYyw6H4yvr" +
+                        "fxHpOoCD/RRfQgSXEZfs29Ff/gVfsh+zR/wR++Av7IXxWs/G3w+8FS6F4ksYpYY7l9d1C8ASRAjDE8zj" +
+                        "oPSvZ/jP+z94R/aL8E3Phnxv4c0nxNoV1ybS/gEqKR/EueUb3WgD4A+Bv8Awc//AAP8UeBLGTxtpfjLw" +
+                        "v4kES/bLeHTxewGTA3mORXzt3ZwCM4xX0F+yL/wWG+Df7d3xHvfB3w9vfEFxrVvpM+rSLe6WbZfIjKxt" +
+                        "yST96RK5+7/AODfH9k3UrtrmT4YyLJJ97yfEWpquT1wFnAA9gAPau9/Za/4JP8AwM/Yr+I914q+HXg24" +
+                        "0PW7rT5NKmuX1m8us20jo7psllKDPlJ8w+b1oA/IL/g18Up/wAFJ9SDdB4L1Ef+TNlX7A/8FfI8/wDBM" +
+                        "X424/6Fe5x/47TP2Vv+CUPwN/Yn+J8ni74d+D5fD/iCewksJLs6xfXIaB5I3ZAk0roPmjTgAD0Fez/GH" +
+                        "4NaH8d/hbrHg3xVYtqXh7xBbG01C2WeSHz4ickb4mSRef7poA/JD/g08vI9P0j46SzSeVHb/wBlTTP/A" +
+                        "M8wBd8/98rXxf8AH3WtU/4LCf8ABXi+s/DV0z2fjLxANK0i68rzha6ZbBglzjtiGJpf+BV+8n7Pf/BL3" +
+                        "4M/sr+CPF3hvwN4YudD0nx1afY9bhTWL2U3MOyRNokkkeQfLJIOHB5qn+y//wAEkvgR+xr8Sl8YfDvwS" +
+                        "2i+JltJLEXk2rXl44jc5YATzSD9KAPz8H/BpfaJAu34yTFVA2b9AB5/7+V8Y/AbUNZ/4I1/8FgLLTtcm" +
+                        "Mll4V186Xqtw37oajpFyPLN0Eydv7mWKbHbGK/pljG222jnC4BIxmvmT9qf/gkp8CP2yvif/wAJj8QPB" +
+                        "B1rxJJapYvewavfWDGND+7yIJApIDdSKAPzN/4OuLpL346fBuaNvMjl8O3bq4PDA3CkGv078XfsxaN+2" +
+                        "N/wTU0n4d635aw+IfBlilvcOmRY3K2kbQz/APAH8tv+A0ftBf8ABKP4I/tWad4Rt/HfhO61z/hB9OXSN" +
+                        "IdtZvIWtrVdu1SY5B5hG0fM/J6nrX0D4P8AC1r4I8J6boumw/ZtP0m0isrSIuX8qKNAiLuJJOFUDJOTQ" +
+                        "B/JH8bovGvwXXUfgz4mlaFPAviC9kNnN0gu3EccrJ7MsMeK/Zz9qQ7v+DWCxx8o/wCEX8N4Hp/xObCvq" +
+                        "/8AaM/4I9/s+ftZfFe88c+O/AP9reKb7ylubyDVr6z+0eUNsW6OCdUJC4+Yj3rvvFP7EHw38a/spR/BP" +
+                        "UNBe4+GsNvbWkWmLfzhhDbSRzRDzldZiRIic7iTjk80AfBf/Bq9pkWt/sOfE2ynG6G58XvbsdnXdY238" +
+                        "t36V+XHxm8AeNf+CS//AAUDuLW3jaG/8Fa7FqmlST7mt9Wso7oT2soDceVIIwrsOFeORa/o9/ZK/Yl+G" +
+                        "/7C/gvUvDfwz0Cbw7o+rXh1C8gbUrm+DzlFTduupZGHyRrwKv8A7Rf7Gnwx/az061tviN4J0HxYLIv9k" +
+                        "kvLUSy2pYENtk+8OvbpigD4q+Fn/Bzz8AfEXg+zuvE1j448M6yY0+2WjaWlzGJcYYRyK4LrnoccjFfSH" +
+                        "7D/APwVU+E//BQDxTr2k/Du88QXN14dtVvLtdQsGtAqM20YJJJ7d64GX/g3r/ZP1CRppfhfIskhJYR+J" +
+                        "dUVfwAnAH4CvVv2Sf8AgmZ8G/2GPE+rap8MfCk3h291y3WyvZG1a9vfNiB3KMXEzoOf7q/1oA+gDtwp7" +
+                        "Dn/AD+dfzl/tp61q3/BM7/gupq3xE1PRriezPiyXxhaxEMg1OzvHLymIlwrFS8y9Oqmv6NFBWHnjk55z" +
+                        "Xlv7Sn7HPw0/a90KLTfiN4Q0nxXa2Z3wfaY9s9r/wBcpkZXT1+9QB8g6H/wcy/s1X2mQS3V145sbiQZm" +
+                        "t30MyNC+eV3KSp9sHpivUPjJ/wWd+FfwZ/Y88H/AB1m0/xprvgjxxqsmj6cunadF9uMsZu1JeKeaIKN1" +
+                        "pL0Y5ABxzWPJ/wby/sl3B3/APCs7jcTu+XxNqijn2FxXpHjL/glX8D/AB5+zL4Y+DuqeC5Lr4f+DdQfU" +
+                        "9H0o6xfL9nuXkmldzOsvmnLXEpwx/iwOMUAfOH/AAW40Cf9uz/gjvpPj7wdpupTWkJ0nx7bWksai8Sya" +
+                        "CQFmCsy5SG6aQ4Y/c618lf8EXv+C5fw6/Yv/ZjX4ZfEix8RwxaXf3N/pWpaZYrdxTxTHzGEqhwync7dq" +
+                        "/a34ZfDHRfhL8LtA8H6Bb/Z/Dnh3TYNJsIHZrgR2kUSxxxszks3yADJNfN3xL/4Idfsw/GDxVdavq3wt" +
+                        "sYry5laeZ9O1G7sklduS2yKZQCepwBkknvmgDP/AGXv+C3HwL/a8+Ouj/DzwRfeJpvEmuLO9st7o7wwk" +
+                        "QwSzNmRnwo2xPx6itz9mL/grR8P/wBrL9rzxp8GfDuh+M7PxP4EOoNqE2o2lvHZTfYrtLVxE4mZiTJIG" +
+                        "GVHCfnN+z3/AMEcv2ff2UfjJpfjzwJ4Fk0XxRovnrY3h1y+u/L82FoWHlzyshykj9eeePbq/gZ/wTk+E" +
+                        "H7PH7QPiP4o+DvCs+k+NvFy3Q1W/bVby5FyLq5W5nXypJTGm6RUb5VAoA/B39uH4e+Jv+CUH/BWm68WW" +
+                        "OlSRafpviM+LPD3mZ8jU7CSVpGhDEBcKZWjbH8Rav09+Hn/AAc6fs8614Vt7jXF8baLqm3/AEqzOki4V" +
+                        "Xyc7ZA4DL3HTgivtT9oD9lL4f8A7VfhhdF+I3hTSfE2nQyeZAt2i77Zv9mRVVkPP8LZr51m/wCDez9kv" +
+                        "UJnmf4Y3QeRiWC+JNVQZ74H2igDoPgV/wAFk/g7+0v8L/id4r8Gz+JL/T/hTob+Idahk077PO9ukM8xE" +
+                        "IdgjPtt343flXW/8E9/+Cjvgr/gpF8P9V8SeB9K8WaXp+iXqafcLr1rb208kjRLKCvlTSArhhn3zVX4I" +
+                        "/8ABJ/4Gfs1+CvH3h3wb4Nm0vR/iRpR0fxBA2sXt3/aFo0c0bR/vZSUys0gyp/irsv2Q/2H/hv+wp4U1" +
+                        "TQvhpoMmgaXql6L24ibUri981wgjHM7NswAOFNAHsdu2+MH8+MUUW+REA3UccAiigCSiiigAooooAKK";
+                    resourceString += "KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK" +
+                        "KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/9kgIIAAAP/Y/" +
+                        "+AAEEpGSUYAAQEBAGAAYAAA/9sAQwACAQECAQECAgICAgICAgMFAwMDAwMGBAQDBQcGBwcHBgcHCAkLC" +
+                        "QgICggHBwoNCgoLDAwMDAcJDg8NDA4LDAwM/9sAQwECAgIDAwMGAwMGDAgHCAwMDAwMDAwMDAwMDAwMD" +
+                        "AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM/8AAEQgAbgJmAwEiAAIRAQMRAf/EAB8AA" +
+                        "AEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBB" +
+                        "hNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYW" +
+                        "VpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIy" +
+                        "crS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHC" +
+                        "AkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0" +
+                        "QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh" +
+                        "4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9" +
+                        "PX29/j5+v/aAAwDAQACEQMRAD8A/fyo/PollxRQAefR59R+fR59AEnn0efUfn1J59AB59Hn0efR59AB5" +
+                        "9Hn0efR59AB59Hn1H59FAEnn0efUfn1J59AB59Hn0efR59AB59Hn1H59Hn0ASefR59Hn0efQAefR59R+" +
+                        "fR59AEnn0efRRQAefR59FFACfdWkZ9y00V+eP8AwW6/4KD/AB0/4JxaT4Y8W/D3Q/AWt+CdXkk03UDrW" +
+                        "mXlzc2N51jO+O4jHlyJ/wCi62weEqYqv9XpbmdWfIudn6HhSD0oevwO+A//AAcafth/tNeO4/DXgH4Y/" +
+                        "C/xRrkkfm/ZbHQ9Qk8qP/nrJ/xMP3cddx8U/wDgtH+3t8EfG/hPQPE3wR+HOk6j411CPTdDMmkXktvqd" +
+                        "xJL5ccUcqah5fmfvI6+hq8GZjTqezqcl/8Ar4jmWYUp7H7decT2/Wgk46Z/Gvxa+Kn/AAV1/wCCgvwZ8" +
+                        "G654g8R/BD4X6bpnhmOOTVJP7PuLn7BHJ/y0kjj1SpNH/4K4f8ABQnX/DcGpWvwK+GciXWl/wBrQWn9n" +
+                        "3H26Wz/AOfmOz/tT7TJH/2zrm/1Xxtuf3P/AAYivrtI/aJelJ5lfzvzf8HWf7R/m7H8IfB7/rn/AGPqH" +
+                        "/ywr9tv2GPGvxI+JP7M3hnxF8WNP8P6X4y1u0F9dWOjWktvbWKyHMcWJZJJPM8vG/nr6YqM44axuWU+f" +
+                        "HKxWHxtOv8Awz2zz6PPoorxDpDz6PPoooAPPo8+iigBD0pGcY5pHPNeJ/txfEH4h/Cb9nLX/EnwxstD1" +
+                        "bxPoMX237BqlvJcRXcEfMiII5IyJPLB70pzUIXMsRVVGnzntBfH8X6U0Lu96/ETw9/wcQftC+KNfsNK0" +
+                        "7wr8Nr+/wBUuY7Kzt4dKv8AzLmST/Vxf8ff+sr2D4mf8FL/ANuL4SeCLjxD4g+EHgmx0izi824m/sueX" +
+                        "7MP+mmzUP3dcP8AadM+Sp8aZfUp+0p8/wBx+r/mL/e/SjzF/vfpX5ReFf8AgpF+3L458KadrmlfCHwLf" +
+                        "abrFp9ssZI9On/0qP8Avp/p/vWL8Mv+Cs37ZPxft76TQ/hd4BeHS7/+yrue4sLi3jjux/y7/vbyP95yP" +
+                        "k96v+0qRr/rhhP+fc/uP16fBHrSJINuBxX4m/Ev/gvj+0t8G/G114e8SeBPh5outWLjz7S60i88yMPyP" +
+                        "+Xyvtv/AIJDfto/F39uTwlrfirx5o/hDSPDNtL9j0x9J0+4hlv7hD+9Pzzyfu4zlPc0U8bTqVPZI2y7i" +
+                        "zAYvEfVqX8Q+2qPPogorsPpw8+jz6KKADz6PPoooAKSWXFLWdrPn/YJ/IeOO48v93I9Z1KnJT5wLYAan" +
+                        "EYr4C8a/wDBRn4pfD/xhf6Je6V4Wjv9MuPs8ifY5Of/ACYrrpv2pv2hodG+3f8ACEaR5GzzNn2CTzdn/" +
+                        "XP7R5lfF/654L2ns7VD2v7GxB9oecKX5a+H/B/7ZPx08c6LBqOleFPDV5Z3L+VbyfZ5P3jj/Wf8vFV7L" +
+                        "9t344X+ualp8fhjw8l3o/N+k9nJH9l/3/8ASK0/10wn/Pup9wf2LXPugj5aN2Vr8/8Axd/wUa+LPgfWn" +
+                        "07VtG8L2VwE83Y9nJ/q/wDwIrr/ANmD9tj4mfHn4tWGifYvDg0//j4v547ST91B/wB/KWG46y+viPq1I" +
+                        "VTIcTTp/WHsfafn0efUcP8Aqakr7U8YPPooooA5j4l/EzQ/hB4Jv/EXiG9TTtG0tPNuLh0bEX8Ga4n/A" +
+                        "IbX8A/89/FH/hJ6r/8AI9c1/wAFQj/xg343/wByz/8AS23r+VX4wa9ff8La8Uf6dc/8hi8/5eP+mklfa" +
+                        "cI8Hf20qnv2POx2N9gf1pf8Nq+AP+e3ij/wlNV/+R6Z/wANr+Af+e3ij/wlNV/+R6/k8+Bvw98TftCfF" +
+                        "rw/4L8P33/E48R3n2K38+4kjii/66VoftCfB/WP2dfG8ej3XibTdf8AMt/tMc+m3Fx+6/6ZyR3EcclvJ" +
+                        "/0zkjr3avh5g6eM/s6piP3hzQzb937T2Z/VkP21vAO3ibxQP+5U1X/5HqT/AIbV8Ahf9f4o/wDCT1X/A" +
+                        "OR6/mh0j4Jwal+xbo/i3w5o/wDwlt5dWeoXHizWrvXJLb/hDbi3uf8AR7aP95HH+8j8uTy5I5JJPM/d1" +
+                        "5f+zH8DfEf7UfjPUNH0rxHpugf2No9xrV5d6tcXH2aK3t/L8z/j3jkk/wCWn/POvMpcG4P6vXxNXEezp" +
+                        "0zT+0ql+T2Z/VUP21PACjHneKP/AAlNV/8Akepf+G2PAP8Az38Uf+Enqv8A8j1/J78ePhlr/wCz38Rrj" +
+                        "w5qOt22pXEVvb3sd3YXFx9muo7iPzI5P3kccn+rk/5aR1x39vaj/wA/19/4EV9BgvC2ni8PTxOHxH7s5" +
+                        "qud8lT2fsz+xX4T/Gfw/wDGvT9Qu/DuoT3iaZefYb1J7OW2ktLjy45fLeOWONwfLkjPT/lpXb1+ev8Aw" +
+                        "bdTvP8AsG3DbzJ/xN4/v/8AYK02vub4nfErR/g/8P8AV/E/iG8j07Q9CtJL2/uH6RRx85r8szHBLDYyp" +
+                        "h+x7dOpz0/aHUUVn+H9dj1/Sba9h/497qPzEorkNDG+K/jtPhn8L/EPiJ4ftEehaZcag8f/AD08qMyf0" +
+                        "r4//Zt+G3xp/aT8F6h4w8UfEdNEv7zV7y3Gm20Ootbaf9nuDbSRRCyvLOPy/Mik/wBZ5knO+ST/AJZR/" +
+                        "T37YH/JpfxL/wCxT1T/ANI5a539hL/kg13/ANjT4k/9PV7W1L3KBH2zj/8AhjL4jY/5K8//AID67/8AL" +
+                        "yk/4Y4+Io/5rB/5L67/APLyvb/i38VfD/wS+H+p+KfFGqWWiaBocBuby/upPLito6/nY/4KXf8ABfP4o" +
+                        "ftZfEC/0f4deINV8A/DmwuJI9POkzyW2p6zHH/q7i4k/wBZ/wBs469/h3IMwzer7LCo5cRiadD+Ifr/A" +
+                        "PHbwLrn7OPww1Lxh4u+NsmnaBo8fm3t3Hp/iW5EMf8A1zg1iSvz8+IP/BebwL4Uv5INH8dfEvxGIv8AV" +
+                        "3dvpGq21tL/AOBHiDzP/Idfmj8FP23fin8A/Ef9o+GfHGvxx3V59pvLC7vJLnTNU8z/AFn2i3k/d3Hmf" +
+                        "8tPMr9Avg78GPhT/wAFlvDlnHqPwU8U/Ajx/LH/AKH4w8GeG7iTwhqcn/POSP8A1cf+f3lfYVeEqOUVV" +
+                        "/aP7yn5HF9d9v8AwzofCH/BfjwfrGpxwap4p+JeipJ/y3Ol6rcRf+pJ5lfa37MvxR0f9r34c3virwR+0" +
+                        "hZXOj6Vdx2d5PfWXiKy+y3En+rjk+0axHX4rftx/wDBIH42fsK69cf254Zudf8ADHmf6P4g0K3kubGX/" +
+                        "rp/y0j/AO2lejf8EJPFNr48+NHj/wCAviKf/imPjj4UvNKkgk/5ZX8cfmW9x/10j/eV25xwvlc8u+v5b" +
+                        "UM8NjcR7T2VQ/dRP2OviLcj5PjB/wCS2u//AC8pR+xn8SAP+Su/+S+u/wDy8r8E/wBjb/gr98c/+Ca3x" +
+                        "YufD+o6xqXjDwxoV5Jp2qeGNZvJJY4fL/dyfZ5JP3lv/q/+udf0K/sN/ty+Bv29/gna+M/A2oC4tpP3d" +
+                        "/ZSH/SdMn/55yR9q+Fz7h/MMr9+t8Hc9LD4mniDlf8AhjT4ksP+SvSf+A+u/wDy8oP7GfxGUf8AJXn/A" +
+                        "PAfXf8A5eV5n/wV+/4K53H/AAS3h8EPF4Lj8W/8Jj9s+/f/AGb7L9n8r/pn/wBNK+Kz/wAHdWo4/wCSL" +
+                        "2//AIUn/wBz1OW8N5xjsP8AWcNSvTFVxOHpz/eH6P8A/DGvxJ/6K6//AID67/8ALyj/AIY1+JP/AEV1/" +
+                        "wDwH13/AOXlfnB/xF2aj/0Ra3/8KT/7XRF/wd3X38fwYt/L/wCxg/8Atdeh/qTxD/0Dv8DL+0cIfpAP2" +
+                        "NfiWT/yV3/yBrv/AMvKX/hjP4kf9Fek/wC/Wu//AC8r4o+Cf/B1/wDDDxRr1tZeN/h74s8JwXEnlvfWt" +
+                        "xHqMUX/AF0j/dyD8PMr9Pfgx8Z/DXx++Gel+LfCWr22veH9cg+0Wd9bn91MK8HMstzDAO2Op8h1U6lOf" +
+                        "8M8YH7GvxKb/mrsn/gPrv8A8vKU/sZfEk/81e/8l9d/+XlfSJnTyq/P/wDb0/4OGfgv+xtr9z4d0hr74" +
+                        "jeLLaTyru00aSP7Np8n/PO4n/8AjfmVy4KljMVU9lh4XYVPZ0z25v2NPiSn/NXZP/AfXf8A5eUD9jT4k" +
+                        "kf8le/8l9d/+XlfFfwD/wCC1H7VX7bmqRP8Lf2ePDlloEv+s13xDqFxHpltH/z0+0fu/wDyH5lerfED/" +
+                        "gu58Pf2S/A08fxJ8ceC/H/j6IY/sL4b2lxcxxP/ANfFxJ5f/ov/AK516FTJswVb2XJ+87GftKZ78P2NP" +
+                        "iSf+avf+S+u/wDy8rz39pH4A/F74RfBDxH4s0X4tXcmpeF9On1YxWa6gkkkdvGZJI/9M1C8t/M4P+tik" +
+                        "rjP+Cf3/Bwd8H/20/GCeF9Uju/h14svblYNLsdXnEltqmTnEdwB5fmf9M5PLP8AczX19+2IQf2Rvih/2" +
+                        "Keqf+kUtcmJw+LwmI9liYWOilUpz/hmp+z148b4o/BLwp4imm+1SazpkFzJOsHl+Y5j5k8v+Cu9ryL9g" +
+                        "j/kzb4Z/wDYvWn/AKLFeu159T4zQTOKZLLgUOQ0XNflh/wcEf8ABXi6/ZP8LQfC74aa9Ba/ETxFGRq95" +
+                        "A2bjw9ZHnP/AEzuJO3pHmT/AJ512ZXleIzHErDYfdmdSpCnT9oz6E/4KUf8Fmfhf/wTm0ltP1CYeKPH0" +
+                        "kZ+x+G7CVPNj/6aXD/8sI/c1+Bn7fX/AAVe+LX/AAUK8RXf/CU6xLpPhSWTzLfwxp0nl6ba+X/q/wDrp" +
+                        "J/10r518R+KtU8ba9earrGo3ur6nfyeZcXd/cSXNzdSf9NJK9b/AGNP+CfPxX/bu8Y/2V8OvDVxqNvHJ" +
+                        "5V5q0/+jaZYf9dJP/af+sr+gck4RyrIKX17MH+8PlsTjcRi6nsqR6h/wSU/bz8JfsVeLviFp3jix1v+w" +
+                        "Pid4ck8PT6losccmp6N/rf3kfmf5/1VfUevf8FAf2bvhN+zJ8GfAnw28VeK9W0j4YfFvR/F9/H4h0+T+" +
+                        "05bOO5+03H2P935fl/6z/pp/wCjK92/ZT/4Nj/hF8PYJ9W+MPxAn8bXmgp5mqaZpt3/AGdpth8nmf6RJ" +
+                        "/x8f6v/AK519Zfst/szfsYePfBd/qXw68B/CrWND0ef+z7jUn0uO5t/M9PPuAfM/Ovg+JM7yXEYmpisP" +
+                        "CpM9PC4bEQp2qH5n/tb/wDBYj4Q/tKf8NJaHY6Xc+Fv+FlafYR+G/F1hofl6lqkdvb23madqH/LXy5JI" +
+                        "5P3n/PI1ofDD/gq/wDAiy8C6J/wn2t+LfiZo+meHP7J/wCEa8UeDNPufENrceX/AMuesW/2f/R/+un7y" +
+                        "v1B+N/wq/ZE+Cfw/uNc8aeB/gxpvh/7RHbXF0fDlnLFCZP9X5nlx/JXmvxP/wCCFn7Iv7WngW31Xw54d" +
+                        "sNAj1hPNsNd8H6n9n80f9M4/wB5bSf9+68TD5jlHs1CrSqQh/Xoa+zqf8uz+b7UvEkcHjy41nR4f7Nji" +
+                        "1D7bp8fmeZ9l/eeZH/10r9Zf+CcP/Bz7rfhW403wr8fbQatpZk+zx+K7G38u5tf+vi3j/1n/bOvJP8Ag" +
+                        "oZ/wbffE39lnTD4i+G8198U/C8Jke7ghtBHrFjH/wBc/wDl4/7Z1+bs0Lwy+W6eXJ5n+rkjr9i+rZDxN" +
+                        "g/NHh+0xGEqH9lvwp+Lfhz42+A9M8S+FtYste8P6xF9os760k8yK6jrqWk2rmv5W/8AgmL/AMFaviF/w" +
+                        "To+JVgI7/UvEXw4lk8vU/Dk9x5sax+Z5kktv/zzkr+mn4CfHHwz+0l8JNF8aeEdTj1bw/rtv9otLiP+I" +
+                        "f8AxdfhnFPCeJyXEctX4D6TBY2niNjvaKKK+XO0TGFqPaMUrnCCvnP/AIKHft6eH/2D/gu+vajjUdav/" +
+                        "MttF0oP+9v7j8/9XH1krOrPk/eM5cZiadCh7eoei/tEftJ+Dv2XvAdx4l8Z6za6PpVt/HI2JLh/+ecaf" +
+                        "xycdq/Fz9uL/gub8SP2itVv9I8ETyeBvCIkkjiMH/ITvo/+m8n/ACz/AOucdfL37R/7T/jf9qvx3P4i8" +
+                        "a6/e6tPJJJJb27yf6LYf9M44/8AlnXKeCvA2sfEnxPZ6NoGlalrWr38n+j2lpbySSS183iczqVP4R+Gc" +
+                        "R8c4vMan1bBfwzq/wBlj4xWvwH/AGmfBvjbVLaXUbXQtXt7y8SP95LJH5n7z/Wf8tK/QD4RftQfs5/Ci" +
+                        "/8Airreh/FPXtW8T/FvT9QSa18QabcxabDJJ5ksf2j91zJH5nl+Z+8rnv2TP+DevxN42gsdT+LPiFfB9" +
+                        "nO+U0aweOXUpY/SST/Vxn/v5X2J8Jv+Ce/7I3gT4lReA7LRfCWu+M4oBK1je3r6jf4j/wCWkkZJ2fkK2" +
+                        "wuFqdT1OG8kzihA+Y/hf/wVb+EPgrwN8B9HvfNvLnwh4WuNK1TVV0kyXvhi8+zW0cVxb+ZH84/dyR/9+" +
+                        "685/Zr/AGz/AAD8P9L8ZaJrHxWvbm21PxPLq2zxZ4ROtaHrqSf8vHlRx/aILj/V/wDLWOOv1O8YfsZ/A" +
+                        "H4feCdQ1PV/hr8PrLSdLgkvLueTQrf91HGMvJ/q68ih/wCCa37Jf7XXgiTU/C2g+F9QtJB5Y1Dw5eSRG" +
+                        "2k9/Lk/1n/XStKmBqn0eJynNf8An5TPyA/4KI/GjwH+0D+01qevfDnSLvSvD01okb/aXx9qk/juPL/5Z" +
+                        "x9B5f8A0y7V65+wD/wWd8b/ALFumWHhXVrG28U+A7biOxEcdtfWEf8A0zk/5af9tK9a/a9/4N2/EngPT" +
+                        "59Z+EWt/wDCVWEaeZ/ZOpSxx33/AGzk/wBXJ/5Dr85vGvgnVvh14lvNG1vTr3StZsZPLuLS7t/Klirgq" +
+                        "/WMPV9qfmeN/tfKcf8AXKn7s/pz/Z5/ab8HftOfDy38S+C9bs9Z0q4HJgbMkMmOY5E6pIP7hr0o/McV/" +
+                        "Lj+zj+0/wCOP2TfH8HiLwZrd7pM9tP5lxbpJ/ouoCP/AJZ3Ef8Ay0r+gL/gnn+3n4b/AG6/gzBr2lmGy" +
+                        "1qyIi1rSTJvl0+4/qn/AE0r3MFjVX9w/WeE+MKeZ/uqn8Q+jqKKK9E+5CkYZFIX4rm/if8AEDS/hl4Ru" +
+                        "9b1e6jtdPsI/MkkftWOIrU6EPaVAp0+efszQ8S+I7Hwppc97qN1HZ2dtH5kk8knlxx18RftEf8ABTLVN" +
+                        "ekn0vwLB/Z1n/q/7SnT/SZf+ucf8H4147+0n+1Pr/7QXie4eae5stDi/d2emxyfujH/ANNP+ekleWfP/" +
+                        "BX4rxJx3Ur1Pq2XH32UcN04fvMUdBpHxH1GH4oaf4m1GeTVr+w1CO9ke7k8zzfLkr6M8LftDfCw/HcfE" +
+                        "e+1HxXb6pc/uvsP2f8AdWv+j+XJ5n/PSOuR+B/7BHiL4jxQah4imPhTRZdnlvdD/SbrzP8AnnHXv8X7M" +
+                        "3wK+Ak1paeIXttR1i54jTU5zcXN1/27x/8AxuuLh/Kc09n7Wp/y8/5+CzPG4L+HSPDfC/7VuieEdL0C0" +
+                        "n0uy1X7D4jvNVvN9n+7hjkk/dyW/mVS0v4+6JafE7xjqK+KPE3k+IvL2Tz2Fvc2tx/0zu7fH/ouvuu1/" +
+                        "Z78BWdtsj8HeG/L/wCwZH/hXBy+BPgd4/8AGF54aOj+Fzrlq/ly2n2P7PLX1mI4dzCFOn7SpTPIp5lh/" +
+                        "wDn2fB37QfjbQ/Hnje3utAsfsVvFZx21xJHb/Zorq4/56Rx/wDLOovgf8fNf+Afij+0dEmjMcvl/bIJI" +
+                        "/3d1H/zzr6v+K//AAS30TWJZ7rwhrEuky4yljdj7Ra//HK+SPiz8DvE3wO1n7L4i0uSy/55zx/vIrr/A" +
+                        "K5yV8Bm2U5pgMR9dPpsFjsHi6f1Y/Qr9m39s3wz+0FbR2wf+yteA/eadPJzJ6+X/wA9K9sTDJmvxi028" +
+                        "n03UI57WeS2uLWTzI3jk/exV90/sBftg3vxFQ+EPE0/2jV7SPzLO7kk/eX0f9yT/ppX6Bwlx19bqfUsb" +
+                        "/EPms3yD6v+8w+x9b0VHDN5tSV+oHzB8+/8FQRs/YY8cf7ln/6W29fyk/GD/krfij/sMXn/AKMkr+rb/" +
+                        "gqGf+MG/HB/2LP/ANLbev5fdB17wr4V/bI/tXxxZXuo+FNL8UXF7qljYR/vb+OO58z7N/20/wBXX7F4Z" +
+                        "YmpQweIqUzwM7p0/wB2c/4D1K7/AGe/jBo+peI/C0l7Jpckd7JourR3Fl9qjkj/AHf/ADzkj/dyeZHJX" +
+                        "Wftd/taT/tUap4Xd9KudOt/CWl/2TbyX+qSalqd1H9pkk/0i4k/1n+s/wC2ddB+29+2BoH7YGjeGNVTw" +
+                        "zqXhvxho0l5ZXjyXn22K6s5JPMt/wB5/rP3ckkkfl+X/q/Lr5/r9AyDBU8y9nnWY4f2eIpnk4mp7D/Zq" +
+                        "f8ADCvVP2P/ANqJ/wBkz4g6vrkGlXOpf2zodxoMiWmqSabc2v2jy/3kdxH+8jk/d15fUdfSZlkmDx2Dq" +
+                        "YLE0/3dQ5aeJqU6ntT6Q8YfDfxj+3t48j8aWNrp3hvT9Ut5LK3k13XJLnzY9Kso/tFzJcSfvJP3fl/vP" +
+                        "+mleT+NvgPqPgnR9Y1GDVdA8QWGjXFvb3k+i3n2mKL7R5nl/wDouSvWPgP+3s/wI8D+B0tdH/tHXPBEm" +
+                        "uWUcclxJbW11p+qxx/8tLeSOSOSOTzP9X/z0rn/AIs/taQfFPwv44f+xrnTtY8byaXHJH/al5qUUVvb+" +
+                        "ZJ5n2i8uJLnzP8AV/8Afuvy7Lf9ZMBjPqWGp/7H/wAuz16n1epT9r/y8P3d/wCDb0Z/YEn/AOwvb/8Ap" +
+                        "p02vQf+Cj/inSvivoniH4aPZTavb+HfD9x4n1+QzH7LaSRxyf2fFIOjySSB5xH/ANO0fqlfO3/BF/47x" +
+                        "fAL/glbdarFD/aWuahrtvpuiaan+s1S/k0nTfLj/wCuf/LST/nnHHJXvHiL4fyfDH9k7xxbX2oSazr99" +
+                        "oeoXut6tOP3mq3cltJ5kvt/0z/55xiOOv488e/EmPDWaQy6n/vGIqezPsclwX1in7Q+ufhZ/wAk10D/A" +
+                        "LBtt/6LFFR/Co5+F3h3/sGW3/osUV+i0ql4I5jnv2vRj9lD4mf9ipqn/pHLXM/sLS+T8B7j/saPEn/p6" +
+                        "va6b9r45/ZL+Jn/AGKeqf8ApHLXzprPxmn/AGe/+CWnxX8aWr+XeaDceLLmzk/6af2rfeX/AORK9OhDm" +
+                        "h7MznU6Hxr/AMFyfiHpP7ZfjCz8Fx/tHfBfwL8MPDEnm3liNXuNR1PVLz/prbwR+X5cf/LOPzf+elfK3" +
+                        "7I3/BL39lz9pb4o6f4L0r9orxh418T3R+TTfD/gi8tvM8v/AFn+kXEflxx/9NJK/OzzvO/ePX75f8Gs/" +
+                        "wCx9pfgb9mjWvjBdQGTXvHl4+nWkjx/8e2n25x/5El359o46/Zs5y2pw5k/7rEbngUqv1vEa0z3n9k3/" +
+                        "g3x/Z1/ZW8R22tx6DqPjfWLXZJbz+KJ4737NJ/fEccccX/kOvuOOwhsYNkcflp/sVYU++fwpdor8YxeY" +
+                        "4jFz9piJ87PoIU4UyCezSYfPXzX8av+CXnwm+KPxX8PfEGx8N2/hH4h+GtUt9Ws/EWip9luZXjlEhiuI" +
+                        "/8AV3Ecgyknmdd/WvprfTCUH8f61lCvUh/DD92fy5/8F7/2fZvgJ/wU++IZj0e503Q/FtxHr2mTyH93f" +
+                        "faLaP7TJH/28/aK3P8Ag3/+I/xW8C/t/aHafDexuNW0fVD/AMVfYyXHlWP9mf8ALS5k/wCufmeZH/37/" +
+                        "wCWlfrz/wAF/wD9hBv2yv2L7i50DRH1bx/4Nu473Qvs9v5lzdeZJHHJbf8AbTj/AL91+Xv7XvjjR/8Ag" +
+                        "lB+yPcfs2+BdQtb34r+O4I7n4pa9aS/8eMf/LPSo/8Atnn/AMif89a/asp4h/tfI6WU06ftKv8AD/8Au" +
+                        "h8/Vw3sMR9ZPoT/AIO0tZtPE2hfAm9sZo7i0uU1S4gnST91LHJ9mr8YvkzX3D/wUG+PEnx+/wCCX/7JN" +
+                        "1dz/ab/AEKPW/Dt3/27yW0cf/kt5dfDtfa8A4ephcq+r1P+Xbf5nm5lU58R7Q+l/wBmT/gkD+0J+1/8L" +
+                        "Lfxt8PfAkev+HLu4ktre7/tvT7b95HJ5cn7u4uI5KufH7/gi9+0r+zT8MtU8YeMfhncWXh3RovNvLqDW" +
+                        "LK9+yx/89PLt5JJK/XH/g3D/aV+H3hf/gnz4T8Haj4z8OWXi651fUDHo0+oR/bpTJcyY/d/6yvsj9vT4" +
+                        "j/D3w3+zV4q0Tx9430DwVp/inS7jSo7vUp4+PNj8v8Adx/8tK/Osd4g51h80qYf/l3c9anlOH+r+0P5J" +
+                        "Mp/cr9sP+DV74gfFTTbDxP4W1fRvEsnwpvoP7R0PUrqzk+w2t55n7yOOT/ppn/yFXyh/wANKfsZ/sOj7" +
+                        "L8N/hvq37QPi+1/5mjxl/o2keZ/072f/PP/AK6R19Xf8EJP21fjZ+3/APt4eIdW8Ua19l8A+EPD0gi8O" +
+                        "aNbmy0PTJZJI47eOOPr/wAs7j/WeZXt8Z5licwyupU+rezpf9PDPLadOnUP0W/4KX/tAeH/AIB/ssa9J" +
+                        "r/j/Sfhl/wkKHRrTWr6zkvfs/mcSeXbp/rJPL8zy/fFfh0v7X/7IP7FHmWvwm+Euo/G7xPa5Efi/wCIM" +
+                        "vl2Msn/AEzs/wDnn/10jjkr9K/+Dnf4Eap8Wf8AgnlBrek2s95/wguuW+rXkcUfmeVb+XLbySf9s/MzX" +
+                        "86deR4ecM4LMcJ7WrUNM2xNSnU0P1w+CP7OH7Wn/BeH4RXfiXxN8UNJ8DfC26uHt7DSbO3EVjc+X0jjt" +
+                        "7f/AJZx/wDTxJJXyd/wUW/4Ip/Fr/gnTo3/AAkWuPpPifwRJcR239u6bJ/qpJP9XHJbyfvI/wD0X/00r" +
+                        "L/YA/4LEfGH/gnRYyaR4WudO1rwhJJ9ofw/qtv5ltDJ/wA9I5P9bHX6E/Dn/gvP4a/4KTeG3+F/xK/Zr" +
+                        "8Y+MNN1d4xf2nhST+0h/rP9Z5X7uSP/AL+V3Yr+2sgxntqVOm8P20M/9nr0/wDp4fiXD/rd6V/Qr/wS5" +
+                        "/by1D9sz/gjj8SLTxJcvd+L/AHhzVdG1C6d/wB5fp9ilNvc/wDfv5P+2de1/D7/AIJWfsgY0iEfB7wjp" +
+                        "+saxZ/bLfSdZ8z+0vL/AOveSSvRfif+yh8Nv2YP2Q/i9D8PvBfh/wAJJqXhfUDeDTLSOL7V5dlL5fmV8" +
+                        "5xfxlg87p06aw/s7HbluCqYc7b9g/8A5M2+GX/YvWf/AKLFeu15F+wR/wAmbfDP/sXrT/0WK9dr80r/A" +
+                        "MQ9Y+bf+Cmf7evh/wD4J6fsxax4z1WRZdXl3WWgafIf+QpqBTMUf/XPj5/Sv5Wfin8U9f8AjX8RdY8W+" +
+                        "JtRuda1/XbyS9vLuf8A5ayV+in/AAdDftZTfF/9tLT/AIc2M/8AxJ/hrp8f2iP/AJ66hcfvJP8AyH5cf" +
+                        "/fyvz//AGdvgdrH7Svx38KeAdET/iZ+LNQj063k8v8A1X/TT/tnX9B+HeSYbLMr/tPFf8vD5fMsT7TEe" +
+                        "yPe/wDgmf8A8ErPE37efiRte1W6Twd8JNEuMa/4ounjjii/6d7fzPvyf+i/+WlfoR+0d/wWG+Hf/BMzT" +
+                        "viF+z78EvDmmabB4C0T+ztG1GOSSWSTXJJEiuC/HW3BkkPmf6ySOvHf+C2P7Q/gH9nv9lL4W/s1/BHxL" +
+                        "bXGk+FNQuB4o+wXH737XZSRx4uP+mklz5kn/bOvy28SeJL7xfr2oapqt1Je3+qXEl7eTySfvbqST/WSV" +
+                        "eGyjEcRz/tLMv4f/LumZ1cT9Up+ypH2J+xD4a+Nn/BSaO7+G914w1q2+Fml6hJ4i8YXccn/AB/ySSeZ5" +
+                        "kn/AD8XEnl/u/M/1dfcmg+ENO8Byafo9rpVt/Zel2/l6fpv2jzIrCP/AFlfQf8AwRP/AGXYf2df+Cfnh" +
+                        "BJ7WOPV/GVv/wAJFqn7v/W/aP8AVx/+A3l166P2XfAHw30u8n1Hw5pNz9quPKkk8yTzYreST93XxeY5/" +
+                        "g/rlTD0qf7s4cbhsRUp/uz5/wDhj8E/CXxCv7jQPGOj6bc+H9Uj8y4jkj8yK6/d/wCrr4K/4KTfAL4u/" +
+                        "wDBKTTLjRPAnibWpPgZ4t1i31XQ5Ek/5FzVI5PMj8uT/WW8n/TT/lpHX6g+I/g/P8MfEdxaonmafLJ5l" +
+                        "m9cf+2B8ErX9pv9mnXPAl1dXMdvrNn/AKPJPJ5kVrcR/vI5I/8AtpRl2MpvGU/+XlM+fy3N6mE9pTqHk" +
+                        "f8AwTI/4OQdI+I8HgD4d/GOAWfinUt+lXficjNjdSfu/scj9OZR5ok5/wBZH/00/d9X/wAFWv8AgjZ4B" +
+                        "/4KJeHvEfxD+CU2i2/xQ0S8uLPU7SzeOO1128i/1ttcf887z/pp/wB/P+elfgh4j0G68H+ItQ0q+T7Nq" +
+                        "Gl3EltcR/8APKSOvvv/AIImf8FkLX9gzx344g+JE+v614Y8bSR30k8H+k3MWoeZFHJcf+A0kkkn/XtX0" +
+                        "Wc8GVMsqf2vkHQ+yw2ZU8RT9liT4M+IXgPWPhX431Tw5r+nXGk65o15JZahaTx/vbWSv0X/AODcn/gps" +
+                        "/7LXx2T4T+Lb64/4QP4g3kcWnvJ/qtG1ST/AFf/AGzk/wBX/wB+66j/AIObf2OrKy+IHhj9ovwm/wBu8" +
+                        "P8AxQt7ey1S4gk8yP7RHbf6PcR/9dLaP/yFX5c+FfEl94K8UafrmlT/AGfVNGvI72znj/5ZSRyeZHJX1" +
+                        "X+z8T5F+8/if+5Dm/eYTGH9oMT5qX7oryf9i79oSD9qf9l3wH8QoESNvFej297PGh/1U5QebH+EnmV6u" +
+                        "/Sv5hnCcJ8kz7GnU5zI8UeJ7TwjoV5qV9LHb2NlBJPPNJ/q4o4+v6Cv51P+Cpf7Z0f7bv7VWo+I9O83/" +
+                        "hGNMg/srREk/d+bbx+Z+8/7aSSeZ/36r9T/APgvn+0vN8Ev2NX8PadNJbap8QLz+yRInJit/wDWXB/LE" +
+                        "f8A20r8IQcffr57NsT7/sj8Z8R8/qe0/s6mdh8Cfgj4p/aM+I9p4S8F6ZJrOtX/ACkCScRf89JZP+ecd" +
+                        "fql4L8ZfBX/AIIl6J4N8NX1hDrfxS8UfZ5PEeqmLebG3kk/0iXzPL/1Uf7zy44xmTy68+/Zd0PSP+CZ/" +
+                        "wDwTa8TfEu6ks4vjB420SO+021eT/TrKzuJI7a3eOP/ALafaD/9rr83/iH8TPEHxY1y31PxBqNzqV3bW" +
+                        "cdlHPP/AKzy4/8AV1xaYc+dp1IZFhvaf8xFQ+q/H/8AwUj+Kf7S37VPifUPDusW2ix+I7eTRtHu7iTy/" +
+                        "wDhF9L/AOWkkf8Azzkkjj/eSf6z/nnX31+xd4NT9l/4SQL8FvhV4i+I+q6xHHLqfi7WpI9E/tSSTv8A6" +
+                        "Z/pPl/9s/T/AFlfNP8AwQx/4Jr2vxoj/wCFueM4UuNBt7vytGsGjGy+eOT95LJ/0z8z/ln/ANM6+3f21" +
+                        "/8Agqf4T/Y28cWfhNNMvde1byPNvIrOSP8A4lsf8Gc9ZP8ApnWtL2lOn9ZxJ9jw/wDWKeH/ALWzaodLN" +
+                        "42/ahntftX/AAgnwq8v/nw/4SG4+0/9/Ps/l18L/tEfCX4tfsjfEG4+MHgH4Wa14CguJP8AiqPDdjqFt" +
+                        "qXh7WLf/lpJ5dv+8j/7912v7Tf7dfxw+EGh+FfiT4V8fWHin4ceMebRZ/D9vbfZZE/5d5P+Wnmfu5P+W" +
+                        "n/LOSvo39hH/gpzoH7VvhSytfEMljonjWW6+xf2VA3mfbj5Yk8y3GPMMf8A8bo+sYevU9l7Q9GeMwePx" +
+                        "H1L2lT2h8Rf8E7f+C4EXwJ+DWoeG/iZNq2v3Wl6hbnR55P3sn2CSSOKS38z1th8/wC87Gvtb9rj9kT4S" +
+                        "f8ABUn4U6ffafe6dH4nvtM/tDQNdtx/pIg/20482Ln/AFcn+NfmJ/wXD/Za079mX9suS60C1+zaJ420/" +
+                        "wDtmNPL/dW1x5kkdxHH/wCjP+3mvPP2DP24fEX7NX7Svw81e/1+9/4RfQpJNJuLeR/3UWn3EnmXH/kT9" +
+                        "5/2yrT6z7Op9Wqny9LiSph8R/ZObfvKZ5J8aPgn4m/Z8+I174U8X6ZPo+u2fM8DSeaCD6Sf8tK9c/4Jm" +
+                        "ftcP+xZ+1poPiS7uZ08L37/AGLX4IRnzbeT/lpj/pnJ5cn/AGzr9HP+CtH7P3hn/goF+xRpXxo+Hzx6n" +
+                        "qPh+wOpW88cf7y/0/rLBJ/tx/f9vLk9a/F15fMXntXLVpfV6uh8zm2CnkWZwxGH+A/q78NeILXxbo8Go" +
+                        "2E8d3aXcaTwTxvlJEOMEVqFeDXwh/wQF/aNf4y/sV2/h29ufM1f4f3H9lSI5/efZ/8AWW+fw8yP/tlX3" +
+                        "ehytfU0KvtKftD+gspxv1vB08QRzAGIe1fnn/wUd/aCm8e/E+TwnZXP/Eo8OyfvPLk/4+rj/lp/37/1f" +
+                        "/fyvt345/EWD4V/CPX9edhjS7OSWPj/AFkn/LP/AMiYr8lNS1KfWNQuLqd/NuLqTzJJJP8AlrX5b4j5r" +
+                        "OnCGDpdT73hbBe0q+0qdAtLN7u5jghTzJJZPLjjj/5a19bfDf4QeF/2NfAUnjPxv9m1bxdayR/Z9OSTz" +
+                        "PsEkn7yOP8A66f9NK4f9hjwLo+jahP8QfFF1b2WkaPcfY9P+1/6qS7k/wDjdeK+L/Hmq+NtTv7rUbqST" +
+                        "7fefbZI/M/5aV+e4L2eWYf6zU/iH0mJ9pjMR9Wpfwz2v4/ftxa/8Tdc8PjQJv7O+w28dxJGkf7s3kn/A" +
+                        "Mbr6H/Y6/ZOm8E/8Vh40/4mPjPU/wDSP37+Z9g/+2f9NK+U/wBg3whD41/ad0CG6g8yCwEl7/1y8v8A1" +
+                        "f8A5Er7p8a/tf8Aw5+HuoyWN/4osUuYf3ckcCyXHl/9+wa++4TqQrr+0cwqHz+cQVL/AGLBHqvkV4x+1" +
+                        "X+yxZ/G3RP7R03/AIl3i/TB5mn30f7uST/pnJ/0zruPB3x38J+N/CtxrGma7ptzploP9Im83YLX/rp/c" +
+                        "/GuOvf26fhfb6gLM+K7Qt6oskkf/feK+7zHE4CvQ9lVqHzmHhiKc/3Z8ffCX9rfxp+z58YtUg8VPe3lv" +
+                        "JceVqlhP/yyk/56R/5/eV9M/D744eCv2xfgrLZeIkto57qSOyv7R/8AllcSfu43jr5w/wCChPw+0+Hx1" +
+                        "p/jrQbqO80TxhH5nmQSdbiOvBtC8Saj4Vv459Ourm2niuI7mPy5P+Wkf+rr8h/t/EZZjPqWJ/eUz7X+z" +
+                        "aeMw31mn/EPR/2oP2Utc/Zx8Rfv/wDTdAupPLs75Osv/TKSvOPDniO68Ia7aapp00lvf2EnmW8if8spK" +
+                        "/Qj4dfGDwp+3r8LtX8O3NpJbXcdnH9pgnj/ANVJJH/rI/8ArnJX5/eO/Bd78OfGOp6JqChL/TLiS3f3r" +
+                        "zOJMpp4SpTxuC/h1DqyjHfWKf1bE/xD9Qf2Xfj9a/tBfC+01iHEV4n+j38GP9TPxxXp+M1+dX/BMn4mP" +
+                        "4X+N0+gO/8AoniG38sJ6SR/vP8A45X6Iv8Adr9n4Uzb6/gPa1D4jNsF9XxHszwL/gqEP+MF/G/+5af+l" +
+                        "tvX8suvaZomsftGaxa+I9RvdJ0eXXLiO8v7Sz+0y2v+kyfvPL/5aV/U3/wVCOf2GfHH+5Z/+ltvX8pnx" +
+                        "ameD4yeKJE/5Za5ef8ApTJX9F+GWGqV8JiKdM+Mzf8A5dn6Cf8ABQP/AIJefDL9nX9h7w54n03x3Hc6x" +
+                        "4Nt/sWoeRpfmXOs3l5J9pt/tEf/AC5/u/8AnpX5r12Pg+88d/GDxlqGh6Nda/r+ueN5PLvLSO4kkl1mT" +
+                        "zPM/ef89K9n/aF/4JU/FD4D/CXwX4qn8M63c2+qeH5NW8Qf6P8A8gGT7TJ+7k/55/6N5cn/AH8rv4OxH" +
+                        "+p/s8l4nzD2mIxFT937Q5sbS+t/vMNTPmf5KK6Dwf8ACXxN488JeINc0fR9S1LS/DEcdzrE8EfmfYI5P" +
+                        "+WklesfsW/8E9/H37ZvjzR7XR9H1KLwvql5JZXmux2/mW1h+7/5aV+h5txjk+W06mJxuIp0/Z/xDyKeC" +
+                        "xFT+Gdx/wAEqf2FdA/bX+PGj2V94t023/sa8/tLWPD09ncebf6fH5fmeXJ5fl/8tP8AlpJXB/t+fsf6V" +
+                        "+xb8adU8HQeNNN8UapYXkn2i0g0+4jlsI/9ZH5kkkfl+Z5cn/LPzK5PxfoPxQ/Y51TWPDOqwa34F1DxH" +
+                        "Z/ZtQtP+PaW6t/+ecn/AEz/APRlegfsi/Azxp/wU4/a08L+GdV1K91by7eOLWNWu5PMlsNLt/8AnpJ/y" +
+                        "0/55x/9s6/JcyzHMMtxmI40xOYf8Jfs/wCGevS9nUp/UvZ/vD9ZP+CJ/wAB9fs/2ePC/i7xN5lto/2OO" +
+                        "48L6bPH/qpJLK2tri9/7aR28ccf/TPzP+elfVPx20q9+KgsPhpo+pwadq/jgyRXk7xebLa6RHxqEseP+" +
+                        "WnlyfZ4z/z0uK7LVNS0r4YeCp7q4e203RvD2n+Y7/8ALO2gjjzS/sSfCm+1C01P4p+J9Mk03xT47ji+z" +
+                        "2k6/wCkaNo8efsdkf7kn/LeQdpJdn/LMV/lXwVTzDxX8RMRxZmP+74eofqFX2eAwf1Y+gdD0u30TRra0" +
+                        "hXybe2j8tF9KKv2/wByiv7zS0Plzzb9rkbf2TfiZ/2Kmqf+kctfHX7Wvhu68Yf8EQfjla2v/Hx9s8SXI" +
+                        "8v/AKZ69cyf+06+xf2vj/xil8Tf+xW1P/0lkrz79mD4f6f8U/2RfEnhnVE8zS9e1zxRp15H6xyatex16" +
+                        "eBr+wiqj/5+IioufY/nA/4J2/8ABOjUP23PEer6xqusR+CvhZ4Jt/tvifxXdx/u7CP/AJ5x/wDPSSv6F" +
+                        "P8Agjz8ZvAHxl/Yp0g/DPTzp/hHwpqN34a0+OQ/6TLFbSYjuLjj/j4uIzHLJ7y1+Kf/AAWQ/aJm+D+q/" +
+                        "wDDKXgDQL3wL8MPhhJHHcQSSf6d4tu/9Z9tuJP+Wn/PSP8A/d+X2H/Bth/wUDn/AGbf2rT8LNYuv+KU+" +
+                        "KlxHHb75P3dhqnl/u5P+2v7uP8A791+tcSZbmOdZX/bFV/9w/I8TBVKdDEeyP6MaJv9TVeGbzoqkm/1N" +
+                        "fjJ7x8Bf8Fuf+Cs13/wTZ+Fnhy08Ijw/qXxF8S6ijw2WpeZIltp0ZzLcyRx+/lx9U/1kmw5jNeY/sC/8" +
+                        "HM3w5/aL11PDnxX0qP4YaxL/wAe+o/aPtGj3P8A0zkl/wCXf/tp+7/6aV89/wDBej/gjh8YfHXxf1v41" +
+                        "eGtV1P4oWOpv5dxoyWX/Ey0K3/5Zx26R/6y3j/7+f8AXT95JX5lfsjeCdc1j9pDw5/Z3wzvfihcaPqEd" +
+                        "zeeG47eT/SY4/8AlnJ5f+r/AM+ZX63knC+R4zIva+0/engVcbiKeIP6gP8Ago1+1N/wy9+wf4/+I2j3V" +
+                        "jJqGl6OZNInk/exy3En7u3/AN/944r+T/xf4q1Xx54o1DXNcvrnUtY1m4kvby7nk/e3Ukn+skr9ef2m/" +
+                        "AHxJ+OXg3W3/a0+O3hv4EfDjxPqketWfw7g8vUdXsLe3/d28cccf+rj8vy/+en7z955fmV8+aV/wUH/A" +
+                        "Ga/2QJYNO/Z8+AUXjbxRbSeXb+L/iJ/ptzcyf8APSOzj/8Aafl1twZU/sqhU9lS9rUf3ff/AJDxq9uan" +
+                        "w+/4JJfGH9pT/gnn8ILW10qy8L6fba/4g1rVNS8UXH9m22jWcn2KOOSTzP3n7z7PJ/yzrgPiN+y/wDsn" +
+                        "fsdSWU/if4ral8ePEls/wDpvhbwhZ/YtNupP+mmof8APP8A65fvP+udfV3/AAc5T+LfCXwE/Z68P+I/E" +
+                        "dxq2qSWl4NceM/ZrbU7yOK28yTy4/3f+s8yvx2r6bhPDY3M8P8AWqmI9nT/AOnZw46pToVD7uvP+CzPi" +
+                        "b4P/DD+zvgH8G/A3wM0+/8AMtrjxBp1nJqWpXP/AEz+2XEf/wAcr49+L/x38aftBeLH1vxv4p1vxZq//" +
+                        "PfUryS5kir+gj/g3g+H+jfE/wD4JBaPomv6bZa1pGp6nqlteWt0nmR3Uf2mT/WV+TP/AAVG/wCCV3iz9" +
+                        "mH9vPVPAnw/8Ja/r+geJidZ8MW+m2cl7KLOT/ln/wBu0n7v/v1XNwxm2T0s0qYGrT9nUp/8vLmuKw2I9" +
+                        "n7Q84/4J5/8E+br/goN8VI/DNr4+8FeDv3nl+XrN5/p1/8A9e9v/wAvElf0h/8ABOH/AIJ6eEv+CdH7P" +
+                        "dt4I8Ot/aN1Lcvc6vrMluEudVuP+ekn/bPCV+Dnwa/4IgfFvw1bWfjP4meKfCn7POiWNxHcWepeJNYjj" +
+                        "vvM/wCne3jk/wBZ/wBdPLr96f8Agn9+0z4Z/aO+A1n/AGD8RbP4p6h4RePQtb162szZm/vI4xmXy+gMu" +
+                        "Uf+5zxXyfiPmc8ZL/ZqvtMOduU04U0e1+KfDNh438OahpGqQJe6fqlvJa3EL9JI5BskSvyJ+K3/AAaW+" +
+                        "Gta+Ij3fhL4o6nonhi6nkkksLvSxc3NrH/yzjjk8yPzP+2leof8Frv+Cz/xT/4Jp/H3w/4a8K+EvB2ra" +
+                        "J4j0MahBf6tHcSf6R5ksckX7uSP+5H/AN/K+BvFX/B0n+014kH+i2vwz0X/AK9NDuJP/RlxJXm8L5JxJ" +
+                        "7P6zln8OoaY3E4Pn9lVNf45/sKeAf8Aglf4jvLrVPgF8Xvjf/Zcn/IW8SRR6b4V/wCukcdn5kkn/bST/" +
+                        "tnXkfxT/wCC73xe1fQf+Ec+F9l4O+BnhT/lnpvhDS47aWX/AK6XEn/LT/rn5df0A/8ABOr9q6x/bY/Yy" +
+                        "8C+P4rmG5v9T0yOPWERMeVqEf7u8j2f9dRJXhf/AAV6/wCCYnwd+P8A+yz4/wDFd34c0Hwv4w8O6Jeaz" +
+                        "B4ktbZLaTzLeIy/6QU4ljkwciTNbZdxRh/rvsM7pe0n6/psFTBfu/aYY/nL1L4/eONX+Jdv40vvGPiS5" +
+                        "8V2sn2i31mTVJJL6KT/AK6f6yv2s/4Jjf8ABW/WP27P2J/jH8PvHr21z4/8H+A9QuI9Sj4k1yz+zyoZZ" +
+                        "I/+WckfmR5/66V+Jfwt+DXi344+J00fwX4Z1rxPqcv/AC6abZyXMn/kOv0r/wCCbX/BKX4y/ssX3jv4h" +
+                        "ePodE8HW/8AwrfxBbf8I9Pqkcur38cllJ+8+zx/8s45PL/1n/TOvvuPMPk08vtf95/y7POy36x7Q/aj9" +
+                        "gj/AJM2+Gf/AGL1p/6LFeq3leVfsEf8mbfDP/sXrT/0WK9UvP8AVV/P8/4h9OfyGft7fE5/jX+2t8WPE" +
+                        "zv/AMhPxRqElv8A9c/M8uP/AMh19b/8G6vg6xtPjT8X/iS8ccmr/DDwBqGo6P5kf+quJI/L8z/v3HJH/" +
+                        "wBtK+EPjBps+j/F/wAUWM//AB8WusXltJ/38kr9L/8Ag168IJ8QfGPx/wBA3+VJrPguPTvM/wCukksdf" +
+                        "0jxRUVDhh0qe37s+Pwv7zGH5aajeT6nfz3U88klxdSebJJJ/wAtak8N6cmseI9PtXf/AI+riOPzKl8R6" +
+                        "DdeFfEmoaVqMEltqGl3EllcQSR/vYpI/wDlnVbTLx9N1S3uk/1lrJ5kdfbU/fy/92cFT+If1weFbOx8K" +
+                        "+F9E06D7NbRxWcdtbx/9c46z/ip8N0+J2jW9ql1JptxY3kd7b3ccf72Ly6+erv4e/8ADU/hLwx408P/A" +
+                        "BT1vSP+Ej0C31HS9N8yP7NFHJbxx/6v/Wf8tPLr0Gb9rTR7P4faW+lXVlcX91cXGnW/2uT7NFL9n/4+L" +
+                        "n/rn+7r+V8Rgqnt/wB2e5UqU/Z/vDqPGPw9utR8UWeqz6jJc2FrJ5lxBHH5n/fuP/v3XifjHxJY2ep3l" +
+                        "rB5n+iyf8tKsab/AMFLNLh8b6fY3Vj5mgXUn2aTWv8AVy+Z/wAtJPs//PPzKw/2ufhla/BP4dW/iPStV" +
+                        "kvbiXUP3nnyR/vY5P8AnnXr5bTqU6ns8SfG53gqden7TBH4h/8ABUTwha+D/wBtzxh9hTy7fU5I9Rjj/" +
+                        "wCmkkf7z/yJ5lfP9euft1fEJPiR+1N4ovkn+0wW1xHZRyeZ/wA84/LryOv6Qy2n/sdOnUOnDe09nTP3l" +
+                        "/ZY8Exftt/8Gyd54e1KaTUdV8P6PqYjkeP97Hcadey3Nt5f/bOOCOvwb6Q1/Rz/AMEG/C1n4W/4Iiafe" +
+                        "XUn7nXo/EGpXnmf8swLm4t//RdvX84v+pr858PsT/tuMw3/AE8PoMyp/u6Z/Rp/wa9/Fib4kf8ABNb+y" +
+                        "JuD4J8R3mkxn1jk8u8/9ufL/wC2dfpF3NflF/waXadNB+xX8Qrp/wDUXXjSSKP/ALZ2Vl/8XX6vdWNfi" +
+                        "/FFKnTzjEez7n0WD/3emfiN/wAHJ/xXufEX7UnhTweG/wCJf4d0P7Z/28XEn7z/AMh28dfF/wCx78HH/" +
+                        "aC/ag8BeC/+XfXdXgt7n/r3/wBZJ/5Cjkr6g/4LweHL3xJ/wUtm060TzLzVNK0+O0jkkEfmH/gdU/8Ag" +
+                        "kr8Ddf+EH/BUX4a2viaxtrG4urbUbm3jjvLe5/5crn/AJ5yV+d1f3mJPwTMcPUxXElqn/Pw5H/gtZ4wk" +
+                        "8T/APBQfxVpxQR2nhi2s9KtIx/yyj+zRy/+1K+T6+s/+C3fhCfwn/wUe8azun7vWIrO9j/8Bo4//adfJ" +
+                        "JOTXNif4p83xBz/ANqVPaH78eF/j1Y/8E4v2Bvhc7+FNW1rQI/D9nHeT2U0EfkzyRCQ70kP/LSSR+lfK" +
+                        "fgr9nL4ff8ABVj44+I9f8Iaxq/gfWZbiO91TSdVEd79rgk/1lxb/vP8+ZXRf8FFNVuvjP8A8E1/gZ4s0" +
+                        "SZrjQLSztvt8UPSO4+xeXGX/wCucsckf/bSr/7FXw6+FX7E8PhTxL458dQeGPiiI/7RvLUTSPmwuIuLK" +
+                        "ePB/wCWeH7fvKnE1PaYj2VX+Gfp2KqfWMZTwNX/AHc+n/2p/wDgnWPih+yjoXwt8INoWhaToUsdxBPdw" +
+                        "SSSQPH5mZI9hx5knmSZ/wCuhr5M/Z1vvhZ/wSk8bavqPijxLZePvHckn9nR2ugR+adGt/4/nf8A5afjX" +
+                        "3B8fP2/PCHwt+C/hfx1ZajbahoHivW7PSrS7BcxeXJL/pEnT/lnFHcH8K+A/wBuH4NfBT49/GP/AISzw" +
+                        "X8XPBegHV5PM1eGeWTl+0lv5adf+mdaZl7CnU9rh/4h6Wf08HQqU8Tgv4lM7L/g4qg0b4n/ALKXwy+IG" +
+                        "lXUd9Auti3s54/+Xq3ubaWT/wBt6/IFj8gr9Bv+Cr/j/SvDP7GnwX+HGh3F1Lo8dxPqtnNcReVLfW8X7" +
+                        "uO5eP8A5Z+bJLcSR/8ATPy6/PuliqntKntUflvG+J9vmHtEfrP/AMG6HxnuvHXgrx98KdYxe6Tp6f2ra" +
+                        "R3H7zZHcfu54v8ArnnH/fyvzl/bB+Bafs6ftQeN/BcDyyW+havJb27yf8tLf/ln/wCQ6+6P+DaLw/Pe/" +
+                        "G74k615f+j2uj29lI//AE0kk8z/ANp149/wVR+B/ir42f8ABT34jaX4K0HUvEF/HFbXM8FhH5nlf6NH/" +
+                        "rK6Kl6mGPczLDzr8OYep9s9F/4NufiDNoP7Ufi/w5v/ANH17RBcyJ/00t5f/uiSv22A5r8H/wDg37066" +
+                        "tP+CiVxBIktvJa+H7+O4jdP9V+9ir942O1K9fKf93P0Hw9qVP7L/eHzN/wVA8Qto37PkFrH/wAxPU4oZ" +
+                        "PwzJ/7Tr4Cm8K6jZ6Nb6jPY3sen3Un+j3b2/wC6lr7q/wCCr9u0vwc0CQdI9YzJ/wCA8tfMnime+/4Uv" +
+                        "b3T6X4jjg1O3s7b9/H5emRfZ/L/AHkf/PSSTy/+ef8Ay0kr8b4xpe3zj94fu+R1PZ4P92dN+1f4bb4W/" +
+                        "s7fC7wtBJ+4voLjVLz/AKaXEnlH/wBqyR189V9jf8FKfCz3fwt+H2twJ/o9tH9jk/7aRxyR/wDouvj2v" +
+                        "nOKafsMZ7M9rIqntMMeifBma60j4afETVdOeSK8tNLt7LzI/wDnncXEfmf+i68/+xzfZPPRJPs8UnlyS" +
+                        "eX+6ir6G/4Jo6lp178WNc8M6pClxYeItLkjeCeP91L5f/2vzK+8tM+Gmg6B4UTRbbS9Pi0iOPyxaeR+6" +
+                        "8uvpMk4SqZtg6dX2h5OOzx4DE1Ej8j5odV0fRfnTUrbT9U/7ZxXXl1n1+i//BQDxl4Y8E/Aa+0jUYbc3" +
+                        "epxGLTbVI/9XJ2k/wC2fWvz78IeENR8deJ7DSNLtpLi/wBTk8u3Svm8/wAgqYHEfUqdT2h6+W5n9Yw/t" +
+                        "ap3ngO01Hxf+zn43gneSTTPDslnqNv5n/LKSSTy/wD0XJ/5DrzCvtX9pPwVp37MP7EMHhOD7N/aeuXEE" +
+                        "V5On/LzJ/rJJP8AyH5dfF1ZZ/gvqlSnhqn8QMoxP1j2lU9O/Yy+Ilz8PP2ifDk0P/Hvql5/Z08Zk/1iS" +
+                        "fuwa9J/4KjfDhPDnxi0zXo/ueIbPEn/AF0j/wAx15J+yx4Vm8X/ALRfg+yhT/mKR3Mn/XOP95JX2F+3n" +
+                        "LY2nxC+HM91HJJHayanJ+7t/tMkf+jf63y/+mcnlyfhX0GU4b2/D9SnU/5+Hm46fsM1pukfEvwZ8VP4L" +
+                        "+LPhvVIX/48dUt5JP8Arn5lfr3B/qB9K/Kj4qawnirxl4b8vUdS1bUIv9HuL+/0/wCzS3Un2n/MdfqlZ" +
+                        "bvskY9q+s8PKfs/aUzxOJKntHTqHg//AAVD/wCTGvG/+5Z/+ltvX8pvxg/5K/4o/wCwxef+jJK/qz/4K" +
+                        "g8/sM+OP+udn/6W21eEWH/Bvb+yt4zsbfWdS+H13cX2qJ9suJP+Ej1H97JL+8k/5eK/pbgbi7D5JTqPE" +
+                        "K9z4LMcDUxB/NPoOpPo+vWd8k1zb/ZriOSOS0k8u5i/65yf89K+uP25P+Cw3ir9ur4K/wDCF6x4cstA0" +
+                        "+x1SO90+TTdQuP9XHH5f2a48z/j4/56eZX7VH/g2/8A2RP+idah/wCFPqv/AMkUD/g2/wD2Rh1+HV7/A" +
+                        "OFRqv8A8kV3Z1xFwnm2YYfNcywXtKmH/hnPhsFjKFP2dOofnL/wbB2aXnxB+MEE6RyRy6Xp8ckbx/639" +
+                        "5c19xWn/BPiL9mL4ieM/iL8Ak0Tw/4o8R6R9mfw3qvmf2HNP5scnmRxx/8AHvJx5f8A20/5Z0z41f8AB" +
+                        "HPVv2T/AIearrv7GWo/8K78X3Vv/wATPTdSk/taLxHHH/q4/M1DzfIk/wBZz/00r8qPib/wWH/bH+Dfj" +
+                        "y/8NeLPFtxoGv6ZJ5d5Y33hfSo5Iv8AyXr+TvEXwk444z40xGfcMYin9XxHs/aU6h9Hgsxw+AwdOliTx" +
+                        "z/goprvjT4j/tseML7xp4SvfCfjDVLyOO40WS4+0+VJ5cf+rk/55yf8s6/ab/gj3/wTug/YZ/Z9+26zD" +
+                        "H/wsDxnHHea2/8Az4R/8s7L/tn/AOjK/Fz4qf8ABSz4vfHL4g+G/FvirWNF1bxJ4SuI7nS7+Tw3p3m2v" +
+                        "l/9u/7yP/pnJXrHgP8A4LSftc/E3xto/hzRPHn9paxr15HZWcCeG9K8yWST93H/AMu9fpvjR4TeInFHB" +
+                        "eD4Yy72eHp0/wCIeRlGbZfQxlTE1D9wofCUf7W/xvuPCDI48C+ALy2vfEs8cn7rWdQ/4+I9K/65x/6Pc" +
+                        "XH/AF0ij/5aSV9d20ASDFfDP/BBuzuh+zX41uNVu31HXL3xrcXWqXko/eX95JZWXmySf8DzX3fFgpxXz" +
+                        "fA3h9heDcshkmH3p/xP8elz28TjJ4iftGSR/cFFOor7U5jzX9sD/k074nf9ipqn/pFLXOfsIf8AJB7j/" +
+                        "sa/EH/p6va6P9r8Z/ZQ+Ja/9Spqn/pHLXKfsC3cN78Arh4H8yP/AISjxB+8ST/qNXtbL+CzP7Z83/8AB" +
+                        "a7/AII/2X/BQb4Zf8JF4TgstO+Kfh5PMs7vyxH/AG3H/wA+csn/AKLk/wCWdfzkXln4j+BHxVkgmS90D" +
+                        "xR4T1Ty5I5P3dzYXlvJ/wC05I6/szJwK+Lf+Cj3/BE34S/8FArOfWLy1l8J+PQv7rxFpcX72X2uI84n6" +
+                        "f7/AE5r77g7jZ5fD6ljdaR5uNy72n7ymfC37W//AAVb+L37P0XwS/aX8Caw+r/Dz4s6HHbeJPCd8/mWF" +
+                        "tq9n+7uIo/+feST/ln5f/PtL/rK+sv2I/8Ag4n+Bn7U8EGm+Jr4/C/xRL+6+ya7Lixlk/6Z3H+r/wC/n" +
+                        "l186ar/AMEYfiz4O/4JkfFv4G6t/ZPjIeHdQTxl8PNW0x/3l1cD/j406S3/ANZHJJHH+7/5Z/6T/rOK/" +
+                        "K/xT/wTW/aA8F3fkah8G/iPHJ/0z0O4uf8A0XHXqZTlORZthqlOrV9nUht5rp+Bz1cTiKB++n/BQj/gs" +
+                        "xP+wdpC3N58EfiFrmnXL+XaeImnsxoV8f4CLiCSUjP/AE1jjr8a/wBrr/guX8Xv2kNZ1BPCaab8HtE1O" +
+                        "4+03lr4Qj+xX2qXH/PS4vP9ZJJ/37rf/Ya8Z/tofsv3X9ieGvhf8Q/E/hC5j+z3fhDxR4YvbjQ7qOT/A" +
+                        "Fn7uT/V/wDbOvruL/gjV4V/4KR6Df6k/wAFPH37Kvj+2j33D+XHc+GtVP8A1z8zzP8Av35f/bSjLcNk+" +
+                        "RYnlxy9p/08/wCAFSpiK9P92fjN4w8Yar488Rz6x4g1XUtb1i//AOPy/v7iS5ubr/rpJJUGj6vfeG9Zt" +
+                        "9R026udN1CwuPtNvdwSeXLayR/8tI5K/o2/4Juf8G9nwv8A2Mlg17xkIPiV8QN/mR6hfW3/ABLdO6/8e" +
+                        "9v6/wC3J/2z8uuv+JX/AAQd/Z21Txzq3jjS/hXot74hltvNtdCn1O4sdDkuP+enlx5Efp/qzH/0zr6Op" +
+                        "4p5ZTqfVqVL92cv9kVP4h+GnxO/aV/aE/4KteEvBHgy+0PVviPrHgT7R9kv9N0uSS+ljuPK/wCPjy/3f" +
+                        "/LP/WV6P4P/AOCG2v8Aw50O38S/tD/EXwV8B/Dkv7yODUtQjvdbuf8Arnbx/wDxyv0//Y2+AX7Q/wC1N" +
+                        "oHifSviPb337K3gTRrn+ztE8N/DqzstNub+T/lpcSXEkdx+7/65+X5lVvGn/Brv8EPiDr1xqmvfET446" +
+                        "5ql/J5lxeX+uWdxcy/9tPsdfOPjeGH/ANmo/uqf/Tv95/wPzO5Zb/y8Pd/+CLXhT4YeEP2GdH074Q+I9" +
+                        "e8W+C7XU7yO31bVrb7Nc3snm/vTs8uP935h9Kof8Fvfhb8SfHP7DWvap8LPFfiPwt4n8J/8TmSPSbyS2" +
+                        "l1ezj/4+LfzI/3n+r/ef9s69h/Yd/Yr8LfsC/s/6f8ADfwfqGvX+iWFxcXiT6tJFJdSySyeY+fLjjj6/" +
+                        "wDTMV7Fewx3Vs6SfvI5OJEr83njeTHfWafv6nr+y/d+zP40PHvxO8R/FTXf7R8VeI9b8Sah5fl/a9W1C" +
+                        "S9l/wC/klfW/wDwQu/b7k/Yb/bV0yPVL6SPwR47kj0XW4/M/dReZ/x73P8A2zk/8hySV+p3jr/g1q/Z3" +
+                        "8a+MtY1ldd+J2grq15JeJpul6nZx2NkZHyY4hJaSYj9smqA/wCDUH9nyH518Y/GH/wZ6f8A/IdfrmP49" +
+                        "yDGZf8AUalJnz9LLcRTqe1PY/8Agt//AME5/wDh4b+yPc/2HHbf8J34NMmq+H5JI/8Aj6/d/vLb/tpx/" +
+                        "wBtI46/my+HHwI8afF/xtL4c8LeFtf1/X4pPLksbHT5Lm5i/wCun/POv6+/hN8N/wDhVHw40bw2NZ1rX" +
+                        "10SwgskvtWlSS9ukjj8sSTuiIHkx19etZfxI/Z+0r4geB9X0jT77VvBU2uP5lxqXhuRNPvzJ2l83y/9Z" +
+                        "Xx/DfHmJyXDzw1P95TZ6WNy2niP3h+EX7Gn7Efx9/YDsI/Fvjr47WX7LfhS6/efYL7VPtt9qf8A1z0v9" +
+                        "5HJ/wBtP3ld/wDtB/8ABcv4W6P4cn8ORp8R/wBpaYff1HxleR6Tod1/3D7eOPzI/wDr5ir6B+L/APwau" +
+                        "+Ffir4xu9dm+OfxNvb+6k8yS416O31a5k/7afu6wvDX/Bo34Btb0yav8XfGN7b4+dLHTLa2kP8A335te" +
+                        "p/aeR42p9azKr+88qf9P8Tn9niKf7ukfmT8Qv8AgqD8a/jn4k/sPwI9j8NLDWLyOK38N/DPS/7Ejurj/" +
+                        "ln/AMe/7yST/tpX64fsAf8ABO/xL+yb/wAE+fi98QPindX+rfFz4jeENQkv59Suftt9plmLKQx2ckj/A" +
+                        "PLT/lpJ/wDa6+oP2Lf+CQnwR/YSK3ng3wx9t8RICP7e1mT7dqQ/3JD/AKv/ALZ7K9U/bMmS0/ZA+J7u/" +
+                        "lxxeE9U8yR/+vKSvGz/AImw+L/2PLafs6Z0YLDVKf7yoV/2CP8Akzb4Z/8AYvWn/osV6zNvryH9hDfB+" +
+                        "x38N4ZE+ePw/b+Z/wB+69inr4uv8Z6J/NP+03+zJN4P/wCC1PxX8ER32v6Jca9eahq2jx6TJHbXN/cXF" +
+                        "t9tt7aOT/ppJ/8AG6+yv+CYeueA/wBmv/gs/wCL/BGj+I73Vz468OXlnH/aWuf2tfRXmnajcxeXJcf9N" +
+                        "La3+0eX/wAs6pf8HS37Ed14jsPCfx20PSrm8/4R2P8AsXxO9pH/AKq28zzLeST/ALaSSR+Z/wBNY6+Hf" +
+                        "2j/ANpXSvhl8RPC/wARfhnrPwut9M8L+I7PVfBGk6Fp8dtq+l2ccfmSW2oeXH5kn/LOOTzJJP3nmV+sU" +
+                        "3UzjL6a5/8Al37M8X/d6h3n/ByJ+wfffs3/ALY0/wARdKsf+KM+J8n23zII/wB3a6p/y8R/9tP9Z/20k" +
+                        "r86K/qV0fU/hH/wXD/YG8udE1LRfEdp+/g3/wCneF9T8v8AS4i3/wCY5K/n1/4KF/8ABMT4k/8ABPT4l" +
+                        "ahp3iLSr3UvDH2zy9L8SQQSfYb7/nn/ANc5P+mdfU8B8VU50/7Jx38SmebmWB/5e0z1z/gmH+0V4S+IH" +
+                        "9l/Cj4n+KdW8J/YDJH4Q8Qx3n+jWskn/Llcf9M/9ZJH/wA85JK/Sn/h1hdaPrvhf+wPHdz9jsZPM1Ce/" +
+                        "wD9bF+8/wCXeOOv576/Wv8A4JAf8FpLqDQZPA/xo8R6TbaPoNv/AMS/xJqWoeVc/wDTO38v/l4/66U+M" +
+                        "uH8RS/27LTmpezqfuqh+mPww/Zj8M/D3wjHp11a2XiS4ikkkk1LUtPjkubrzK+Ov+C6n7XXgj9m/wCBX" +
+                        "/CFada2Vz8R9Yj/AOJPBBH+90G3/wCWlz/0z/6Zx19o/Cr44+Ffjl4Nt/EfhLW7LX9DupPLjv7STzIpf" +
+                        "Lr5f/aR/wCCMPwM/ac8b6h4g1HTvFlt4o1648y4v7DXLiSWWT/t48yOvzPJqlOhmHtMxO2pTp+z9nTP5" +
+                        "+5pnvJXd38ySWT94/8Az1r0D9lL9mrX/wBr79obwx8OvDKeZqfie7jt/M8v93ax/wDLS5k/6Zxx/vK/R" +
+                        "T9tH/g3S0f4DfAjXPFPhXxvq9x4gtR/xK/DerSWf2nVP3n/AD0/d/8AouvpP/ghF8Ffhr+yV4+HhzU/B" +
+                        "HxD8LfFnx3pct9Yaz4stLbytVs4/LkuIrCS3eXYI/3cn7z/AFlfqub+IGD/ALPqVMD/ABDPDZbU9p+8P" +
+                        "oz/AIKJ3/h//gnF/wAEefFWhaBJHp1ro3hb/hFNH8v93JLPc/6N5n/XT95JJ+ElfjnDd+GfhL+zzpFrr" +
+                        "/h3x/oF54Y8EahZahpknhezvtC128uPM8u9uLyOTzI5I5NQs/8AWR/u/Ljjr6r/AOC6Hx6u/wBuj9q7Q" +
+                        "/g14TTWr7wJ8KtUt5PFF/plvb3Pm6xcf6uOOOSSOO4kjj8z93/18/8APOvAPjv8a9c/b1+KPw4+CGh3f" +
+                        "gXxj/wnmsWcd54k8EW95ZXN/p8dxc3Mkd5p9x+7t5I5Li4vJPL/AOecf/POvg+HqVWhh/aVv+Xn7yoev" +
+                        "iv4h+r/APwb1fBJ/gp/wS88ApPbfZr/AMTi48RXH/TT7RJ+7/8AISR19xVz/gbwdp/w78GaPoOk20dnp" +
+                        "mhWkVlaW6HiKKOMRpH+Vb2cA1+Z4zE+3xE6h6NOnyQPx2/4OEPh7Z+Cf2svhR8RdTtPtmh39v8A2df2+" +
+                        "z/W/Y7jzf8AyJHcH/v1XAP8UfCvwd+OXwC8beENGebSdN8T3EWqeLrXw9/ZOmarb3vl5jj/ANX+8j8y4" +
+                        "r79/wCC1n7K1z+1D+xjqn9kQfaPEfhK4i1rT4UQeZN5Z/eR/jHv/wC+K/I3WP2qNH8Yfs0/8IkieLbnx" +
+                        "hf6Pp/hi30mPy/7Htfsdz5kd7H/AMtPtEn+r8vy/wDlpJXyOO/d4g/Ic/p/UM0qVF/y8/eH3Z/wcVfsl" +
+                        "f8ACUfDrQPi5o9sJZ9B/wCJdrDxpzLZyf8AHvJ/2zl/9G1+P+OK/fv/AIJg/tVaB+31+xx/winiuSyvv" +
+                        "E+j6f8A2N4n0m4/1skePK8ySP0k/rX5Lf8ABQn/AIJzeMv2K/ihrTNpF5c+AX1DGk65Gnm2wgk/1cUv/" +
+                        "TT/AJZ08dT9p/tNI8XjLKPrFOnm2C/h1D2n/gkN+2voFhol7+z58UCZ/BXjSSS20a7mk/daZPJ/yyP/A" +
+                        "Dz8yT95HJ/yzl/66V9d/tc/8EY9R/aE+LB8VeH/ABnb2cl7aW9teR31t5nmyW8UVuJPk9oxX4lLKd3vX" +
+                        "6Mf8Exv+C3us/BCax8EfFWe817wt/q7TWpB5t9pn/XT/npH/wCRK5qX1fEfusSZ8OZ1g8RS/s7Nj6U/b" +
+                        "I/4Ju65p/8AwT88F+HrKcarr/w1neV3g3+Xd28kknm/u/xjk/7ZvXJ/DX/gkdoH7K95cfEb4zeL9EuvD" +
+                        "XhmM3s9okD/AGWTH/PXzOZP+ueP3lfc1v8At9/BjU9K+1r8SvBz2/r/AGrHXyP/AMFIvDfhr/gov4Mgh" +
+                        "8G+PvHPiOPTE/d+H/Clh9psbqftJcSeX+7/AO2kn/bOurE5dg/4h99mOS5Xf67h17Soflf+3N+1Vdfti" +
+                        "/tC6n4seH7FpEUcem6HYmP/AI8dPj/1cf8A7U/7a15ADtNfoho//BuN8U9W8CWmpf8ACVeGNN1e4j8yX" +
+                        "TryOT/Rf+2ieZ+8rD/Yv/4Jh6N4U+J9tr/x31STw5oWg6sbJdMu9CvI7XVJfM8uLzLuSARpbSfUeZ61";
+                    resourceString += "yfVqlSofl9XhvNK+M/2mn/EP0i/4JG/slp+x/wDsd6RBqNj9i8T+I4/7Z1vzEHmRSSf6uOT/AK5x8f8Af" +
+                        "yvgax8Uax8Y/j38Z/iXo2gaH418L+J/Gcem20eo6heWMXl2VxbR21xHcW//AE0uLOSvvj/grD+15bfs2" +
+                        "fs6XOhaNPv8feO4zovhywQ/vWkkxFJL/wBs9/8A38Mdflb8WfFevfsI/C+f4Zx3fizwx4vurPM/9max9" +
+                        "p0zWfM/d3H2izuP9X/y0jjkj/1nl/8AbSu/Hf8APs+/4gxNPCU6eCpf8uz6N/4IB2Vz8av2z/jP8Ubqy" +
+                        "jtftQkkbyz+7ik1C9kuZI//ACHX6+42Cvj/AP4Is/st3v7MP7FWlQa1p8mneJPE9xLrOoW86fvYpJOEj" +
+                        "f6Rxx19iMcivWwVL2dM+w4YwXsMvpqoeB/8FE/BM/i79mbWJoE8yfR5I9S+T/nnH/rP/IfmV8aeD/DV1" +
+                        "48+C6aWlr4Xj8uOS9s55I7iS+upJJPL8v8A55x/6vy6/THxNotv4l0K60+6QSQX0ElvInqknFfm/ovha" +
+                        "9+H/wARdf8Ah1rGs6lpMdjJcS29xb+XHny45JP3kn/LOOSPy6/NeNcEqeMp4hf8vD9LyTE+57I+m/Bem" +
+                        "2v7XP7DlnpzOP7Qjs/s6u45ivLfj+n/AI/X58TwPZ3PkOnlyRSfvI5K+sv2Nfiva/AP4jXegTz3v/CCe" +
+                        "Irj/iTatd2/2aKS4j/9pyf/ABuuh/bc/YXuvEmqXHi3wXbebeXP7zUNNT/lr/00jrxs2y2pm2X08Thv4" +
+                        "lM9DLMbTwGJ9lV/hnyX8J/iZqHwj8fWHiHTBm602TeYz/y2/wCmdfqF8Dvjxofx38E2+q6RdRn5P9Ig8" +
+                        "z95ayf885K/KLWNHu9C1O4sb61ubG8tZPLkgnj8uWKuj+E/xk174K+LY9X0G9+zvF/x8R/8srqP/nnJX" +
+                        "h8LcSVMpqfVqv8ADPTzzKKeL/e0j0z9uHwL4zi/aGkh1ee41b+2ZPM0Py+0f/PKOOvqn9kb9mHTv2Zfh" +
+                        "/8A2xrf2f8A4SC5g+0ahdv0sk/55x+1XPhN8fPAnx3ufC91qMnh+PxjGkklnaeZ9oltHx/yz/7Z16X8T" +
+                        "vhlpHxV8KSaTrUdxcWMz75Eju5LfzP+/ZFfpOUZJg/rFTMaVT2h8jicfiPZQwdQ/OL9sP4+z/Hb4u3c1" +
+                        "rdPcaBpcn2fTEA/dFP+eleS198eKP8Aglz4GvXkksdZ1rSv+mbyxyRx/ga8G1j9lK1+H3xoS1n/ALW8Y" +
+                        "eGLGOO9kfSo4/3v/PSP/WV+d53w1mFTGe0xP/Lw+qy3O8HTw/sqR69/wTG+AT6Nol3471GH/SL8/Z9M3" +
+                        "p/q4/8AlpJ/n/nnWJ+2T8WEl/aptIf7Rt7az8M6XJbyST2cl7bRSXH+s8yOP/pnX0P4k/aE8IfC39n+0" +
+                        "8TWs9vFo8tnnSII4/L8393+7jEdfCum+MJtH1nX/EXiWD7Tr/iOOSS4tHuPs19ax3Ef/Hxb/wDLP/VyV" +
+                        "9JndTD4DL6eXYY8jBe0xeJqYmobHw7tH+O/7W/hO1/4kElvaz/aZJNKjk+zSx+ZJcyf8fH7z95X6WQDb" +
+                        "BXxd/wS/wDgjNbS6h44u4JI7e6T7Fpfmf8ALWP/AJaSf5/6aV9oO+yCvqOBMFUhg/rFT/l4eRndVTxHs" +
+                        "6Z4J/wVD/5Mb8cf9c7P/wBLbevZ/Af/ACJujb/+fKD/ANFivGP+Cof/ACY344/652f/AKW29ejXfj/Sv" +
+                        "hT8Dj4k1y+ttN0TQ9F/tLULuZ/3drHHF5kkhr9A+weMdv58f9+jzo/79fjn+zd/wV7+JPxi+BP7QMNr4" +
+                        "70HUfiFJpB8YeBIxJbY0ezkuDFJZHzP3f2i2/d/6z/noK7rw/8Atq/Fn4JfALx/p158QfEd543ubzw/Z" +
+                        "aPB4+8Lx6bq/hL+1L37FJe3Hl/6NcW/meZJH/1y/eV3zyXEQqeyM/aUz9TvOT+/XhP7ZP8AwT6+FX7dP" +
+                        "hC40nx/4SsNSu5bbyLfVkhSPUrH/rncf6z/ANkr4q/bJ8afHr9jrw3pnhZP2jL7xfeeIfGGh2sUlholl" +
+                        "/wlWmW15HqP2j/R/L8uSOSS3/d/9cjS/Cv9u34raH4Y8ZfDvxH4w1698WX3xH8P+D/Dd/ruj2+k+IbCz" +
+                        "1GP7RJcXFvH+7/1cdx5clPD4KvR/wBow8zP2lOZ+V//AAU+/wCCSHj/AP4Jx/EC4kng1LxF8PbqSP8As" +
+                        "zxOlv8Au5P+mVx/zzkr7+/4Nk/+Cakel+G7v4/+MNNglvdTD2fhSC7t/MktYv8Alpe5/wCmn3I/+2nrX" +
+                        "vXgTTfiD+1P+0P4w0TxL40+LGpeALrxZrmg3Gi/8IXp1x4V+x29xcxRxyXkn73/AJZx/wDbSvpP/glh4" +
+                        "pufEX7E/hfStShsotU8CSXngy8+yweXHLJpVzJY+YI/+mn2fzPxr63NuNsxxGV/UarOKnltOnU9qed/8" +
+                        "EMv+TefHH/Y6XH/AKRWVfbdfEn/AAQy/wCTefHH/Y6XH/pFZV9t18Tmf+8TPRpfwySiiiuI0MfXdIt9f" +
+                        "0eezuoI7i0uU8ieOT/VyIa/ML9qDxR8NP8AglFr0HhW4+POq+DbXX5H1XTNCbStU1K6trdyYx/x53kcf" +
+                        "lfu9gklj82Ty/8AWSV+qA4ir+d//g69/wCUjHhT/sndn/6cdSr6Xg/AQx+Y08FU6nFjavs6ftD3z/h8Z" +
+                        "8Lf+jmfE/8A4SniH/5YVJ/w+A+GHlb3/aV8V/vf+pQ8Q/8Aywr8TbMwC/t/tXmfZ/M/eeX/AM86+4rPU" +
+                        "jpvj74v6j4xOoyfs432h6xH4MS/kk/syX/oDx6f/wBPEf8Ao/8A00j/AHnmf8tK/UMz4IwGD6v8DycNm" +
+                        "VSofZn/AA+D+Fh/5uZ8T/8AhIeIf/lhT4f+Cv8A8K5hvT9pXxZ+6/1n/FH+If8A5YV8A+Jf2LfBcOmSa" +
+                        "jpUd7Jp91eeD5NL/wCJxbyfb7fVbaSTUY/+2dzH5dbnjX4QaV8Lfhz8U9A8Mzak/hfXtL8F61HaJqEck" +
+                        "sVxceXJcR/u/wDlpHJJJH/8crzqnDOVcn7v2hp9ZxB9xTf8FfvhXDLIj/tK+K4pIv8AWRyeD/EP7r/yo" +
+                        "VH/AMPhPhXD/wA3MeJ//CT8Q/8Aywr4t+Knww+FHhW08Yf8JVa6lq3lfGSTSbzWv7c8zWP7HktpPs9z/" +
+                        "wBNP+Wkn/TTy6+X/wBpb4caH8H/AIn3HhLR7621a48Of6NqmpQXHmWt1ef8tPL/AOuf+r/66R13ZbwXl" +
+                        "2Lqez/eGeJx1Smfrt/w+J+FR6/tM+J//CT8Q/8Aywo/4fFfCten7TPif/wk/EP/AMsK/Nn/AIJy69rnh" +
+                        "u/+LE+j6jrem/8AFB6hH5mm3Ekcv2jzI/L8v/pp/rPLr1T4qfB/Rv2lf2kY9Ue1ttf0v/hA7O98NyWGo" +
+                        "R21z8Qbi3+zRyfaJP8AlnqPlySeZH/rP9G/7aVzYng/LqGM+r1PaezNKeOqVKftD7PH/BYv4UAb/wDhp" +
+                        "XxP/wCEp4h/+WFPn/4LCfC6GbZJ+0r4rj/2JPCfiH/5YV+fvg/9jPwlrH7MmueNI9K8W63Jax6x5cem3" +
+                        "nmXNrcW8kf2f95HHJbfZ/L8zzPM8uT93+7/AOmknjD9nDwzrOs+MH1V/FMn2DwPo97od/qWqeZbWsn9i" +
+                        "x3MlvcSf6z/AFkclvH+78vzI/L/AOmlH+rOTOpan7QPrOIPvsf8FhPhWf8Am5nxP/4SfiH/AOWFIf8Ag" +
+                        "sV8Kv8Ao5nxP/4SfiH/AOWFfBvxy+A/wys/C/jjxbZeEr37Po2l+G5NLtNN8QR/Zpfttl/pEn+rkk/dy" +
+                        "VuTfsQ/Dnw39og1W11LUrvw5oeuXN5/ZviS3+zapcWdlZXNnJHJ5cn7u5kuLiP/AJZ+Z5X+r/56FPhjJ" +
+                        "v8Ap5+AfWcQfa3/AA+M+FoP/JzHif8A8JTxD/8ALCpf+Hw3wwmi3/8ADSvizZ/z0/4RDxD/APLCvxQ16" +
+                        "a1vdfvH061kstPkuJPs9o9x9pktY/8AlnH5n/LST/ppX2h+ztrF9rvwR0PQ7q+1fwLo9r4P1zzNdsNQ+" +
+                        "0+Hr/zI7393qln/AMs7iT/VxyfvJP8Aj2/d16WZcB4DD0/a3/Izw2ZVKh9t/wDD4r4Vt/zcz4n/APCT8" +
+                        "Q//ACwqQf8ABYn4V5/5OY8T/wDhH+If/lhX5mal8GfAN58JfBHi3TY77Z4xvI/Dn9k/2h5lza6hb3P+m" +
+                        "Sf9c/s0lv5f/Xz/ANM69Y179l34UaPoXivw+l1pscf/AAlnhOP+3ZNQ8u50bS9QjuftsklvJ/q5I5P9Z" +
+                        "H/yz/1ckleZV4VymnTv+8/A0+s4g+1z/wAFivhX/wBHM+J//CT8Q/8AywpP+HxXwq/6OZ8T/wDhJ+If/" +
+                        "lhX52+PP2b/AAz4E+KP2G68AeKIo7C3j+0WEfiSOT7V/psccdz5kccn7uSOT/yHXUeKf2NPh7oPjGzRN" +
+                        "G8bXGj6N4w1zQdU+yXkd7c6pZ2ccclnexx/u/8AWeZJ+7j/ANZHH+7krb/VTJof8/A+s4g+6/8Ah8Z8L" +
+                        "AP+TmfE/wD4SniH/wCWFehfs+fG3wH/AMFOdX1D4b6P+0jqWo3F/b+ZcaZNoWq29zdW8f8ArPLjvLyS2" +
+                        "k/65yRSf9c6/EL9pX4e6d8LPjx4o0DR7621HS9MvPLs54JJJIpY/wDtp/10r6g/4N6+f+Csvw0/656h/" +
+                        "wCkVzWmb8CYPD5VUx2HqGdLMqn1j2R/TJ4J8MQeDPC+m6PBJcTW+m28dnHJPJ5ksnljHzmtyiivw0+jO" +
+                        "b+Jvw30f4teANW8M69ZRajo2u2kllfWj9JY5OHr+eLxd+zLof8AwRY/bj8T23xBTxR/wjGtafcf8IX4r" +
+                        "03S7e9uvs8kckcnl+Z+7jvY/Mj/AHn/AEz/AOeclf0fs21MV85/8FFv+Cdvgv8A4KO/BD/hD/Fn2mzuL" +
+                        "GT7TpGqWn+u0y47SDs/+5X0HD+efUavs5/w6m5z4jDe0Pxr8D/tGeNP+CWf7TnjD4ueFR4dh8Kazrdvb" +
+                        "eN/hhZySfavDcd55klklx+7jto7n93J/wAe/wDq/wDV1+1nwA+Pfwx/4KS/syW+vaJHY+LPB/iJPs15p" +
+                        "upWnmeXJx5lvcRyf8tI6/GD9qX4Z/Fr/gnH8QNQ0v47f2t46+HEln9m8KeM7Hw/Z6lHaXn7uOO9uLeTy" +
+                        "47i9+zR+X/pMn7v/ln5leJXP7T9/wDsz6OPj78I/FGq/DTxB478QSadp3hO1jt/sOp6fZxRiS9uLeP93" +
+                        "+8uM/u/L/1hk8v/AFdfY4rI1map1ML/ABP+fhxfWfZn6jftWf8ABsD8FPjXq8+qeBNQ1z4aahIP+PS0P" +
+                        "23TT/2zk/eR/wDbOSvkLxj/AMGmXxesrmT+wPiR8PNRj/5Z/b47yxk/8hxyV23wn/4Ot/FPhy10f/hZn" +
+                        "wbja3vrTzvt+kX7239of8s/Mt47j/rnJ/y0r7E+GX/ByF+yx4+02OS/8Xa14TvJfv2eraHc+ZF/20t45" +
+                        "Iv/ACJWP1ji7LP3Wv4VA9ng658IeBP+DZP9p7RVtLWf4weC9E0+1k/d/wBmaxqkn2X/AK5x/Z46+z/h9" +
+                        "/wRf+Kmr2lvB8Qv2rfide2cUXlyQeF4o9Elk/7b/vDXpmsf8F+f2TtFsJJ3+LdjL5aZMcGl6hJJ/wCiq" +
+                        "+d/jT/wdR/CzRr3+y/hv4E8Y+PtYupPs9o86R6da3Mn/LP/AJ6S/wDkKvPqYjiXHfuvZt/9wxezwcD6i" +
+                        "8Bf8EWP2cPAGnSfafhxYeK9RuTm41HxLcS6rfXT/wDPQyXDmvzl/b3/AGkPhX+yJ+0Rb+D/ANl6/wDN+" +
+                        "IMumXPh23xrf/FM+AvtMvm3lxb/AGiTy7e5k8v/AK5x1Z+Ov7c3x2/4KO+N/wDhVmsa/oPwLsLrR9Quf" +
+                        "7G8N+ILfUtT1m4t/L8yyvJI5PMt/Ljkkk8vy/3nlSR/vJK+edB+IXhn9j/4fax8KH+Htz4j8X6p/wASW" +
+                        "TQk+0W0vxBs7yST/TZP3f223uI/Lj8u3k8v/np5dbZRlNSnU9pjf3n/AE7NalT/AJ9mV/wvLSP2F9P8T" +
+                        "+Dk1ePVvEdjbx3OqSX6Sal4e+LNveR/vLjzI/3lncRx3kkcdxH5fmW3+s8uT93X6Kf8G7v/AASrn/Zk8" +
+                        "Bz/ABl8b6Omm+N/G0H/ABKNNZP3ug6fJ/v/APLST/0Xiua/4JOf8EG38P2vgb4mfHWbUtS1fw7A48OeC" +
+                        "dRCTW3hyM3MlxH57j/WSZkeQp0EkvtX62wwiMYrDiPiCm6f1LBP/r4GGw37z2lQlqSiivhT0SpcWolt2" +
+                        "j/v9K/Cn/gpp+zvZf8ABOf9tuTxbpfg6x1rwz4st5NV0SO+ST7Dpeo+Z+8/dx/6zy/9Z5f/AE0r92ymV" +
+                        "xXlf7Wf7J/hT9sP4QX/AIQ8WWwezu/3kFwg/e2M4z5dxH/00Ga48bhvb0z5viPJf7Sw9qf8Q/GLTdW+J" +
+                        "37JPibSP2moviX4W8WX/iG4t/tlkkdxF/bscn/Hxbx74445PLx+88v/AFVfsJ+z58b/AAB+3v8As7Wes" +
+                        "2kemazoeu2aR6npVx5dz9llKAyW1wnPzxmvyX/aM+BvxP8A+CXfjCSHXtS8SeJPBEOnyaT4P8UWP+t8O" +
+                        "eZJH5nlxyfure4kjj8v/tp5kdUbPUfGf7LdzqHxv8BeKNf0SfxRHp+sxx3kUf8AY+vXGoSfaJNO/wCnj" +
+                        "7NHJJ5kn/LOSOT/AFdeJhqtTD/uqp8FlOZVMsqfVsTTPq79rT/g3W8H/EPUrnWfhfrsvgu8kTzBpV1F9" +
+                        "o0wyf8AoyP/AMiV8RfEr/ght+0d4C1B44PCFr4kgi/5etJ1W3kjl/7+eXJ/5Dr7f8Ef8F8D8OviNH4T+" +
+                        "N3gC68E6gIoBcXWmXAvYrbzY/M8yRMZEflyeZx5lfY3wz/4KHfBb4uWdvJo3xL8IzvKPkjl1GOCX/viT" +
+                        "Bru9lg8QejU4f4czOftaf7s/FD4VfsCftS/C7U518P/AAx1S3nuvL8yS70yyuf/ACJcV9/fss6P+3dZ/" +
+                        "Df+wdTsPhtokm/Meq+IpIpLm2j/AOecdvp/7v8A7+V98n4ueGhb+d/wkGjeR/z0+1R15r8Rv+CiHwV+E" +
+                        "0En9tfEvwdbyRD54ItRjuJP+/ceTWlLBYen9s9LA8N5fgP4WIPMPCn7AfxP8ZT/AGz4o/tBePtSn6/YP" +
+                        "C3laJZR/wDfuPzK85/bY/Z70j9mT4KalqOrfGnxba+B7y4tv7X0bxRef2tJqkcc8Upjs5JP3kdxJ5fbP" +
+                        "/bPmQY3xG/4LlXvxI1zUNN+Avw5vfH1vpgjF5rOpS/2bYwySf6vmT/2p5dfLPjbQfFX7Qel+H/jt408Q" +
+                        "f8AC0biw8y5uPDTx/ZtH0uSOT/SLL/nnb/Zo/Lk8yT/AFn7v/j48yubE4nD/wDLszzHM8H7P2eD/eHLe" +
+                        "NfE/iL9pTX9X+M3iGDQPHHjMPvf4czXHmf2V4f/AHnmfu/9Z5n/AFz/AHkf+s/5aVv/APBPL4T3f/BQv" +
+                        "9snwzlPEeo/CL4X/wDExig16eO5ksD5f7uyjuPL/eR/af8AyHFWj4Z/Zt1j/grh8fI77wno8vhfwfoUv" +
+                        "2G4+IV2Lj7drNnHHHHHHJHJJ/pF5/00r9aP2TP2UvCn7Hfwd0zwZ4WtglnY/vJp5B+9vpzjzLiT/pocV" +
+                        "lgsFUqVPas8jJMgxGOxH1mr/DPUrOHyY6sUUV9GfrMCOcfuq+UP+Chn7Lc/jzTU8Z6DbPJrGmJi7t40/" +
+                        "wCPqP8A56f9s6+s6rzR+dXk5tltPH4f6tUOjB4ipQqe0pn5R/EH4wweKvDlvp1jBJHJdSeZeRz/AOqi/" +
+                        "eeZH9n/AOufmSf9/PLr6x/ZT/bUkF2ngj4iv/Z3iOxjjjgu5/8AV3X+/wD9NKz/ANqD/gn3HdaxdeLPB" +
+                        "CxpqEb/AGmTR5I/9GupP9j/AON181aENAvfBusQax+88YX9xJHJHfxyfbvtnmeXH5f/ALU8yvyGl/aGS" +
+                        "4z94fY1PqePw5+hPxn/AGZvCHx80vZrmnf6Rs/d30H7u5i/7aV82eK/+CTU4k/4kHimPy/+Wcd/Z/8At" +
+                        "SOsH4c/H3x38AxaWGnX0vjbS/tFxp32TUo/s3kyW/l+Z5cn/PP95/y0r03wh/wVG8PC4+yeJtC1fRbyJ" +
+                        "/Kl2f6THHJ/6M/Svo6mJ4fzL/fafs6h5lKlmOH/AN3PLIP+CX3xJ0e/32WveHIv+mkd5cRy/wDouvQPh" +
+                        "Z+wv8VPAl1JMnxLOnfaY/LkSDzLn/0ZXq+nft//AAovYd6eJY4/9+0uf/jdY/ir/gpL8MdGtd1rqOo6u" +
+                        "+P9TaWEmf8AyJ5daUsu4fwn7yniDOrjc0qL2dSBY0n9hzRr5vP8X+IvFHjWcf8ALO+1CT7Lv/65x1W+O" +
+                        "/wW+E/wr+G9/ql1pVl4dktreT7Jd2P7q+Enl/8ALP8A6aV5prv/AAUZ8TeK9Ov5vCHglnsLWKTZf3kv+" +
+                        "r8uLzOR0/8AIleFCXXv2iLSPxNr2t3Gq3cWofZrjfJH5Wl2/wC7k+0eX/zz/wBZ/wB+6wzHiDK6dP2WC" +
+                        "p+0NMPlmIqVPaYg19Mlm+Pviywh1VLmy8P+HbC3j0fRUuPLl+x/8/P/AE0/1fmSf6ySq3gf4ean+078W" +
+                        "LPw1b+JH13Q7UjULi/uIPKubCA8PF/n93W54G8F+I/2tvEsEmh6MdBgheMyazHJJFbWMn/LTy/+Wnmf6" +
+                        "v8Ad/8ALOvtD9nH9mrRv2dfCpstP/0i/uX829v5E/eXT15GSZBiMzqe0q/wzvx2ZU8JT9lSOz8I+FrLw" +
+                        "Z4cs9L02D7PYWMSW9vEP+WaVtKMCkjNOr9mp04Qh7OmfFc58/f8FQ/+TG/HH/XOz/8AS23rsfH/AMEPD" +
+                        "37R37OTeCvFljJqPhzX9Ljtr+0jvJbfzY8J+78yP95XHf8ABUP/AJMb8cf9c7P/ANLbevZ/Af8AyI+j/" +
+                        "wDYOt//AEWK6/sAfKv7afwP/Z61L4gfDDwx8QPA39pajrsGoaDo/wDZ3mW0NhZ/Z4/tMlx5ckf+j/8AH" +
+                        "vH5n7zy5JYq47wP8Pv2OPC/wv8AFWny65pOv6V8RdPFvrlzrviG81W6v7ezi8yOM3FxJ5kccUf+r+5Xt" +
+                        "/7Wv7Lfhr4lX/8AwmN7pFtrfiu1hg0fSkv7+WCyto5b2PzB+7/56ceZ14FfHV/4k+EHhS3m+HutN8XNb" +
+                        "1+x8Of2BrqeGPEP9rabei4Bt7fSvtEnl58uO4Ekf7uKP/np5knmV24dTqUzM6Px38K/2H/Anwf8SX1/q" +
+                        "l9r0dtdwa9cTx+LNUutfubizspJLaO3uPtHm5jtvM8uPzKxPH2m/s5eB9Cl0HwPHqXhnxvL4s0vxPJrn" +
+                        "iDVbi9+zXGnSX3lyXl5cXEknl/Z9L1CP935kkfmf6uvJfiPr3wp8YftB2qat8MPiF4Yj8ZJql74jnj1e" +
+                        "3iutFs7f7botxcfu5P9XJH/AKyP95/y08uvQ9Y1H4AfFrx7f2t14d+KmpaXFJ+4n02e38qWzuPtP+m3H" +
+                        "mSf6v8A4qS48vy/+Wcsf7uvYdPk/wCfhmfQXw48F/s4eKv2gpdQ8CeL7y8+I2p6pd61b6bB431lLGbUP" +
+                        "3lzL5ll9o+zf6yOSSSPy69w/Yl/Z5uf2YP2ZdD8JarfR6rr8X2i91i+hjxHdahcyy3FxJGP+ukklfOn7" +
+                        "EfwE8C/Hv8AaC1L48+A7/xLpemW3iS8uJNMvrfy49ZvLjTgPt3/AB8SfupLa9j8v93HL/z0r7ruDi1kr" +
+                        "wsXP3/ZwZofFv8AwQv/AOTdfHH/AGOlx/6RWVfbVfE3/BDL/k3fxx/2Odz/AOkVlX2zSzL/AHiYQJKKK" +
+                        "K4jQgc74q/OT/gr5/wQxm/4KX/G3w/470vx9F4T1PS9Hi0GeC50v7VFNHHcXFxHIB5kf7zNxJX6OquwU" +
+                        "CLcK3wGY18BX+s4bSZnUpqpD2dQ/C7/AIhFfFpj/wCSz6F/4T0n/wAkV0el/wDBrv8AFDSfh9P4VT4+a" +
+                        "U/hu6uPtsmm3Hht7m1juP8AnrHHJJ+7k/6aV+12D60G3zX0lTjjOan8Sqc1PLaFPZH4X/8AEIn4q/6LN" +
+                        "oP/AIT8n/yRR/xCJ+Kv+izaD/4T8n/yRX7oeR703C+lH+vGc/8AP0P7Nodj8Sfh9/wareOvht4kTVdO+" +
+                        "M/hCS8ijeOP7d4O+3xkHv5c8nl+ZWVqX/BpP4x1fULi6uvjfostxdSebI7+H5P3sn/LT/l4r9zSuRSbO" +
+                        "KVPjXOKfv8AtQ/s6h2Pwv8A+IRXxV9//hdWhf8AhPSf/JFN/wCIRTxV/wBFn0H/AMJ+T/5Ir91KbsrT/" +
+                        "XvPP+fpn/ZuHPxoP/BtV8U/+EC0vw43xw8FtZ6PZyWWnzv4Ii+3WFvJJJLJFHcZ8yOPzJJP+/lcMf8Ag" +
+                        "0T8Vf8ARZ9B/wDCek/+SK/dDyx6U6sKfF+a0/4dQ0/s2kfhd/xCJ+Kv+izaD/4T8n/yRR/xCK+Lv+i16" +
+                        "D/4T8n/AMkV+6GD603C+laf68Zz/wA/Q/s6h2Pwt/4hEvFX/RZ9B/8ACff/AOOU/wD4hE/FP/RatC/8J" +
+                        "6T/AOSK/c/K/wB39aXZWn+vuef8/fy/yM/7Nw5+Jvjv/g1n+IPxKmsH1T43+F9ml2aWVvBaeDxZRRRjj" +
+                        "/Vxyf6zj/Wf8tKwT/waLeLgf+S16D/4T8n/AMkV+6GylEW6sqfGucw2qmn9nUOx+F//ABCKeLf+i0aF/" +
+                        "wCE/J/8kUf8Qifi7zP+Sz6D/wCE/J/8kV+6GD60YPrT/wBeM5/5+h/ZtDsfhcf+DRPxTn/ks+g/+E9J/" +
+                        "wDJFfRX/BL3/g3i/wCGBf2mrL4meIviFF4sv9Dgli0y0stL+wxiSSPyvNk/eSf8s9/51+o7nApqx8Vli" +
+                        "eMM4xFD6pVq/uwp5bQg+dD6KKK+ZO0KKKKAOe8efD/R/ib4TvtE8RaXZ6zpGpxeReWl3B5sVynoUr8lf" +
+                        "28/+DW3SPiN4gvvEXwQ1+z8Hy3Q8z/hHNX8ySx8z/pncfvJI/8AyJX7F1HhT2r0cpzjG5bU9rhqljOph" +
+                        "6dT+Ify+/Fj/gnF8dvgt8cvDGq/EH4P+OdO8IeF5LOK4k8EJ/bfk29v/rJLfzJJI4/Mk8yT95+78yWT9" +
+                        "3XdQftXfCj4y/tBeM9Y8TX3g7RZ4rjw/bWd/wCKPC9xey3Wj2fmf2rbSRyfaJP7Rk/dx+Z/y08r/WR1/" +
+                        "SP5O+uW8e/BTwd8Q1z4h8L+H9d/7COnx3X/AKGDX1U+O6uI/wB4gcSwSgfzU/D34s/BDw38EtPvfL8E+" +
+                        "Xpd5JJeeG7/AMPyXOuXVx/wkcdzbyeZ5f8Ax7/2T+78v7T/ANs/+WlbH7XesR/tQ/HL4ea5+zb4Z8SeL" +
+                        "dc8JSSXMl/oXhu4+yxf6b9ps/8AWW8f7yP/AFf+r8v/AFfl1/RDp/7H/wAKPD0y3Fn8NfAdlNCPllt/D" +
+                        "9ojj8fLr0C30e30uFEihiihi+4iLjFZw42jTqe0p0zT6mj8Nvg7/wAEgPjx+2J42g8Tap4S0D9leKLU/" +
+                        "wC37/UNIvbu51nWtQkz/pEcZuJPs/l75f3f7v8A4+P+WlfpZ+w5/wAElPhH+wtF/aOgaNLrfjOWOT7Z4" +
+                        "r1mT7Rql08n+s/ef8s/+2dfU4t8DigxbRXz+Nz/ABmK/dSfuGtPDU4bDIYf3VSUUV5B0BRRRQAUT0UUA" +
+                        "c58Qvh9o/xQ8LXmh69p9lq2malH5dxZ3UfmRSx/7lflT+17/wAEENb8K+K/+Eq+Dt1b69p1rfjUk8Ia0" +
+                        "5iU/vPM+zRS9PL9pDH/ANdK/XdouKBCpXpXPiMNTrLU8nNslw+PhaqfzI/GT4f+M/C3x21jVvi7oGo+H" +
+                        "NT1WS81J01XT7j7LfyeXJ5dvH5f/LP/AFcf/TOvQP2Hfgb8PvG3wp8Ya/4+06y1G0sH8qOC11iSPXIk8" +
+                        "uSSSS3s/wDV/wDbS5/d/wDTOv6EfGPgTQ/HOi3On65pVhq+nyj97a3tutzDJ9UfIrzHxR/wTm+CXjFf9" +
+                        "N+FPgJ/+uelQwf+gIK8j+yUfDf8Q89niPa06h+Mngn9jP4Zax4W+Fc97/aUen+KLjT/ALZ4lk1iOOK/u" +
+                        "LiO98zTvL/5d5I5LeOPzP8A7XWx4J+CnwI+D/7Rml3XxCntvDen3/h+zubjwfq0kmpfYLy4uZI5I5JLe" +
+                        "P8A5Z20fmR+Z/z0jr9Uf+HSv7OX27/klfhzfv6bZdv5eZXX6H/wTx+B/gi3xafC3wMg/wBvR4pv/QwaP" +
+                        "7Jn3Kp8IVu6Pw7/AGfNCfxta+LPhXo/w98UfF7w3/wkkeraff6FcSWUnmW/mRx/aJPLkj8uSOSvtn9nj" +
+                        "/gib4u+Letajrnxe1WLwh4Z17UI9Vn8A+Grny7XMf8Aq45f+Wf/AH6/7+V+mngH4e+H/AOl/wBmeH9E0" +
+                        "nRLMPvNvYWaW0Of9xMCulaPFdNHKacP4h7OXcF0cP8A71P2hz/gD4eaR8NvDNpo+iadZ6VpdjH5dvaWq" +
+                        "eXFFHXQ8LR5fFDHAr1j6+EFTXJAWiiig1CiiigCOWHIrx/4+/seeDvjzG899Z/YtWk+5qNj+7mH/wAXX" +
+                        "sbHApB81cWNwNHF0/Z10aU6s6b9pA+C/iF+x78RPh7rv9pH/i5el/Z/s3kXFzJ5vl+ZHJH+7/66Rx/6u" +
+                        "vEfG2pa5o/hfxBp2v6PqWm6xr2qR3skk+n+X+7/AHnmf+RPL/791+sIj9/0qC60uC+XZNDFKvo65r4jG" +
+                        "8A05/wJ2PZwvEM4fHA/KnQZtAs9G8TvI+gSf8s7O0kt5I/N/d/6yOST95/2zrYm8beFdBtfD99aJp17J" +
+                        "a3lnJb2lpZ+Xc2sf2b/AEjzP3f7yTzPLkr9HJvgZ4RvJN8vhTw5K/8At2ER/wDZKv6V8O9C8ML/AKBo+" +
+                        "lWP/XvZpH/KuKlwDXh/y8OqpxDT/wCfZ+dfhj4XeOviLrOsXei+Fte1W317TP7Nj1PU0+zc/uvMuP3n/" +
+                        "XOvYfgd/wAEuodOvYL7xtqkd55cnmPp1kP3Up/6aP1r7KhhT+7TSoY9MV7eD4JweGqe0re/6nFic/xE6" +
+                        "fs4FHw34WsfCelwWWnWtvZWdrH5ccEEflxx1rUUV9jTpQpw9nA8UKKKK1A+fv8AgqF/yY344/652f8A6" +
+                        "W21ezfD/jwZo/8A15Qf+ixXEftefBa6/aE/Z28Q+EbO+t9NutXSIR3E8XmxxGO4ik6df4K8Kh/Yy+OJT" +
+                        "EPxs1e2jP8AqoEu/wB3H/5L12UqMZ09ZEH1P8QfAejfE7wnf6H4i02y1bRtSi8u8sruPzIpY/cV+ZvhL" +
+                        "9r7wv4J/aZ8X6Vq3wq+GQtPBq3GjaBJZafb2dzF9j1uysrPzLj7RJ9nt4/Mjkkkltrf/V/u/Mr6P/4Yq" +
+                        "+O//Rc9a/8AAz/7nrnv+HbvxN+037f8LRPm6zF5eoPtT/Tv+uv+j/P+NdWEhRj/ABJi/eHh3xB/bE+Fn" +
+                        "xS0LxZd6d8MLPw5b/2f9m8QX1jJbSa5cx6j9ikvPsf/AEzkjvJP9I/5aSV3fwH/AG4vgp4q8W+ANEm+G" +
+                        "nhzwnb+MtHkspNSu7+PyrW3to5PLj8zy/3kfl6XH/rPL/1Uf+s8uTy+6b/gnf8AFS2vIrlfivKJY4Uhi" +
+                        "lxH5kcMX3E/496rR/8ABNn4lW8UOz4omKHT4ZoYUSOP9xE3+uRP9H4D967/APZfZ/G/xA+l/wBnH9mTw" +
+                        "z+y74X1bSvC0NzFb69rM+tXfnzb83EuzP5CONPwr02b/j2avkAfsW/Hcn/kumt/+Bf/ANz1Gf2Lfjv5f" +
+                        "/JdNb/8C/8A7nrxvqq5/jGZX/BDI5/Zz8cf9jpcf+kVlX27Xz3+wH+yNefsdfDTX9CudTtdTOra2dRhk" +
+                        "g8z92v2a2tvnL/ffNuXz6ua+hKzx1SE8ROpTFTJKKKK5zQ//9k=";
+                    this._resources = new DevExpress.XtraReports.Serialization.XRResourceManager(resourceString);
+                }
+                return this._resources;
+            }
+        }
+        private void InitializeComponent() {
+            DevExpress.XtraReports.UI.XRSummary summary1 = new DevExpress.XtraReports.UI.XRSummary();
+            this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.PageFooter = new DevExpress.XtraReports.UI.PageFooterBand();
+            this.PageHeader = new DevExpress.XtraReports.UI.PageHeaderBand();
+            this.topMarginBand1 = new DevExpress.XtraReports.UI.TopMarginBand();
+            this.bottomMarginBand1 = new DevExpress.XtraReports.UI.BottomMarginBand();
+            this.DetailReport = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.pictureBox2 = new DevExpress.XtraReports.UI.XRPictureBox();
+            this.label25 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label24 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label23 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label22 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label20 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label19 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label15 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label13 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label12 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label10 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label9 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label8 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label5 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label37 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label21 = new DevExpress.XtraReports.UI.XRLabel();
+            this.pictureBox1 = new DevExpress.XtraReports.UI.XRPictureBox();
+            this.xrLabel2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label14 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label17 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel25 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel26 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel24 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel23 = new DevExpress.XtraReports.UI.XRLabel();
+            this.Detail1 = new DevExpress.XtraReports.UI.DetailBand();
+            this.GroupFooter1 = new DevExpress.XtraReports.UI.GroupFooterBand();
+            this.label26 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label11 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label7 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label6 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label4 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label3 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label18 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label16 = new DevExpress.XtraReports.UI.XRLabel();
+            this.crossBandLine10 = new DevExpress.XtraReports.UI.XRCrossBandLine();
+            this.crossBandBox3 = new DevExpress.XtraReports.UI.XRCrossBandBox();
+            this.crossBandLine8 = new DevExpress.XtraReports.UI.XRCrossBandLine();
+            this.crossBandLine7 = new DevExpress.XtraReports.UI.XRCrossBandLine();
+            this.crossBandLine6 = new DevExpress.XtraReports.UI.XRCrossBandLine();
+            this.crossBandLine5 = new DevExpress.XtraReports.UI.XRCrossBandLine();
+            this.crossBandLine4 = new DevExpress.XtraReports.UI.XRCrossBandLine();
+            this.crossBandLine3 = new DevExpress.XtraReports.UI.XRCrossBandLine();
+            this.crossBandLine2 = new DevExpress.XtraReports.UI.XRCrossBandLine();
+            this.crossBandLine1 = new DevExpress.XtraReports.UI.XRCrossBandLine();
+            this.crossBandBox2 = new DevExpress.XtraReports.UI.XRCrossBandBox();
+            this.crossBandBox1 = new DevExpress.XtraReports.UI.XRCrossBandBox();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            // 
+            // Detail
+            // 
+            this.Detail.HeightF = 0F;
+            this.Detail.Name = "Detail";
+            this.Detail.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            this.Detail.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // PageFooter
+            // 
+            this.PageFooter.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.pictureBox2});
+            this.PageFooter.HeightF = 91.70831F;
+            this.PageFooter.Name = "PageFooter";
+            this.PageFooter.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            this.PageFooter.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // PageHeader
+            // 
+            this.PageHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.label25,
+                        this.label24,
+                        this.label23,
+                        this.label22,
+                        this.label20,
+                        this.label19,
+                        this.label15,
+                        this.label13,
+                        this.label12,
+                        this.label10,
+                        this.label9,
+                        this.label8,
+                        this.label5,
+                        this.label1,
+                        this.label37,
+                        this.label21,
+                        this.pictureBox1,
+                        this.xrLabel2,
+                        this.label14,
+                        this.label17,
+                        this.xrLabel25,
+                        this.xrLabel26,
+                        this.xrLabel24,
+                        this.xrLabel23});
+            this.PageHeader.HeightF = 393.2689F;
+            this.PageHeader.Name = "PageHeader";
+            // 
+            // topMarginBand1
+            // 
+            this.topMarginBand1.HeightF = 20F;
+            this.topMarginBand1.Name = "topMarginBand1";
+            // 
+            // bottomMarginBand1
+            // 
+            this.bottomMarginBand1.HeightF = 20F;
+            this.bottomMarginBand1.Name = "bottomMarginBand1";
+            // 
+            // DetailReport
+            // 
+            this.DetailReport.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail1,
+                        this.GroupFooter1});
+            this.DetailReport.DataMember = "Job_Material_Requisition_Detail";
+            this.DetailReport.Level = 0;
+            this.DetailReport.Name = "DetailReport";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.LocationFloat = new DevExpress.Utils.PointFloat(9.999998F, 0F);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.SizeF = new System.Drawing.SizeF(277.5001F, 60.50002F);
+            this.pictureBox2.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+            // 
+            // label25
+            // 
+            this.label25.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.label25.CanGrow = false;
+            this.label25.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label25.LocationFloat = new DevExpress.Utils.PointFloat(84.44227F, 359.6022F);
+            this.label25.Name = "label25";
+            this.label25.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label25.ProcessNullValues = DevExpress.XtraReports.UI.ValueSuppressType.Suppress;
+            this.label25.SizeF = new System.Drawing.SizeF(105.1413F, 33.66666F);
+            this.label25.StylePriority.UseBorders = false;
+            this.label25.StylePriority.UseFont = false;
+            this.label25.StylePriority.UseTextAlignment = false;
+            this.label25.Text = "Item Code";
+            this.label25.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.label25.WordWrap = false;
+            // 
+            // label24
+            // 
+            this.label24.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.label24.LocationFloat = new DevExpress.Utils.PointFloat(314.5833F, 145.8333F);
+            this.label24.Name = "label24";
+            this.label24.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label24.SizeF = new System.Drawing.SizeF(180.2083F, 19.79167F);
+            this.label24.StylePriority.UseFont = false;
+            this.label24.Text = "            DETAILS";
+            // 
+            // label23
+            // 
+            this.label23.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Job_Material_Requisition.TransactionDate", "{0:M/d/yyyy}")});
+            this.label23.Font = new System.Drawing.Font("Arial", 9F);
+            this.label23.LocationFloat = new DevExpress.Utils.PointFloat(508.6669F, 175F);
+            this.label23.Name = "label23";
+            this.label23.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label23.SizeF = new System.Drawing.SizeF(242.7083F, 23F);
+            this.label23.StylePriority.UseFont = false;
+            this.label23.Text = "label23";
+            // 
+            // label22
+            // 
+            this.label22.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Job_Material_Requisition.Description")});
+            this.label22.Font = new System.Drawing.Font("Arial", 9F);
+            this.label22.LocationFloat = new DevExpress.Utils.PointFloat(163.8752F, 298.9583F);
+            this.label22.Name = "label22";
+            this.label22.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label22.SizeF = new System.Drawing.SizeF(221.875F, 23F);
+            this.label22.StylePriority.UseFont = false;
+            this.label22.Text = "label22";
+            // 
+            // label20
+            // 
+            this.label20.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Job_Material_Requisition.RequestedBy")});
+            this.label20.Font = new System.Drawing.Font("Arial", 9F);
+            this.label20.LocationFloat = new DevExpress.Utils.PointFloat(163.8752F, 264.5833F);
+            this.label20.Name = "label20";
+            this.label20.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label20.SizeF = new System.Drawing.SizeF(221.875F, 23.00003F);
+            this.label20.StylePriority.UseFont = false;
+            this.label20.Text = "label20";
+            // 
+            // label19
+            // 
+            this.label19.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Job_Material_Requisition.LocationID")});
+            this.label19.Font = new System.Drawing.Font("Arial", 9F);
+            this.label19.LocationFloat = new DevExpress.Utils.PointFloat(163.8752F, 237.5F);
+            this.label19.Name = "label19";
+            this.label19.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label19.SizeF = new System.Drawing.SizeF(221.875F, 22.99998F);
+            this.label19.StylePriority.UseFont = false;
+            this.label19.Text = "label19";
+            // 
+            // label15
+            // 
+            this.label15.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Job_Material_Requisition.Reference")});
+            this.label15.Font = new System.Drawing.Font("Arial", 9F);
+            this.label15.LocationFloat = new DevExpress.Utils.PointFloat(163.8752F, 205.2083F);
+            this.label15.Name = "label15";
+            this.label15.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label15.SizeF = new System.Drawing.SizeF(221.875F, 23F);
+            this.label15.StylePriority.UseFont = false;
+            this.label15.Text = "label15";
+            // 
+            // label13
+            // 
+            this.label13.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Job_Material_Requisition.SysDocID")});
+            this.label13.Font = new System.Drawing.Font("Arial", 9F);
+            this.label13.LocationFloat = new DevExpress.Utils.PointFloat(163.8752F, 175F);
+            this.label13.Name = "label13";
+            this.label13.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label13.SizeF = new System.Drawing.SizeF(221.875F, 23F);
+            this.label13.StylePriority.UseFont = false;
+            this.label13.Text = "label13";
+            // 
+            // label12
+            // 
+            this.label12.Font = new System.Drawing.Font("Arial", 9F);
+            this.label12.LocationFloat = new DevExpress.Utils.PointFloat(425.3335F, 175F);
+            this.label12.Name = "label12";
+            this.label12.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label12.SizeF = new System.Drawing.SizeF(83.33334F, 19.79166F);
+            this.label12.StylePriority.UseFont = false;
+            this.label12.Text = "DATE      :";
+            // 
+            // label10
+            // 
+            this.label10.Font = new System.Drawing.Font("Arial", 9F);
+            this.label10.LocationFloat = new DevExpress.Utils.PointFloat(22.20855F, 298.9583F);
+            this.label10.Name = "label10";
+            this.label10.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label10.SizeF = new System.Drawing.SizeF(141.6666F, 19.79166F);
+            this.label10.StylePriority.UseFont = false;
+            this.label10.Text = "DESCRIPTION            :";
+            // 
+            // label9
+            // 
+            this.label9.Font = new System.Drawing.Font("Arial", 9F);
+            this.label9.LocationFloat = new DevExpress.Utils.PointFloat(22.20853F, 264.5833F);
+            this.label9.Name = "label9";
+            this.label9.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label9.SizeF = new System.Drawing.SizeF(141.6666F, 19.79166F);
+            this.label9.StylePriority.UseFont = false;
+            this.label9.Text = "REQUESTED BY         :";
+            // 
+            // label8
+            // 
+            this.label8.Font = new System.Drawing.Font("Arial", 9F);
+            this.label8.LocationFloat = new DevExpress.Utils.PointFloat(22.20855F, 237.5F);
+            this.label8.Name = "label8";
+            this.label8.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label8.SizeF = new System.Drawing.SizeF(141.6666F, 19.79166F);
+            this.label8.StylePriority.UseFont = false;
+            this.label8.Text = "LOCATION                    :";
+            // 
+            // label5
+            // 
+            this.label5.LocationFloat = new DevExpress.Utils.PointFloat(22.20855F, 205.2083F);
+            this.label5.Name = "label5";
+            this.label5.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label5.SizeF = new System.Drawing.SizeF(141.6666F, 19.79166F);
+            this.label5.Text = "REFRENCE             :";
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Arial", 9F);
+            this.label1.LocationFloat = new DevExpress.Utils.PointFloat(22.20853F, 175F);
+            this.label1.Name = "label1";
+            this.label1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label1.SizeF = new System.Drawing.SizeF(141.6666F, 19.79166F);
+            this.label1.StylePriority.UseFont = false;
+            this.label1.Text = "SYS DOC ID                 :";
+            // 
+            // label37
+            // 
+            this.label37.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
+            this.label37.LocationFloat = new DevExpress.Utils.PointFloat(9.999998F, 10.00001F);
+            this.label37.Name = "label37";
+            this.label37.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label37.SizeF = new System.Drawing.SizeF(310.7922F, 30.20833F);
+            this.label37.StylePriority.UseFont = false;
+            this.label37.Text = "PILLARS ELECTROMECHANIC L .L .C";
+            // 
+            // label21
+            // 
+            this.label21.Font = new System.Drawing.Font("Arial", 9F);
+            this.label21.LocationFloat = new DevExpress.Utils.PointFloat(11.39122F, 40.20834F);
+            this.label21.Multiline = true;
+            this.label21.Name = "label21";
+            this.label21.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label21.SizeF = new System.Drawing.SizeF(285.4167F, 52.08333F);
+            this.label21.StylePriority.UseFont = false;
+            this.label21.Text = "P O BOX : 112131, ABU DHABI, UAE\r\n\r\nTEL : 02-6418844 FAX : 02-6414220";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.LocationFloat = new DevExpress.Utils.PointFloat(510.3756F, 10.00001F);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.SizeF = new System.Drawing.SizeF(268.1251F, 88.20831F);
+            this.pictureBox1.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+            // 
+            // xrLabel2
+            // 
+            this.xrLabel2.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
+            this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(160.2536F, 104.1667F);
+            this.xrLabel2.Name = "xrLabel2";
+            this.xrLabel2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel2.SizeF = new System.Drawing.SizeF(467F, 25F);
+            this.xrLabel2.StylePriority.UseFont = false;
+            this.xrLabel2.StylePriority.UseTextAlignment = false;
+            this.xrLabel2.Text = "MATERIAL REQUEST";
+            this.xrLabel2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // label14
+            // 
+            this.label14.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+                        | DevExpress.XtraPrinting.BorderSide.Right) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.label14.CanGrow = false;
+            this.label14.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label14.LocationFloat = new DevExpress.Utils.PointFloat(271.8752F, 359.6022F);
+            this.label14.Name = "label14";
+            this.label14.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label14.ProcessNullValues = DevExpress.XtraReports.UI.ValueSuppressType.Suppress;
+            this.label14.SizeF = new System.Drawing.SizeF(103.4583F, 33.66666F);
+            this.label14.StylePriority.UseBorders = false;
+            this.label14.StylePriority.UseFont = false;
+            this.label14.StylePriority.UseTextAlignment = false;
+            this.label14.Text = "Cost Category";
+            this.label14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.label14.WordWrap = false;
+            // 
+            // label17
+            // 
+            this.label17.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.label17.CanGrow = false;
+            this.label17.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label17.LocationFloat = new DevExpress.Utils.PointFloat(12.50002F, 359.6022F);
+            this.label17.Name = "label17";
+            this.label17.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label17.ProcessNullValues = DevExpress.XtraReports.UI.ValueSuppressType.Suppress;
+            this.label17.SizeF = new System.Drawing.SizeF(71.94227F, 33.66666F);
+            this.label17.StylePriority.UseBorders = false;
+            this.label17.StylePriority.UseFont = false;
+            this.label17.StylePriority.UseTextAlignment = false;
+            this.label17.Text = "S No.";
+            this.label17.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.label17.WordWrap = false;
+            // 
+            // xrLabel25
+            // 
+            this.xrLabel25.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Right) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel25.CanGrow = false;
+            this.xrLabel25.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.xrLabel25.LocationFloat = new DevExpress.Utils.PointFloat(644.9584F, 359.6021F);
+            this.xrLabel25.Name = "xrLabel25";
+            this.xrLabel25.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel25.ProcessNullValues = DevExpress.XtraReports.UI.ValueSuppressType.Suppress;
+            this.xrLabel25.SizeF = new System.Drawing.SizeF(69.45831F, 33.66664F);
+            this.xrLabel25.StylePriority.UseBorders = false;
+            this.xrLabel25.StylePriority.UseFont = false;
+            this.xrLabel25.StylePriority.UseTextAlignment = false;
+            this.xrLabel25.Text = "Unit";
+            this.xrLabel25.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrLabel25.WordWrap = false;
+            // 
+            // xrLabel26
+            // 
+            this.xrLabel26.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Right) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel26.CanGrow = false;
+            this.xrLabel26.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.xrLabel26.LocationFloat = new DevExpress.Utils.PointFloat(714.4167F, 359.6021F);
+            this.xrLabel26.Name = "xrLabel26";
+            this.xrLabel26.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel26.ProcessNullValues = DevExpress.XtraReports.UI.ValueSuppressType.Suppress;
+            this.xrLabel26.SizeF = new System.Drawing.SizeF(66.83331F, 33.66663F);
+            this.xrLabel26.StylePriority.UseBorders = false;
+            this.xrLabel26.StylePriority.UseFont = false;
+            this.xrLabel26.StylePriority.UseTextAlignment = false;
+            this.xrLabel26.Text = "Quantity";
+            this.xrLabel26.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrLabel26.WordWrap = false;
+            // 
+            // xrLabel24
+            // 
+            this.xrLabel24.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Right) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel24.CanGrow = false;
+            this.xrLabel24.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.xrLabel24.LocationFloat = new DevExpress.Utils.PointFloat(375.3335F, 359.6021F);
+            this.xrLabel24.Name = "xrLabel24";
+            this.xrLabel24.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel24.ProcessNullValues = DevExpress.XtraReports.UI.ValueSuppressType.Suppress;
+            this.xrLabel24.SizeF = new System.Drawing.SizeF(269.6249F, 33.66663F);
+            this.xrLabel24.StylePriority.UseBorders = false;
+            this.xrLabel24.StylePriority.UseFont = false;
+            this.xrLabel24.StylePriority.UseTextAlignment = false;
+            this.xrLabel24.Text = "Description";
+            this.xrLabel24.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrLabel24.WordWrap = false;
+            // 
+            // xrLabel23
+            // 
+            this.xrLabel23.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel23.CanGrow = false;
+            this.xrLabel23.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.xrLabel23.LocationFloat = new DevExpress.Utils.PointFloat(189.5835F, 359.6022F);
+            this.xrLabel23.Name = "xrLabel23";
+            this.xrLabel23.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel23.ProcessNullValues = DevExpress.XtraReports.UI.ValueSuppressType.Suppress;
+            this.xrLabel23.SizeF = new System.Drawing.SizeF(82.29172F, 33.66666F);
+            this.xrLabel23.StylePriority.UseBorders = false;
+            this.xrLabel23.StylePriority.UseFont = false;
+            this.xrLabel23.StylePriority.UseTextAlignment = false;
+            this.xrLabel23.Text = "Job ID";
+            this.xrLabel23.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrLabel23.WordWrap = false;
+            // 
+            // Detail1
+            // 
+            this.Detail1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.label26,
+                        this.label11,
+                        this.label7,
+                        this.label6,
+                        this.label4,
+                        this.label3,
+                        this.label2});
+            this.Detail1.HeightF = 25.49705F;
+            this.Detail1.MultiColumn.Layout = DevExpress.XtraPrinting.ColumnLayout.AcrossThenDown;
+            this.Detail1.MultiColumn.Mode = DevExpress.XtraReports.UI.MultiColumnMode.UseColumnCount;
+            this.Detail1.Name = "Detail1";
+            // 
+            // GroupFooter1
+            // 
+            this.GroupFooter1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.label18,
+                        this.label16});
+            this.GroupFooter1.HeightF = 50.99996F;
+            this.GroupFooter1.Name = "GroupFooter1";
+            // 
+            // label26
+            // 
+            this.label26.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Job_Material_Requisition.JobMaterialDetail.RowIndex")});
+            this.label26.Font = new System.Drawing.Font("Arial", 9F);
+            this.label26.LocationFloat = new DevExpress.Utils.PointFloat(22.20853F, 0F);
+            this.label26.Name = "label26";
+            this.label26.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label26.SizeF = new System.Drawing.SizeF(45.83333F, 23F);
+            this.label26.StylePriority.UseFont = false;
+            this.label26.Text = "label26";
+            // 
+            // label11
+            // 
+            this.label11.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Job_Material_Requisition_Detail.Quantity", "{0:#,#}")});
+            this.label11.Font = new System.Drawing.Font("Arial", 9F);
+            this.label11.LocationFloat = new DevExpress.Utils.PointFloat(725.8748F, 0.9583368F);
+            this.label11.Name = "label11";
+            this.label11.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label11.SizeF = new System.Drawing.SizeF(45.00397F, 18.83334F);
+            this.label11.StylePriority.UseFont = false;
+            this.label11.StylePriority.UseTextAlignment = false;
+            this.label11.Text = "label11";
+            this.label11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // label7
+            // 
+            this.label7.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Job_Material_Requisition_Detail.UnitID")});
+            this.label7.Font = new System.Drawing.Font("Arial", 9F);
+            this.label7.LocationFloat = new DevExpress.Utils.PointFloat(656.4167F, 0.9583368F);
+            this.label7.Name = "label7";
+            this.label7.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label7.SizeF = new System.Drawing.SizeF(47.82758F, 18.83334F);
+            this.label7.StylePriority.UseFont = false;
+            this.label7.Text = "label7";
+            // 
+            // label6
+            // 
+            this.label6.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Job_Material_Requisition_Detail.Description")});
+            this.label6.Font = new System.Drawing.Font("Arial", 9F);
+            this.label6.LocationFloat = new DevExpress.Utils.PointFloat(385.7501F, 0F);
+            this.label6.Name = "label6";
+            this.label6.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label6.SizeF = new System.Drawing.SizeF(241.5035F, 18.83333F);
+            this.label6.StylePriority.UseFont = false;
+            this.label6.Text = "label5";
+            // 
+            // label4
+            // 
+            this.label4.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Job_Material_Requisition_Detail.CostCategoryID")});
+            this.label4.Font = new System.Drawing.Font("Arial", 9F);
+            this.label4.LocationFloat = new DevExpress.Utils.PointFloat(282.2918F, 0.9583368F);
+            this.label4.Name = "label4";
+            this.label4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label4.SizeF = new System.Drawing.SizeF(81.46762F, 18.8333F);
+            this.label4.StylePriority.UseFont = false;
+            this.label4.Text = "label4";
+            // 
+            // label3
+            // 
+            this.label3.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Job_Material_Requisition_Detail.JobID")});
+            this.label3.Font = new System.Drawing.Font("Arial", 9F);
+            this.label3.LocationFloat = new DevExpress.Utils.PointFloat(200.9767F, 0.9583434F);
+            this.label3.Name = "label3";
+            this.label3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label3.SizeF = new System.Drawing.SizeF(58.69145F, 18.83332F);
+            this.label3.StylePriority.UseFont = false;
+            this.label3.Text = "label3";
+            // 
+            // label2
+            // 
+            this.label2.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Job_Material_Requisition_Detail.ProductID")});
+            this.label2.Font = new System.Drawing.Font("Arial", 9F);
+            this.label2.LocationFloat = new DevExpress.Utils.PointFloat(102.1506F, 0.9583473F);
+            this.label2.Name = "label2";
+            this.label2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label2.SizeF = new System.Drawing.SizeF(74.93291F, 18.83332F);
+            this.label2.StylePriority.UseFont = false;
+            this.label2.Text = "label2";
+            // 
+            // label18
+            // 
+            this.label18.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label18.CanGrow = false;
+            this.label18.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Job_Material_Requisition_Detail.Quantity")});
+            this.label18.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label18.LocationFloat = new DevExpress.Utils.PointFloat(725.8748F, 9.343784F);
+            this.label18.Name = "label18";
+            this.label18.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label18.ProcessNullValues = DevExpress.XtraReports.UI.ValueSuppressType.Suppress;
+            this.label18.SizeF = new System.Drawing.SizeF(45.00403F, 18.78122F);
+            this.label18.StylePriority.UseBorders = false;
+            this.label18.StylePriority.UseFont = false;
+            this.label18.StylePriority.UseTextAlignment = false;
+            summary1.FormatString = "{0:#,#}";
+            summary1.Running = DevExpress.XtraReports.UI.SummaryRunning.Group;
+            this.label18.Summary = summary1;
+            this.label18.Text = "label18";
+            this.label18.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            this.label18.WordWrap = false;
+            // 
+            // label16
+            // 
+            this.label16.CanGrow = false;
+            this.label16.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label16.LocationFloat = new DevExpress.Utils.PointFloat(651.4526F, 9.343819F);
+            this.label16.Name = "label16";
+            this.label16.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label16.ProcessNullValues = DevExpress.XtraReports.UI.ValueSuppressType.Suppress;
+            this.label16.SizeF = new System.Drawing.SizeF(52.79166F, 17F);
+            this.label16.StylePriority.UseFont = false;
+            this.label16.StylePriority.UseTextAlignment = false;
+            this.label16.Text = "Total:";
+            this.label16.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.label16.WordWrap = false;
+            // 
+            // crossBandLine10
+            // 
+            this.crossBandLine10.EndBand = this.GroupFooter1;
+            this.crossBandLine10.EndPointFloat = new DevExpress.Utils.PointFloat(714.0546F, 30.69234F);
+            this.crossBandLine10.LocationFloat = new DevExpress.Utils.PointFloat(714.0546F, 3.651128F);
+            this.crossBandLine10.Name = "crossBandLine10";
+            this.crossBandLine10.StartBand = this.GroupFooter1;
+            this.crossBandLine10.StartPointFloat = new DevExpress.Utils.PointFloat(714.0546F, 3.651128F);
+            this.crossBandLine10.WidthF = 1.302063F;
+            // 
+            // crossBandBox3
+            // 
+            this.crossBandBox3.BorderWidth = 1;
+            this.crossBandBox3.EndBand = this.GroupFooter1;
+            this.crossBandBox3.EndPointFloat = new DevExpress.Utils.PointFloat(12.5F, 31.41872F);
+            this.crossBandBox3.LocationFloat = new DevExpress.Utils.PointFloat(12.5F, 2.083345F);
+            this.crossBandBox3.Name = "crossBandBox3";
+            this.crossBandBox3.StartBand = this.GroupFooter1;
+            this.crossBandBox3.StartPointFloat = new DevExpress.Utils.PointFloat(12.5F, 2.083345F);
+            this.crossBandBox3.WidthF = 768.7501F;
+            // 
+            // crossBandLine8
+            // 
+            this.crossBandLine8.EndBand = this.GroupFooter1;
+            this.crossBandLine8.EndPointFloat = new DevExpress.Utils.PointFloat(780.2083F, 3.104387F);
+            this.crossBandLine8.LocationFloat = new DevExpress.Utils.PointFloat(780.2083F, 0F);
+            this.crossBandLine8.Name = "crossBandLine8";
+            this.crossBandLine8.StartBand = this.Detail1;
+            this.crossBandLine8.StartPointFloat = new DevExpress.Utils.PointFloat(780.2083F, 0F);
+            this.crossBandLine8.WidthF = 1.093872F;
+            // 
+            // crossBandLine7
+            // 
+            this.crossBandLine7.EndBand = this.GroupFooter1;
+            this.crossBandLine7.EndPointFloat = new DevExpress.Utils.PointFloat(714.095F, 4.906215F);
+            this.crossBandLine7.LocationFloat = new DevExpress.Utils.PointFloat(714.095F, 0F);
+            this.crossBandLine7.Name = "crossBandLine7";
+            this.crossBandLine7.StartBand = this.Detail1;
+            this.crossBandLine7.StartPointFloat = new DevExpress.Utils.PointFloat(714.095F, 0F);
+            this.crossBandLine7.WidthF = 1.302063F;
+            // 
+            // crossBandLine6
+            // 
+            this.crossBandLine6.EndBand = this.GroupFooter1;
+            this.crossBandLine6.EndPointFloat = new DevExpress.Utils.PointFloat(644.5313F, 2.578284F);
+            this.crossBandLine6.LocationFloat = new DevExpress.Utils.PointFloat(644.5313F, 0F);
+            this.crossBandLine6.Name = "crossBandLine6";
+            this.crossBandLine6.StartBand = this.Detail1;
+            this.crossBandLine6.StartPointFloat = new DevExpress.Utils.PointFloat(644.5313F, 0F);
+            this.crossBandLine6.WidthF = 1.052185F;
+            // 
+            // crossBandLine5
+            // 
+            this.crossBandLine5.EndBand = this.GroupFooter1;
+            this.crossBandLine5.EndPointFloat = new DevExpress.Utils.PointFloat(374.4141F, 3.260332F);
+            this.crossBandLine5.LocationFloat = new DevExpress.Utils.PointFloat(374.4141F, 0F);
+            this.crossBandLine5.Name = "crossBandLine5";
+            this.crossBandLine5.StartBand = this.Detail1;
+            this.crossBandLine5.StartPointFloat = new DevExpress.Utils.PointFloat(374.4141F, 0F);
+            this.crossBandLine5.WidthF = 1.302063F;
+            // 
+            // crossBandLine4
+            // 
+            this.crossBandLine4.EndBand = this.GroupFooter1;
+            this.crossBandLine4.EndPointFloat = new DevExpress.Utils.PointFloat(271.7448F, 2.260405F);
+            this.crossBandLine4.LocationFloat = new DevExpress.Utils.PointFloat(271.7448F, 0F);
+            this.crossBandLine4.Name = "crossBandLine4";
+            this.crossBandLine4.StartBand = this.Detail1;
+            this.crossBandLine4.StartPointFloat = new DevExpress.Utils.PointFloat(271.7448F, 0F);
+            this.crossBandLine4.WidthF = 1.302063F;
+            // 
+            // crossBandLine3
+            // 
+            this.crossBandLine3.EndBand = this.GroupFooter1;
+            this.crossBandLine3.EndPointFloat = new DevExpress.Utils.PointFloat(189.6159F, 2F);
+            this.crossBandLine3.LocationFloat = new DevExpress.Utils.PointFloat(189.6159F, 0F);
+            this.crossBandLine3.Name = "crossBandLine3";
+            this.crossBandLine3.StartBand = this.Detail1;
+            this.crossBandLine3.StartPointFloat = new DevExpress.Utils.PointFloat(189.6159F, 0F);
+            this.crossBandLine3.WidthF = 1.302094F;
+            // 
+            // crossBandLine2
+            // 
+            this.crossBandLine2.EndBand = this.GroupFooter1;
+            this.crossBandLine2.EndPointFloat = new DevExpress.Utils.PointFloat(84.5052F, 2.260405F);
+            this.crossBandLine2.LocationFloat = new DevExpress.Utils.PointFloat(84.5052F, 0F);
+            this.crossBandLine2.Name = "crossBandLine2";
+            this.crossBandLine2.StartBand = this.Detail1;
+            this.crossBandLine2.StartPointFloat = new DevExpress.Utils.PointFloat(84.5052F, 0F);
+            this.crossBandLine2.WidthF = 1.302086F;
+            // 
+            // crossBandLine1
+            // 
+            this.crossBandLine1.EndBand = this.GroupFooter1;
+            this.crossBandLine1.EndPointFloat = new DevExpress.Utils.PointFloat(12.7033F, 12.37496F);
+            this.crossBandLine1.LocationFloat = new DevExpress.Utils.PointFloat(12.7033F, 0F);
+            this.crossBandLine1.Name = "crossBandLine1";
+            this.crossBandLine1.StartBand = this.Detail1;
+            this.crossBandLine1.StartPointFloat = new DevExpress.Utils.PointFloat(12.7033F, 0F);
+            this.crossBandLine1.WidthF = 1.041664F;
+            // 
+            // crossBandBox2
+            // 
+            this.crossBandBox2.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+                        | DevExpress.XtraPrinting.BorderSide.Right)));
+            this.crossBandBox2.BorderWidth = 1;
+            this.crossBandBox2.EndBand = this.PageHeader;
+            this.crossBandBox2.EndPointFloat = new DevExpress.Utils.PointFloat(12.5F, 173.6114F);
+            this.crossBandBox2.LocationFloat = new DevExpress.Utils.PointFloat(12.5F, 138.5417F);
+            this.crossBandBox2.Name = "crossBandBox2";
+            this.crossBandBox2.StartBand = this.PageHeader;
+            this.crossBandBox2.StartPointFloat = new DevExpress.Utils.PointFloat(12.5F, 138.5417F);
+            this.crossBandBox2.WidthF = 769.7917F;
+            // 
+            // crossBandBox1
+            // 
+            this.crossBandBox1.BorderWidth = 1;
+            this.crossBandBox1.EndBand = this.PageHeader;
+            this.crossBandBox1.EndPointFloat = new DevExpress.Utils.PointFloat(12.5F, 331.7132F);
+            this.crossBandBox1.LocationFloat = new DevExpress.Utils.PointFloat(12.5F, 172.4537F);
+            this.crossBandBox1.Name = "crossBandBox1";
+            this.crossBandBox1.StartBand = this.PageHeader;
+            this.crossBandBox1.StartPointFloat = new DevExpress.Utils.PointFloat(12.5F, 172.4537F);
+            this.crossBandBox1.WidthF = 769.7917F;
+            // 
+            // ProjectInventoryIssueReport
+            // 
+            this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail,
+                        this.PageFooter,
+                        this.PageHeader,
+                        this.topMarginBand1,
+                        this.bottomMarginBand1,
+                        this.DetailReport});
+            this.CrossBandControls.AddRange(new DevExpress.XtraReports.UI.XRCrossBandControl[] {
+                        this.crossBandLine10,
+                        this.crossBandBox3,
+                        this.crossBandLine8,
+                        this.crossBandLine7,
+                        this.crossBandLine6,
+                        this.crossBandLine5,
+                        this.crossBandLine4,
+                        this.crossBandLine3,
+                        this.crossBandLine2,
+                        this.crossBandLine1,
+                        this.crossBandBox2,
+                        this.crossBandBox1});
+            this.DataSourceSchema = resources.GetString("$this.DataSourceSchema");
+            this.DefaultPrinterSettingsUsing.UsePaperKind = true;
+            this.DisplayName = "Project Material Requisition";
+            this.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margins = new System.Drawing.Printing.Margins(20, 20, 20, 20);
+            this.Name = "ProjectInventoryIssueReport";
+            this.PageHeight = 1169;
+            this.PageWidth = 827;
+            this.PaperKind = System.Drawing.Printing.PaperKind.A4;
+            this.ShowPrintStatusDialog = false;
+            this.Version = "12.1";
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
+        }
+    }
+}
